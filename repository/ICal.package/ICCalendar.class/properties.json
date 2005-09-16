@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ICTitledObject",
+	"category" : "ICal-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"user",
+		"events",
+		"places",
+		"categories"
+	],
+	"name" : "ICCalendar",
+	"type" : "normal"
+}

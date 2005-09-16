@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ICEvent",
+	"category" : "ICal-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"startDateAndTime",
+		"endDateAndTime",
+		"place",
+		"type"
+	],
+	"name" : "ICAppointment",
+	"type" : "normal"
+}

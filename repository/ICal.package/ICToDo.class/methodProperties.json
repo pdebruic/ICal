@@ -1,0 +1,21 @@
+{
+	"instance" : {
+		"updateEventWith:" : "dr 6/14/2005 13:52",
+		"kind" : "dr 5/17/2005 11:27",
+		"isComplete" : "dr 5/16/2005 13:30",
+		"calendarStartTime" : "dr 5/16/2005 10:50",
+		"isToDo" : "dr 5/15/2005 14:49",
+		"isValidForDate:" : "dr 5/15/2005 14:52",
+		"tsCompleted" : "dr 5/17/2005 17:17",
+		"tsDeadline" : "dr 5/15/2005 14:49",
+		"tsDeadline:" : "dr 5/15/2005 14:49",
+		"hours" : "dr 6/18/2005 13:30",
+		"beCompleted" : "pmm 9/11/2005 16:52",
+		"startsInHour:" : "dr 5/15/2005 14:52",
+		"calendarEndTime" : "dr 5/16/2005 13:24",
+		"beTentative" : "pmm 9/11/2005 16:53",
+		"tsCompleted:" : "dr 5/17/2005 17:17",
+		"type" : "dr 5/16/2005 10:54"
+	},
+	"class" : { }
+}

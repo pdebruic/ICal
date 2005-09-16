@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ICEvent",
+	"category" : "ICal-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"events",
+		"timeSegment"
+	],
+	"name" : "ICEventSerie",
+	"type" : "normal"
+}

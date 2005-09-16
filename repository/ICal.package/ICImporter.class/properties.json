@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ICal-IO",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fileContent",
+		"events",
+		"calendar"
+	],
+	"name" : "ICImporter",
+	"type" : "normal"
+}

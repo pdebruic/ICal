@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "ICal-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"iCalExporter",
+		"calendar",
+		"appointment",
+		"toDo"
+	],
+	"name" : "ICExportTest",
+	"type" : "normal"
+}

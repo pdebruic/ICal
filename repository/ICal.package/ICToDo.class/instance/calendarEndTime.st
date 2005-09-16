@@ -1,0 +1,3 @@
+accessing
+calendarEndTime
+	^self tsDeadline

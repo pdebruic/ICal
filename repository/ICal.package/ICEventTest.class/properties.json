@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "ICal-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"appointment1",
+		"appointment2",
+		"todo",
+		"eventSerie",
+		"calendar"
+	],
+	"name" : "ICEventTest",
+	"type" : "normal"
+}

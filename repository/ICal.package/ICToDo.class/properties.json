@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ICEvent",
+	"category" : "ICal-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tsDeadline",
+		"tsCompleted"
+	],
+	"name" : "ICToDo",
+	"type" : "normal"
+}

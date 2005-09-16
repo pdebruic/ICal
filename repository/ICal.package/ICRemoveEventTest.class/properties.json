@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "ICal-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"calendar",
+		"event"
+	],
+	"name" : "ICRemoveEventTest",
+	"type" : "normal"
+}

@@ -1,0 +1,25 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ICTitledObject",
+	"category" : "ICal-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"text",
+		"category",
+		"status",
+		"priority",
+		"tsCreated",
+		"tsModified",
+		"version",
+		"hasAlert",
+		"alertTime",
+		"unknownFields",
+		"calendar",
+		"alertCounter"
+	],
+	"name" : "ICEvent",
+	"type" : "normal"
+}

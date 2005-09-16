@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "ICal-IO",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"calendar",
+		"dataStream"
+	],
+	"name" : "ICCalExporter",
+	"type" : "normal"
+}

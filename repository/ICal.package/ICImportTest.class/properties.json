@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "ICal-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"calendar",
+		"appointment",
+		"parser",
+		"toDo",
+		"importCommand",
+		"otherToDo"
+	],
+	"name" : "ICImportTest",
+	"type" : "normal"
+}
