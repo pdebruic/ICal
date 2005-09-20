@@ -1,9 +1,6 @@
 tests
 testUser
-	| root newCalendar |
-	self deny: SW2Kernel instances isEmpty.
-	root := SW2Kernel instances first root.
-	self deny: root isNil.
+	| newCalendar |
 	newCalendar := calendars 
 				detect: [:each | each title = 'veriveri''s Calendar']
 				ifNone: [nil].
