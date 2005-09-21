@@ -1,5 +1,5 @@
 generated-scanner
 scan9
 	self step.
-	currentCharacter == $E ifTrue: [^self scan20].
+	currentCharacter == $N ifTrue: [^self scan29].
 	^self reportLastMatch

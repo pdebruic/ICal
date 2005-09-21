@@ -4,60 +4,31 @@ scan15
 	currentCharacter == $E 
 		ifTrue: 
 			[self step.
-			currentCharacter == $; 
+			currentCharacter == $S 
 				ifTrue: 
 					[self step.
-					currentCharacter == $V 
+					currentCharacter == $C 
 						ifTrue: 
 							[self step.
-							currentCharacter == $A 
+							currentCharacter == $R 
 								ifTrue: 
 									[self step.
-									currentCharacter == $L 
+									currentCharacter == $I 
 										ifTrue: 
 											[self step.
-											currentCharacter == $U 
+											currentCharacter == $P 
 												ifTrue: 
 													[self step.
-													currentCharacter == $E 
+													currentCharacter == $T 
 														ifTrue: 
 															[self step.
-															currentCharacter == $= 
+															currentCharacter == $I 
 																ifTrue: 
 																	[self step.
-																	currentCharacter == $D 
+																	currentCharacter == $O 
 																		ifTrue: 
 																			[self step.
-																			currentCharacter == $A 
-																				ifTrue: 
-																					[self step.
-																					currentCharacter == $T 
-																						ifTrue: 
-																							[self step.
-																							currentCharacter == $E 
-																								ifTrue: 
-																									[self recordMatch: #(34).
-																									self step.
-																									currentCharacter == $- 
-																										ifTrue: 
-																											[self step.
-																											currentCharacter == $T 
-																												ifTrue: 
-																													[self step.
-																													currentCharacter == $I 
-																														ifTrue: 
-																															[self step.
-																															currentCharacter == $M 
-																																ifTrue: 
-																																	[self step.
-																																	currentCharacter == $E ifTrue: [^self recordAndReportMatch: #(33)].
-																																	^self reportLastMatch].
-																															^self reportLastMatch].
-																													^self reportLastMatch].
-																											^self reportLastMatch].
-																									^self reportLastMatch].
-																							^self reportLastMatch].
-																					^self reportLastMatch].
+																			currentCharacter == $N ifTrue: [^self recordAndReportMatch: #(46)].
 																			^self reportLastMatch].
 																	^self reportLastMatch].
 															^self reportLastMatch].
@@ -67,25 +38,6 @@ scan15
 							^self reportLastMatch].
 					^self reportLastMatch].
 			^self reportLastMatch].
-	currentCharacter == $R 
-		ifTrue: 
-			[self step.
-			currentCharacter == $A 
-				ifTrue: 
-					[self step.
-					currentCharacter == $T 
-						ifTrue: 
-							[self step.
-							currentCharacter == $I 
-								ifTrue: 
-									[self step.
-									currentCharacter == $O 
-										ifTrue: 
-											[self step.
-											currentCharacter == $N ifTrue: [^self recordAndReportMatch: #(45)].
-											^self reportLastMatch].
-									^self reportLastMatch].
-							^self reportLastMatch].
-					^self reportLastMatch].
-			^self reportLastMatch].
+	currentCharacter == $T ifTrue: [^self scan17].
+	currentCharacter == $U ifTrue: [^self scan16].
 	^self reportLastMatch

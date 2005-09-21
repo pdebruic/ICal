@@ -18,15 +18,15 @@ scanForToken
 					^self reportLastMatch].
 			^self reportLastMatch].
 	currentCharacter == $
- ifTrue: [^self scan10].
+ ifTrue: [^self scan11].
 	currentCharacter == $
  
 		ifTrue: 
 			[self recordMatch: #(48).
 			self step.
 			currentCharacter == $
- ifTrue: [^self scan10].
-			currentCharacter == $: ifTrue: [^self scan5].
+ ifTrue: [^self scan11].
+			currentCharacter == $: ifTrue: [^self scan6].
 			^self reportLastMatch].
 	currentCharacter == $: 
 		ifTrue: 
@@ -34,7 +34,7 @@ scanForToken
 			(currentCharacter <= $	 or: 
 					[(currentCharacter between: $ and: $) 
 						or: [(currentCharacter between: $ and: $/) or: [currentCharacter >= $:]]]) 
-				ifTrue: [^self scan5].
+				ifTrue: [^self scan6].
 			currentCharacter isDigit 
 				ifTrue: 
 					[
@@ -43,20 +43,20 @@ scanForToken
 							[(currentCharacter between: $ and: $) or: 
 									[(currentCharacter between: $ and: $/) 
 										or: [(currentCharacter between: $: and: $S) or: [currentCharacter >= $U]]]]) 
-						ifTrue: [^self scan5].
+						ifTrue: [^self scan6].
 					currentCharacter isDigit] 
 							whileTrue.
 					currentCharacter == $
- ifTrue: [^self scan6].
+ ifTrue: [^self scan7].
 					currentCharacter == $
- ifTrue: [^self scan17].
+ ifTrue: [^self scan18].
 					currentCharacter == $T 
 						ifTrue: 
 							[self step.
 							(currentCharacter <= $	 or: 
 									[(currentCharacter between: $ and: $) 
 										or: [(currentCharacter between: $ and: $/) or: [currentCharacter >= $:]]]) 
-								ifTrue: [^self scan5].
+								ifTrue: [^self scan6].
 							currentCharacter isDigit 
 								ifTrue: 
 									[
@@ -65,35 +65,35 @@ scanForToken
 											[(currentCharacter between: $ and: $) or: 
 													[(currentCharacter between: $ and: $/) 
 														or: [(currentCharacter between: $: and: $Y) or: [currentCharacter >= $[]]]]) 
-										ifTrue: [^self scan5].
+										ifTrue: [^self scan6].
 									currentCharacter isDigit] 
 											whileTrue.
 									currentCharacter == $
- ifTrue: [^self scan18].
-									currentCharacter == $
  ifTrue: [^self scan19].
+									currentCharacter == $
+ ifTrue: [^self scan20].
 									currentCharacter == $Z 
 										ifTrue: 
 											[self step.
 											(currentCharacter <= $	 
 												or: [(currentCharacter between: $ and: $) or: [currentCharacter >= $]]) 
-													ifTrue: [^self scan5].
-											currentCharacter == $
- ifTrue: [^self scan18].
+													ifTrue: [^self scan6].
 											currentCharacter == $
  ifTrue: [^self scan19].
+											currentCharacter == $
+ ifTrue: [^self scan20].
 											^self reportLastMatch].
 									^self reportLastMatch].
 							currentCharacter == $
- ifTrue: [^self scan6].
+ ifTrue: [^self scan7].
 							currentCharacter == $
- ifTrue: [^self scan17].
+ ifTrue: [^self scan18].
 							^self reportLastMatch].
 					^self reportLastMatch].
 			currentCharacter == $
- ifTrue: [^self scan6].
+ ifTrue: [^self scan7].
 			currentCharacter == $
- ifTrue: [^self scan17].
+ ifTrue: [^self scan18].
 			^self reportLastMatch].
 	currentCharacter == $; 
 		ifTrue: 
@@ -125,10 +125,10 @@ scanForToken
 							^self reportLastMatch].
 					^self reportLastMatch].
 			^self reportLastMatch].
-	currentCharacter == $B ifTrue: [^self scan9].
-	currentCharacter == $C ifTrue: [^self scan13].
-	currentCharacter == $D ifTrue: [^self scan14].
-	currentCharacter == $E ifTrue: [^self scan8].
+	currentCharacter == $B ifTrue: [^self scan10].
+	currentCharacter == $C ifTrue: [^self scan14].
+	currentCharacter == $D ifTrue: [^self scan15].
+	currentCharacter == $E ifTrue: [^self scan9].
 	currentCharacter == $L 
 		ifTrue: 
 			[self step.
@@ -257,7 +257,7 @@ scanForToken
 							^self reportLastMatch].
 					^self reportLastMatch].
 			^self reportLastMatch].
-	currentCharacter == $P ifTrue: [^self scan12].
+	currentCharacter == $P ifTrue: [^self scan13].
 	currentCharacter == $R 
 		ifTrue: 
 			[self step.
@@ -342,7 +342,7 @@ scanForToken
 							^self reportLastMatch].
 					^self reportLastMatch].
 			^self reportLastMatch].
-	currentCharacter == $T ifTrue: [^self scan11].
+	currentCharacter == $T ifTrue: [^self scan12].
 	currentCharacter == $U 
 		ifTrue: 
 			[self step.
@@ -377,5 +377,5 @@ scanForToken
 							^self reportLastMatch].
 					^self reportLastMatch].
 			^self reportLastMatch].
-	currentCharacter == $X ifTrue: [^self scan7].
+	currentCharacter == $X ifTrue: [^self scan8].
 	^self reportLastMatch

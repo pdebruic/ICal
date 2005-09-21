@@ -1,7 +1,12 @@
 generated-scanner
 scan6
-	self recordMatch: #(52).
-	self step.
-	(currentCharacter == $	 or: [currentCharacter == $ ]) 
-		ifTrue: [^self scan5].
+	
+	[self step.
+	currentCharacter <= $	 
+		or: [(currentCharacter between: $ and: $) or: [currentCharacter >= $]]] 
+			whileTrue.
+	currentCharacter == $
+ ifTrue: [^self scan7].
+	currentCharacter == $
+ ifTrue: [^self scan18].
 	^self reportLastMatch
