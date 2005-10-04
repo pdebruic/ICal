@@ -1,10 +1,10 @@
 testEvents
 testAddEvent
 	| newAppointment newToDo appNumber toDoNumber totalEvents |
-	newAppointment := ICAppointment title: 'lunch'.
+	newAppointment := ICEvent title: 'lunch'.
 	newAppointment
 		type: 'normal event';
-		priority: 'normal';
+		priority: ICJob mediumPriority;
 		startDateAndTime: (DateAndTime 
 					year: 2005
 					month: 10
@@ -22,7 +22,7 @@ testAddEvent
 	"place: 'universitiy mensa';"
 	newToDo := ICToDo title: 'writing letters'.
 	newToDo
-		priority: 'low';
+		priority: ICJob lowPriority;
 		category: ICCategory defaultCategories second;
 		tsDeadline: (DateAndTime 
 					year: 2005

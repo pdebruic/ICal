@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "ICComponent",
+	"category" : "ICal-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"attachment",
+		"textualDescription",
+		"alarm",
+		"duration"
+	],
+	"name" : "ICAlarm",
+	"type" : "normal"
+}

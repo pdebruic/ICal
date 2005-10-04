@@ -1,2 +1,0 @@
-This is a collection of events which are similiar because they are repeating after a certain timespan.
-This is the application of the composite pattern with the abstract Event class as the root of the hierarchy, Appointment and ToDos as leaves and this class here as the composite class.

@@ -1,3 +1,3 @@
 actions
 beConfirmed
-	self status: 'confirmed'
+	self status: self class statusConfirmed

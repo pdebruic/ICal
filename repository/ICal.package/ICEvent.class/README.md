@@ -1,4 +1,3 @@
-This is the abstract event main class and provides generic functionality used by all kind of events.
-It is the superClass of classes like Appointment, Todo or EventSerie.
-We used here the composite pattern: an event can be an simple event or a collection of events called EventSerie.
-On the class side, all the possible priorities are stored as strings. The user can select one of these priorities for every kind of event.
+An Appointment is a normal event which has a start- and an endtime.
+It can also be a fulltime event which means that this event lasts the whole day.
+On the class side, some static information about appointments is stored, for instance which stati an appointment can have. The two different types mentioned above, fullday or normal event, are also stored on the class side.

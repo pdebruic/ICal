@@ -1,3 +1,3 @@
 testing
 isFullDayEvent
-	^false
+	^self type = self class fullDayType

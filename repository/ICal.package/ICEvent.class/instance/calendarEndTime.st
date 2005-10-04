@@ -1,3 +1,3 @@
 accessing
 calendarEndTime
-	self subclassResponsibility.
+	^self endDateAndTime

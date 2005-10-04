@@ -1,3 +1,3 @@
 configuration
 kind
-	self subclassResponsibility 
+	^'app'.

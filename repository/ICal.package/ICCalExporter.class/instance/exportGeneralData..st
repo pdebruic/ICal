@@ -4,7 +4,7 @@ exportGeneralData: anAppointment
 	self exportLine: 'DTSTAMP:', (self iCalDateAndTime: (anAppointment tsCreated)).
 	self exportLine: 'CREATED:', (self iCalDateAndTime: (anAppointment tsCreated)).
 	self exportLine: 'LAST-MODIFIED:',  (self iCalDateAndTime: (anAppointment tsModified)).
-	self exportLine: 'UID:', ('http://localhost:8080/seaside/smallwiki/Calendar/', anAppointment id).
+	self exportLine: 'UID:', anAppointment id.
 	self exportLine: 'SUMMARY:', (anAppointment title).
 	self exportLine: 'DESCRIPTION:', (anAppointment text).
 	

@@ -1,0 +1,10 @@
+{
+	"instance" : {
+		"testHours" : "pmm 10/2/2005 15:16",
+		"testWeekdays" : "pmm 10/4/2005 20:02",
+		"testSimple" : "pmm 10/2/2005 15:10",
+		"testParsing" : "pmm 10/4/2005 18:21",
+		"testRepetition" : "pmm 10/2/2005 15:14"
+	},
+	"class" : { }
+}

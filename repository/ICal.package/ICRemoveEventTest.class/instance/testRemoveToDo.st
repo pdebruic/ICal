@@ -10,6 +10,6 @@ testRemoveToDo
 					hour: 12
 					minute: 1);
 		hasAlert: false;
-		priority: 'low'.
+		priority: ICJob lowPriority.
 	calendar addEvent: event.
 	self removeTesting: event

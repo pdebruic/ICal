@@ -1,0 +1,4 @@
+*ICal
+asICalString
+	^self asICalDateString
+	

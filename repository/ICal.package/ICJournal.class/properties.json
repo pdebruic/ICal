@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ICViewableCalendarEntry",
+	"category" : "ICal-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"textualDescriptions"
+	],
+	"name" : "ICJournal",
+	"type" : "normal"
+}

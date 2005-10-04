@@ -1,24 +1,17 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "ICTitledObject",
+	"super" : "ICJob",
 	"category" : "ICal-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"id",
-		"text",
-		"category",
-		"status",
-		"priority",
-		"tsCreated",
-		"tsModified",
-		"version",
-		"hasAlert",
-		"alertTime",
-		"unknownFields",
-		"calendar",
-		"alertCounter"
+		"startDateAndTime",
+		"endDateAndTime",
+		"type",
+		"place",
+		"end",
+		"transparency"
 	],
 	"name" : "ICEvent",
 	"type" : "normal"

@@ -1,7 +1,7 @@
 tests
 testSave
 	| savedAppointment appointment |
-	appointment := ICAppointment new
+	appointment := (ICEvent new)
 				calendar: calendar;
 				place: 'bern';
 				startDateAndTime: (DateAndTime 
@@ -19,7 +19,7 @@ testSave
 				type: 'Event';
 				category: ICCategory defaultCategories first;
 				title: 'sleep';
-				priority: ICEvent defaultPriorities second;
+				priority: ICJob mediumPriority;
 				text: 'because I''m always tired';
 				hasAlert: false;
 				yourself.
@@ -30,6 +30,6 @@ testSave
 	self 
 		assert: savedAppointment category = ICCategory defaultCategories first.
 	self assert: savedAppointment title = 'sleep'.
-	self assert: savedAppointment priority = 'normal'.
+	self assert: savedAppointment priority = ICJob mediumPriority.
 	self assert: savedAppointment text = 'because I''m always tired'.
 	self deny: savedAppointment hasAlert

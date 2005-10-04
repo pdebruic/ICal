@@ -1,7 +1,7 @@
 creation
 createTempEvent
 	| event |
-	event := ICAppointment new.
+	event := ICEvent new.
 	event type: event class eventType.
 	event calendar: self calendar.
 	self events add: event.

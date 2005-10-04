@@ -1,4 +1,4 @@
 comparing
 = aCategory
-	aCategory ifNil: [^false].
-	^self title = aCategory title
+	^(aCategory isKindOf: ICCategory)
+		and: [ self title = aCategory title ]

@@ -2,11 +2,11 @@ configuration
 setUp
 	| category2 |
 	calendar := ICCalendar title: 'Veriveris Calendar'.
-	appointment1 := ICAppointment title: 'first date'.
+	appointment1 := ICEvent title: 'first date'.
 	appointment1 calendar: calendar.
 	appointment1 place: 'swimmingpool'.
 	appointment1 type: 'Event'.
-	appointment1 category: (ICCategory defaultCategories at: 2).
+	appointment1 category: ICCategory defaultCategories second.
 	appointment1 startDateAndTime: (DateAndTime 
 				year: 2005
 				month: 5
@@ -19,12 +19,12 @@ setUp
 				day: 20
 				hour: 23
 				minute: 1).
-	appointment2 := ICAppointment title: 'diner with...'.
+	appointment2 := ICEvent title: 'diner with...'.
 	appointment2 calendar: calendar.
 	appointment2 place: 'Bellvue Bern'.
 	appointment2 type: 'Event'.
 	appointment2 text: 'it is with ...'.
-	appointment2 category: (ICCategory defaultCategories at: 2).
+	appointment2 category: ICCategory defaultCategories second.
 	appointment2 startDateAndTime: (DateAndTime 
 				year: 2005
 				month: 5
@@ -39,7 +39,7 @@ setUp
 				minute: 1).
 	toDo := ICToDo title: 'repairing my bike'.
 	toDo
-		priority: ICEvent defaultPriorities first;
+		priority: ICJob lowPriority;
 		category: ICCategory defaultCategories second;
 		tsDeadline: (DateAndTime 
 					year: 2005

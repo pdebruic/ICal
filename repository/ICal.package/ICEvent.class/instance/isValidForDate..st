@@ -1,3 +1,3 @@
 testing
 isValidForDate: aDate
-	self subclassResponsibility
+	^self startDateAndTime asDate <= aDate and: [self endDateAndTime asDate >= aDate].

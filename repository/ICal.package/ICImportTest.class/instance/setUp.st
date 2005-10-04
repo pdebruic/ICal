@@ -2,7 +2,7 @@ configuration
 setUp
 	| importString |
 	calendar := ICCalendar title: 'test'.
-	appointment := (ICAppointment title: 'aTitle')
+	appointment := (ICEvent title: 'aTitle')
 				calendar: calendar;
 				place: 'Bern';
 				text: 'a long long long text, very long... really!';
@@ -30,7 +30,7 @@ setUp
 							day: 25
 							hour: 12
 							minute: 9);
-				priority: 'high';
+				priority: ICJob highPriority;
 				status: 'tentative';
 				type: 'Event';
 				yourself.
@@ -64,7 +64,7 @@ setUp
 							hour: 11
 							minute: 2
 							second: 31);
-				priority: 'high';
+				priority: ICJob highPriority;
 				status: 'completed';
 				yourself.
 	otherToDo := toDo copy.

@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"emailAddress",
+		"commonName"
+	],
 	"name" : "ICUser",
 	"type" : "normal"
 }

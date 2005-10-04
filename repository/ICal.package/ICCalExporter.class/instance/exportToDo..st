@@ -6,7 +6,7 @@ exportToDo: aToDo
 	aToDo tsDeadline ifNotNil: [
 		self exportLine: 'DUE;VALUE=DATE-TIME:', (self iCalDateAndTime: (aToDo tsDeadline))].
 	
-	aToDo isComplete ifTrue: [ 
+	aToDo isCompleted ifTrue: [ 
 		self exportLine: 'STATUS:COMPLETED'. 
 		tsCompleted :=  aToDo tsCompleted.
 		tsCompleted := tsCompleted ifNil: [ TimeStamp now ].

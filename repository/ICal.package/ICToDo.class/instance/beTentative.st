@@ -1,3 +1,3 @@
 actions
 beTentative
-	self status: 'tentative'
+	self status: self class statusTentative

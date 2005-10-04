@@ -1,6 +1,6 @@
 tests
 testRemoveAppointment
-	event := ICAppointment title: 'simple appointment'.
+	event := ICEvent title: 'simple appointment'.
 	calendar addEvent: event.
 	event
 		place: 'room one';
@@ -17,5 +17,5 @@ testRemoveAppointment
 					day: 18
 					hour: 20
 					minute: 0);
-		priority: (ICAppointment defaultPriorities first).
+		priority: ICJob lowPriority.
 	self removeTesting: event

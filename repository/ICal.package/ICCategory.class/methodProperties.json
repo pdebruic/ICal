@@ -1,14 +1,13 @@
 {
 	"instance" : {
-		"=" : "dr 6/4/2005 19:43",
-		"color:" : "dr 4/16/2005 13:32",
-		"hash" : "dr 5/31/2005 13:15",
-		"color" : "dr 4/16/2005 13:31",
+		"title:" : "pmm 10/3/2005 16:45",
+		"=" : "pmm 10/3/2005 16:48",
 		"explanation" : "dr 4/11/2005 10:38",
-		"hasColor" : "dr 5/8/2005 22:13",
+		"title" : "pmm 10/3/2005 16:45",
 		"explanation:" : "dr 4/11/2005 10:39"
 	},
 	"class" : {
-		"defaultCategories" : "dr 4/11/2005 10:40"
+		"defaultCategories" : "pmm 10/3/2005 16:48",
+		"title:" : "pmm 10/3/2005 16:46"
 	}
 }

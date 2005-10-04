@@ -22,5 +22,6 @@ testExportEvent
 				, 'END:VEVENT' , String crlf 
 				, 'END:VCALENDAR' , String crlf.
 	export dataStream contents 
-		keysAndValuesDo: [:index :value | value = (str at: index) ifFalse: [self error: 'bug']].
+		keysAndValuesDo: [:index :value |
+			self assert: value = (str at: index) ].
 	self assert: export dataStream contents = str

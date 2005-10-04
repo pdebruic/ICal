@@ -1,13 +1,16 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "ICEvent",
+	"super" : "ICJob",
 	"category" : "ICal-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"tsDeadline",
-		"tsCompleted"
+		"tsCompleted",
+		"precentComplete",
+		"completed",
+		"due"
 	],
 	"name" : "ICToDo",
 	"type" : "normal"

@@ -9,7 +9,7 @@
 		"addPlace:" : "dr 4/11/2005 10:19",
 		"addEvent:" : "pmm 9/11/2005 16:43",
 		"user:" : "dr 4/11/2005 10:17",
-		"categories" : "pmm 9/16/2005 16:02",
+		"categories" : "pmm 10/3/2005 16:48",
 		"appointments" : "dr 5/15/2005 15:08",
 		"eventsForDate:" : "dr 6/14/2005 11:20",
 		"includesEventWithId:" : "dr 5/17/2005 13:28",
@@ -24,5 +24,7 @@
 		"removeEventWithId:" : "dr 5/17/2005 13:26",
 		"addCategory:" : "pmm 9/11/2005 16:43"
 	},
-	"class" : { }
+	"class" : {
+		"productId" : "pmm 10/2/2005 15:32"
+	}
 }

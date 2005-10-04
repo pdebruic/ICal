@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "ICCalendarEntry",
+	"category" : "ICal-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"attachment",
+		"categories",
+		"classification",
+		"status",
+		"summary"
+	],
+	"name" : "ICViewableCalendarEntry",
+	"type" : "normal"
+}

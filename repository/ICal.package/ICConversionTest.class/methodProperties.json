@@ -1,0 +1,19 @@
+{
+	"instance" : {
+		"testParseDuration" : "pmm 10/4/2005 21:34",
+		"testParseDateAndTime" : "pmm 10/4/2005 20:14",
+		"testTime" : "pmm 10/2/2005 14:29",
+		"testDate" : "pmm 10/2/2005 22:22",
+		"testParseString" : "pmm 10/4/2005 21:45",
+		"testParseFloat" : "pmm 10/4/2005 21:42",
+		"testParseDate" : "pmm 10/4/2005 18:27",
+		"testDateAndTime" : "pmm 10/2/2005 22:22",
+		"testDuration" : "pmm 10/2/2005 22:12",
+		"testParseInteger" : "pmm 10/4/2005 21:36",
+		"testParseTime" : "pmm 10/4/2005 19:58",
+		"testFloatPrecision" : "pmm 10/4/2005 21:42",
+		"testSelector" : "pmm 10/4/2005 20:15",
+		"testWeeks" : "pmm 10/2/2005 20:19"
+	},
+	"class" : { }
+}

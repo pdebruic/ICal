@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "ICComponent",
+	"category" : "ICal-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"comment",
+		"url",
+		"uid"
+	],
+	"name" : "ICCalendarEntry",
+	"type" : "normal"
+}

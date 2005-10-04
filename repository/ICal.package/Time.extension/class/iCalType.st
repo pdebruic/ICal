@@ -1,0 +1,3 @@
+*iCal
+iCalType
+	^'TIME'

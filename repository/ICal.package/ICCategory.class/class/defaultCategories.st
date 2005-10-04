@@ -1,3 +1,3 @@
 accessing-configuration
 defaultCategories
-	^Array with: (self title: 'business') with: (self title: 'private') 
+	^Array with: (self title: 'first') with: (self title: 'second') 

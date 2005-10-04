@@ -1,3 +1,3 @@
 actions
 beCompleted
-	self status: 'completed'
+	self status: self class statusCompleted

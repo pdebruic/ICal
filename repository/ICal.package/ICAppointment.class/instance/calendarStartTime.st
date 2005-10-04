@@ -1,3 +1,0 @@
-accessing
-calendarStartTime
-	^self startDateAndTime

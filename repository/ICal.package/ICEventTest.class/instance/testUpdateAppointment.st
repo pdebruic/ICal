@@ -1,7 +1,7 @@
 tests
 testUpdateAppointment
 	| appEvent |
-	appEvent := ICAppointment title: 'meeting'.
+	appEvent := ICEvent title: 'meeting'.
 	calendar addEvent: appEvent.
 	appEvent updateEventWith: appointment1.
 	self assert: appEvent title = appointment1 title.
@@ -14,4 +14,4 @@ testUpdateAppointment
 	self assert: appEvent version = appointment1 version.
 	self assert: appEvent startDateAndTime = appointment1 startDateAndTime.
 	self assert: appEvent endDateAndTime = appointment1 endDateAndTime.
-	self assert: appEvent hasAlert = appointment1 hasAlert.
+	self assert: appEvent hasAlert = appointment1 hasAlert

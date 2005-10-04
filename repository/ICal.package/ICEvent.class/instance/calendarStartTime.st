@@ -1,3 +1,3 @@
 accessing
 calendarStartTime
-	self subclassResponsibility.
+	^self startDateAndTime

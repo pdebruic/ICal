@@ -1,0 +1,25 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "ICal-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"frequency",
+		"interval",
+		"seconds",
+		"minutes",
+		"hours",
+		"weekdays",
+		"monthdays",
+		"yeardays",
+		"weeknumbers",
+		"monthnumbers",
+		"positions",
+		"weekStartday",
+		"repetition"
+	],
+	"name" : "ICRecurrenceRule",
+	"type" : "normal"
+}

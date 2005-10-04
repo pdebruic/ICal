@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "ICCalendarEntry",
+	"category" : "ICal-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"end",
+		"start",
+		"duration"
+	],
+	"name" : "ICFreeBusy",
+	"type" : "normal"
+}

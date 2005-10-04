@@ -1,15 +1,16 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "ICTitledObject",
+	"super" : "Object",
 	"category" : "ICal-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"user",
-		"events",
-		"places",
-		"categories"
+		"alarms",
+		"journals",
+		"timezones",
+		"todos",
+		"users"
 	],
 	"name" : "ICCalendar",
 	"type" : "normal"

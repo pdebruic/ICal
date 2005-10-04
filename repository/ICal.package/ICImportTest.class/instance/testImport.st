@@ -22,7 +22,7 @@ testImport
 	
 	event := events detect: [:each | each title = 'test1'].
 	self assert: event isAppointment.
-	self assert: event priority = 'high'.
+	self assert: event priority = ICJob highPriority.
 	self assert: event place = 'Bern'.
 	self assert: event status = 'confirmed'.
 	self assert: event text = 'blabla'.
@@ -32,9 +32,9 @@ testImport
 	
 	event := events detect: [:each | each title = 'todo1'].
 	self assert: event isToDo.
-	self assert: event priority = 'normal'.
+	self assert: event priority = ICJob mediumPriority.
 	self assert: event status = 'completed'.
-	self assert: event isComplete.
+	self assert: event isCompleted.
 	self assert: event text = 'testest'.
 	self assert: event category = (calendar categoryWithTitle: 'business').
 	self assert: event tsDeadline = (DateAndTime date: date time: (Time hour: 15 minute: 0 second: 0)).

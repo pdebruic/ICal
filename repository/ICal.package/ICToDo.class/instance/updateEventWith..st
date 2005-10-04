@@ -4,7 +4,7 @@ updateEventWith: anEventOrCommand
 
 	self tsDeadline: anEventOrCommand tsDeadline.
 
-	anEventOrCommand isComplete ifTrue: [
+	anEventOrCommand isCompleted ifTrue: [
 		self status: 'completed'.
 		anEventOrCommand tsCompleted isNil ifTrue: [
 			self tsCompleted: TimeStamp now.

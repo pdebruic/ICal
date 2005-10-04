@@ -1,0 +1,11 @@
+accessing
+possibleFrequencies
+	^#(
+		'SECONDLY' 
+		'MINUTELY'
+		'HOURLY'
+		'DAILY'
+		'WEEKLY'
+		'MONTHLY'
+		'YEARLY'
+	)
