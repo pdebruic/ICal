@@ -1,3 +1,3 @@
 status
 isInProcess
-	self status = self class statusInProcess 
+	^self status = self class statusInProcess 

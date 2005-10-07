@@ -4,11 +4,11 @@ addCategory
 	cat1 := ICCategory summary: 'cat1'.
 	cat1
 		color: 'blue';
-		explanation: 'for ???'.
+		textualDescription: 'for ???'.
 	cat2 := ICCategory summary: 'cat2'.
 	cat2
 		color: 'green';
-		explanation: 'for ???'.
+		textualDescription: 'for ???'.
 	categoryNumber := calendar categories size.
 	calendar addCategory: cat1.
 	self assert: calendar categories size = (categoryNumber + 1).

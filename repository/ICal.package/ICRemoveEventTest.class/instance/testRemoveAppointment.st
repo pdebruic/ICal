@@ -1,5 +1,6 @@
 testing
 testRemoveAppointment
+	"self debug: #testRemoveAppointment"
 	event := ICEvent summary: 'simple appointment'.
 	calendar addEvent: event.
 	event

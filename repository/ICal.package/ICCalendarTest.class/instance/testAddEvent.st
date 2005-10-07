@@ -1,6 +1,7 @@
 testing-events
 testAddEvent
-	| newEvent newToDo toDoNumber totalEvents |
+	"self debug: #testAddEvent"
+	| newEvent newTodo todoNumber totalEvents totalComponents |
 	newEvent := ICEvent summary: 'lunch'.
 	newEvent
 		beMediumPriority;
@@ -18,8 +19,8 @@ testAddEvent
 					minute: 1);
 		addCategory: (ICCategory summary: 'first').
 	"place: 'universitiy mensa';"
-	newToDo := ICTodo summary: 'writing letters'.
-	newToDo
+	newTodo := ICTodo summary: 'writing letters'.
+	newTodo
 		beLowPriority;
 		addCategory: (ICCategory summary: 'second');
 		due: (DateAndTime 
@@ -29,10 +30,12 @@ testAddEvent
 					hour: 22
 					minute: 0);
 		textualDescription: 'bla bla'.
-	toDoNumber := calendar todos size.
+	todoNumber := calendar todos size.
 	totalEvents := calendar events size.
+	totalComponents := calendar components size.
 	calendar
 		addEvent: newEvent;
-		addEvent: newToDo.
-	self assert: calendar todos size = (toDoNumber + 1).
-	self assert: calendar events size = (totalEvents + 2)
+		addTodo: newTodo.
+	self assert: calendar todos size = (todoNumber + 1).
+	self assert: calendar events size = (totalEvents + 1).
+	self assert: calendar components size = (totalComponents + 2)

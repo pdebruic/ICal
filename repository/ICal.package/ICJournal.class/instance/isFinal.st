@@ -1,3 +1,3 @@
 status
 isFinal
-	self status = self class statusFinal
+	^self status = self class statusFinal

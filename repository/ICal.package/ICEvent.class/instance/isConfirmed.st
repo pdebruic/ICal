@@ -1,3 +1,3 @@
 status
 isConfirmed
-	self status = self class statusConfirmed
+	^self status = self class statusConfirmed

@@ -8,8 +8,8 @@
 	"instvars" : [
 		"iCalExporter",
 		"calendar",
-		"appointment",
-		"toDo"
+		"event",
+		"todo"
 	],
 	"name" : "ICExportTest",
 	"type" : "normal"

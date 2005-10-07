@@ -1,8 +1,7 @@
 running
 setUp
 	calendar := ICCalendar summary: 'test'.
-	appointment := (ICEvent summary: 'aTitle')
-				calendar: calendar;
+	event := (ICEvent summary: 'aTitle')
 				place: 'Bern';
 				textualDescription: 'a long long long text, very long... really!';
 				start: (DateAndTime 
@@ -34,8 +33,7 @@ setUp
 				beHighPriority;
 				beTentative;
 				yourself.
-	toDo := (ICTodo summary: 'aTitle')
-				calendar: calendar;
+	todo := (ICTodo summary: 'aTitle')
 				textualDescription: 'a long long long text, very long... really!';
 				due: (DateAndTime 
 							year: 2005
@@ -67,5 +65,5 @@ setUp
 				beHighPriority;
 				beCompleted;
 				yourself.
-	calendar addEvent: appointment.
+	calendar addEvent: event.
 	iCalExporter := ICCalExporter calendar: calendar

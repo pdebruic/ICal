@@ -7,10 +7,10 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"calendar",
-		"appointment1",
-		"appointment2",
-		"toDo",
-		"category1"
+		"category1",
+		"event1",
+		"event2",
+		"todo"
 	],
 	"name" : "ICCalendarTest",
 	"type" : "normal"

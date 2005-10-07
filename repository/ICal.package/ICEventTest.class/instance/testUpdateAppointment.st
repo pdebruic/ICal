@@ -11,6 +11,6 @@ testUpdateAppointment
 	self assert: appEvent priority = appointment1 priority.
 	self assert: appEvent created = appointment1 created.
 	self assert: appEvent lastModified = appointment1 lastModified.
-	self assert: appEvent version = appointment1 version.
+	self assert: appEvent sequenceNumber = appointment1 sequenceNumber.
 	self assert: appEvent start = appointment1 start.
 	self assert: appEvent end = appointment1 end.

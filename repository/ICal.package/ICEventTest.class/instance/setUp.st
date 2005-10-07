@@ -5,6 +5,7 @@ setUp
 	appointment1 := ICEvent summary: 'diner'.
 	category := ICCategory summary: 'friends'.
 	appointment1 addCategory: category.
+	appointment1 uid: 'app1'.
 	appointment1
 		start: (DateAndTime 
 					year: 2005
@@ -19,9 +20,9 @@ setUp
 					hour: 20
 					minute: 0).
 	appointment1 beLowPriority.
-	appointment1 calendar: calendar.
 	appointment1 place: 'in nature'.
 	appointment2 := ICEvent summary: 'running'.
+	appointment2 uid: 'app2'.
 	appointment2
 		start: (DateAndTime 
 					year: 2005
@@ -36,6 +37,7 @@ setUp
 					hour: 9
 					minute: 40).
 	todo := ICTodo summary: 'clean the living-room'.
+	todo uid: 'todo1'.
 	todo due: (DateAndTime now + 4 days).
 	calendar addEvent: appointment1.
 	calendar addEvent: appointment2.

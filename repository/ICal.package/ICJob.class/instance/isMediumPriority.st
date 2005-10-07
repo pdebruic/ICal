@@ -1,3 +1,3 @@
 priority
 isMediumPriority
-	self priority = self class mediumPriority
+	^self priority = self class mediumPriority

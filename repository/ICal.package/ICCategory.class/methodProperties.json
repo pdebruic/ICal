@@ -2,15 +2,15 @@
 	"instance" : {
 		"summary:" : "pmm 10/6/2005 23:26",
 		"color" : "pmm 10/6/2005 23:26",
-		"explanation" : "dr 4/11/2005 10:38",
 		"=" : "pmm 10/6/2005 23:27",
+		"printOn:" : "pmm 10/7/2005 17:22",
+		"hasSummary" : "pmm 10/7/2005 17:22",
 		"hasColor" : "pmm 10/7/2005 00:00",
 		"textualDescription:" : "pmm 10/6/2005 23:27",
-		"textualDescription" : "pmm 10/6/2005 23:26",
 		"summary" : "pmm 10/6/2005 23:26",
+		"textualDescription" : "pmm 10/6/2005 23:26",
 		"color:" : "pmm 10/6/2005 23:27",
-		"asICalString" : "pmm 10/6/2005 23:33",
-		"explanation:" : "dr 4/11/2005 10:39"
+		"asICalString" : "pmm 10/6/2005 23:33"
 	},
 	"class" : {
 		"summary:" : "pmm 10/6/2005 23:28",

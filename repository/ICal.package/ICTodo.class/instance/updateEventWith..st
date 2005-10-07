@@ -11,7 +11,4 @@ updateEventWith: anEventOrCommand
 		] ifFalse: [
 			self completed: anEventOrCommand completed.
 		].
-	] ifFalse: [
-		self status: ''.
-		self completed: nil.
-	].
+	]

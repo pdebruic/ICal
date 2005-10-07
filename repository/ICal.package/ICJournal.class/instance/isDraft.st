@@ -1,3 +1,3 @@
 status
 isDraft
-	self status = self class statusDraft
+	^self status = self class statusDraft

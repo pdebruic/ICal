@@ -2,8 +2,7 @@ running
 setUp
 	| importString |
 	calendar := ICCalendar summary: 'test'.
-	appointment := (ICEvent summary: 'aTitle')
-				calendar: calendar;
+	event := (ICEvent summary: 'aTitle')
 				place: 'Bern';
 				textualDescription: 'a long long long text, very long... really!';
 				start: (DateAndTime 
@@ -33,8 +32,7 @@ setUp
 				beHighPriority;
 				beTentative;
 				yourself.
-	toDo := (ICTodo summary: 'aTitle')
-				calendar: calendar;
+	todo := (ICTodo summary: 'aTitle')
 				textualDescription: 'a long long long text, very long... really!';
 				due: (DateAndTime 
 							year: 2005
@@ -66,11 +64,11 @@ setUp
 				beHighPriority;
 				beCompleted;
 				yourself.
-	otherToDo := toDo copy.
-	otherToDo summary: 'anotherToDo'.
-	calendar addEvent: appointment.
-	calendar addEvent: toDo.
-	calendar addEvent: otherToDo.
+	otherTodo := todo copy.
+	otherTodo summary: 'anotherToDo'.
+	calendar addEvent: event.
+	calendar addEvent: todo.
+	calendar addEvent: otherTodo.
 	parser := ICCalendarParser new calendar: calendar.
 	importString := 'BEGIN:VCALENDAR
 PRODID:-//SMALLWIKI2-Calendar v1.0//-

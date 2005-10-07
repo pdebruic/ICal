@@ -1,3 +1,3 @@
 status
 isNeedsAction
-	self status = self class statusNeedsAction
+	^self status = self class statusNeedsAction

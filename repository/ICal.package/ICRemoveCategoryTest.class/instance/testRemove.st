@@ -7,5 +7,5 @@ testRemove
   	self remove: 'irishdance'.
   	self assert: (calendar categories size = (numCats - 1)).
 	self deny: (calendar categories includes: category).
-  	"self assert: (calendar categoryWithTitle: 'irishdance' = nil)."
+  	self should: [ calendar categoryWithSummary: 'irishdance' ] raise: Error
   

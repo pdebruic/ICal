@@ -2,7 +2,6 @@ testing
 testSave
 	| savedEvent event |
 	event := (ICEvent new)
-				calendar: calendar;
 				place: 'bern';
 				start: (DateAndTime 
 							year: 2005

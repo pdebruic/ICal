@@ -10,5 +10,5 @@ testUpdateToDo
 	self assert: todoEvent priority = todo priority.
 	self assert: todoEvent created = todo created.
 	self assert: todoEvent lastModified = todo lastModified.
-	self assert: todoEvent version = todo version.
+	self assert: todoEvent sequenceNumber = todo sequenceNumber.
 	self assert: todoEvent due = todo due

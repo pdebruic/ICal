@@ -1,14 +1,12 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "ICViewableCalendarEntry",
-	"category" : "ICal-Model",
+	"category" : "ICal-Abstract",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"priority",
-		"version",
-		"calendar",
 		"textualDescription",
 		"geo",
 		"location",

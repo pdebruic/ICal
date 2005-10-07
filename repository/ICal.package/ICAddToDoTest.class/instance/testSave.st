@@ -9,7 +9,7 @@ testSave
 				textualDescription: 'this should be a real letter not an email';
 				due: deadLine;
 				yourself.
-	calendar addEvent: todo.
+	calendar addTodo: todo.
 	savedToDo := calendar todos first.
 	self assert: calendar todos size = 1.
 	self assert: savedToDo categories anyOne = (ICCategory summary: 'second').

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "ICCalendarEntry",
-	"category" : "ICal-Model",
+	"category" : "ICal-Abstract",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

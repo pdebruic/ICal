@@ -1,4 +1,4 @@
 testing
-startsInHour: timestamp 
-	^timestamp <= self start asTimeStamp 
-		and: [(timestamp plusSeconds: 3600) >= self start asTimeStamp]
+startsInHour: aDateAndTime 
+	^aDateAndTime <= self start
+		and: [(aDateAndTime + 3600 seconds) >= self start ]

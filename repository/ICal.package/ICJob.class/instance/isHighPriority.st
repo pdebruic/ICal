@@ -1,3 +1,3 @@
 priority
 isHighPriority
-	self priority = self class highPriority
+	^self priority = self class highPriority

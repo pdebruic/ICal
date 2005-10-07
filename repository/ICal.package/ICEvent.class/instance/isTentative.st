@@ -1,3 +1,3 @@
 status
 isTentative
-	self status = self class statusTentative
+	^self status = self class statusTentative

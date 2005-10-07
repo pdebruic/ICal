@@ -1,4 +1,4 @@
 testing
 startsInHour: aDateAndTime 
 	^aDateAndTime <= self due
-		and: [(aDateAndTime plusSeconds: 3600) >= self due]
+		and: [(aDateAndTime + 3600 seconds) >= self due]

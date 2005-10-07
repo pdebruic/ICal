@@ -1,21 +1,15 @@
 testing
 testAppointments
-  "test add and remove methods for appointments"
-   | size |
-   size := 1.
+	"test add and remove methods for appointments"
 
-   self assert: calendar events size = size.
-
-   calendar addEvent: appointment2.
-   self assert: calendar events size = (size +1).
-
-   calendar removeEvent: appointment1.
-   self assert: calendar events size = size.
-
-   calendar removeEvent: appointment2.
-   self assert: calendar events isEmpty.
-   calendar addEvent: appointment1.
-   self assert: (calendar events first) == appointment1.
-
-
- 
+	| size |
+	size := 1.
+	self assert: calendar events size = size.
+	calendar addEvent: event2.
+	self assert: calendar events size = (size + 1).
+	calendar removeEvent: event1.
+	self assert: calendar events size = size.
+	calendar removeEvent: event2.
+	self assert: calendar events isEmpty.
+	calendar addEvent: event1.
+	self assert: calendar events first == event1

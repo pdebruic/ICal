@@ -7,4 +7,5 @@ initialize
 	self journals: OrderedCollection new.
 	self timezones: OrderedCollection new.
 	self todos: OrderedCollection new.
+	self events: OrderedCollection new.
 	self users: OrderedCollection new.

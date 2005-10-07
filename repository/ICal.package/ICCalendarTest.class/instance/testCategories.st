@@ -3,7 +3,7 @@ testCategories
 	"test here methods to add and remove categories"
 
 	| size collection c1 c2 c3 |
-	size := 0.
+	size := 1.
 	calendar addCategory: category1.
 	self assert: calendar categories size = (size + 1).
 	self assert: (calendar categoryWithSummary: 'personal') == category1.

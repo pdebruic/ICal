@@ -5,4 +5,4 @@ calendarTestWithSummary: aString
 				ifNone: [nil].
 	self deny: newCalendar isNil.
 	self assert: newCalendar class = ICCalendar.
-	self assert: newCalendar categories size >= 2
+	self assert: newCalendar categories isEmpty
