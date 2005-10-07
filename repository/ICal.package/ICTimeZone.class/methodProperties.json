@@ -1,5 +1,16 @@
 {
-	"instance" : { },
+	"instance" : {
+		"recurrenceDates" : "pmm 10/6/2005 23:01",
+		"lastModified" : "pmm 10/6/2005 23:01",
+		"start" : "pmm 10/7/2005 10:18",
+		"comment:" : "pmm 10/7/2005 10:18",
+		"comment" : "pmm 10/7/2005 10:18",
+		"lastModified:" : "pmm 10/6/2005 23:02",
+		"recurrenceRule:" : "pmm 10/6/2005 23:02",
+		"start:" : "pmm 10/7/2005 10:18",
+		"recurrenceDates:" : "pmm 10/6/2005 23:01",
+		"recurrenceRule" : "pmm 10/6/2005 23:01"
+	},
 	"class" : {
 		"iCalType" : "pmm 10/3/2005 22:37"
 	}

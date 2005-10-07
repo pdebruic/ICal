@@ -1,3 +1,3 @@
-testing
+transparency
 isOpaque
 	^self isTransparent not

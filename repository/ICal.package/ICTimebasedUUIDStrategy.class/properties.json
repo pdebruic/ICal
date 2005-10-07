@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ICStrategy",
+	"category" : "ICal-Strategy",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICTimebasedUUIDStrategy",
+	"type" : "normal"
+}

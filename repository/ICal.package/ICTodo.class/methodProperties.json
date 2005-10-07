@@ -1,0 +1,28 @@
+{
+	"instance" : {
+		"isNeedsAction" : "pmm 10/7/2005 16:34",
+		"due:" : "pmm 10/7/2005 16:17",
+		"isCompleted" : "pmm 10/3/2005 22:05",
+		"isToDo" : "dr 5/15/2005 14:49",
+		"isValidForDate:" : "pmm 10/7/2005 16:28",
+		"beInProcess" : "pmm 10/7/2005 16:33",
+		"beNeedsAction" : "pmm 10/7/2005 16:34",
+		"hours" : "dr 6/18/2005 13:30",
+		"completed:" : "pmm 10/7/2005 16:20",
+		"beCompleted" : "pmm 10/3/2005 19:00",
+		"due" : "pmm 10/7/2005 16:17",
+		"completed" : "pmm 10/3/2005 22:03",
+		"precentComplete" : "pmm 10/3/2005 17:52",
+		"precentComplete:" : "pmm 10/3/2005 17:53",
+		"startsInHour:" : "pmm 10/7/2005 16:29",
+		"updateEventWith:" : "pmm 10/7/2005 16:26",
+		"isInProcess" : "pmm 10/7/2005 16:34"
+	},
+	"class" : {
+		"iCalType" : "pmm 10/3/2005 22:34",
+		"statusCompleted" : "pmm 10/3/2005 18:58",
+		"statusNeedsAction" : "pmm 10/3/2005 18:58",
+		"possibleStati" : "pmm 10/3/2005 19:00",
+		"statusInProcess" : "pmm 10/3/2005 18:59"
+	}
+}

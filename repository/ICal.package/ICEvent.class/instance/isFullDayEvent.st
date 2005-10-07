@@ -1,3 +1,4 @@
 testing
 isFullDayEvent
-	^self type = self class fullDayType
+	^(self start isDateOrNil)
+		and: [ self end isDateOrNil ]

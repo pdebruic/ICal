@@ -1,3 +1,0 @@
-generating
-generateId
-	self subclassResponsibility 

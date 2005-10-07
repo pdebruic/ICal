@@ -3,13 +3,13 @@ exportToDo: aToDo
 	| tsCompleted |
 	self exportLine: 'BEGIN:VTODO'.
 	
-	aToDo tsDeadline ifNotNil: [
-		self exportLine: 'DUE;VALUE=DATE-TIME:', (self iCalDateAndTime: (aToDo tsDeadline))].
+	aToDo due ifNotNil: [
+		self exportLine: 'DUE;VALUE=DATE-TIME:', (self iCalDateAndTime: (aToDo due))].
 	
 	aToDo isCompleted ifTrue: [ 
 		self exportLine: 'STATUS:COMPLETED'. 
-		tsCompleted :=  aToDo tsCompleted.
-		tsCompleted := tsCompleted ifNil: [ TimeStamp now ].
+		tsCompleted :=  aToDo completed.
+		tsCompleted := tsCompleted ifNil: [ DateAndTime now ].
 		self exportLine: 'COMPLETED:', (self iCalDateAndTime: tsCompleted).
 	].
 			

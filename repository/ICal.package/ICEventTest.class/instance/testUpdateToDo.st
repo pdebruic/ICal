@@ -1,14 +1,14 @@
-tests
+testing
 testUpdateToDo
 	| todoEvent |
-	todoEvent := ICToDo title: 'todo'.
+	todoEvent := ICTodo summary: 'todo'.
 	todoEvent updateEventWith: todo.
-	self assert: todoEvent title = todo title.
-	self assert: todoEvent category == todo category.
-	self assert: todoEvent text = todo text.
+	self assert: todoEvent summary = todo summary.
+	self assert: todoEvent categories = todo categories.
+	self assert: todoEvent textualDescription = todo textualDescription.
 	self assert: todoEvent status = todo status.
 	self assert: todoEvent priority = todo priority.
-	self assert: todoEvent tsCreated = todo tsCreated.
-	self assert: todoEvent tsModified = todo tsModified.
+	self assert: todoEvent created = todo created.
+	self assert: todoEvent lastModified = todo lastModified.
 	self assert: todoEvent version = todo version.
-	self assert: todoEvent tsDeadline = todo tsDeadline
+	self assert: todoEvent due = todo due

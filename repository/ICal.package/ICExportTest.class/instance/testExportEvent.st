@@ -1,4 +1,4 @@
-tests
+testing
 testExportEvent
 	| export str |
 	export := iCalExporter export.

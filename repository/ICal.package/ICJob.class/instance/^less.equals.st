@@ -1,3 +1,3 @@
 comparing
-<= anEvent
-	^self calendarStartTime <= anEvent calendarStartTime
+<= aJob
+	^self start <= aJob start

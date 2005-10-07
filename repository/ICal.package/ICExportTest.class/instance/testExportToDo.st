@@ -1,4 +1,4 @@
-tests
+testing
 testExportToDo
 	| export str |
 	calendar removeEvent: appointment.

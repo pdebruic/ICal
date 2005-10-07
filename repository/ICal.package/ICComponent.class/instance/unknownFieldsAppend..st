@@ -1,3 +1,3 @@
 accessing
 unknownFieldsAppend: aString
-	self unknownFields add: aString
+	^self unknownFields add: aString

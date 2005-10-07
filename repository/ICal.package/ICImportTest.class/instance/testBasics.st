@@ -1,4 +1,4 @@
-tests
+testing
 testBasics
 	self assert: parser calendar = calendar.
 	self assert: parser events isEmpty.

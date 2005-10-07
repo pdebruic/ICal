@@ -1,3 +1,3 @@
-configuration
+running
 setUp
-	calendar := ICCalendar title: 'the calendar'
+	calendar := ICCalendar new

@@ -1,3 +1,3 @@
 accessing
 productId
-	^'-//Squeak-vCalendar//-'
+	^'-//Squeak-iCalendar//-'

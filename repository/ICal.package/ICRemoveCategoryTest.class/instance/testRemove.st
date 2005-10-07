@@ -1,4 +1,4 @@
-tests
+testing
 testRemove
 	| numCats |
 	numCats := calendar categories size.

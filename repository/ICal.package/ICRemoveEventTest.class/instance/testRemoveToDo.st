@@ -1,15 +1,14 @@
-tests
+testing
 testRemoveToDo
-	event := ICToDo title: 'working'.
+	event := ICTodo summary: 'working'.
 	event
-		category: ICCategory defaultCategories second;
-		tsDeadline: (DateAndTime 
+		addCategory: (ICCategory summary: 'second');
+		due: (DateAndTime 
 					year: 2005
 					month: 6
 					day: 24
 					hour: 12
 					minute: 1);
-		hasAlert: false;
-		priority: ICJob lowPriority.
+		beLowPriority.
 	calendar addEvent: event.
 	self removeTesting: event

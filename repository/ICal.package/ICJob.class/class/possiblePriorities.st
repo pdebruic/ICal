@@ -1,4 +1,4 @@
-accessing-configuration
+accessing-priorities
 possiblePriorities
 	"Description: The priority is specified as an integer in the range
    zero to nine. A value of zero (US-ASCII decimal 48) specifies an
@@ -21,4 +21,4 @@ possiblePriorities
    ASCII decimal 50) specifies 'A2', a property value of three (US-ASCII
    decimal 51) specifies 'A3', and so forth up to a property value of 9
    (US-ASCII decimal 58) specifies 'C3'."
-	^0 to: 0
+	^0 to: 9

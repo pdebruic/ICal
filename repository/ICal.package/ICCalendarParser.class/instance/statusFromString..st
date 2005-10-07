@@ -1,3 +1,3 @@
 converting
 statusFromString: aString
-	^aString asLowercase.
+	^aString asUppercase.

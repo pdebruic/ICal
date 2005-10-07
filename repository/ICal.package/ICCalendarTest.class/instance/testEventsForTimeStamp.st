@@ -1,4 +1,4 @@
-testEvents
+testing-events
 testEventsForTimeStamp
   self assert: ((calendar eventsForTimeStamp:  (DateAndTime year: 2005 month: 5 day: 20 hour: 19 minute: 0)asTimeStamp) size = 1).
   

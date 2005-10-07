@@ -1,7 +1,7 @@
-configuration
+running
 setUp
 	| calendar |
 	user := ICUser new.
-	calendar := ICCalendar title: 'veriveri''s Calendar'.
-	calendar user: user.
+	calendar := ICCalendar summary: 'veriveri''s Calendar'.
+	calendar addUser: user.
 	calendars := OrderedCollection with: calendar

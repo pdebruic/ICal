@@ -1,3 +1,3 @@
 private
 generateUid
-	self notYetImplemented
+	^self uidStrategy generateUid

@@ -1,11 +1,11 @@
-testCategories
+testing-categories
 addCategory
 	| cat1 cat2 categoryNumber |
-	cat1 := ICCategory title: 'cat1'.
+	cat1 := ICCategory summary: 'cat1'.
 	cat1
 		color: 'blue';
 		explanation: 'for ???'.
-	cat2 := ICCategory title: 'cat2'.
+	cat2 := ICCategory summary: 'cat2'.
 	cat2
 		color: 'green';
 		explanation: 'for ???'.

@@ -1,22 +1,20 @@
-tests
+testing
 testSave
 	| savedToDo deadLine todo |
-	deadLine := TimeStamp now plusDays: 1.
-	todo := ICToDo new
-				category: ICCategory defaultCategories second;
-				title: 'writing a letter';
-				priority: ICJob lowPriority;
-				text: 'this should be a real letter not an email';
-				hasAlert: false;
-				tsDeadline: deadLine;
-				tsCompleted: false;
+	deadLine := DateAndTime now + 1 day.
+	todo := (ICTodo new)
+				addCategory: (ICCategory summary: 'second');
+				summary: 'writing a letter';
+				beLowPriority;
+				textualDescription: 'this should be a real letter not an email';
+				due: deadLine;
 				yourself.
 	calendar addEvent: todo.
-	savedToDo := calendar toDos first.
-	self assert: calendar toDos size = 1.
-	self assert: savedToDo category = ICCategory defaultCategories second.
-	self assert: savedToDo title = 'writing a letter'.
-	self assert: savedToDo priority = ICJob lowPriority.
-	self assert: savedToDo text = 'this should be a real letter not an email'.
-	self assert: savedToDo tsDeadline = deadLine.
-	self deny: savedToDo hasAlert
+	savedToDo := calendar todos first.
+	self assert: calendar todos size = 1.
+	self assert: savedToDo categories anyOne = (ICCategory summary: 'second').
+	self assert: savedToDo summary = 'writing a letter'.
+	self assert: savedToDo isLowPriority.
+	self assert: savedToDo textualDescription 
+				= 'this should be a real letter not an email'.
+	self assert: savedToDo due = deadLine

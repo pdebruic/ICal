@@ -1,9 +1,9 @@
-testEvents
+testing-events
 testIncludesEventWithId
-   self assert: (calendar includesEventWithId: 'app1').
-   self assert: (calendar includesEventWithId: 'todo1').
-   self deny: (calendar includesEventWithId: 'app2').
+   self assert: (calendar includesEventWithUid: 'app1').
+   self assert: (calendar includesEventWithUid: 'todo1').
+   self deny: (calendar includesEventWithUid: 'app2').
    calendar addEvent: appointment2.
-   self assert: (calendar includesEventWithId: 'app2').
+   self assert: (calendar includesEventWithUid: 'app2').
    calendar removeEvent: toDo.
-   self deny: (calendar includesEventWithId: 'todo1').
+   self deny: (calendar includesEventWithUid: 'todo1').

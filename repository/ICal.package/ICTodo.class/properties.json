@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ICJob",
+	"category" : "ICal-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"precentComplete",
+		"completed",
+		"due"
+	],
+	"name" : "ICTodo",
+	"type" : "normal"
+}

@@ -1,13 +1,19 @@
 {
 	"instance" : {
-		"title:" : "pmm 10/3/2005 16:45",
-		"=" : "pmm 10/3/2005 16:48",
+		"summary:" : "pmm 10/6/2005 23:26",
+		"color" : "pmm 10/6/2005 23:26",
 		"explanation" : "dr 4/11/2005 10:38",
-		"title" : "pmm 10/3/2005 16:45",
+		"=" : "pmm 10/6/2005 23:27",
+		"hasColor" : "pmm 10/7/2005 00:00",
+		"textualDescription:" : "pmm 10/6/2005 23:27",
+		"textualDescription" : "pmm 10/6/2005 23:26",
+		"summary" : "pmm 10/6/2005 23:26",
+		"color:" : "pmm 10/6/2005 23:27",
+		"asICalString" : "pmm 10/6/2005 23:33",
 		"explanation:" : "dr 4/11/2005 10:39"
 	},
 	"class" : {
-		"defaultCategories" : "pmm 10/3/2005 16:48",
-		"title:" : "pmm 10/3/2005 16:46"
+		"summary:" : "pmm 10/6/2005 23:28",
+		"fromICalString:" : "pmm 10/6/2005 23:51"
 	}
 }

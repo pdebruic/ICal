@@ -1,5 +1,12 @@
 {
-	"instance" : { },
+	"instance" : {
+		"duration" : "pmm 10/7/2005 09:48",
+		"textualDescription:" : "pmm 10/7/2005 09:49",
+		"textualDescription" : "pmm 10/7/2005 09:48",
+		"duration:" : "pmm 10/7/2005 09:49",
+		"attachment" : "pmm 10/7/2005 09:48",
+		"attachment:" : "pmm 10/7/2005 09:49"
+	},
 	"class" : {
 		"iCalType" : "pmm 10/3/2005 22:37"
 	}

@@ -4,11 +4,14 @@
 	"category" : "ICal-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"UidStrategy"
+	],
 	"instvars" : [
 		"comment",
 		"url",
-		"uid"
+		"uid",
+		"stamp"
 	],
 	"name" : "ICCalendarEntry",
 	"type" : "normal"

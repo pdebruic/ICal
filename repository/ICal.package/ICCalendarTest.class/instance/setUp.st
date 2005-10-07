@@ -1,58 +1,54 @@
-configuration
+running
 setUp
 	| category2 |
-	calendar := ICCalendar title: 'Veriveris Calendar'.
-	appointment1 := ICEvent title: 'first date'.
+	calendar := ICCalendar summary: 'Veriveris Calendar'.
+	appointment1 := ICEvent summary: 'first date'.
 	appointment1 calendar: calendar.
 	appointment1 place: 'swimmingpool'.
-	appointment1 type: 'Event'.
-	appointment1 category: ICCategory defaultCategories second.
-	appointment1 startDateAndTime: (DateAndTime 
+	appointment1 addCategory: (ICCategory summary: 'second').
+	appointment1 start: (DateAndTime 
 				year: 2005
 				month: 5
 				day: 20
 				hour: 19
 				minute: 1).
-	appointment1 endDateAndTime: (DateAndTime 
+	appointment1 end: (DateAndTime 
 				year: 2005
 				month: 5
 				day: 20
 				hour: 23
 				minute: 1).
-	appointment2 := ICEvent title: 'diner with...'.
+	appointment2 := ICEvent summary: 'diner with...'.
 	appointment2 calendar: calendar.
 	appointment2 place: 'Bellvue Bern'.
-	appointment2 type: 'Event'.
-	appointment2 text: 'it is with ...'.
-	appointment2 category: ICCategory defaultCategories second.
-	appointment2 startDateAndTime: (DateAndTime 
+	appointment2 textualDescription: 'it is with ...'.
+	appointment2 addCategory: (ICCategory summary: 'second').
+	appointment2 start: (DateAndTime 
 				year: 2005
 				month: 5
 				day: 24
 				hour: 20
 				minute: 1).
-	appointment2 endDateAndTime: (DateAndTime 
+	appointment2 end: (DateAndTime 
 				year: 2005
 				month: 5
 				day: 24
 				hour: 22
 				minute: 1).
-	toDo := ICToDo title: 'repairing my bike'.
+	toDo := ICTodo summary: 'repairing my bike'.
 	toDo
-		priority: ICJob lowPriority;
-		category: ICCategory defaultCategories second;
-		tsDeadline: (DateAndTime 
+		beLowPriority;
+		addCategory: (ICCategory summary: 'second');
+		due: (DateAndTime 
 					year: 2005
 					month: 7
 					day: 30
 					hour: 22
 					minute: 0);
-		text: 'bla bla'.
-	category1 := ICCategory title: 'personal'.
-	category2 := ICCategory title: 'music school'.
+		textualDescription: 'bla bla'.
+	category1 := ICCategory summary: 'personal'.
+	category2 := ICCategory summary: 'music school'.
 	calendar
 		addEvent: appointment1;
 		addEvent: toDo.
-	calendar addCategory: category2.
-	calendar addPlace: 'IAM BERN'.
-	calendar addPlace: 'Geneve'
+	calendar addCategory: category2

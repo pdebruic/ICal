@@ -1,8 +1,8 @@
-tests
+testing
 testUser
 	| user |
 	user := ICUser new.
-	self assert: calendar user isNil.
-	calendar user: user.
-	self deny: calendar user isNil.
-	self assert: calendar user == user
+	self assert: calendar users isEmpty.
+	calendar addUser: user.
+	self deny: calendar users isEmpty.
+	self assert: calendar users anyOne == user

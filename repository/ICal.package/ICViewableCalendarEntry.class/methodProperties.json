@@ -1,10 +1,48 @@
 {
 	"instance" : {
-		"initialize" : "pmm 10/3/2005 17:35"
+		"isConfidential" : "pmm 10/7/2005 10:30",
+		"exclusionDates" : "pmm 10/6/2005 22:49",
+		"isPrivate" : "pmm 10/7/2005 10:30",
+		"modified" : "pmm 10/6/2005 23:06",
+		"initialize" : "pmm 10/6/2005 23:06",
+		"recurrenceRule:" : "pmm 10/6/2005 22:50",
+		"status" : "pmm 10/7/2005 10:32",
+		"categories:" : "pmm 10/7/2005 10:24",
+		"recurrenceRule" : "pmm 10/6/2005 22:49",
+		"status:" : "pmm 10/7/2005 10:32",
+		"summary:" : "pmm 10/6/2005 23:19",
+		"recurrenceDates:" : "pmm 10/6/2005 22:50",
+		"sequenceNumber" : "pmm 10/6/2005 23:04",
+		"created:" : "pmm 10/6/2005 22:56",
+		"categories" : "pmm 10/7/2005 10:24",
+		"recurrenceDates" : "pmm 10/6/2005 22:49",
+		"attachment:" : "pmm 10/7/2005 10:24",
+		"sequenceNumber:" : "pmm 10/6/2005 23:04",
+		"isPublic" : "pmm 10/7/2005 10:30",
+		"exclusionDates:" : "pmm 10/6/2005 22:49",
+		"attachment" : "pmm 10/7/2005 10:23",
+		"classification:" : "pmm 10/7/2005 10:26",
+		"beCanceled" : "pmm 10/7/2005 10:33",
+		"isCanceled" : "pmm 10/7/2005 10:34",
+		"beConfidential" : "pmm 10/7/2005 10:29",
+		"summary" : "pmm 10/6/2005 23:19",
+		"hasRecurrenceRule" : "pmm 10/6/2005 22:51",
+		"isRecurrent" : "pmm 10/6/2005 22:51",
+		"addCategory:" : "pmm 10/7/2005 10:24",
+		"bePrivate" : "pmm 10/7/2005 10:29",
+		"bePublic" : "pmm 10/7/2005 10:29",
+		"classification" : "pmm 10/7/2005 10:25",
+		"exclusionRule" : "pmm 10/6/2005 22:49",
+		"exclusionRule:" : "pmm 10/6/2005 22:50",
+		"created" : "pmm 10/6/2005 22:56"
 	},
 	"class" : {
-		"possibleClassifications" : "pmm 10/3/2005 17:36",
+		"statusCanceled" : "pmm 10/3/2005 18:54",
+		"classificationPublic" : "pmm 10/7/2005 10:27",
+		"possibleClassifications" : "pmm 10/7/2005 10:28",
+		"classificationPrivate" : "pmm 10/7/2005 10:27",
+		"summary:" : "pmm 10/6/2005 23:19",
 		"possibleStati" : "pmm 10/3/2005 18:54",
-		"statusCanceled" : "pmm 10/3/2005 18:54"
+		"classificationConfidential" : "pmm 10/7/2005 10:27"
 	}
 }

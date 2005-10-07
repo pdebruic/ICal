@@ -1,4 +1,4 @@
 generated-reduction actions
 reduceActionForEventProperty14: nodes 
-	^self tempEvent tsCreated: (self 
+	^self tempEvent created: (self 
 				timestampFromICal: (self parseAttribute: (nodes at: 2) value))

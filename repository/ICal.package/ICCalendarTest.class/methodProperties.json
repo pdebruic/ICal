@@ -1,19 +1,18 @@
 {
 	"instance" : {
-		"testIncludesEventWithId" : "vf 6/15/2005 09:27",
-		"testCategories" : "pmm 9/16/2005 16:02",
-		"testEventsForDate" : "pmm 10/3/2005 16:50",
-		"addCategory" : "pmm 9/16/2005 16:02",
+		"testIncludesEventWithId" : "pmm 10/7/2005 11:27",
+		"testRemoveEventWithUid" : "pmm 10/7/2005 11:23",
+		"testCategories" : "pmm 10/7/2005 09:52",
+		"testEventsForDate" : "pmm 10/7/2005 13:51",
+		"addCategory" : "pmm 10/6/2005 23:40",
 		"testEventsForTimeStamp" : "pmm 9/16/2005 16:32",
-		"testAddEvent" : "pmm 10/3/2005 18:24",
-		"testRemoveEventWithId" : "vf 6/15/2005 09:33",
-		"testUser" : "pmm 9/16/2005 16:04",
+		"testAddEvent" : "pmm 10/7/2005 16:18",
+		"testUser" : "pmm 10/7/2005 00:24",
 		"removeCategory" : "vf 6/15/2005 10:15",
-		"testAppointments" : "pmm 9/16/2005 16:32",
-		"testPlaces" : "dr 6/6/2005 10:34",
-		"testCategoryWithTitle" : "pmm 9/16/2005 16:02",
-		"testRemoveEvent" : "vf 6/15/2005 09:22",
-		"setUp" : "pmm 10/3/2005 18:23"
+		"testAppointments" : "pmm 10/7/2005 00:10",
+		"testRemoveEvent" : "pmm 10/7/2005 00:16",
+		"testCategoryWithTitle" : "pmm 10/7/2005 09:56",
+		"setUp" : "pmm 10/7/2005 16:18"
 	},
 	"class" : { }
 }

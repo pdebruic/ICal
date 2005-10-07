@@ -1,74 +1,73 @@
-configuration
+running
 setUp
 	| importString |
-	calendar := ICCalendar title: 'test'.
-	appointment := (ICEvent title: 'aTitle')
+	calendar := ICCalendar summary: 'test'.
+	appointment := (ICEvent summary: 'aTitle')
 				calendar: calendar;
 				place: 'Bern';
-				text: 'a long long long text, very long... really!';
-				startDateAndTime: (DateAndTime 
+				textualDescription: 'a long long long text, very long... really!';
+				start: (DateAndTime 
 							year: 2005
 							month: 4
 							day: 25
 							hour: 10
 							minute: 45);
-				endDateAndTime: (DateAndTime 
+				end: (DateAndTime 
 							year: 2005
 							month: 4
 							day: 25
 							hour: 12
 							minute: 9);
-				tsModified: (TimeStamp 
+				lastModified: (DateAndTime 
 							year: 2005
 							month: 4
 							day: 25
 							hour: 10
 							minute: 45);
-				tsCreated: (TimeStamp 
+				created: (DateAndTime 
 							year: 2005
 							month: 4
 							day: 25
 							hour: 12
 							minute: 9);
-				priority: ICJob highPriority;
-				status: 'tentative';
-				type: 'Event';
+				beHighPriority;
+				beTentative;
 				yourself.
-	toDo := (ICToDo title: 'aTitle')
+	toDo := (ICTodo summary: 'aTitle')
 				calendar: calendar;
-				text: 'a long long long text, very long... really!';
-				tsDeadline: (DateAndTime 
+				textualDescription: 'a long long long text, very long... really!';
+				due: (DateAndTime 
 							year: 2005
 							month: 4
 							day: 25
 							hour: 12
 							minute: 9);
-				tsModified: (TimeStamp 
+				lastModified: (DateAndTime 
 							year: 2005
 							month: 5
 							day: 1
 							hour: 11
 							minute: 2
 							second: 31);
-				tsCreated: (TimeStamp 
+				created: (DateAndTime 
 							year: 2005
 							month: 5
 							day: 1
 							hour: 11
 							minute: 2
 							second: 31);
-				tsCompleted: (TimeStamp 
+				completed: (DateAndTime 
 							year: 2005
 							month: 5
 							day: 1
 							hour: 11
 							minute: 2
 							second: 31);
-				priority: ICJob highPriority;
-				status: 'completed';
+				beHighPriority;
+				beCompleted;
 				yourself.
 	otherToDo := toDo copy.
-	otherToDo title: 'anotherToDo'.
+	otherToDo summary: 'anotherToDo'.
 	calendar addEvent: appointment.
 	calendar addEvent: toDo.
 	calendar addEvent: otherToDo.

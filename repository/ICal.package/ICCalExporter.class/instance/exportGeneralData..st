@@ -1,15 +1,15 @@
 exporting
 exportGeneralData: anAppointment
 		
-	self exportLine: 'DTSTAMP:', (self iCalDateAndTime: (anAppointment tsCreated)).
-	self exportLine: 'CREATED:', (self iCalDateAndTime: (anAppointment tsCreated)).
-	self exportLine: 'LAST-MODIFIED:',  (self iCalDateAndTime: (anAppointment tsModified)).
-	self exportLine: 'UID:', anAppointment id.
-	self exportLine: 'SUMMARY:', (anAppointment title).
-	self exportLine: 'DESCRIPTION:', (anAppointment text).
+	self exportLine: 'DTSTAMP:', (self iCalDateAndTime: (anAppointment stamp)).
+	self exportLine: 'CREATED:', (self iCalDateAndTime: (anAppointment created)).
+	self exportLine: 'LAST-MODIFIED:',  (self iCalDateAndTime: (anAppointment lastModified)).
+	self exportLine: 'UID:', anAppointment uid.
+	self exportLine: 'SUMMARY:', (anAppointment summary).
+	self exportLine: 'DESCRIPTION:', (anAppointment textualDescription).
 	
 	anAppointment category ifNotNil: [
-		self exportLine: 'CATEGORIES:', (anAppointment category title).
+		self exportLine: 'CATEGORIES:', (anAppointment category summary).
 	].
 	
 	anAppointment priority = 'low'

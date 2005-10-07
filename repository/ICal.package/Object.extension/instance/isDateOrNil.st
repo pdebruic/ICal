@@ -1,0 +1,3 @@
+*ICal
+isDateOrNil
+	^false

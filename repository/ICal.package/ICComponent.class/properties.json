@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"title",
 		"unknownFields"
 	],
 	"name" : "ICComponent",

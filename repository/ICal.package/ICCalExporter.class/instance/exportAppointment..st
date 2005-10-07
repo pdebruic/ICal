@@ -5,13 +5,13 @@ exportAppointment: anAppointment
 	anAppointment isFullDayEvent 
 		ifTrue: 
 			[self exportLine: 'DTSTART;VALUE=DATE:' 
-						, (self iCalDate: anAppointment startDateAndTime).
+						, (self iCalDate: anAppointment start).
 			self exportLine: 'DTEND;VALUE=DATE:' 
-						, (self iCalDate: anAppointment endDateAndTime + (Duration days: 1))]
+						, (self iCalDate: anAppointment end + (Duration days: 1))]
 		ifFalse: 
 			[self exportLine: 'DTSTART:' 
-						, (self iCalDateAndTime: anAppointment startDateAndTime).
-			self exportLine: 'DTEND:' , (self iCalDateAndTime: anAppointment endDateAndTime)].
+						, (self iCalDateAndTime: anAppointment start).
+			self exportLine: 'DTEND:' , (self iCalDateAndTime: anAppointment end)].
 	self exportGeneralData: anAppointment.
 	
 	self exportLine: 'STATUS:' , anAppointment status asUppercase.			

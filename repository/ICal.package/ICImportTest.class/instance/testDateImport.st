@@ -1,4 +1,4 @@
-tests
+testing
 testDateImport
 
 	self assert: (parser dateAndTimeFromICal: '20050425T120900Z') = (DateAndTime year: 2005 month: 4 day: 25 hour: 12 minute: 9).

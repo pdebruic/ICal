@@ -1,4 +1,4 @@
-tests
+testing
 testStatusImport
 
 	self assert: (parser statusFromString: 'TENTATIVE') = 'tentative'.

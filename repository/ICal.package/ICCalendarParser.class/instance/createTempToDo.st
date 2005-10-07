@@ -1,7 +1,7 @@
 creation
 createTempToDo
 	| toDo |
-	toDo := ICToDo new.
+	toDo := ICTodo new.
 	toDo calendar: self calendar.
 	self events add: toDo.
 	self tempToDo: toDo

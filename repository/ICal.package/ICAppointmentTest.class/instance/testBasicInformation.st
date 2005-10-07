@@ -1,19 +1,19 @@
-tests
+testing
 testBasicInformation
-	self assert: appointment category class == ICCategory.
-	self assert: appointment title = 'aTitle'.
+	self assert: appointment summary = 'aTitle'.
+	appointment categories do: [ :each |
+	self assert:  each == ICCategory ].
 	self assert: appointment place = 'Bern'.
-	self assert: appointment text = 'description'.
-	self assert: appointment type = 'Event'.
-	self assert: appointment startDateAndTime class = DateAndTime.
+	self assert: appointment textualDescription = 'description'.
+	self assert: appointment start class = DateAndTime.
 	self 
-		assert: appointment startDateAndTime > (Date 
+		assert: appointment start > (Date 
 						year: 2005
 						month: 4
 						day: 18).
-	self assert: appointment endDateAndTime class = DateAndTime.
+	self assert: appointment end class = DateAndTime.
 	self 
-		assert: appointment endDateAndTime > (Date 
+		assert: appointment end > (Date 
 						year: 2005
 						month: 4
 						day: 18)

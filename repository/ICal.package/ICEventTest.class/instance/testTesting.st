@@ -1,20 +1,14 @@
-tests
+testing
 testTesting
 
-  self assert: (appointment1 isAppointment).
-  self deny: (appointment1 isToDo).
   self deny: (appointment1 isFullDayEvent).
-  self deny: (appointment1 isSerie).
+  self deny: (appointment1 isRecurrent).
 
-  self assert: (todo isToDo).
-  self deny: (todo isAppointment).
-  self deny: (todo isSerie).
+  self deny: (todo isRecurrent).
 
-  self assert: (appointment1 isValidForDate: (DateAndTime 
+  self assert: (appointment1 isValidForDate: (Date 
 							year: 2005
 							month: 5
-							day: 18
-							hour: 17
-							minute: 3)asDate).
+							day: 18)).
 							
-   self assert: (todo startsInHour: (TimeStamp now plusDays:4)).
+   self assert: (todo startsInHour: DateAndTime now + 4 days).

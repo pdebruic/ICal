@@ -1,3 +1,3 @@
 generated-reduction actions
 reduceActionForTodoProperty9: nodes 
-	^self tempToDo title: (self parseAttribute: (nodes at: 2) value)
+	^self tempToDo summary: (self parseAttribute: (nodes at: 2) value)

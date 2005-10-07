@@ -1,3 +1,3 @@
 converting
 categoryForString: aString
-	^self calendar categoryWithTitle: aString
+	^ICCategory fromICalString: aString

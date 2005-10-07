@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ICStrategy",
+	"category" : "ICal-Strategy",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"uuidstragety"
+	],
+	"name" : "ICRecommendedByStandardStrategy",
+	"type" : "normal"
+}

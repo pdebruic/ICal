@@ -1,8 +1,8 @@
-tests
+testing
 testInitialize
 	| anAppointment |
-	anAppointment := ICEvent title: 'physical test'.
-	self assert: anAppointment title = 'physical test'.
-	self assert: anAppointment text = String new.
-	self assert: anAppointment tsModified = anAppointment tsCreated.
-	self assert: anAppointment priority = 'normal'
+	anAppointment := ICEvent summary: 'physical test'.
+	self assert: anAppointment summary = 'physical test'.
+	self assert: anAppointment textualDescription = String new.
+	self assert: anAppointment lastModified = anAppointment created.
+	self assert: anAppointment isMediumPriority

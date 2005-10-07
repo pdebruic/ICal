@@ -1,4 +1,4 @@
-testCategories
+testing-categories
 removeCategory
    | categoryNumber |
    categoryNumber := calendar categories size.

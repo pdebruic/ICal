@@ -6,9 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"startDateAndTime",
-		"endDateAndTime",
-		"type",
 		"place",
 		"end",
 		"transparency"

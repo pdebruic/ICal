@@ -1,4 +1,4 @@
-tests
+private
 removeTesting: anEvent
 "Helper method for testing methods. Test removing the current event"
   | eventSizeBeforeRemove |

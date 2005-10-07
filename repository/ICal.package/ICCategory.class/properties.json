@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"title"
+		"summary",
+		"textualDescription",
+		"color"
 	],
 	"name" : "ICCategory",
 	"type" : "normal"

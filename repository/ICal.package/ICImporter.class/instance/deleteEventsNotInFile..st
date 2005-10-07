@@ -1,8 +1,8 @@
 synchronizing
 deleteEventsNotInFile: aCollection
 
-	| ids |
-	ids := self calendar events collect: [:event | event id].
-	aCollection do: [:event | ids remove: event id ifAbsent: [nil]].
+	| uids |
+	uids := self calendar events collect: [ :each | each uid ].
+	aCollection do: [ :each | uids remove: each uid ifAbsent: [nil]].
 	
-	ids do: [:id | self calendar removeEventWithId: id].
+	uids do: [ :uid | self calendar removeEventWithUid: uid ].

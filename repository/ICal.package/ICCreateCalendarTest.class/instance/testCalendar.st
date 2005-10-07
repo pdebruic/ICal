@@ -1,3 +1,3 @@
-tests
+testing
 testCalendar
-	self calendarTestWithTitle: 'veriveri''s Calendar'.
+	self calendarTestWithSummary: 'veriveri''s Calendar'.

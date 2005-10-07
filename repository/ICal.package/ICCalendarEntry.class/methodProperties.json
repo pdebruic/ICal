@@ -1,7 +1,22 @@
 {
 	"instance" : {
+		"url" : "pmm 10/7/2005 09:50",
+		"comment:" : "pmm 10/7/2005 09:51",
+		"comment" : "pmm 10/7/2005 09:50",
+		"generateUid" : "pmm 10/6/2005 18:36",
 		"initialize" : "pmm 10/3/2005 22:41",
-		"generateUid" : "pmm 10/3/2005 22:40"
+		"stamp:" : "pmm 10/7/2005 09:50",
+		"uidStrategy:" : "pmm 10/6/2005 18:25",
+		"uid:" : "pmm 10/6/2005 18:34",
+		"uidStrategy" : "pmm 10/6/2005 18:24",
+		"url:" : "pmm 10/7/2005 09:51",
+		"stamp" : "pmm 10/7/2005 09:50",
+		"uid" : "pmm 10/6/2005 18:34"
 	},
-	"class" : { }
+	"class" : {
+		"initialize" : "pmm 10/6/2005 18:28",
+		"uidStrategy" : "pmm 10/6/2005 18:25",
+		"selectStrategy" : "pmm 10/6/2005 18:30",
+		"uidStrategy:" : "pmm 10/6/2005 18:25"
+	}
 }

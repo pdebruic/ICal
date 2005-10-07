@@ -1,6 +1,7 @@
 {
 	"instance" : { },
 	"class" : {
+		"supportedComponents" : "pmm 10/7/2005 13:18",
 		"supportedClasses" : "pmm 10/4/2005 07:18"
 	}
 }

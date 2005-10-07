@@ -1,5 +1,6 @@
-tests
+testing
 testShouldShowAlert	
+	self signalFailure: 'not implemented'.
 	appointment2 alertTime: DateAndTime tomorrow.
 	appointment2 hasAlert: true.
 	calendar addEvent: appointment2.

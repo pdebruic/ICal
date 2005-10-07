@@ -1,21 +1,21 @@
-tests
+testing
 testRemoveAppointment
-	event := ICEvent title: 'simple appointment'.
+	event := ICEvent summary: 'simple appointment'.
 	calendar addEvent: event.
 	event
 		place: 'room one';
-		category: ICCategory defaultCategories second;
-		startDateAndTime: (DateAndTime 
+		addCategory: (ICCategory summary: 'second');
+		start: (DateAndTime 
 					year: 2005
 					month: 5
 					day: 18
 					hour: 17
 					minute: 0);
-		endDateAndTime: (DateAndTime 
+		end: (DateAndTime 
 					year: 2005
 					month: 5
 					day: 18
 					hour: 20
 					minute: 0);
-		priority: ICJob lowPriority.
+		beLowPriority.
 	self removeTesting: event

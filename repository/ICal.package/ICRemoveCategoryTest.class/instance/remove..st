@@ -1,7 +1,7 @@
-tests
+testing
 remove: aString
 	| eventsForCategory |
-	category := calendar categoryWithTitle: aString.
+	category := calendar categoryWithSummary: aString.
 	calendar removeCategory: category.
-	eventsForCategory := calendar events select: [:event | event category = category ].
-	eventsForCategory do: [:event | event category: nil].
+	eventsForCategory := calendar events select: [:event | event categories anyOne = category ].
+	eventsForCategory do: [:event | event categories: OrderedCollection new ].

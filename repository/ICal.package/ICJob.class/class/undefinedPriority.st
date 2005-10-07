@@ -1,3 +1,3 @@
-accessing-configuration
+accessing-priorities
 undefinedPriority
 	^0

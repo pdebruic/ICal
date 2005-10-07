@@ -1,3 +1,3 @@
 testing
 isValidForDate: aDate
-	^self startDateAndTime asDate <= aDate and: [self endDateAndTime asDate >= aDate].
+	^self start asDate <= aDate and: [self end asDate >= aDate].

@@ -1,35 +1,31 @@
-tests
+testing
 testSave
-	| savedAppointment appointment |
-	appointment := (ICEvent new)
+	| savedEvent event |
+	event := (ICEvent new)
 				calendar: calendar;
 				place: 'bern';
-				startDateAndTime: (DateAndTime 
+				start: (DateAndTime 
 							year: 2005
 							month: 4
 							day: 18
 							hour: 21
 							minute: 1);
-				endDateAndTime: (DateAndTime 
+				end: (DateAndTime 
 							year: 2005
 							month: 4
 							day: 18
 							hour: 22
 							minute: 1);
-				type: 'Event';
-				category: ICCategory defaultCategories first;
-				title: 'sleep';
-				priority: ICJob mediumPriority;
-				text: 'because I''m always tired';
-				hasAlert: false;
+				addCategory: (ICCategory summary: 'first');
+				summary: 'sleep';
+				beMediumPriority;
+				textualDescription: 'because I''m always tired';
 				yourself.
-	calendar addEvent: appointment.
-	savedAppointment := calendar appointments first.
-	self assert: calendar appointments size = 1.
-	self assert: savedAppointment place = 'bern'.
-	self 
-		assert: savedAppointment category = ICCategory defaultCategories first.
-	self assert: savedAppointment title = 'sleep'.
-	self assert: savedAppointment priority = ICJob mediumPriority.
-	self assert: savedAppointment text = 'because I''m always tired'.
-	self deny: savedAppointment hasAlert
+	calendar addEvent: event.
+	savedEvent := calendar events first.
+	self assert: calendar events size = 1.
+	self assert: savedEvent place = 'bern'.
+	self assert: savedEvent categories anyOne = (ICCategory summary: 'first').
+	self assert: savedEvent summary = 'sleep'.
+	self assert: savedEvent isMediumPriority.
+	self assert: savedEvent textualDescription = 'because I''m always tired'.

@@ -1,5 +1,6 @@
 {
 	"instance" : {
+		"testWeeks" : "pmm 10/2/2005 20:19",
 		"testParseDuration" : "pmm 10/4/2005 21:34",
 		"testParseDateAndTime" : "pmm 10/4/2005 20:14",
 		"testTime" : "pmm 10/2/2005 14:29",
@@ -12,8 +13,8 @@
 		"testParseInteger" : "pmm 10/4/2005 21:36",
 		"testParseTime" : "pmm 10/4/2005 19:58",
 		"testFloatPrecision" : "pmm 10/4/2005 21:42",
-		"testSelector" : "pmm 10/4/2005 20:15",
-		"testWeeks" : "pmm 10/2/2005 20:19"
+		"testParseUrl" : "pmm 10/6/2005 18:13",
+		"testSelector" : "pmm 10/7/2005 10:14"
 	},
 	"class" : { }
 }

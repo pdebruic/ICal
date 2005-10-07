@@ -1,17 +1,16 @@
-tests
+testing
 testUpdateAppointment
 	| appEvent |
-	appEvent := ICEvent title: 'meeting'.
+	appEvent := ICEvent summary: 'meeting'.
 	calendar addEvent: appEvent.
 	appEvent updateEventWith: appointment1.
-	self assert: appEvent title = appointment1 title.
-	self assert: appEvent category == appointment1 category.
-	self assert: appEvent text = appointment1 text.
+	self assert: appEvent summary = appointment1 summary.
+	self assert: appEvent categories = appointment1 categories.
+	self assert: appEvent textualDescription = appointment1 textualDescription.
 	self assert: appEvent status = appointment1 status.
 	self assert: appEvent priority = appointment1 priority.
-	self assert: appEvent tsCreated = appointment1 tsCreated.
-	self assert: appEvent tsModified = appointment1 tsModified.
+	self assert: appEvent created = appointment1 created.
+	self assert: appEvent lastModified = appointment1 lastModified.
 	self assert: appEvent version = appointment1 version.
-	self assert: appEvent startDateAndTime = appointment1 startDateAndTime.
-	self assert: appEvent endDateAndTime = appointment1 endDateAndTime.
-	self assert: appEvent hasAlert = appointment1 hasAlert
+	self assert: appEvent start = appointment1 start.
+	self assert: appEvent end = appointment1 end.

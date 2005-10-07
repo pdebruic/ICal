@@ -1,15 +1,9 @@
-initialization
+initialize-release
 initialize
 	super initialize.
-	self resources: OrderedCollection new.
-
-	alertCounter := 0.
 	
-	self text: String new.
-	self tsModified: TimeStamp now.
-	self tsCreated: TimeStamp now.
-	self status: String new.
-	self priority: self class mediumPriority.
-	self hasAlert: false.
+	self resources: OrderedCollection new.
+	self beMediumPriority.
+
 	
 	

@@ -1,3 +1,3 @@
-accessing
+transparency
 transparency
 	^transparency

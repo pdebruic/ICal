@@ -1,4 +1,4 @@
-tests
+testing
 testPriorityImport
 
 	self assert: (parser priorityFromString: '1') = 'high'.

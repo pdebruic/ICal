@@ -1,8 +1,8 @@
-tests
+testing
 testUser
 	| newCalendar |
 	newCalendar := calendars 
-				detect: [:each | each title = 'veriveri''s Calendar']
+				detect: [:each | each summary = 'veriveri''s Calendar']
 				ifNone: [nil].
 	self deny: newCalendar isNil.
 	self assert: newCalendar class = ICCalendar.

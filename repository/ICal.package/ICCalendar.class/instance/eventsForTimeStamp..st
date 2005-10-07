@@ -1,3 +1,3 @@
 events
-eventsForTimeStamp: timestamp 
-	^self events select: [:event | event startsInHour: timestamp]
+eventsForTimeStamp: aDateAndTime 
+	^self events select: [ :each | each startsInHour: aDateAndTime]

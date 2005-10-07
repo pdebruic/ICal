@@ -6,11 +6,15 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"alarms",
+		"categories",
+		"events",
 		"journals",
+		"textualDescription",
 		"timezones",
 		"todos",
-		"users"
+		"users",
+		"version",
+		"summary"
 	],
 	"name" : "ICCalendar",
 	"type" : "normal"

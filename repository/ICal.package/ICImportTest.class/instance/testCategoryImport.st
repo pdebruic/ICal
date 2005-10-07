@@ -1,6 +1,6 @@
-tests
+testing
 testCategoryImport
 	self assert: (parser categoryForString: 'private') 
-				= (ICCategory defaultCategories second).
+				= 'private'.
 	self assert: (parser categoryForString: 'business') 
-				= (ICCategory defaultCategories first)
+				= 'business'

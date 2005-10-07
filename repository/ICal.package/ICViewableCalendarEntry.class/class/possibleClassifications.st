@@ -1,7 +1,7 @@
-accessing
+accessing-classifications
 possibleClassifications
 	^Array
-		with: 'PUBLIC'
-		with: 'PRIVATE'
-		with: 'CONFIDENTIAL'
+		with: self classificationPublic
+		with: self classificationPrivate
+		with: self classificationConfidential
 	

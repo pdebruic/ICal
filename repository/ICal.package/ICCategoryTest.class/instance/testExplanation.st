@@ -1,6 +1,6 @@
-tests
+testing
 testExplanation
 
-    self assert: (calendar categoryWithTitle: 'family') explanation = 'for family events'.
-    self assert: (calendar categoryWithTitle: 'tennis club') explanation = 'this category is for tennis club events'.
-    self deny: category1 explanation = ''.
+    self assert: (calendar categoryWithSummary: 'family') textualDescription = 'for family events'.
+    self assert: (calendar categoryWithSummary: 'tennis club') textualDescription = 'this category is for tennis club events'.
+    self deny: category1 textualDescription = ''.

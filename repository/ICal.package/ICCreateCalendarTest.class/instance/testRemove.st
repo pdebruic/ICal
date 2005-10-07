@@ -1,4 +1,4 @@
-tests
+testing
 testRemove
 	"| context calendar removeCommand root |
 	self addCalendarWithTitle: 'testCalendar'.

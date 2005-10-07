@@ -1,5 +1,5 @@
 calculation
 hours
 	| diff |
-	diff := self calendarEndTime - self calendarStartTime.
+	diff := self end - self start.
 	^diff hours + (diff minutes / 60) asFloat.

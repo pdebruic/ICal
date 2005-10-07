@@ -1,4 +1,4 @@
-accessing
+accessing-transparencies
 possibleTransparencies
 	^Array
 		with: self transparencyOpaque

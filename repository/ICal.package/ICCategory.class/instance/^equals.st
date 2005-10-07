@@ -1,4 +1,4 @@
 comparing
 = aCategory
 	^(aCategory isKindOf: ICCategory)
-		and: [ self title = aCategory title ]
+		and: [ self summary = aCategory summary ]

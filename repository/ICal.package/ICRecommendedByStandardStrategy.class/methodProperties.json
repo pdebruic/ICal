@@ -1,0 +1,19 @@
+{
+	"instance" : {
+		"uuid" : "pmm 10/6/2005 18:35",
+		"hostName" : "pmm 10/6/2005 17:48",
+		"processId" : "pmm 10/6/2005 17:57",
+		"generateUid" : "pmm 10/6/2005 18:35",
+		"uuidstragety" : "pmm 10/5/2005 06:56",
+		"canUseCommandShell" : "pmm 10/6/2005 17:43",
+		"initialize" : "pmm 10/5/2005 06:57",
+		"now" : "pmm 10/5/2005 06:59",
+		"canUseOsProcess" : "pmm 10/5/2005 06:58",
+		"memoryUsage" : "pmm 10/6/2005 17:57",
+		"randomParts" : "pmm 10/6/2005 17:56",
+		"uptime" : "pmm 10/6/2005 17:57"
+	},
+	"class" : {
+		"uuidstragetyClass" : "pmm 10/5/2005 06:56"
+	}
+}

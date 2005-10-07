@@ -1,7 +1,10 @@
-initialization
+initialize-release
 initialize
 	super initialize.
 
-	categories := OrderedCollection new.
-	places := Set new.
-	events := OrderedCollection new.
+	self beICalendar.
+	self categories: OrderedCollection new.
+	self journals: OrderedCollection new.
+	self timezones: OrderedCollection new.
+	self todos: OrderedCollection new.
+	self users: OrderedCollection new.

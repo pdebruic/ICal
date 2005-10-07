@@ -7,7 +7,10 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"comment",
-		"start"
+		"start",
+		"recurrenceRule",
+		"recurrenceDates",
+		"lastModified"
 	],
 	"name" : "ICTimeZone",
 	"type" : "normal"

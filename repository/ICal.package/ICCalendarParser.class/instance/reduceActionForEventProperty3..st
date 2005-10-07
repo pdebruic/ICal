@@ -1,4 +1,4 @@
 generated-reduction actions
 reduceActionForEventProperty3: nodes 
-	^self tempEvent endDateAndTime: (self 
+	^self tempEvent end: (self 
 				dateAndTimeFromICal: (self parseAttribute: (nodes at: 2) value))
