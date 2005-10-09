@@ -1,0 +1,13 @@
+{
+	"instance" : {
+		"name:" : "pmm 10/8/2005 00:05",
+		"defaultType" : "pmm 10/8/2005 00:04",
+		"defaultType:" : "pmm 10/8/2005 00:05",
+		"name" : "pmm 10/8/2005 00:05",
+		"multipleValuesPerLine" : "pmm 10/8/2005 00:04",
+		"multipleValuesPerLine:" : "pmm 10/8/2005 00:05"
+	},
+	"class" : {
+		"name:type:multivalued:" : "pmm 10/8/2005 00:07"
+	}
+}

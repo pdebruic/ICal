@@ -2,7 +2,7 @@ running
 setUp
 	calendar := ICCalendar summary: 'test'.
 	appointment := ICEvent summary: 'aTitle'.
-	appointment place: 'Bern'.
+	appointment location: 'Bern'.
 	appointment textualDescription: 'description'.
 	appointment addCategory: (ICCategory summary: 'first').
 	appointment start: (DateAndTime 

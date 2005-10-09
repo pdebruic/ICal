@@ -8,7 +8,6 @@
 	"instvars" : [
 		"attachment",
 		"textualDescription",
-		"alarm",
 		"duration"
 	],
 	"name" : "ICAlarm",

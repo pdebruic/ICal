@@ -20,7 +20,7 @@ setUp
 					hour: 20
 					minute: 0).
 	appointment1 beLowPriority.
-	appointment1 place: 'in nature'.
+	appointment1 location: 'in nature'.
 	appointment2 := ICEvent summary: 'running'.
 	appointment2 uid: 'app2'.
 	appointment2

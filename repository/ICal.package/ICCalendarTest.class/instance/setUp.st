@@ -3,7 +3,7 @@ setUp
 	| category2 |
 	calendar := ICCalendar summary: 'Veriveris Calendar'.
 	event1 := ICEvent summary: 'first date'.
-	event1 place: 'swimmingpool'.
+	event1 location: 'swimmingpool'.
 	event1 uid: 'app1'.
 	event1 addCategory: (ICCategory summary: 'second').
 	event1 start: (DateAndTime 
@@ -19,7 +19,7 @@ setUp
 				hour: 23
 				minute: 1).
 	event2 := ICEvent summary: 'diner with...'.
-	event2 place: 'Bellvue Bern'.
+	event2 location: 'Bellvue Bern'.
 	event2 uid: 'app2'.
 	event2 textualDescription: 'it is with ...'.
 	event2 addCategory: (ICCategory summary: 'second').

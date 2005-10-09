@@ -1,14 +1,16 @@
 {
 	"instance" : {
 		"recurrenceDates" : "pmm 10/6/2005 23:01",
+		"comments:" : "pmm 10/9/2005 12:00",
 		"lastModified" : "pmm 10/6/2005 23:01",
 		"start" : "pmm 10/7/2005 10:18",
-		"comment:" : "pmm 10/7/2005 10:18",
-		"comment" : "pmm 10/7/2005 10:18",
-		"lastModified:" : "pmm 10/6/2005 23:02",
 		"recurrenceRule:" : "pmm 10/6/2005 23:02",
-		"start:" : "pmm 10/7/2005 10:18",
+		"lastModified:" : "pmm 10/6/2005 23:02",
+		"exportOn:" : "pmm 10/9/2005 12:02",
+		"initialize" : "pmm 10/9/2005 11:59",
 		"recurrenceDates:" : "pmm 10/6/2005 23:01",
+		"start:" : "pmm 10/7/2005 10:18",
+		"comments" : "pmm 10/9/2005 11:59",
 		"recurrenceRule" : "pmm 10/6/2005 23:01"
 	},
 	"class" : {

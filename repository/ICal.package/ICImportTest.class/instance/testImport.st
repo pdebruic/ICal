@@ -20,7 +20,7 @@ testImport
 	self assert: events size = 3.
 	eventAtDate := events detect: [:each | each summary = 'test1'].
 	self assert: eventAtDate isHighPriority.
-	self assert: eventAtDate place = 'Bern'.
+	self assert: eventAtDate location = 'Bern'.
 	self assert: eventAtDate isConfirmed.
 	self assert: eventAtDate textualDescription = 'blabla'.
 	self assert: eventAtDate categories anyOne 

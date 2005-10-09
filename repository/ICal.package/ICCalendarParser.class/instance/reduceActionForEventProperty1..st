@@ -1,3 +1,3 @@
 generated-reduction actions
 reduceActionForEventProperty1: nodes 
-	^self tempEvent place: (self parseAttribute: (nodes at: 2) value)
+	^self tempEvent location: (self parseAttribute: (nodes at: 2) value)

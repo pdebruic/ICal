@@ -2,7 +2,7 @@ testing
 testSave
 	| savedEvent event |
 	event := (ICEvent new)
-				place: 'bern';
+				location: 'bern';
 				start: (DateAndTime 
 							year: 2005
 							month: 4
@@ -23,7 +23,7 @@ testSave
 	calendar addEvent: event.
 	savedEvent := calendar events first.
 	self assert: calendar events size = 1.
-	self assert: savedEvent place = 'bern'.
+	self assert: savedEvent location = 'bern'.
 	self assert: savedEvent categories anyOne = (ICCategory summary: 'first').
 	self assert: savedEvent summary = 'sleep'.
 	self assert: savedEvent isMediumPriority.

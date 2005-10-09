@@ -1,6 +1,6 @@
 testing
 testICalDateAndTime
 	self 
-		assert: (iCalExporter iCalDateAndTime: event start) = '20050425T104500Z'.
+		assert: event start asICalString = '20050425T104500'.
 	self 
-		assert: (iCalExporter iCalDateAndTime: event end) = '20050425T120900Z'
+		assert: event end asICalString = '20050425T120900'

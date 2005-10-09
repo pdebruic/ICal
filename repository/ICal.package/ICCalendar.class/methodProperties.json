@@ -22,8 +22,8 @@
 		"includesTodoWithUid:" : "pmm 10/7/2005 19:20",
 		"journalsDo:" : "pmm 10/7/2005 00:20",
 		"todosForDate:" : "pmm 10/7/2005 19:26",
-		"categories" : "pmm 10/3/2005 16:48",
 		"textualDescription:" : "pmm 10/6/2005 23:52",
+		"categories" : "pmm 10/3/2005 16:48",
 		"removeEvent:" : "dr 5/15/2005 15:07",
 		"users:" : "pmm 10/7/2005 00:23",
 		"todos:" : "pmm 10/7/2005 00:20",
@@ -37,7 +37,9 @@
 		"removeCategory:" : "dr 4/11/2005 10:20",
 		"todos" : "pmm 10/7/2005 00:13",
 		"vCalendarVersion" : "pmm 10/6/2005 23:53",
+		"productId" : "pmm 10/9/2005 10:39",
 		"summary:" : "pmm 10/6/2005 23:52",
+		"exportOn:" : "pmm 10/9/2005 11:23",
 		"addUser:" : "pmm 10/7/2005 00:23",
 		"beVCalendar" : "pmm 10/6/2005 23:54",
 		"textualDescription" : "pmm 10/6/2005 23:51",
@@ -51,6 +53,7 @@
 	},
 	"class" : {
 		"productId" : "pmm 10/7/2005 09:50",
-		"summary:" : "pmm 10/7/2005 09:53"
+		"summary:" : "pmm 10/7/2005 09:53",
+		"iCalType" : "pmm 10/9/2005 10:41"
 	}
 }

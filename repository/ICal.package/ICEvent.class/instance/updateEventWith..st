@@ -4,4 +4,4 @@ updateEventWith: anEventOrCommand
 
 	self start: anEventOrCommand start.
 	self end: anEventOrCommand end.
-	self place: anEventOrCommand place.
+	self location: anEventOrCommand location.

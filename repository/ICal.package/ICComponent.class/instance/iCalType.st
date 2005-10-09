@@ -1,3 +1,3 @@
 accessing
 iCalType
-	self class iCalType
+	^self class iCalType

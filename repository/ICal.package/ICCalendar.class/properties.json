@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "Object",
+	"super" : "ICComponent",
 	"category" : "ICal-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],

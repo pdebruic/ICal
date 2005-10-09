@@ -5,7 +5,7 @@
 		"testParseDateAndTime" : "pmm 10/4/2005 20:14",
 		"testTime" : "pmm 10/2/2005 14:29",
 		"testDate" : "pmm 10/2/2005 22:22",
-		"testParseString" : "pmm 10/4/2005 21:45",
+		"testParseString" : "pmm 10/9/2005 10:26",
 		"testParseFloat" : "pmm 10/4/2005 21:42",
 		"testParseDate" : "pmm 10/4/2005 18:27",
 		"testDateAndTime" : "pmm 10/2/2005 22:22",
@@ -14,7 +14,7 @@
 		"testParseTime" : "pmm 10/4/2005 19:58",
 		"testFloatPrecision" : "pmm 10/4/2005 21:42",
 		"testParseUrl" : "pmm 10/6/2005 18:13",
-		"testSelector" : "pmm 10/7/2005 10:14"
+		"testSelector" : "pmm 10/9/2005 10:44"
 	},
 	"class" : { }
 }

@@ -6,9 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"precentComplete",
 		"completed",
-		"due"
+		"due",
+		"percentComplete"
 	],
 	"name" : "ICTodo",
 	"type" : "normal"

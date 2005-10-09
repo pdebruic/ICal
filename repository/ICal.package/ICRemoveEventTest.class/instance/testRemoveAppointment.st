@@ -4,7 +4,7 @@ testRemoveAppointment
 	event := ICEvent summary: 'simple appointment'.
 	calendar addEvent: event.
 	event
-		place: 'room one';
+		location: 'room one';
 		addCategory: (ICCategory summary: 'second');
 		start: (DateAndTime 
 					year: 2005

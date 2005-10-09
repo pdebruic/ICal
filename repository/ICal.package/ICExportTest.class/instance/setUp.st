@@ -2,7 +2,8 @@ running
 setUp
 	calendar := ICCalendar summary: 'test'.
 	event := (ICEvent summary: 'aTitle')
-				place: 'Bern';
+				location: 'Bern';
+				uid: 'a short but globally unique id';
 				textualDescription: 'a long long long text, very long... really!';
 				start: (DateAndTime 
 							year: 2005
@@ -32,9 +33,11 @@ setUp
 							second: 31);
 				beHighPriority;
 				beTentative;
+				beOpaque;
 				yourself.
 	todo := (ICTodo summary: 'aTitle')
 				textualDescription: 'a long long long text, very long... really!';
+				uid: 'a very special value';
 				due: (DateAndTime 
 							year: 2005
 							month: 4
@@ -66,4 +69,4 @@ setUp
 				beCompleted;
 				yourself.
 	calendar addEvent: event.
-	iCalExporter := ICCalExporter calendar: calendar
+	iCalExporter := ICExporter calendar: calendar

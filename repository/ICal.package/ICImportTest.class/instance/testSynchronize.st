@@ -21,7 +21,7 @@ testSynchronize
 	self assert: events size = 3.
 	tempEvent := events detect: [:each | each summary = 'test1'].
 	self assert: tempEvent isHighPriority.
-	self assert: tempEvent place = 'Bern'.
+	self assert: tempEvent location = 'Bern'.
 	self assert: tempEvent isConfirmed.
 	self assert: tempEvent textualDescription = 'blabla'.
 	self assert: tempEvent categories anyOne 

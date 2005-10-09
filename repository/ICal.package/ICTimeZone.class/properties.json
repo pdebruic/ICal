@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"comment",
+		"comments",
 		"start",
 		"recurrenceRule",
 		"recurrenceDates",

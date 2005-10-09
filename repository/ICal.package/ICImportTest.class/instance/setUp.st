@@ -3,7 +3,7 @@ setUp
 	| importString |
 	calendar := ICCalendar summary: 'test'.
 	event := (ICEvent summary: 'aTitle')
-				place: 'Bern';
+				location: 'Bern';
 				textualDescription: 'a long long long text, very long... really!';
 				start: (DateAndTime 
 							year: 2005
