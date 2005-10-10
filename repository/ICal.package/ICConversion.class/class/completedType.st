@@ -4,3 +4,4 @@ completedType
 		name: 'COMPLETED' 
 		type: DateAndTime iCalType 
 		multivalued: false
+		utc: true

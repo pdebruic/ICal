@@ -1,20 +1,25 @@
 {
 	"instance" : {
-		"testWeeks" : "pmm 10/2/2005 20:19",
-		"testParseDuration" : "pmm 10/4/2005 21:34",
-		"testParseDateAndTime" : "pmm 10/4/2005 20:14",
-		"testTime" : "pmm 10/2/2005 14:29",
-		"testDate" : "pmm 10/2/2005 22:22",
-		"testParseString" : "pmm 10/9/2005 10:26",
+		"testParseTime" : "pmm 10/4/2005 19:58",
 		"testParseFloat" : "pmm 10/4/2005 21:42",
+		"testDateAndTimeUtc" : "pmm 10/10/2005 17:12",
+		"testWeeks" : "pmm 10/2/2005 20:19",
+		"testParseDateAndTime" : "pmm 10/4/2005 20:14",
+		"testParseString" : "pmm 10/9/2005 10:26",
+		"testParseTimeUtc" : "pmm 10/10/2005 17:13",
+		"testTime" : "pmm 10/2/2005 14:29",
+		"testFloatPrecision" : "pmm 10/4/2005 21:42",
+		"testParseDuration" : "pmm 10/4/2005 21:34",
+		"testSelector" : "pmm 10/9/2005 10:44",
 		"testParseDate" : "pmm 10/4/2005 18:27",
-		"testDateAndTime" : "pmm 10/2/2005 22:22",
+		"testTimeUtc" : "pmm 10/10/2005 17:13",
 		"testDuration" : "pmm 10/2/2005 22:12",
 		"testParseInteger" : "pmm 10/4/2005 21:36",
-		"testParseTime" : "pmm 10/4/2005 19:58",
-		"testFloatPrecision" : "pmm 10/4/2005 21:42",
+		"testDate" : "pmm 10/2/2005 22:22",
+		"testParseDateAndTimeUtc" : "pmm 10/10/2005 17:13",
+		"testDateAndTime" : "pmm 10/2/2005 22:22",
 		"testParseUrl" : "pmm 10/6/2005 18:13",
-		"testSelector" : "pmm 10/9/2005 10:44"
+		"testDateUtc" : "pmm 10/10/2005 17:12"
 	},
 	"class" : { }
 }

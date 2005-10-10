@@ -7,9 +7,9 @@ testExportEvent
 				, 'VERSION:2.0' , String crlf 
 				, 'BEGIN:VEVENT' , String crlf 				
 				, 'UID:' , event uid , String crlf 
-				, 'CREATED:20050501T110231' , String crlf 
+				, 'CREATED:20050501T110231Z' , String crlf 
 				, 'STATUS:TENTATIVE' , String crlf 
-				, 'LAST-MODIFIED:20050501T110231' , String crlf 
+				, 'LAST-MODIFIED:20050501T110231Z' , String crlf 
 				, 'SEQUENCE:0' , String crlf
 				, 'SUMMARY:aTitle' , String crlf 
 				, 'PRIORITY:1' , String crlf 

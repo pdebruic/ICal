@@ -9,14 +9,14 @@ testExportToDo
 				, 'VERSION:2.0' , String crlf 
 				, 'BEGIN:VTODO' , String crlf 
 				, 'UID:' , todo uid , String crlf 
-				, 'CREATED:20050501T110231' , String crlf 
+				, 'CREATED:20050501T110231Z' , String crlf 
 				, 'STATUS:COMPLETED' , String crlf 
-				, 'LAST-MODIFIED:20050501T110231' , String crlf
+				, 'LAST-MODIFIED:20050501T110231Z' , String crlf
 				, 'SEQUENCE:0' , String crlf
 				, 'SUMMARY:aTitle' , String crlf 
 				, 'PRIORITY:1' , String crlf
 				, 'DESCRIPTION:a long long long text\, very long... really!' , String crlf 
-				, 'COMPLETED:20050501T110231' , String crlf 
+				, 'COMPLETED:20050501T110231Z' , String crlf 
 				, 'DUE:20050425T120900' , String crlf 
 				, 'END:VTODO' , String crlf
 				, 'END:VCALENDAR' , String crlf.

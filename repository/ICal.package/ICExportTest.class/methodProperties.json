@@ -1,9 +1,9 @@
 {
 	"instance" : {
 		"testICalDateAndTime" : "pmm 10/9/2005 12:10",
-		"testExportToDo" : "pmm 10/9/2005 13:27",
+		"testExportToDo" : "pmm 10/10/2005 17:23",
 		"setUp" : "pmm 10/9/2005 13:13",
-		"testExportEvent" : "pmm 10/9/2005 12:59",
+		"testExportEvent" : "pmm 10/10/2005 17:19",
 		"testExportLine" : "pmm 9/11/2005 17:39",
 		"testICalDate" : "pmm 10/9/2005 12:12"
 	},

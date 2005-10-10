@@ -4,3 +4,4 @@ lastModifiedType
 		name: 'LAST-MODIFIED' 
 		type: DateAndTime iCalType 
 		multivalued: false
+		utc: true
