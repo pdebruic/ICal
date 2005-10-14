@@ -8,7 +8,9 @@
 	"instvars" : [
 		"categories",
 		"events",
+		"freeBusy",
 		"journals",
+		"productId",
 		"textualDescription",
 		"timezones",
 		"todos",

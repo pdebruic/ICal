@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"attachment",
+		"attachments",
 		"textualDescription",
 		"duration"
 	],

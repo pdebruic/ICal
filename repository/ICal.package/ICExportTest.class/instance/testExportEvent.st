@@ -1,6 +1,7 @@
 testing
 testExportEvent
 	| export str |
+	calendar addEvent: event.
 	export := iCalExporter export.
 	str := 'BEGIN:VCALENDAR' , String crlf 
 				, 'PRODID:' , calendar productId , String crlf 

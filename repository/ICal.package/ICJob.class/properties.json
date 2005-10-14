@@ -6,13 +6,14 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"priority",
-		"textualDescription",
+		"alarms",
+		"duration",
 		"geo",
 		"location",
+		"priority",
 		"resources",
 		"start",
-		"duration"
+		"textualDescription"
 	],
 	"name" : "ICJob",
 	"type" : "normal"

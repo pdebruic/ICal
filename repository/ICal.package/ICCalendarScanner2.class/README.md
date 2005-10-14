@@ -1,0 +1,1 @@
+I'm the new Scanner, I contain lots of tokens specified in RFC 2445

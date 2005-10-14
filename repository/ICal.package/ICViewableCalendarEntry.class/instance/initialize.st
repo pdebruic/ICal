@@ -5,4 +5,5 @@ initialize
 	self categories: OrderedCollection new.
 	self recurrenceDates: OrderedCollection new.
 	self exclusionDates: OrderedCollection new.
+	self attachments: OrderedCollection new.
 	self sequenceNumber: 0

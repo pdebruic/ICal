@@ -67,6 +67,33 @@ setUp
 							second: 31);
 				beHighPriority;
 				beCompleted;
+				yourself.	
+	dateEvent := (ICEvent summary: 'aTitle')
+				uid: 'an event with a start date and not date and time';
+				start: (Date
+							year: 2005
+							month: 4
+							day: 25);
+				created: (DateAndTime 
+							year: 2005
+							month: 5
+							day: 1
+							hour: 11
+							minute: 2
+							second: 31);
+				addCategory: 'category1';
+				addCategory: (ICCategory fromICalString: 'category2');
 				yourself.
-	calendar addEvent: event.
+	journal := (ICJournal summary: 'aTitle')
+				uid: 'jornal1';
+				created: (DateAndTime 
+							year: 2005
+							month: 5
+							day: 1
+							hour: 11
+							minute: 2
+							second: 31);
+				addTextualDescription: 'description1';
+				addTextualDescription: 'description2';
+				yourself.
 	iCalExporter := ICExporter calendar: calendar

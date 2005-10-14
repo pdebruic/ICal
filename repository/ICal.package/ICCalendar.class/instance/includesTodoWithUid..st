@@ -1,3 +1,3 @@
-testing
-includesTodoWithUid: anUid
-	^self todos anySatisfy: [ :each | each uid = anUid ].
+todos
+includesTodoWithUid: aString 
+	^self todos anySatisfy: [:each | each uid = aString]

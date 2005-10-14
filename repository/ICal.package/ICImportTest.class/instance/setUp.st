@@ -32,93 +32,60 @@ setUp
 				beHighPriority;
 				beTentative;
 				yourself.
-	todo := (ICTodo summary: 'aTitle')
-				textualDescription: 'a long long long text, very long... really!';
-				due: (DateAndTime 
-							year: 2005
-							month: 4
-							day: 25
-							hour: 12
-							minute: 9);
-				lastModified: (DateAndTime 
-							year: 2005
-							month: 5
-							day: 1
-							hour: 11
-							minute: 2
-							second: 31);
-				created: (DateAndTime 
-							year: 2005
-							month: 5
-							day: 1
-							hour: 11
-							minute: 2
-							second: 31);
-				completed: (DateAndTime 
-							year: 2005
-							month: 5
-							day: 1
-							hour: 11
-							minute: 2
-							second: 31);
-				beHighPriority;
-				beCompleted;
-				yourself.
-	otherTodo := todo copy.
+	todo := self createTodo.
+	otherTodo := self createTodo.
 	otherTodo summary: 'anotherToDo'.
-	calendar addEvent: event.
-	calendar addEvent: todo.
-	calendar addEvent: otherTodo.
-	parser := ICCalendarParser new calendar: calendar.
-	importString := 'BEGIN:VCALENDAR
-PRODID:-//SMALLWIKI2-Calendar v1.0//-
-VERSION:2.0
-METHOD:PUBLISH
-BEGIN:VEVENT
-DTSTART:20050614T110000Z
-DTEND:20050614T130000Z
-DTSTAMP:20050614T110853Z
-CREATED:20050614T110853Z
-LAST-MODIFIED:20050614T110853Z
-UID:http://localhost:8080/seaside/smallwiki/Calendar/app1
-SUMMARY:test1
-DESCRIPTION:blabla
-CATEGORIES:business
-PRIORITY:1
-STATUS:CONFIRMED
-LOCATION:Bern
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20050614T160000Z
-DTEND:20050614T190000Z
-DTSTAMP:20050614T110951Z
-CREATED:20050614T110951Z
-LAST-MODIFIED:20050614T110951Z
-UID:http://localhost:8080/seaside/smallwiki/Calendar/app2
-SUMMARY:test2
-DESCRIPTION:erzttz
-CATEGORIES:business
-PRIORITY:9
-STATUS:CANCELLED
-LOCATION:Bern
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VTODO
-DUE;VALUE=DATE-TIME:20050614T150000Z
-STATUS:COMPLETED
-COMPLETED:20050614T110915Z
-DTSTAMP:20050614T110915Z
-CREATED:20050614T110915Z
-LAST-MODIFIED:20050614T110915Z
-UID:http://localhost:8080/seaside/smallwiki/Calendar/todo1
-SUMMARY:todo1
-DESCRIPTION:testest
-CATEGORIES:business
-PRIORITY:5
-END:VTODO
-END:VCALENDAR
-'.
+	calendar addComponent: event.
+	calendar addComponent: todo.
+	calendar addComponent: otherTodo.
+	importString := 'BEGIN:VCALENDAR' , String crlf ,
+'PRODID:-//SMALLWIKI2-Calendar v1.0//-' , String crlf ,
+'VERSION:2.0' , String crlf ,
+'METHOD:PUBLISH' , String crlf ,
+'BEGIN:VEVENT' , String crlf ,
+'DTSTART:20050614T110000Z' , String crlf ,
+'DTEND:20050614T130000Z' , String crlf ,
+'DTSTAMP:20050614T110853Z' , String crlf ,
+'CREATED:20050614T110853Z' , String crlf ,
+'LAST-MODIFIED:20050614T110853Z' , String crlf ,
+'UID:http://localhost:8080/seaside/smallwiki/Calendar/app1' , String crlf ,
+'SUMMARY:test1' , String crlf ,
+'DESCRIPTION:blabla' , String crlf ,
+'CATEGORIES:business' , String crlf ,
+'PRIORITY:1' , String crlf ,
+'STATUS:CONFIRMED' , String crlf ,
+'LOCATION:Bern' , String crlf ,
+'TRANSP:OPAQUE' , String crlf ,
+'END:VEVENT' , String crlf ,
+'BEGIN:VEVENT' , String crlf ,
+'DTSTART:20050614T160000Z' , String crlf ,
+'DTEND:20050614T190000Z' , String crlf ,
+'DTSTAMP:20050614T110951Z' , String crlf ,
+'CREATED:20050614T110951Z' , String crlf ,
+'LAST-MODIFIED:20050614T110951Z' , String crlf ,
+'UID:http://localhost:8080/seaside/smallwiki/Calendar/app2' , String crlf ,
+'SUMMARY:test2' , String crlf ,
+'DESCRIPTION:erzttz' , String crlf ,
+'CATEGORIES:business' , String crlf ,
+'PRIORITY:9' , String crlf ,
+'STATUS:CANCELLED' , String crlf ,
+'LOCATION:Bern' , String crlf ,
+'TRANSP:OPAQUE' , String crlf ,
+'END:VEVENT' , String crlf ,
+'BEGIN:VTODO' , String crlf ,
+'DUE;VALUE=DATE-TIME:20050614T150000Z' , String crlf ,
+'STATUS:COMPLETED' , String crlf ,
+'COMPLETED:20050614T110915Z' , String crlf ,
+'DTSTAMP:20050614T110915Z' , String crlf ,
+'CREATED:20050614T110915Z' , String crlf ,
+'LAST-MODIFIED:20050614T110915Z' , String crlf ,
+'UID:http://localhost:8080/seaside/smallwiki/Calendar/todo1' , String crlf ,
+'SUMMARY:todo1' , String crlf ,
+'DESCRIPTION:testest' , String crlf ,
+'CATEGORIES:business' , String crlf ,
+'PRIORITY:5' , String crlf ,
+'END:VTODO' , String crlf ,
+'END:VCALENDAR' , String crlf.
 	importCommand := (ICImporter new)
 				calendar: calendar;
 				fileContent: importString;

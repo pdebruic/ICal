@@ -1,0 +1,6 @@
+accessing
+specialBegins
+	^#(
+		'VCALENDAR'
+		'VALARM'
+	)

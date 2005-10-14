@@ -1,0 +1,3 @@
+*ICal
+asICalString
+	^self asICalBooleanString 

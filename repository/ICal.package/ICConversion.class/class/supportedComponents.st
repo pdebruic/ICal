@@ -5,6 +5,6 @@ supportedComponents
 		add: ICTodo;
 		add: ICAlarm;
 		add: ICFreeBusy;
-		add: ICTimeZone;
+		add: ICTimezone;
 		add: ICJournal;
 		yourself

@@ -1,6 +1,7 @@
 exporting
 exportOn: anExporter
 	super exportOn: anExporter.
+	self flag: #todo. "export alarms"
 	anExporter exportPriority: self priority.
 	anExporter exportDescription: self textualDescription.	
 	anExporter exportGeo: (self geo ifNotNil: [ self geo asArray ]).

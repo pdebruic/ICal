@@ -1,0 +1,3 @@
+*ICal
+asICalBooleanString
+	^'FALSE'

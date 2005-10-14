@@ -2,13 +2,15 @@
 	"instance" : {
 		"duration" : "pmm 10/7/2005 09:48",
 		"textualDescription:" : "pmm 10/7/2005 09:49",
-		"exportOn:" : "pmm 10/9/2005 11:48",
+		"exportOn:" : "pmm 10/14/2005 12:14",
 		"duration:" : "pmm 10/7/2005 09:49",
+		"initialize" : "pmm 10/14/2005 12:13",
+		"attachments" : "pmm 10/14/2005 12:11",
 		"textualDescription" : "pmm 10/7/2005 09:48",
-		"attachment" : "pmm 10/7/2005 09:48",
-		"attachment:" : "pmm 10/7/2005 09:49"
+		"addAttachment:" : "pmm 10/14/2005 12:13",
+		"attachments:" : "pmm 10/14/2005 12:12"
 	},
 	"class" : {
-		"iCalType" : "pmm 10/3/2005 22:37"
+		"iCalType" : "pmm 10/13/2005 09:56"
 	}
 }

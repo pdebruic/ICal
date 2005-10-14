@@ -1,5 +1,5 @@
 exporting
-exportOn: anExpoter
-	super exportOn: anExpoter.
-	anExpoter exportEnd: self end.
-	anExpoter exportTransparency:  self transparency.
+exportOn: anExporter 
+	super exportOn: anExporter.
+	anExporter exportEnd: self end.
+	anExporter exportTransparency: self transparency

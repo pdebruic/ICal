@@ -2,5 +2,5 @@ accessing-types
 exclusionDatesType
 	^ICTypeInformation
 		name: 'EXDATE' 
-		type: Date iCalType 
+		type: DateAndTime iCalType 
 		multivalued: true

@@ -1,3 +1,3 @@
 accessing
 productId
-	^self class productId
+	^productId

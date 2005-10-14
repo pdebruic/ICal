@@ -7,7 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"fileContent",
-		"events",
+		"components",
 		"calendar"
 	],
 	"name" : "ICImporter",

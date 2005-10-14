@@ -3,8 +3,9 @@ synchronize
 	self parseFile.
 
 	"synchronize events with known ids"
-	self synchronizeEvents: (self events select: [:item | item uid ~= 0 and: [ item uid notNil ]]).
+	self synchronizeComponents: (self components select: [:item |
+		item uid ~= 0 and: [ item uid notNil ]]).
 
 	"add events with unknown ids"
-	self events 
-		do: [:event | event uid = 0 ifTrue: [self addEventToCalendar: event]].
+	self components  do: [ :component |
+		component uid = 0 ifTrue: [self calendar addComponent: component]].

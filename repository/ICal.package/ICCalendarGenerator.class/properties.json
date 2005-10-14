@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ICal-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"calendar",
+		"tempComponent",
+		"tempAlarm"
+	],
+	"name" : "ICCalendarGenerator",
+	"type" : "normal"
+}

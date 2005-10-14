@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"attachment",
+		"attachments",
 		"categories",
 		"classification",
 		"created",

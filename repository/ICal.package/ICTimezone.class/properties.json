@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "ICComponent",
+	"category" : "ICal-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"comments",
+		"start",
+		"recurrenceRule",
+		"recurrenceDates",
+		"lastModified"
+	],
+	"name" : "ICTimezone",
+	"type" : "normal"
+}

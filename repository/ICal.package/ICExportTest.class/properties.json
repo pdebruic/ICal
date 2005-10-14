@@ -9,7 +9,9 @@
 		"iCalExporter",
 		"calendar",
 		"event",
-		"todo"
+		"todo",
+		"dateEvent",
+		"journal"
 	],
 	"name" : "ICExportTest",
 	"type" : "normal"

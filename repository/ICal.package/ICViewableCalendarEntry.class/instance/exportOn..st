@@ -1,7 +1,7 @@
 exporting
 exportOn: anExporter
 	super exportOn: anExporter.
-	anExporter exportAttachment: self attachment.
+	anExporter exportAttachments: self attachments.
 	anExporter exportCategories: self categories.
 	anExporter exportClassification: self classification.
 	anExporter exportCreated: self created.

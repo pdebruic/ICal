@@ -5,17 +5,17 @@ testImport
 				year: 2005
 				month: 6
 				day: 14.
-	self assert: calendar events size = 3.
+	self assert: calendar components size = 3.
+	self assert: calendar events size = 1.
 	self assert: calendar todos size = 2.
-	self assert: calendar appointments size = 1.
 	importCommand import.
-	self assert: calendar events size = 6.
+	self assert: calendar components size = 6.
 	self assert: calendar todos size = 3.
-	self assert: calendar appointments size = 3.
+	self assert: calendar events size = 3.
 	self assert: (calendar events includes: event).
-	self assert: (calendar events includes: todo).
-	self assert: (calendar appointments includes: event).
 	self assert: (calendar todos includes: todo).
+	self assert: (calendar components includes: event).
+	self assert: (calendar components includes: todo).
 	events := calendar eventsForDate: date.
 	self assert: events size = 3.
 	eventAtDate := events detect: [:each | each summary = 'test1'].

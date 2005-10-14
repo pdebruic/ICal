@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"unknownFields"
+		"unknownProperties"
 	],
 	"name" : "ICComponent",
 	"type" : "normal"

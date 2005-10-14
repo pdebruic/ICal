@@ -9,3 +9,5 @@ initialize
 	self todos: OrderedCollection new.
 	self events: OrderedCollection new.
 	self users: OrderedCollection new.
+	self freeBusy: OrderedCollection new.
+	self productId: self class productId

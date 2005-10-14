@@ -1,5 +1,5 @@
 actions
 parseFile
-	| parser |
-	parser := ICCalendarParser parse: self fileContent for: self calendar.
-	self events: parser events
+	| importedCalendar |
+	importedCalendar := ICCalendarParser2 parseCalendarString: self fileContent.
+	self components: importedCalendar components
