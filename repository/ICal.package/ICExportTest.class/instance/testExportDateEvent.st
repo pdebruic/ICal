@@ -6,6 +6,7 @@ testExportDateEvent
 	str := 'BEGIN:VCALENDAR' , String crlf 
 				, 'PRODID:' , calendar productId , String crlf 
 				, 'VERSION:2.0' , String crlf 
+				, 'METHOD:PUBLISH' , String crlf
 				, 'BEGIN:VEVENT' , String crlf 				
 				, 'UID:' , dateEvent uid , String crlf 
 				, 'CATEGORIES:category1,category2' , String crlf

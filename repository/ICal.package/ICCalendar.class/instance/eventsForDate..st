@@ -1,3 +1,3 @@
 events
 eventsForDate: aDate 
-	^self events select: [:event | event isValidForDate: aDate]
+	^self events select: [ :each | each isValidForDate: aDate]

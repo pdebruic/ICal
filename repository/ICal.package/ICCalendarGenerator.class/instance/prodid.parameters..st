@@ -2,4 +2,4 @@ processing-properties
 prodid: aString parameters: aDictionary
 	| value |
 	value := self createValue: aString parameters: aDictionary default: String iCalType.
-	self tempComponent productId: value
+	self calendar productId: value

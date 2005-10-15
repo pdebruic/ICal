@@ -10,4 +10,5 @@ initialize
 	self events: OrderedCollection new.
 	self users: OrderedCollection new.
 	self freeBusy: OrderedCollection new.
-	self productId: self class productId
+	self productId: self class productId.
+	self method: self class methodPublish

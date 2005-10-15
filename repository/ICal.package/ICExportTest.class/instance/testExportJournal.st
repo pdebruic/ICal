@@ -6,6 +6,7 @@ testExportJournal
 	str := 'BEGIN:VCALENDAR' , String crlf 
 				, 'PRODID:' , calendar productId , String crlf 
 				, 'VERSION:2.0' , String crlf 
+				, 'METHOD:PUBLISH' , String crlf
 				, 'BEGIN:VJOURNAL' , String crlf 				
 				, 'UID:' , journal uid , String crlf 
 				, 'CREATED:20050501T110231Z' , String crlf 

@@ -1,3 +1,3 @@
 generated-starting states
 startingStateForcalendar
-	^2
+	^1

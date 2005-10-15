@@ -5,6 +5,7 @@ setUp
 	event := (ICEvent summary: 'aTitle')
 				location: 'Bern';
 				textualDescription: 'a long long long text, very long... really!';
+				uid: 'http://localhost:8080/seaside/smallwiki/Calendar/app1';
 				start: (DateAndTime 
 							year: 2005
 							month: 4
@@ -33,6 +34,7 @@ setUp
 				beTentative;
 				yourself.
 	todo := self createTodo.
+	todo uid: 'http://localhost:8080/seaside/smallwiki/Calendar/todo1'.
 	otherTodo := self createTodo.
 	otherTodo summary: 'anotherToDo'.
 	calendar addComponent: event.
@@ -83,7 +85,7 @@ setUp
 'SUMMARY:todo1' , String crlf ,
 'DESCRIPTION:testest' , String crlf ,
 'CATEGORIES:business' , String crlf ,
-'PRIORITY:5' , String crlf ,
+'PRIORITY:1' , String crlf ,
 'END:VTODO' , String crlf ,
 'END:VCALENDAR' , String crlf.
 	importCommand := (ICImporter new)

@@ -1,3 +1,3 @@
 todos
 todosForDate: aDate 
-	^self todos select: [:event | event isValidForDate: aDate]
+	^self todos select: [ :each | each isValidForDate: aDate]

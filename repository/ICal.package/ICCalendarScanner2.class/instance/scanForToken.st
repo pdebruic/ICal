@@ -42,7 +42,7 @@ scanForToken
 								or: [currentCharacter between: $ and: $ø]]] 
 							whileTrue.
 					^self reportLastMatch].
-			currentCharacter == $" ifTrue: [^self scan2].
+			currentCharacter == $" ifTrue: [^self scan5].
 			^self reportLastMatch].
 	currentCharacter == $
  
@@ -61,7 +61,7 @@ scanForToken
 											[(currentCharacter between: $Y and: $w) or: 
 													[(currentCharacter between: $y and: $~) 
 														or: [currentCharacter between: $ and: $ø]]]]]]) 
-				ifTrue: [^self scan4].
+				ifTrue: [^self scan2].
 			(currentCharacter == $X or: [currentCharacter == $x]) 
 				ifTrue: 
 					[self recordMatch: #(9).
@@ -71,8 +71,8 @@ scanForToken
 									[(currentCharacter between: $# and: $,) or: 
 											[(currentCharacter between: $. and: $~) 
 												or: [currentCharacter between: $ and: $ø]]]]) 
-						ifTrue: [^self scan4].
-					currentCharacter == $" ifTrue: [^self scan5].
+						ifTrue: [^self scan2].
+					currentCharacter == $" ifTrue: [^self scan3].
 					currentCharacter == $- 
 						ifTrue: 
 							[self recordMatch: #(9).
@@ -81,7 +81,7 @@ scanForToken
 									[(currentCharacter between: $  and: $!) or: 
 											[(currentCharacter between: $# and: $~) 
 												or: [currentCharacter between: $ and: $ø]]]) 
-								ifTrue: [^self scan4].
+								ifTrue: [^self scan2].
 							currentCharacter == $" 
 								ifTrue: 
 									[self recordMatch: #(8 9 10).
@@ -166,7 +166,7 @@ scanForToken
 									^self reportLastMatch].
 							^self reportLastMatch].
 					^self reportLastMatch].
-			currentCharacter == $" ifTrue: [^self scan5].
+			currentCharacter == $" ifTrue: [^self scan3].
 			currentCharacter == $- 
 				ifTrue: 
 					[self recordMatch: #(9).
@@ -175,7 +175,7 @@ scanForToken
 							[(currentCharacter between: $  and: $!) or: 
 									[(currentCharacter between: $# and: $~) 
 										or: [currentCharacter between: $ and: $ø]]]) 
-						ifTrue: [^self scan4].
+						ifTrue: [^self scan2].
 					currentCharacter == $" 
 						ifTrue: 
 							[self recordMatch: #(5 8 9 10).
@@ -199,8 +199,8 @@ scanForToken
 							(currentCharacter isDigit or: 
 									[(currentCharacter between: $A and: $Z) 
 										or: [currentCharacter between: $a and: $z]]) 
-								ifTrue: [^self scan3].
-							currentCharacter == $" ifTrue: [^self scan2].
+								ifTrue: [^self scan4].
+							currentCharacter == $" ifTrue: [^self scan5].
 							^self reportLastMatch].
 					^self reportLastMatch].
 			^self reportLastMatch].

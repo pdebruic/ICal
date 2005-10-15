@@ -1,3 +1,3 @@
 productions
 value: nodes
-	^self unfold: nodes first
+	^self unfold: (self tokensAsString: nodes first)

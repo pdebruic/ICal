@@ -1,1 +1,0 @@
-I am the scanner for iCalendar files, to be able to import events and todos defined in such an iCalendar file.
