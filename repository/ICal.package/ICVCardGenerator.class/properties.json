@@ -1,15 +1,14 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "ICGenerator",
 	"category" : "ICal-Parser",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"calendar",
-		"tempComponent",
-		"tempAlarm"
+		"currentCard",
+		"cards"
 	],
-	"name" : "ICCalendarGenerator",
+	"name" : "ICVCardGenerator",
 	"type" : "normal"
 }

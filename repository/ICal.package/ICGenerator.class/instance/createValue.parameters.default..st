@@ -1,4 +1,4 @@
-property-values
+utilities
 createValue: aString parameters: aDictionary default: aType
 	| iCalType |
 	iCalType := aDictionary at: 'VALUE' ifAbsent: [ aType ].
