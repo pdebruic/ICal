@@ -1,6 +1,6 @@
 accessing-types
 dueType
-	^ICTypeInformation
+	^ICTimeTypeInformation
 		name: 'DUE' 
 		type: DateAndTime iCalType 
 		multivalued: false

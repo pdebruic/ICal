@@ -1,6 +1,6 @@
 accessing-types
 createdType
-	^ICTypeInformation
+	^ICTimeTypeInformation
 		name: 'CREATED' 
 		type: DateAndTime iCalType 
 		multivalued: false

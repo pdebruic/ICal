@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ICGenerator",
+	"category" : "ICal-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"currentCard",
+		"cards"
+	],
+	"name" : "ICVCardGenerator",
+	"type" : "normal"
+}

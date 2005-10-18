@@ -1,6 +1,6 @@
 accessing-types
 endComponentType
-	^ICTypeInformation
+	^ICTimeTypeInformation
 		name: 'END' 
 		type: String iCalType 
 		multivalued: false

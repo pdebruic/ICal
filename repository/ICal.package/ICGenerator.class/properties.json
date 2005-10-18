@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ICal-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICGenerator",
+	"type" : "normal"
+}

@@ -1,6 +1,6 @@
 accessing-types
 stampType
-	^ICTypeInformation 
+	^ICTimeTypeInformation 
 		name: 'DTSTAMP' 
 		type: DateAndTime iCalType 
 		multivalued: false

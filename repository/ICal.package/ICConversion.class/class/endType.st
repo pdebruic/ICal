@@ -1,6 +1,6 @@
 accessing-types
 endType
-	^ICTypeInformation 
+	^ICTimeTypeInformation 
 		name: 'DTEND' 
 		type: DateAndTime iCalType 
 		multivalued: false

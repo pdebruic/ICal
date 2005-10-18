@@ -1,6 +1,6 @@
 accessing-types
 lastModifiedType
-	^ICTypeInformation
+	^ICTimeTypeInformation
 		name: 'LAST-MODIFIED' 
 		type: DateAndTime iCalType 
 		multivalued: false

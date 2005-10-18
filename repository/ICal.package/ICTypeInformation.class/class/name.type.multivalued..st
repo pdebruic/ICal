@@ -1,7 +1,7 @@
 instance creation
 name: aString type: aClass multivalued: aBoolean
-	^self
-		name: aString 
-		type: aClass 
-		multivalued: aBoolean 
-		utc: false
+	^self new
+		name: aString;
+		defaultType: aClass;
+		multipleValuesPerLine: aBoolean;
+		yourself

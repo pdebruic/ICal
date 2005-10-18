@@ -1,8 +1,8 @@
 instance creation
 name: aString type: aClass multivalued: aBoolean utc: anotherBoolean
-	^self new
+	^(self new
 		name: aString;
 		defaultType: aClass;
-		multipleValuesPerLine: aBoolean;
+		multipleValuesPerLine: aBoolean)
 		needsUtc: anotherBoolean;
 		yourself

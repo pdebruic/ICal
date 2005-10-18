@@ -1,6 +1,6 @@
 accessing-types
 startType
-	^ICTypeInformation 
+	^ICTimeTypeInformation 
 		name: 'DTSTART' 
 		type: DateAndTime iCalType 
 		multivalued: false

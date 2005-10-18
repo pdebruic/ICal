@@ -8,8 +8,7 @@
 	"instvars" : [
 		"name",
 		"defaultType",
-		"multipleValuesPerLine",
-		"needsUtc"
+		"multipleValuesPerLine"
 	],
 	"name" : "ICTypeInformation",
 	"type" : "normal"

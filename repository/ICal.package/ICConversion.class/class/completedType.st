@@ -1,6 +1,6 @@
 accessing-types
 completedType
-	^ICTypeInformation
+	^ICTimeTypeInformation
 		name: 'COMPLETED' 
 		type: DateAndTime iCalType 
 		multivalued: false

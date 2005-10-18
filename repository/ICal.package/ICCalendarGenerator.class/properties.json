@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "ICGenerator",
 	"category" : "ICal-Parser",
 	"classinstvars" : [ ],
 	"pools" : [ ],

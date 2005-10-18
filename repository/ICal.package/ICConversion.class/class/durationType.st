@@ -1,6 +1,6 @@
 accessing-types
 durationType
-	^ICTypeInformation
+	^ICTimeTypeInformation
 		name: 'DURATION' 
 		type: Duration iCalType 
 		multivalued: false

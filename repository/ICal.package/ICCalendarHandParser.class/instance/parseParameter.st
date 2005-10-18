@@ -10,5 +10,7 @@ parseParameter
 			paramValue := self stream upTo: $"]
 		ifFalse: [
 			paramValue := self stream upToAny: #($; $:)].
-	self parameters add: paramName asUppercase -> paramValue asUppercase.
+	paramName := (self unfold: paramName) asUppercase. "case insensitive"
+	paramValue := (self unfold: paramValue) asUppercase. "case insensitive"
+	self parameters add: paramName -> paramValue.
 	self stream position: self stream position - 1.

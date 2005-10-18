@@ -1,6 +1,6 @@
 accessing-types
 recurrenceDatesType
-	^ICTypeInformation
+	^ICTimeTypeInformation
 		name: 'RDATE' 
 		type: DateAndTime iCalType 
 		multivalued: true

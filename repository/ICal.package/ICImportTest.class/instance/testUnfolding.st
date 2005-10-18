@@ -6,7 +6,17 @@ testUnfolding
 'VERSION:2.0' , String crlf ,
 'METHOD:PUBLISH' , String crlf ,
 'BEGIN:VEVENT' , String crlf ,
-'DTSTART:20050614T110000Z' , String crlf ,
+'DT' , String crlf ,
+' START' , String crlf ,
+' ;' , String crlf ,
+'	val' , String crlf ,
+'	ue' , String crlf ,
+'	=' , String crlf ,
+' DA' , String crlf ,
+' Te' , String crlf ,
+'	:' , String crlf ,
+' 20050' , String crlf ,
+' 614' , String crlf ,
 'DTEND:20050614T130000Z' , String crlf ,
 'DTSTAMP:20050614T110853Z' , String crlf ,
 'CREATED:20050614T110853Z' , String crlf ,
@@ -27,6 +37,7 @@ testUnfolding
 'END:VCALENDAR' , String crlf.
 	calendar := ICCalendarHandParser parseCalendarString: importString.
 	event := calendar events first.
+	self assert: event start = (Date year: 2005 month: 6 day: 14).
 	self assert: event summary = 'test'.
 	self assert: event location = 'Bern'.
 	self assert: event isOpaque.
