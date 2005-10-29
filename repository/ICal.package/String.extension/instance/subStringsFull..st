@@ -14,5 +14,5 @@ subStringsFull: separators
 					result add: subString.
 					subString := String new ]
 				ifFalse: [subString := subString , (String with: char)]].
-	subString notEmpty ifTrue: [result add: subString ].
+	result add: subString.
 	^ result
