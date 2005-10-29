@@ -1,11 +1,15 @@
 {
 	"commentStamp" : "",
 	"super" : "ICComponent",
-	"category" : "ICal-Model",
+	"category" : "ICal-VCard-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"fullname",
+		"nickname",
+		"addresses"
+	],
 	"name" : "ICVCard",
 	"type" : "normal"
 }

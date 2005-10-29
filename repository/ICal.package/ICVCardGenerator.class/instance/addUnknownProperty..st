@@ -1,3 +1,3 @@
-as yet unclassified
+processing-properties
 addUnknownProperty: aProperty
-	currentCard addUnknownProperty: aProperty
+	self currentCard addUnknownProperty: aProperty

@@ -1,5 +1,5 @@
-as yet unclassified
+processing-properties
 end: aString
 	aString = 'VCARD' ifFalse: [self error: 'Only expecting VCARDS'].
-	cards add: currentCard.
-	currentCard _ nil
+	self cards add: self currentCard.
+	self currentCard: nil

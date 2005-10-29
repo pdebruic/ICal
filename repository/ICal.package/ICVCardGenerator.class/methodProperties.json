@@ -1,10 +1,18 @@
 {
 	"instance" : {
-		"begin:" : "avi 10/15/2005 19:26",
-		"initialize" : "avi 10/15/2005 19:25",
-		"product" : "avi 10/15/2005 19:25",
-		"end:" : "avi 10/15/2005 19:26",
-		"addUnknownProperty:" : "avi 10/15/2005 19:28"
+		"fn:parameters:" : "pmm 10/29/2005 21:46",
+		"nickname:parameters:" : "pmm 10/29/2005 21:46",
+		"addUnknownProperty:" : "pmm 10/29/2005 21:39",
+		"adr:parameters:" : "pmm 10/29/2005 21:48",
+		"currentCard:" : "pmm 10/29/2005 21:38",
+		"initialize" : "pmm 10/29/2005 22:44",
+		"begin:" : "pmm 10/29/2005 21:43",
+		"createAddress:parameters:" : "pmm 10/29/2005 21:47",
+		"currentCard" : "pmm 10/29/2005 21:38",
+		"cards" : "pmm 10/29/2005 22:44",
+		"product" : "pmm 10/29/2005 21:43",
+		"end:" : "pmm 10/29/2005 21:44",
+		"cards:" : "pmm 10/29/2005 21:38"
 	},
 	"class" : { }
 }

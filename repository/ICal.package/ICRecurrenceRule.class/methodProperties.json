@@ -1,6 +1,5 @@
 {
 	"instance" : {
-		"printRepetitonOn:" : "pmm 10/3/2005 17:49",
 		"printYeardaysOn:" : "pmm 10/2/2005 13:54",
 		"addSecond:" : "pmm 10/2/2005 13:07",
 		"hasInterval" : "pmm 10/2/2005 13:41",
@@ -21,7 +20,7 @@
 		"printWeeknumbersOn:" : "pmm 10/2/2005 13:56",
 		"addHour:" : "pmm 10/2/2005 13:09",
 		"repetition" : "pmm 10/2/2005 14:58",
-		"initialize" : "pmm 10/2/2005 13:32",
+		"initialize" : "pmm 10/29/2005 00:53",
 		"hours:" : "pmm 10/2/2005 13:08",
 		"printHoursOn:" : "pmm 10/2/2005 13:52",
 		"hasYeardays" : "pmm 10/2/2005 13:43",
@@ -65,8 +64,8 @@
 		"printIntervalOn:" : "pmm 10/3/2005 17:47",
 		"hasWeekdays" : "pmm 10/2/2005 13:42",
 		"addWeekday:" : "pmm 10/2/2005 13:16",
-		"iCalType" : "pmm 10/4/2005 07:17",
-		"positions:" : "pmm 10/2/2005 13:32"
+		"positions:" : "pmm 10/2/2005 13:32",
+		"printRepetitonOn:" : "pmm 10/3/2005 17:49"
 	},
 	"class" : {
 		"hourly" : "pmm 10/9/2005 13:38",

@@ -2,8 +2,7 @@
 	"instance" : {
 		"asICalString" : "pmm 10/2/2005 14:25",
 		"asICalTimeString" : "pmm 10/2/2005 14:25",
-		"asICalUtcString" : "pmm 10/10/2005 16:20",
-		"iCalType" : "pmm 10/3/2005 17:07"
+		"asICalUtcString" : "pmm 10/10/2005 16:20"
 	},
 	"class" : {
 		"fromICalString:" : "pmm 10/4/2005 19:17",

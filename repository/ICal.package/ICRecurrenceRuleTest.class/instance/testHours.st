@@ -8,6 +8,6 @@ testHours
 	self assert: expected = rule asICalString.
 	
 	rule addHour: 15.	
-	expected := 'FREQ=MONTHLY;BYHOUR=5,15'.
+	expected := 'FREQ=MONTHLY;BYHOUR=15,5'.
 	self assert: expected = rule asICalString.
 	

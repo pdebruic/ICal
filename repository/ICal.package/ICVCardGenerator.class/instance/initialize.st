@@ -1,3 +1,4 @@
-as yet unclassified
+initialize-release
 initialize
-	cards _ OrderedCollection new
+	super initialize.
+	self cards: OrderedCollection new

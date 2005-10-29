@@ -1,5 +1,15 @@
 {
-	"instance" : { },
+	"instance" : {
+		"addresses" : "pmm 10/29/2005 21:16",
+		"addresses:" : "pmm 10/29/2005 21:16",
+		"fullname" : "pmm 10/29/2005 00:56",
+		"initialize" : "pmm 10/29/2005 21:17",
+		"addAddress:" : "pmm 10/29/2005 21:17",
+		"removeAddress:" : "pmm 10/29/2005 21:17",
+		"nickname:" : "pmm 10/29/2005 00:56",
+		"fullname:" : "pmm 10/29/2005 00:56",
+		"nickname" : "pmm 10/29/2005 00:56"
+	},
 	"class" : {
 		"iCalType" : "avi 10/15/2005 17:35"
 	}

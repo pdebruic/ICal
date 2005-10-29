@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 product
-	^ cards
+	^self cards
