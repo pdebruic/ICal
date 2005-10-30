@@ -1,11 +1,19 @@
 testing
 testParseOscar
-	| cards card address |
+	| cards card address name |
 	cards := ICCardHandParser parseVCardString: self oscarCardString.
 	self assert: cards size = 1.
 	card := cards anyOne.
 	
 	self assert: card fullname = 'Oscar2 Nierstrasz'.
+	
+	name := card name.
+	self assert: name notNil.
+	self assert: name familyName = 'Nierstrasz'.
+	self assert: name givenName = 'Oscar'.
+	self assert: name additionalNames isEmptyOrNil.
+	self assert: name honorificPrefixes isEmptyOrNil.
+	self assert: name honorificSuffixes isEmptyOrNil.
 	
 	self assert: card addresses size = 3.
 	address := card addresses first.

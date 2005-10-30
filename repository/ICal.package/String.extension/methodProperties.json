@@ -1,8 +1,9 @@
 {
 	"instance" : {
 		"asICalString" : "pmm 10/9/2005 10:24",
+		"subStringsFull:" : "pmm 10/29/2005 23:18",
 		"asICalParameterString" : "pmm 10/12/2005 06:30",
-		"subStringsFull:" : "pmm 10/29/2005 23:18"
+		"splitAtCommas" : "pmm 10/30/2005 08:23"
 	},
 	"class" : {
 		"fromIParameterString:" : "pmm 10/12/2005 06:27",

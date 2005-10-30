@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "ICCalendarHandParser",
-	"category" : "ICal-Parser",
+	"category" : "ICal-VCard-Parser",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

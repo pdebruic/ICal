@@ -1,14 +1,13 @@
 testing
 testSplitComma
-	| splitter parts |
-	splitter := ICCalendarGenerator basicNew.
-	parts := splitter splitAtCommas: 'a,b,c'.
+	| parts |
+	parts := 'a,b,c' splitAtCommas.
 	self assert: parts = #('a' 'b' 'c') asOrderedCollection.
 	
-	parts := splitter splitAtCommas: 'a\,b,c'.
+	parts := 'a\,b,c' splitAtCommas.
 	self assert: parts = #('a\,b' 'c') asOrderedCollection.
 	
-	parts := splitter splitAtCommas: 'a\,b\,c'.
+	parts := 'a\,b\,c' splitAtCommas.
 	self assert: parts = #('a\,b\,c') asOrderedCollection.
 	
 	"parts := splitter splitAtCommas: ',,'.

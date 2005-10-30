@@ -1,11 +1,18 @@
 testing
 testParseGoofy
-	| cards card address |
+	| cards card address name |
 	cards := ICCardHandParser parseVCardString: self goofyCardString.
 	self assert: cards size = 1.
 	card := cards anyOne.
 	
 	self assert: card fullname = 'Markus Tschannen'.
+	name := card name.
+	self assert: name notNil.
+	self assert: name familyName = 'Tschannen'.
+	self assert: name givenName = 'Markus'.
+	self assert: name additionalNames isEmptyOrNil.
+	self assert: name honorificPrefixes isEmptyOrNil.
+	self assert: name honorificSuffixes isEmptyOrNil.
 	
 	self assert: card addresses size = 1.
 	address := card addresses anyOne.

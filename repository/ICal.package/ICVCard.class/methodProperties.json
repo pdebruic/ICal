@@ -1,14 +1,16 @@
 {
 	"instance" : {
 		"addresses" : "pmm 10/29/2005 21:16",
-		"addresses:" : "pmm 10/29/2005 21:16",
-		"fullname" : "pmm 10/29/2005 00:56",
+		"name" : "pmm 10/30/2005 08:30",
+		"name:" : "pmm 10/30/2005 08:31",
 		"initialize" : "pmm 10/29/2005 21:17",
 		"addAddress:" : "pmm 10/29/2005 21:17",
-		"removeAddress:" : "pmm 10/29/2005 21:17",
-		"nickname:" : "pmm 10/29/2005 00:56",
 		"fullname:" : "pmm 10/29/2005 00:56",
-		"nickname" : "pmm 10/29/2005 00:56"
+		"removeAddress:" : "pmm 10/29/2005 21:17",
+		"nickname" : "pmm 10/29/2005 00:56",
+		"addresses:" : "pmm 10/29/2005 21:16",
+		"fullname" : "pmm 10/29/2005 00:56",
+		"nickname:" : "pmm 10/29/2005 00:56"
 	},
 	"class" : {
 		"iCalType" : "avi 10/15/2005 17:35"
