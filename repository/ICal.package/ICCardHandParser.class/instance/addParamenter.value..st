@@ -1,6 +1,8 @@
 parsing
 addParamenter: paramName value: paramValue
 	| values |
+	(self needsHackForBrokenAppleAddressBook: paramName) ifTrue: [
+		^self parseHackForBrokenAppleAddressBook: paramName value: paramValue ].
 	(self isMultivalued: paramName)
 		ifFalse: [ super addParamenter: paramName value: paramValue ]
 		ifTrue: [

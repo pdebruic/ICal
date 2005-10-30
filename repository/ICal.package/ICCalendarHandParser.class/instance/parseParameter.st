@@ -1,15 +1,11 @@
 parsing
 parseParameter
-	| paramName paramValue |
+	"redefined for compatibility with ApplesAddress book"
+	| paramName paramValue parameter |
 	self stream next. "ignore $;"
-	paramName := (self stream upTo: $=).
-	(stream peek = $")
-		ifTrue: [
-			self stream next.
-			self flag: #todo. "check for double qutes is value"
-			paramValue := self stream upTo: $"]
-		ifFalse: [
-			paramValue := self stream upToAny: #($; $:)].
+	parameter := self stream upToAny: #($; $:).
+	paramName := parameter copyUpTo: $=. 
+	paramValue := parameter copyAfter: $=.
 	paramName := (self unfold: paramName) asUppercase. "case insensitive"
 	paramValue := (self unfold: paramValue) asUppercase. "case insensitive"
 	self addParamenter: paramName value: paramValue.
