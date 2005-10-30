@@ -1,20 +1,24 @@
 {
 	"instance" : {
-		"addresses" : "pmm 10/29/2005 21:16",
-		"name" : "pmm 10/30/2005 08:30",
-		"phoneNumbers" : "pmm 10/30/2005 16:40",
-		"phoneNumbers:" : "pmm 10/30/2005 16:40",
-		"name:" : "pmm 10/30/2005 08:31",
-		"addAddress:" : "pmm 10/29/2005 21:17",
-		"initialize" : "pmm 10/30/2005 16:41",
-		"fullname:" : "pmm 10/29/2005 00:56",
-		"removePhoneNumber:" : "pmm 10/30/2005 16:41",
-		"addPhoneNumber:" : "pmm 10/30/2005 16:42",
-		"removeAddress:" : "pmm 10/29/2005 21:17",
-		"nickname" : "pmm 10/29/2005 00:56",
-		"addresses:" : "pmm 10/29/2005 21:16",
 		"fullname" : "pmm 10/29/2005 00:56",
-		"nickname:" : "pmm 10/29/2005 00:56"
+		"initialize" : "pmm 10/30/2005 19:31",
+		"nickname" : "pmm 10/29/2005 00:56",
+		"nickname:" : "pmm 10/29/2005 00:56",
+		"name" : "pmm 10/30/2005 08:30",
+		"addPhoneNumber:" : "pmm 10/30/2005 16:42",
+		"emailAddresses" : "pmm 10/30/2005 19:31",
+		"removeAddress:" : "pmm 10/29/2005 21:17",
+		"removeEmailAddress:" : "pmm 10/30/2005 19:32",
+		"name:" : "pmm 10/30/2005 08:31",
+		"addEmailAddress:" : "pmm 10/30/2005 19:32",
+		"fullname:" : "pmm 10/29/2005 00:56",
+		"addAddress:" : "pmm 10/29/2005 21:17",
+		"phoneNumbers:" : "pmm 10/30/2005 16:40",
+		"addresses" : "pmm 10/29/2005 21:16",
+		"removePhoneNumber:" : "pmm 10/30/2005 16:41",
+		"phoneNumbers" : "pmm 10/30/2005 16:40",
+		"addresses:" : "pmm 10/29/2005 21:16",
+		"emailAddresses:" : "pmm 10/30/2005 19:31"
 	},
 	"class" : {
 		"iCalType" : "avi 10/15/2005 17:35"

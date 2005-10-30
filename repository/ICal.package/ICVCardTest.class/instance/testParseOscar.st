@@ -1,6 +1,6 @@
 testing
 testParseOscar
-	| cards card address name phoneNumber |
+	| cards card address name phoneNumber emailAddress |
 	cards := ICCardHandParser parseVCardString: self oscarCardString.
 	self assert: cards size = 1.
 	card := cards anyOne.
@@ -123,3 +123,12 @@ Neubrueckstrasse 10'.
 	self deny: phoneNumber isPager.
 	self deny: phoneNumber isVoice.
 	self deny: phoneNumber isVoiceMessage.
+	
+	self assert: card emailAddresses size = 1.
+	emailAddress := card emailAddresses first.
+	self assert: emailAddress address = 'oscar.nierstrasz@acm.org'.
+	self assert: emailAddress isWork.
+	self assert: emailAddress isPreferred.
+	self deny: emailAddress isHome.
+	self assert: emailAddress isInternet.
+	self deny: emailAddress isX400.

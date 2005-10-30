@@ -1,0 +1,20 @@
+{
+	"instance" : {
+		"address:" : "pmm 10/30/2005 19:26",
+		"beInternet" : "pmm 10/30/2005 20:02",
+		"internet" : "pmm 10/30/2005 20:00",
+		"beX400" : "pmm 10/30/2005 20:03",
+		"x400:" : "pmm 10/30/2005 20:02",
+		"address" : "pmm 10/30/2005 19:26",
+		"isX400" : "pmm 10/30/2005 20:01",
+		"x400" : "pmm 10/30/2005 20:01",
+		"isInternet" : "pmm 10/30/2005 20:01",
+		"internet:" : "pmm 10/30/2005 20:02"
+	},
+	"class" : {
+		"fromICalString:parameters:" : "pmm 10/30/2005 19:30",
+		"typeInternet" : "pmm 10/30/2005 19:28",
+		"typeX400" : "pmm 10/30/2005 19:28",
+		"defaultTypes" : "pmm 10/30/2005 19:29"
+	}
+}

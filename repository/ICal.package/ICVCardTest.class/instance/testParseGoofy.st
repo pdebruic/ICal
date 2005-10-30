@@ -65,3 +65,5 @@ testParseGoofy
 	self deny: phoneNumber isPager.
 	self deny: phoneNumber isVoice.
 	self deny: phoneNumber isVoiceMessage.
+	
+	self assert: card emailAddresses isEmpty

@@ -1,6 +1,6 @@
 testing
 testParseAvi
-	| cards card address name phoneNumber |
+	| cards card address name phoneNumber emailAddress |
 	cards := ICCardHandParser parseVCardString: self aviCardString.
 	self assert: cards size = 1.
 	card := cards anyOne.
@@ -50,3 +50,20 @@ testParseAvi
 	self deny: phoneNumber isPager.
 	self deny: phoneNumber isVoice.
 	self deny: phoneNumber isVoiceMessage.
+	
+	self assert: card emailAddresses size = 2.
+	emailAddress := card emailAddresses first.
+	self assert: emailAddress address = 'avi@smallthought.com'.
+	self assert: emailAddress isWork.
+	self assert: emailAddress isPreferred.
+	self deny: emailAddress isHome.
+	self assert: emailAddress isInternet.
+	self deny: emailAddress isX400.
+	
+	emailAddress := card emailAddresses second.
+	self assert: emailAddress address = 'avi.bryant@gmail.com'.
+	self deny: emailAddress isWork.
+	self deny: emailAddress isPreferred.
+	self assert: emailAddress isHome.
+	self assert: emailAddress isInternet.
+	self deny: emailAddress isX400.

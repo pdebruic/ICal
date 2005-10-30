@@ -1,3 +1,3 @@
 accessing-types
-isVidea
+isVideo
 	^self video
