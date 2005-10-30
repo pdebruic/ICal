@@ -1,6 +1,6 @@
 testing
 testParseGoofy
-	| cards card address name |
+	| cards card address name phoneNumber |
 	cards := ICCardHandParser parseVCardString: self goofyCardString.
 	self assert: cards size = 1.
 	card := cards anyOne.
@@ -34,3 +34,34 @@ testParseGoofy
 	self assert: address region isEmptyOrNil.
 	self assert: address postalcode = '3012'.
 	self assert: address country = 'Schweiz'.
+	
+	self assert: card phoneNumbers size = 2.
+	phoneNumber := card phoneNumbers first.
+	self assert: phoneNumber number = '+41 31 302 08 56'.
+	self assert: phoneNumber isHome.
+	self deny: phoneNumber isPreferred.
+	self deny: phoneNumber isWork.
+	self deny: phoneNumber isBulletinBoard.
+	self deny: phoneNumber isCar.
+	self deny: phoneNumber isCellular.
+	self deny: phoneNumber isFax.
+	self deny: phoneNumber isISDN.
+	self deny: phoneNumber isModem.
+	self deny: phoneNumber isPager.
+	self assert: phoneNumber isVoice.
+	self deny: phoneNumber isVoiceMessage.
+	
+	phoneNumber := card phoneNumbers second.
+	self assert: phoneNumber number = '+41 78 845 24 12'.
+	self assert: phoneNumber isHome.
+	self deny: phoneNumber isPreferred.
+	self deny: phoneNumber isWork.
+	self deny: phoneNumber isBulletinBoard.
+	self deny: phoneNumber isCar.
+	self assert: phoneNumber isCellular.
+	self deny: phoneNumber isFax.
+	self deny: phoneNumber isISDN.
+	self deny: phoneNumber isModem.
+	self deny: phoneNumber isPager.
+	self deny: phoneNumber isVoice.
+	self deny: phoneNumber isVoiceMessage.

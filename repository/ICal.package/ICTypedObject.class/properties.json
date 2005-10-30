@@ -1,17 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "ICComponent",
+	"super" : "Object",
 	"category" : "ICal-VCard-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"fullname",
-		"name",
-		"nickname",
-		"addresses",
-		"phoneNumbers"
+		"types"
 	],
-	"name" : "ICVCard",
+	"name" : "ICTypedObject",
 	"type" : "normal"
 }

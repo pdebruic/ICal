@@ -1,12 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "ICTypedObject",
 	"category" : "ICal-VCard-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"types",
 		"poBox",
 		"extended",
 		"street",

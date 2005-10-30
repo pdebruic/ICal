@@ -1,6 +1,6 @@
 testing
 testParseOscar
-	| cards card address name |
+	| cards card address name phoneNumber |
 	cards := ICCardHandParser parseVCardString: self oscarCardString.
 	self assert: cards size = 1.
 	card := cards anyOne.
@@ -77,3 +77,49 @@ Neubrueckstrasse 10'.
 	self assert: address region isEmptyOrNil.
 	self assert: address postalcode isEmptyOrNil.
 	self assert: address country isEmptyOrNil.
+	
+	self assert: card phoneNumbers size = 3.
+	phoneNumber := card phoneNumbers first.
+	self assert: phoneNumber number = '+41 31 631.4618'.
+	self deny: phoneNumber isHome.
+	self assert: phoneNumber isPreferred.
+	self assert: phoneNumber isWork.
+	self deny: phoneNumber isBulletinBoard.
+	self deny: phoneNumber isCar.
+	self deny: phoneNumber isCellular.
+	self deny: phoneNumber isFax.
+	self deny: phoneNumber isISDN.
+	self deny: phoneNumber isModem.
+	self deny: phoneNumber isPager.
+	self deny: phoneNumber isVoice.
+	self deny: phoneNumber isVoiceMessage.
+	
+	phoneNumber := card phoneNumbers second.
+	self assert: phoneNumber number = '+41 31 961.7065'.
+	self assert: phoneNumber isHome.
+	self deny: phoneNumber isPreferred.
+	self deny: phoneNumber isWork.
+	self deny: phoneNumber isBulletinBoard.
+	self deny: phoneNumber isCar.
+	self deny: phoneNumber isCellular.
+	self deny: phoneNumber isFax.
+	self deny: phoneNumber isISDN.
+	self deny: phoneNumber isModem.
+	self deny: phoneNumber isPager.
+	self deny: phoneNumber isVoice.
+	self deny: phoneNumber isVoiceMessage.
+	
+	phoneNumber := card phoneNumbers third.
+	self assert: phoneNumber number = '+41 31 631.3355'.
+	self deny: phoneNumber isHome.
+	self deny: phoneNumber isPreferred.
+	self assert: phoneNumber isWork.
+	self deny: phoneNumber isBulletinBoard.
+	self deny: phoneNumber isCar.
+	self deny: phoneNumber isCellular.
+	self assert: phoneNumber isFax.
+	self deny: phoneNumber isISDN.
+	self deny: phoneNumber isModem.
+	self deny: phoneNumber isPager.
+	self deny: phoneNumber isVoice.
+	self deny: phoneNumber isVoiceMessage.

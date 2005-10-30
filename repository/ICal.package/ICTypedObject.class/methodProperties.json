@@ -1,0 +1,29 @@
+{
+	"instance" : {
+		"preferred:" : "pmm 10/30/2005 09:06",
+		"setType:toValue:" : "pmm 10/30/2005 09:05",
+		"types:" : "pmm 10/30/2005 08:59",
+		"addType:" : "pmm 10/30/2005 08:59",
+		"beWork" : "pmm 10/30/2005 09:05",
+		"types" : "pmm 10/30/2005 08:59",
+		"beHome" : "pmm 10/30/2005 09:05",
+		"bePreferred" : "pmm 10/30/2005 09:06",
+		"preferred" : "pmm 10/30/2005 09:06",
+		"home:" : "pmm 10/30/2005 09:05",
+		"initialize" : "pmm 10/30/2005 09:02",
+		"isWork" : "pmm 10/30/2005 09:06",
+		"isHome" : "pmm 10/30/2005 09:06",
+		"work" : "pmm 10/30/2005 09:06",
+		"removeType:" : "pmm 10/30/2005 09:05",
+		"home" : "pmm 10/30/2005 09:05",
+		"work:" : "pmm 10/30/2005 09:06",
+		"isPreferred" : "pmm 10/30/2005 09:07"
+	},
+	"class" : {
+		"typeWork" : "pmm 10/30/2005 09:04",
+		"defaultTypes" : "pmm 10/30/2005 09:02",
+		"typePreferred" : "pmm 10/30/2005 09:05",
+		"parseTypes:" : "pmm 10/30/2005 09:13",
+		"typeHome" : "pmm 10/30/2005 09:04"
+	}
+}

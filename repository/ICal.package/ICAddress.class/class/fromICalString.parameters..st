@@ -2,9 +2,7 @@ instance creation
 fromICalString: aString parameters: aDictionary
 	| instance parts |
 	instance := self new.
-	instance types: ((aDictionary includesKey: 'TYPE')
-		ifTrue: [ ((aDictionary at: 'TYPE') collect: [ :each | each asLowercase]) asSet ]
-		ifFalse: [ self defaultTypes ]).
+	instance types: (self parseTypes: aDictionary).
 	parts := aString  subStringsFull: #($;).
 	instance poBox: (String fromICalString: parts first).
 	instance extended: (String fromICalString: parts second).
