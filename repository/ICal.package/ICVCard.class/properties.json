@@ -11,7 +11,8 @@
 		"nickname",
 		"addresses",
 		"phoneNumbers",
-		"emailAddresses"
+		"emailAddresses",
+		"photo"
 	],
 	"name" : "ICVCard",
 	"type" : "normal"

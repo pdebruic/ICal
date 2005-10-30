@@ -2,6 +2,7 @@ accessing
 supportedClasses
 	^OrderedCollection new
 		add: Boolean;
+		add: ByteArray;
 		add: Date;
 		add: DateAndTime;
 		add: Duration;
@@ -10,5 +11,5 @@ supportedClasses
 		add: Integer;
 		add: String;
 		add: Time;
-		add: Url;
+		add: Url;		
 		yourself

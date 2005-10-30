@@ -67,3 +67,5 @@ testParseAvi
 	self assert: emailAddress isHome.
 	self assert: emailAddress isInternet.
 	self deny: emailAddress isX400.
+	
+	self assert: card photo iCalType = 'BINARY'

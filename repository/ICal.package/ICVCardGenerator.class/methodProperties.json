@@ -5,20 +5,22 @@
 		"initialize" : "pmm 10/29/2005 22:44",
 		"createName:parameters:" : "pmm 10/30/2005 08:35",
 		"addUnknownProperty:" : "pmm 10/29/2005 21:39",
-		"tel:parameters:" : "pmm 10/30/2005 16:44",
+		"photo:parameters:" : "pmm 10/30/2005 21:22",
 		"cards" : "pmm 10/29/2005 22:44",
+		"tel:parameters:" : "pmm 10/30/2005 16:44",
 		"n:parameters:" : "pmm 10/30/2005 08:35",
 		"createPhoneNumber:parameters:" : "pmm 10/30/2005 16:43",
 		"createAddress:parameters:" : "pmm 10/29/2005 21:47",
 		"adr:parameters:" : "pmm 10/29/2005 21:48",
 		"end:" : "pmm 10/29/2005 21:44",
 		"nickname:parameters:" : "pmm 10/29/2005 21:46",
-		"product" : "pmm 10/29/2005 21:43",
-		"currentCard:" : "pmm 10/29/2005 21:38",
 		"currentCard" : "pmm 10/29/2005 21:38",
+		"currentCard:" : "pmm 10/29/2005 21:38",
+		"product" : "pmm 10/29/2005 21:43",
 		"fn:parameters:" : "pmm 10/29/2005 21:46",
 		"begin:" : "pmm 10/29/2005 21:43",
-		"email:parameters:" : "pmm 10/30/2005 19:57"
+		"email:parameters:" : "pmm 10/30/2005 19:57",
+		"createValue:parameters:default:" : "pmm 10/30/2005 21:22"
 	},
 	"class" : { }
 }
