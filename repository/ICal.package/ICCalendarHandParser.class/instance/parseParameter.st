@@ -8,5 +8,5 @@ parseParameter
 	paramValue := parameter copyAfter: $=.
 	paramName := (self unfold: paramName) asUppercase. "case insensitive"
 	paramValue := (self unfold: paramValue) asUppercase. "case insensitive"
-	self addParamenter: paramName value: paramValue.
+	self addParameter: paramName value: paramValue.
 	self stream position: self stream position - 1.

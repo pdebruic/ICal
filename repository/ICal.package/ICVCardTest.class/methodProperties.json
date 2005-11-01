@@ -1,12 +1,14 @@
 {
 	"instance" : {
+		"goofyCardString" : "pmm 10/29/2005 21:51",
 		"testParseAvi" : "pmm 10/30/2005 21:26",
 		"testName" : "pmm 10/30/2005 08:30",
 		"aviCardString" : "pmm 10/30/2005 15:53",
 		"oscarCardString" : "pmm 10/29/2005 21:53",
 		"testParseOscar" : "pmm 10/30/2005 20:14",
 		"testParseGoofy" : "pmm 10/30/2005 19:58",
-		"goofyCardString" : "pmm 10/29/2005 21:51"
+		"testParseSean" : "pmm 11/1/2005 07:38",
+		"seanCardString" : "pmm 10/31/2005 22:19"
 	},
 	"class" : { }
 }
