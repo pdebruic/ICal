@@ -29,7 +29,6 @@ testParseAvi
 	self assert: address extended isEmptyOrNil.
 	
 	self assert: address street = '146 E. 18 Ave'.
-	self assert: address extended isEmptyOrNil.
 	self assert: address locality = 'Vancouver'.
 	self assert: address region = 'BC'.
 	self assert: address postalcode = 'V5V 1E3'.

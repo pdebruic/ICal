@@ -1,11 +1,11 @@
 {
 	"instance" : {
-		"isConfidential" : "pmm 10/7/2005 10:30",
+		"isConfidential" : "pmm 11/1/2005 22:32",
 		"exclusionDates" : "pmm 10/6/2005 22:49",
 		"printOn:" : "pmm 10/7/2005 17:12",
 		"classification:" : "pmm 10/7/2005 10:26",
 		"exclusionRule:" : "pmm 10/6/2005 22:50",
-		"isPrivate" : "pmm 10/7/2005 10:30",
+		"isPrivate" : "pmm 11/1/2005 22:32",
 		"addCategory:" : "pmm 10/7/2005 10:24",
 		"summary" : "pmm 10/6/2005 23:19",
 		"attachments:" : "pmm 10/14/2005 12:15",
@@ -20,7 +20,7 @@
 		"isCanceled" : "pmm 10/7/2005 10:34",
 		"beConfidential" : "pmm 10/7/2005 10:29",
 		"bePrivate" : "pmm 10/7/2005 10:29",
-		"isPublic" : "pmm 10/7/2005 10:30",
+		"isPublic" : "pmm 11/1/2005 22:32",
 		"sequenceNumber" : "pmm 10/6/2005 23:04",
 		"updateEventWith:" : "pmm 10/7/2005 19:16",
 		"exclusionRule" : "pmm 10/6/2005 22:49",

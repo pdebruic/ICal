@@ -29,7 +29,6 @@ testParseGoofy
 	self assert: address extended isEmptyOrNil.
 	
 	self assert: address street = 'Neufeldstrasse 11'.
-	self assert: address extended isEmptyOrNil.
 	self assert: address locality = 'Bern'.
 	self assert: address region isEmptyOrNil.
 	self assert: address postalcode = '3012'.

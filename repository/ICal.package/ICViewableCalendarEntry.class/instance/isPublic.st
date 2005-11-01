@@ -1,3 +1,3 @@
 classification
 isPublic
-	self classification = self class classificationPublic
+	^self classification = self class classificationPublic

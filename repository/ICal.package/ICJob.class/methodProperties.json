@@ -1,15 +1,13 @@
 {
 	"instance" : {
-		"status" : "dr 4/19/2005 13:57",
 		"startsInHour:" : "pmm 9/16/2005 16:29",
-		"status:" : "dr 5/31/2005 13:16",
+		"textualDescription" : "pmm 10/6/2005 23:14",
 		"addTextualDescription:" : "pmm 10/14/2005 12:50",
 		"isMediumPriority" : "pmm 10/7/2005 17:01",
 		"initialize" : "pmm 10/13/2005 11:48",
 		"duration" : "pmm 10/9/2005 12:17",
 		"resources:" : "pmm 10/3/2005 18:48",
 		"start:" : "pmm 10/7/2005 16:43",
-		"textualDescription" : "pmm 10/6/2005 23:14",
 		"location:" : "pmm 10/9/2005 12:11",
 		"isLowPriority" : "pmm 10/7/2005 17:01",
 		"addAlarm:" : "pmm 10/13/2005 11:48",

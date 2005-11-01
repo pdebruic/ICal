@@ -6,13 +6,16 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"addresses",
+		"emailAddresses",
 		"fullname",
 		"name",
 		"nickname",
-		"addresses",
+		"organization",
 		"phoneNumbers",
-		"emailAddresses",
-		"photo"
+		"photo",
+		"title",
+		"url"
 	],
 	"name" : "ICVCard",
 	"type" : "normal"

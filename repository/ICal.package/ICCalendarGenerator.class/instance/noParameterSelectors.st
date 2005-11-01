@@ -1,6 +1,0 @@
-accessing
-noParameterSelectors
-	^#(
-		'begin:'
-		'end:'
-	)

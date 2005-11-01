@@ -1,11 +1,13 @@
 testing
 testParseOscar
-	| cards card address name phoneNumber emailAddress |
+	| cards card address name phoneNumber emailAddress organization |
 	cards := ICCardHandParser parseVCardString: self oscarCardString.
 	self assert: cards size = 1.
 	card := cards anyOne.
 	
 	self assert: card fullname = 'Oscar2 Nierstrasz'.
+	self assert: card title = 'Professor'.
+	self assert: card url asString = 'http://www.iam.unibe.ch/~oscar/'.
 	
 	name := card name.
 	self assert: name notNil.
@@ -32,7 +34,6 @@ testParseOscar
 	self assert: address street = 'Software Composition Group
 IAM, University of Bern
 Neubrueckstrasse 10'.
-	self assert: address extended isEmptyOrNil.
 	self assert: address locality = 'Bern'.
 	self assert: address region isEmptyOrNil.
 	self assert: address postalcode = 'CH-3012'.
@@ -52,7 +53,6 @@ Neubrueckstrasse 10'.
 	self assert: address extended isEmptyOrNil.
 	
 	self assert: address street = 'Fluhmattweg 41'.
-	self assert: address extended isEmptyOrNil.
 	self assert: address locality = 'Kehrsatz'.
 	self assert: address region isEmptyOrNil.
 	self assert: address postalcode = '3122'.
@@ -72,7 +72,6 @@ Neubrueckstrasse 10'.
 	self assert: address extended isEmptyOrNil.
 	
 	self assert: address street = 'Schuetzenmattstrasse 14, room 103'.
-	self assert: address extended isEmptyOrNil.
 	self assert: address locality isEmptyOrNil.
 	self assert: address region isEmptyOrNil.
 	self assert: address postalcode isEmptyOrNil.
@@ -132,3 +131,7 @@ Neubrueckstrasse 10'.
 	self deny: emailAddress isHome.
 	self assert: emailAddress isInternet.
 	self deny: emailAddress isX400.
+	
+	organization := card organization.
+	self assert: organization name = 'University of Bern'.
+	self assert: organization unitNames isEmpty.

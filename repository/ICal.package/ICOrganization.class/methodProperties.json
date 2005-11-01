@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"initialize" : "pmm 11/1/2005 22:24",
+		"addUnitName:" : "pmm 11/1/2005 22:23",
+		"unitNames" : "pmm 11/1/2005 22:23",
+		"unitNames:" : "pmm 11/1/2005 22:23",
+		"name" : "pmm 11/1/2005 22:22",
+		"name:" : "pmm 11/1/2005 22:23"
+	},
+	"class" : {
+		"fromICalString:" : "pmm 11/1/2005 22:46",
+		"iCalType" : "pmm 11/1/2005 22:22"
+	}
+}

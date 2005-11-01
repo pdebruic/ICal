@@ -1,11 +1,12 @@
 testing
 testParseSean
-	| cards card address name phoneNumber emailAddress |
+	| cards card address name phoneNumber emailAddress organization |
 	cards := ICCardHandParser parseVCardString: self seanCardString.
 	self assert: cards size = 1.
 	card := cards anyOne.
 	
 	self assert: card fullname = 'Sean Glazier'.
+	self assert: card title = 'Lead Software Engineer'.
 	name := card name.
 	self assert: name notNil.
 	self assert: name familyName = 'Glazier'.
@@ -130,4 +131,8 @@ testParseSean
 	self assert: emailAddress isHome.
 	self assert: emailAddress isInternet.
 	self deny: emailAddress isX400.
+	
+	organization := card organization.
+	self assert: organization name = 'Cincom Systems'.
+	self assert: organization unitNames isEmpty.
 	

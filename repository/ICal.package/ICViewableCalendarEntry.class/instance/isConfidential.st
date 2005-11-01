@@ -1,3 +1,3 @@
 classification
 isConfidential
-	self classification = self class classificationConfidential
+	^self classification = self class classificationConfidential
