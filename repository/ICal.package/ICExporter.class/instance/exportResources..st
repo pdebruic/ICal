@@ -1,5 +1,3 @@
 exporting-values
 exportResources: anObject 
-	self
-		exportValue: anObject
-		type: ICConversion resourcesType
+	self exportProperty: anObject type: ICConversion resourcesType

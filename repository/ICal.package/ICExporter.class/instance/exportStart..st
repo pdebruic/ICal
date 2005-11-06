@@ -1,5 +1,3 @@
 exporting-values
 exportStart: anObject 
-	self
-		exportValue: anObject
-		type: ICConversion startType
+	self exportProperty: anObject type: ICConversion startType

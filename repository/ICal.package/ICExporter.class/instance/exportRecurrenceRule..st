@@ -1,5 +1,3 @@
 exporting-values
 exportRecurrenceRule: anObject 
-	self
-		exportValue: anObject
-		type: ICConversion recurrenceRuleType
+	self exportProperty: anObject type: ICConversion recurrenceRuleType

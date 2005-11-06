@@ -1,5 +1,3 @@
 exporting-values
 exportPercentComplete: anObject 
-	self
-		exportValue: anObject
-		type: ICConversion percentCompleteType
+	self exportProperty: anObject type: ICConversion percentCompleteType

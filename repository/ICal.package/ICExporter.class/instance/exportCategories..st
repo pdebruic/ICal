@@ -1,5 +1,3 @@
 exporting-values
 exportCategories: anObject 
-	self
-		exportValue: anObject
-		type: ICConversion categoriesType
+	self exportProperty: anObject type: ICConversion categoriesType

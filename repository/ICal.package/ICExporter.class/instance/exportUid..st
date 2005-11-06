@@ -1,5 +1,3 @@
 exporting-values
 exportUid: anObject 
-	self
-		exportValue: anObject
-		type: ICConversion uidType
+	self exportProperty: anObject type: ICConversion uidType

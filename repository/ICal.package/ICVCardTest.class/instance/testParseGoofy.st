@@ -6,6 +6,7 @@ testParseGoofy
 	card := cards anyOne.
 	
 	self assert: card fullname = 'Markus Tschannen'.
+	self assert: card version = 2.1.
 	name := card name.
 	self assert: name notNil.
 	self assert: name familyName = 'Tschannen'.

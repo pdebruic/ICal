@@ -1,5 +1,3 @@
 exporting-values
 exportTransparency: anObject 
-	self
-		exportValue: anObject
-		type: ICConversion transparencyType
+	self exportProperty: anObject type: ICConversion transparencyType

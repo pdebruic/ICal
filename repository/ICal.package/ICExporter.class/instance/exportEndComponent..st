@@ -1,5 +1,3 @@
 exporting-values
 exportEndComponent: anObject 
-	self
-		exportValue: anObject
-		type: ICConversion endComponentType
+	self exportProperty: anObject type: ICConversion endComponentType

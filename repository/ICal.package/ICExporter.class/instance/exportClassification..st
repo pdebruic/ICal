@@ -1,5 +1,3 @@
 exporting-values
 exportClassification: anObject 
-	self
-		exportValue: anObject
-		type: ICConversion classificationType
+	self exportProperty: anObject type: ICConversion classificationType

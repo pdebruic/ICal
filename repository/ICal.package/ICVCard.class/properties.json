@@ -15,7 +15,8 @@
 		"phoneNumbers",
 		"photo",
 		"title",
-		"url"
+		"url",
+		"version"
 	],
 	"name" : "ICVCard",
 	"type" : "normal"

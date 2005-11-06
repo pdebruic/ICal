@@ -1,5 +1,3 @@
 exporting-values
 exportStatus: anObject 
-	self
-		exportValue: anObject
-		type: ICConversion statusType
+	self exportProperty: anObject type: ICConversion statusType

@@ -1,5 +1,3 @@
 exporting-values
 exportGeo: anObject 
-	self
-		exportValue: anObject
-		type: ICConversion geoType
+	self exportProperty: anObject type: ICConversion geoType

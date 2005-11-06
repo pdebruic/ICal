@@ -1,5 +1,3 @@
 exporting-values
 exportRecurrenceDates: anObject 
-	self
-		exportValue: anObject
-		type: ICConversion recurrenceDatesType
+	self exportProperty: anObject type: ICConversion recurrenceDatesType

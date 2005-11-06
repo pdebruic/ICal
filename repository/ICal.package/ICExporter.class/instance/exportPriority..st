@@ -1,5 +1,3 @@
 exporting-values
 exportPriority: anObject 
-	self
-		exportValue: anObject
-		type: ICConversion priorityType
+	self exportProperty: anObject type: ICConversion priorityType

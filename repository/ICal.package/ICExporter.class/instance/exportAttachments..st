@@ -1,5 +1,3 @@
 exporting-values
 exportAttachments: anObject 
-	self
-		exportValue: anObject
-		type: ICConversion attachmentType
+	self exportProperty: anObject type: ICConversion attachmentType

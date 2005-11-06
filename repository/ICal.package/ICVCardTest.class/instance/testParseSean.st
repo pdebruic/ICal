@@ -6,6 +6,7 @@ testParseSean
 	card := cards anyOne.
 	
 	self assert: card fullname = 'Sean Glazier'.
+	self assert: card version = 2.1.
 	self assert: card title = 'Lead Software Engineer'.
 	name := card name.
 	self assert: name notNil.

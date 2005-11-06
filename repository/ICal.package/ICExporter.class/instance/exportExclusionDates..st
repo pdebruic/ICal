@@ -1,5 +1,3 @@
 exporting-values
 exportExclusionDates: anObject 
-	self
-		exportValue: anObject
-		type: ICConversion exclusionDatesType
+	self exportProperty: anObject type: ICConversion exclusionDatesType

@@ -1,5 +1,3 @@
 exporting-values
 exportComments: anObject 
-	self
-		exportValue: anObject
-		type: ICConversion commentType
+	self exportProperty: anObject type: ICConversion commentType

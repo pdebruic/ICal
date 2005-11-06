@@ -1,5 +1,3 @@
 exporting-values
 exportDue: anObject 
-	self
-		exportValue: anObject
-		type: ICConversion dueType
+	self exportProperty: anObject type: ICConversion dueType

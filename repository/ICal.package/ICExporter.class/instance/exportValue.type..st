@@ -1,15 +1,12 @@
 exporting
 exportValue: anObject type: aTypeInformation
-	(anObject isNil
-		or: [ anObject isCollection
-			and: [ anObject isEmpty ]
-			and: [ anObject isString not ] ])
-			 ifFalse: [
-			(anObject isCollection
-				and: [ aTypeInformation multipleValuesPerLine not ]
-				and: [ anObject isString not ])
-					ifTrue: [
-						anObject do: [ :each |
-							self exportSingleLineValue: each type: aTypeInformation ] ]
-					ifFalse: [
-						self exportSingleLineValue: anObject type: aTypeInformation ] ]
+	| convertionSelector |
+	convertionSelector := aTypeInformation needsUtc ifTrue: [ #asICalUtcString ] ifFalse: [ #asICalString ].
+	self lineStream nextPut: $:.
+	(anObject isCollection not or: [ anObject isString ])
+			ifTrue: [				
+				self lineStream nextPutAll: (anObject perform: convertionSelector) ]
+			ifFalse: [
+				anObject
+					do: [ :each | self lineStream nextPutAll: (each perform: convertionSelector) ]
+					separatedBy: [ self lineStream nextPut: $, ] ]
