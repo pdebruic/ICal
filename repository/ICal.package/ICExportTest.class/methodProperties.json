@@ -4,7 +4,8 @@
 		"testExportJournal" : "pmm 10/15/2005 20:33",
 		"testExportTodo" : "pmm 10/15/2005 20:33",
 		"testICalDateAndTime" : "pmm 10/9/2005 12:10",
-		"setUp" : "pmm 10/12/2005 07:10",
+		"setUp" : "pmm 11/7/2005 10:02",
+		"testEncodeExportEvent" : "pmm 11/7/2005 10:27",
 		"testExportEvent" : "pmm 10/15/2005 20:34",
 		"testExportLine" : "pmm 9/11/2005 17:39",
 		"testICalDate" : "pmm 10/9/2005 12:12"

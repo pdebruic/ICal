@@ -96,4 +96,4 @@ setUp
 				addTextualDescription: 'description1';
 				addTextualDescription: 'description2';
 				yourself.
-	iCalExporter := ICExporter calendar: calendar
+	iCalExporter := ICCalendarExporter calendar: calendar

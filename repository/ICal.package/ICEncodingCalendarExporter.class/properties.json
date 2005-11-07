@@ -1,15 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "ICCalendarExporter",
 	"category" : "ICal-IO",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"calendar",
-		"dataStream",
-		"lineStream"
+		"encoding"
 	],
-	"name" : "ICExporter",
+	"name" : "ICEncodingCalendarExporter",
 	"type" : "normal"
 }

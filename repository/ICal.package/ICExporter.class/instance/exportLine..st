@@ -2,6 +2,8 @@ exporting
 exportLine: aString
 	| string first |
 	first := true.
+	
+	self flag: #XXX. "#withNoLineLongerThan: is bugged"
 	string := aString withNoLineLongerThan: 75.
 	string linesDo: [ :each |
 		first ifFalse: [
@@ -9,5 +11,5 @@ exportLine: aString
 		self dataStream
 			nextPutAll: each;
 			nextPutAll: String crlf.
-		first := false ].
+		first := false ] fixTemps.
 	
