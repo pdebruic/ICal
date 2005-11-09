@@ -1,3 +1,7 @@
 *ICal
 fromICalString: aString
-	^aString asNumber
+	| float |
+	float := aString asNumber.
+	^float asICalString ~= aString
+		ifFalse: [ float ]
+		ifTrue: [ ScaledDecimal fromICalString: aString ]

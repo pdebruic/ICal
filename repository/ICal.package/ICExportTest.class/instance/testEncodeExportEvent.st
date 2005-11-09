@@ -16,8 +16,8 @@ testEncodeExportEvent
 				, 'SEQUENCE:0' , String crlf
 				, 'SUMMARY;ENCODING=ISO-8859-1:aTitle' , String crlf 
 				, 'PRIORITY:1' , String crlf 
-				, 'DESCRIPTION;ENCODING=ISO-8859-1:a long long long text\, very long...' , String crlf 
-				, ' really!' , String crlf 
+				, 'DESCRIPTION;ENCODING=ISO-8859-1:a long long long text\, very long... really' , String crlf 
+				, ' !' , String crlf 
 				, 'LOCATION;ENCODING=ISO-8859-1:Bern' , String crlf 				
 				, 'DTSTART:20050425T104500' , String crlf 
 				, 'DTEND:20050425T120900' , String crlf 				
