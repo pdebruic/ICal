@@ -6,9 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"action",
 		"attachments",
+		"delay",
+		"repetitions",
 		"textualDescription",
-		"duration"
+		"trigger"
 	],
 	"name" : "ICAlarm",
 	"type" : "normal"

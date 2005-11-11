@@ -1,3 +1,3 @@
 accessing
 duration
-	^duration
+	^self delay

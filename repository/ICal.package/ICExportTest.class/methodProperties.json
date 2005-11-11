@@ -4,15 +4,17 @@
 		"testExportLine2a" : "pmm 11/9/2005 21:50",
 		"testExportEvent" : "pmm 10/15/2005 20:34",
 		"testExportLine" : "pmm 11/9/2005 21:17",
+		"testExportAlarm2" : "pmm 11/11/2005 22:49",
 		"testEncodeExportEvent" : "pmm 11/9/2005 21:52",
 		"testExportJournal" : "pmm 10/15/2005 20:33",
 		"testExportLine3" : "pmm 11/9/2005 21:48",
 		"testExportLine3a" : "pmm 11/9/2005 21:49",
+		"testExportAlarm1" : "pmm 11/11/2005 22:35",
 		"testICalDateAndTime" : "pmm 10/9/2005 12:10",
 		"testExportTodo" : "pmm 10/15/2005 20:33",
 		"testICalDate" : "pmm 10/9/2005 12:12",
 		"testExportLine2" : "pmm 11/9/2005 21:39",
-		"setUp" : "pmm 11/7/2005 10:02"
+		"setUp" : "pmm 11/11/2005 22:45"
 	},
 	"class" : { }
 }

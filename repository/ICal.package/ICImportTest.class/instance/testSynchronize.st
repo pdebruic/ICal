@@ -38,6 +38,7 @@ testSynchronize
 								hour: 13
 								minute: 0
 								second: 0)).
+	
 	tempEvent := events detect: [:each | each summary = 'todo1'].
 	self assert: tempEvent isHighPriority.
 	self assert: tempEvent isCompleted.

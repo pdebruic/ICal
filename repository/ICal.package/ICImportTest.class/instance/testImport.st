@@ -1,6 +1,6 @@
 testing
 testImport
-	| events eventAtDate date |
+	| events eventAtDate date tempAlarm |
 	date := Date 
 				year: 2005
 				month: 6
@@ -37,6 +37,20 @@ testImport
 								hour: 13
 								minute: 0
 								second: 0)).
+	self assert: eventAtDate alarms size = 2.
+	tempAlarm := eventAtDate alarms first.
+	self assert: tempAlarm trigger value = (DateAndTime year: 1997 month: 3 day: 17 hour: 13 minute: 30).
+	self assert: tempAlarm repetitions = 4.
+	self assert: tempAlarm delay = 15 minutes.
+	self assert: tempAlarm isAudio.
+	self assert: tempAlarm attachments size = 1.
+	self assert: tempAlarm attachments first asICalString = (Url fromICalString: 'ftp://host.com/pub/sounds/bell-01.aud') asICalString.
+	tempAlarm := eventAtDate alarms second.
+	self assert: tempAlarm trigger value = 30 negated minutes.
+	self assert: tempAlarm trigger isRelatedToStart.
+	self assert: tempAlarm delay = 15 minutes.
+	self assert: tempAlarm isDisplay.
+								
 	eventAtDate := events detect: [:each | each summary = 'todo1'].
 	self assert: eventAtDate isHighPriority.
 	self assert: eventAtDate isCompleted.

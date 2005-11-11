@@ -6,20 +6,20 @@ asICalDurationString
 		self justWeeks
 			ifTrue: [
 				stream
-					nextPutAll: self weeks asString;
+					nextPutAll: self weeks abs asString;
 					nextPut: $W ]
 			ifFalse: [
-				self days > 0
-					ifTrue: [ 
-						stream
-							nextPutAll: self days asString;
-							nextPut: $D ].
+				self days isZero ifFalse: [ 
+					stream
+						nextPutAll: self days abs asString;
+						nextPut: $D ].
 				self hasTime ifTrue: [
 					stream
 						nextPut: $T;
-						nextPutAll: self hours asString;
+						"we could leave out those who are 0 but that's just cosmetic"
+						nextPutAll: self hours abs asString;
 						nextPut: $H;
-						nextPutAll: self minutes asString;
+						nextPutAll: self minutes abs asString;
 						nextPut: $M;
-						nextPutAll: self seconds asString;
+						nextPutAll: self seconds abs asString;
 						nextPut: $S  ] ] ]

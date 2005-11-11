@@ -1,0 +1,3 @@
+accessing
+iCalType
+	^Duration iCalType

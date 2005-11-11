@@ -16,6 +16,7 @@
 		"dtstamp:parameters:" : "pmm 10/14/2005 14:59",
 		"prodid:parameters:" : "pmm 10/15/2005 18:10",
 		"resources:parameters:" : "pmm 10/14/2005 14:57",
+		"action:parameters:" : "pmm 11/11/2005 23:09",
 		"activeComponent" : "pmm 10/14/2005 12:55",
 		"class:parameters:" : "pmm 10/14/2005 12:53",
 		"comment:parameters:" : "pmm 10/14/2005 12:53",
@@ -35,6 +36,7 @@
 		"categories:parameters:" : "pmm 10/14/2005 12:40",
 		"rrule:parameters:" : "pmm 10/14/2005 14:55",
 		"calendar:" : "pmm 10/14/2005 10:46",
+		"trigger:parameters:" : "pmm 11/11/2005 23:10",
 		"activeComponentOrCalendar" : "pmm 10/14/2005 15:57",
 		"transp:parameters:" : "pmm 10/14/2005 15:02",
 		"method:parameters:" : "pmm 10/15/2005 18:21",
@@ -48,7 +50,8 @@
 		"specialBegins" : "pmm 10/14/2005 10:46",
 		"version:parameters:" : "pmm 10/15/2005 18:11",
 		"description:parameters:" : "pmm 10/14/2005 12:53",
-		"completed:parameters:" : "pmm 10/14/2005 12:53"
+		"completed:parameters:" : "pmm 10/14/2005 12:53",
+		"repeat:parameters:" : "pmm 11/11/2005 23:10"
 	},
 	"class" : { }
 }

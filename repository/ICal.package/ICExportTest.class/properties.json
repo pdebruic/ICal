@@ -11,7 +11,9 @@
 		"event",
 		"todo",
 		"dateEvent",
-		"journal"
+		"journal",
+		"alarm1",
+		"alarm2"
 	],
 	"name" : "ICExportTest",
 	"type" : "normal"

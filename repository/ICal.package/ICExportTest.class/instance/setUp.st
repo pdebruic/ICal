@@ -96,4 +96,21 @@ setUp
 				addTextualDescription: 'description1';
 				addTextualDescription: 'description2';
 				yourself.
+	alarm1 := ICAlarm new
+		trigger: (ICTrigger new
+			value: (DateAndTime year: 1997 month: 3 day: 17 hour: 13 minute: 30);
+			yourself);
+		repetitions: 4;
+		delay: 15 minutes;
+		beAudio;
+		addAttachment: (Url fromICalString: 'ftp://host.com/pub/sounds/bell-01.aud');
+		yourself.
+	alarm2 := ICAlarm  new
+		trigger: (ICTrigger new
+			value: 30 negated minutes;
+			yourself);
+		delay: 15 minutes;
+		repetitions: 2;
+		beDisplay;
+		yourself.		
 	iCalExporter := ICCalendarExporter calendar: calendar

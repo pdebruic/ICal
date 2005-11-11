@@ -1,3 +1,3 @@
 accessing
 duration: aDuration 
-	duration := aDuration
+	self delay: aDuration

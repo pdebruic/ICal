@@ -1,6 +1,7 @@
 {
 	"instance" : { },
 	"class" : {
+		"actionType" : "pmm 11/11/2005 20:27",
 		"categoriesType" : "pmm 10/9/2005 12:41",
 		"productIdType" : "pmm 10/9/2005 12:44",
 		"resourcesType" : "pmm 10/9/2005 12:45",
@@ -10,9 +11,10 @@
 		"attachmentType" : "pmm 10/9/2005 12:40",
 		"componentClassFor:" : "pmm 10/13/2005 10:00",
 		"endType" : "pmm 10/18/2005 06:32",
+		"repetitionType" : "pmm 11/11/2005 20:20",
 		"descriptionType" : "pmm 10/9/2005 12:42",
-		"uidType" : "pmm 10/9/2005 12:46",
 		"statusType" : "pmm 10/9/2005 12:45",
+		"uidType" : "pmm 10/9/2005 12:46",
 		"exculsionRuleType" : "pmm 10/9/2005 12:43",
 		"summaryType" : "pmm 10/9/2005 12:46",
 		"dueType" : "pmm 10/18/2005 06:30",
@@ -22,6 +24,7 @@
 		"beginComponentType" : "pmm 10/9/2005 12:41",
 		"durationType" : "pmm 10/18/2005 06:32",
 		"stampType" : "pmm 10/18/2005 06:30",
+		"triggerType" : "pmm 11/11/2005 20:23",
 		"transparencyType" : "pmm 10/9/2005 13:04",
 		"endComponentType" : "pmm 10/18/2005 06:32",
 		"lastModifiedType" : "pmm 10/18/2005 06:30",

@@ -1,16 +1,38 @@
 {
 	"instance" : {
-		"duration" : "pmm 10/7/2005 09:48",
-		"textualDescription:" : "pmm 10/7/2005 09:49",
-		"exportOn:" : "pmm 10/14/2005 12:14",
-		"duration:" : "pmm 10/7/2005 09:49",
+		"attachments:" : "pmm 10/14/2005 12:12",
+		"isProcedure" : "pmm 11/10/2005 22:45",
+		"textualDescription" : "pmm 10/7/2005 09:48",
+		"trigger" : "pmm 11/11/2005 20:20",
 		"initialize" : "pmm 10/14/2005 12:13",
 		"attachments" : "pmm 10/14/2005 12:11",
-		"textualDescription" : "pmm 10/7/2005 09:48",
+		"duration" : "pmm 11/11/2005 23:03",
+		"beEmail" : "pmm 11/10/2005 22:45",
+		"delay" : "pmm 11/11/2005 20:09",
+		"repetitions:" : "pmm 11/11/2005 20:09",
+		"trigger:" : "pmm 11/11/2005 20:20",
+		"isDisplay" : "pmm 11/10/2005 22:44",
+		"action:" : "pmm 11/10/2005 22:38",
+		"isAudio" : "pmm 11/10/2005 22:44",
+		"action" : "pmm 11/10/2005 22:38",
+		"delay:" : "pmm 11/11/2005 20:09",
+		"beAudio" : "pmm 11/10/2005 22:45",
+		"isValid" : "pmm 11/10/2005 22:44",
+		"exportOn:" : "pmm 11/11/2005 22:17",
+		"textualDescription:" : "pmm 10/7/2005 09:49",
+		"beProcedure" : "pmm 11/10/2005 22:48",
+		"isEmail" : "pmm 11/10/2005 22:45",
+		"beDisplay" : "pmm 11/10/2005 22:46",
 		"addAttachment:" : "pmm 10/14/2005 12:13",
-		"attachments:" : "pmm 10/14/2005 12:12"
+		"duration:" : "pmm 11/11/2005 23:03",
+		"repetitions" : "pmm 11/11/2005 20:09"
 	},
 	"class" : {
-		"iCalType" : "pmm 10/13/2005 09:56"
+		"actionEmail" : "pmm 11/10/2005 22:40",
+		"actionProcedure" : "pmm 11/10/2005 22:42",
+		"possibleActions" : "pmm 11/10/2005 22:43",
+		"actionAudio" : "pmm 11/10/2005 22:40",
+		"iCalType" : "pmm 10/13/2005 09:56",
+		"actionDisplay" : "pmm 11/10/2005 22:41"
 	}
 }

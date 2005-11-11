@@ -1,0 +1,21 @@
+{
+	"instance" : {
+		"beRelatedToStart" : "pmm 11/10/2005 22:56",
+		"iCalType" : "pmm 11/10/2005 23:21",
+		"exportICalParametersOn:" : "pmm 11/10/2005 23:11",
+		"value" : "pmm 11/10/2005 22:57",
+		"isRelatedToStart" : "pmm 11/10/2005 22:55",
+		"value:" : "pmm 11/10/2005 22:58",
+		"beRelatedToEnd" : "pmm 11/10/2005 22:56",
+		"asICalString" : "pmm 11/10/2005 23:23",
+		"related" : "pmm 11/10/2005 22:54",
+		"isRelatedToEnd" : "pmm 11/10/2005 22:56",
+		"related:" : "pmm 11/10/2005 22:54"
+	},
+	"class" : {
+		"relatedToStart" : "pmm 11/10/2005 22:53",
+		"relatedToEnd" : "pmm 11/10/2005 22:54",
+		"iCalType" : "pmm 11/10/2005 22:53",
+		"fromICalString:parameters:" : "pmm 11/10/2005 23:20"
+	}
+}

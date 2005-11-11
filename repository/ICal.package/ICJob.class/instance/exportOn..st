@@ -1,11 +1,12 @@
 exporting
 exportOn: anExporter
 	super exportOn: anExporter.
-	self flag: #todo. "export alarms"
 	anExporter exportPriority: self priority.
 	anExporter exportDescription: self textualDescription.	
 	anExporter exportGeo: (self geo ifNotNil: [ self geo asArray ]).
 	anExporter exportLocation: self location.
 	anExporter exportResources: self resources.
 	anExporter exportStart: self start.
-	anExporter exportDuration: self duration 
+	anExporter exportDuration: self duration.
+	self alarms do: [ :each |
+		anExporter export: each ]
