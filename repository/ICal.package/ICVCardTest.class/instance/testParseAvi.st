@@ -29,7 +29,7 @@ testParseAvi
 	self assert: address poBox isEmptyOrNil.
 	self assert: address extended isEmptyOrNil.
 	
-	self assert: address street = '146 E. 18 Ave'.
+	self assert: address street = 'xxx E. xx Ave'.
 	self assert: address locality = 'Vancouver'.
 	self assert: address region = 'BC'.
 	self assert: address postalcode = 'V5V 1E3'.
@@ -37,7 +37,7 @@ testParseAvi
 	
 	self assert: card phoneNumbers size = 1.
 	phoneNumber := card phoneNumbers first.
-	self assert: phoneNumber number = '(778) 863-6321'.
+	self assert: phoneNumber number = '(778) xxx-xxxx'.
 	self assert: phoneNumber isHome.
 	self assert: phoneNumber isPreferred.
 	self deny: phoneNumber isWork.
