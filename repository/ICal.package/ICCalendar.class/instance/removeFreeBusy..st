@@ -1,3 +1,3 @@
 freebusy
 removeFreeBusy: aFreebusy
-	^self freebusy remove: aFreebusy
+	^self freeBusy remove: aFreebusy

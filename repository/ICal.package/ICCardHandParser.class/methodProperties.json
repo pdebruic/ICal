@@ -10,7 +10,8 @@
 		"name:" : "pmm 10/18/2005 06:57"
 	},
 	"class" : {
-		"parseVCardString:" : "pmm 10/18/2005 06:53",
-		"parseVCardStream:" : "pmm 10/18/2005 06:52"
+		"parseVCardString:" : "pmm 11/12/2005 12:04",
+		"parseVCardFile:" : "pmm 11/12/2005 12:07",
+		"parseVCardStream:" : "pmm 11/12/2005 12:06"
 	}
 }

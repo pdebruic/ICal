@@ -1,3 +1,7 @@
 instance creation
 parseCalendarString: aString
-	^self parseCalendarStream: (ReadStream on: aString).
+	| parser |
+	parser := self on: (ReadStream on: aString).
+	parser generator: ICCalendarGenerator new.
+	parser parse.
+	^parser product

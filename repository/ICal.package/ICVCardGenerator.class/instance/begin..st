@@ -1,4 +1,5 @@
 processing-properties
 begin: aString
-	aString = 'VCARD' ifFalse: [self error: 'Only expecting VCARDS'].
+	(aString sameAs:  'VCARD')
+		ifFalse: [self error: 'Only expecting VCARDS'].
 	self currentCard: ICVCard new

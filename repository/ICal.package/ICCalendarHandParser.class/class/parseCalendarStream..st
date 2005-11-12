@@ -1,7 +1,9 @@
 instance creation
 parseCalendarStream: aStream
-	| parser |
-	parser := self on: aStream.
-	parser generator: ICCalendarGenerator new.
-	parser parse.
-	^parser product
+	"don't ask it's Squeak"
+	| string |
+	string := String streamContents: [ :stream |
+			[ aStream atEnd ]
+				whileFalse: [ stream nextPut: aStream next ] ].
+	aStream close.
+	^self parseCalendarString: string

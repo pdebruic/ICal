@@ -2,4 +2,4 @@ processing-properties
 percentcomplete: aString parameters: aDictionary
 	| value |
 	value := self createValue: aString parameters: aDictionary default: Integer iCalType.
-	self tempComponent precentComplete: value
+	self tempComponent percentComplete: value

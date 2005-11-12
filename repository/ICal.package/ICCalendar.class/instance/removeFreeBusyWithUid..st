@@ -1,6 +1,6 @@
 freebusy
 removeFreeBusyWithUid: aString
 	| freebusy |
-	freebusy := self freebusy detect: [ :each | each uid = aString] ifNone: [^nil].
-	^self removeFreebusy: freebusy.
+	freebusy := self freeBusy detect: [ :each | each uid = aString] ifNone: [^nil].
+	^self removeFreeBusy: freebusy.
 	

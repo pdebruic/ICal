@@ -1,3 +1,7 @@
 instance creation
 parseVCardString: aString
-	^self parseVCardStream: (ReadStream on: aString)
+	| parser |
+	parser := self on: (ReadStream on: aString).
+	parser generator: ICVCardGenerator new.
+	parser parse.
+	^parser product

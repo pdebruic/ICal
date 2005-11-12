@@ -1,7 +1,9 @@
 instance creation
 parseVCardStream: aStream
-	| parser |
-	parser := self on: aStream.
-	parser generator: ICVCardGenerator new.
-	parser parse.
-	^parser product
+	"don't ask it's Squeak"
+	| string |
+	string := String streamContents: [ :stream |
+			[ aStream atEnd ]
+				whileFalse: [ stream nextPut: aStream next ] ].
+	aStream close.
+	^self parseVCardString: string
