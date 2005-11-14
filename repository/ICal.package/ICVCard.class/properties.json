@@ -7,6 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"addresses",
+		"categories",
 		"emailAddresses",
 		"fullname",
 		"name",
@@ -16,7 +17,11 @@
 		"photo",
 		"title",
 		"url",
-		"version"
+		"version",
+		"aimids",
+		"msnids",
+		"icqids",
+		"yahooids"
 	],
 	"name" : "ICVCard",
 	"type" : "normal"

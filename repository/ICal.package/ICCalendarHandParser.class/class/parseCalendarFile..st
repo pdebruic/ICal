@@ -1,3 +1,3 @@
 instance creation
 parseCalendarFile: aPath
-	^self parseCalendarStream: (FileStream readOnlyFileNamed: aPath)
+	^self parseCalendarString: (FileStream readOnlyFileNamed: aPath) contentsOfEntireFile

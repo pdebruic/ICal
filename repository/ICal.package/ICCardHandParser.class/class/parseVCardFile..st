@@ -1,3 +1,3 @@
 instance creation
 parseVCardFile: aPath
-	^self parseVCardStream: (FileStream readOnlyFileNamed: aPath)
+	^self parseVCardString: (FileStream readOnlyFileNamed: aPath) contentsOfEntireFile
