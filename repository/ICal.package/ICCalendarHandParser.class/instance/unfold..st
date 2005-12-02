@@ -10,8 +10,12 @@ unfold: aString
 	pattern := Array new: 3.
 	pattern at: 1 put: Character cr.
 	pattern at: 2 put: Character lf.
-	^whiteSpaces inject: aString into: [ :string :each |
-		pattern at: 3 put: each.
-		(string includesSubString: pattern)
-			ifFalse: [ string ]
-			ifTrue: [ string copyReplaceAll: pattern with: ''  ] ]
+	^whiteSpaces
+		inject: (self unfoldEquals
+			ifTrue: [ self unfoldEquals: aString ]
+			ifFalse: [ aString ])
+		into: [ :string :each |
+			pattern at: 3 put: each.
+			(string includesSubString: pattern)
+				ifFalse: [ string ]
+				ifTrue: [ string copyReplaceAll: pattern with: ''  ] ]

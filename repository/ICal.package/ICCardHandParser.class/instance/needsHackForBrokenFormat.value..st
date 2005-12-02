@@ -1,3 +1,0 @@
-testing
-needsHackForBrokenFormat: aParameterName value: aParameterValue
-	^aParameterValue isEmptyOrNil

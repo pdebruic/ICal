@@ -1,8 +1,8 @@
 parsing
 addParameter: paramName value: paramValue
 	| values |
-	(self needsHackForBrokenFormat: paramName value: paramValue) ifTrue: [
-		^self parseHackForBrokenFormat: paramName value: paramValue ].
+	(self needsHackForOldFormat: paramName value: paramValue) ifTrue: [
+		^self parseHackForOldFormat: paramName value: paramValue ].
 	(self isMultivalued: paramName)
 		ifFalse: [ super addParameter: paramName value: paramValue ]
 		ifTrue: [

@@ -1,5 +1,5 @@
 parsing
-parseHackForBrokenFormat: paramName value: paramValue	
+parseHackForOldFormat: paramName value: paramValue	
 	paramName = 'BASE64' ifTrue: [ self parameters at: 'ENCODING'put: 'B' ].
 	self addParameter: 'TYPE' value: paramName
 	

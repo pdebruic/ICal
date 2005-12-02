@@ -6,9 +6,11 @@
 		"splitAtCommas" : "pmm 10/30/2005 08:23"
 	},
 	"class" : {
-		"iCalType" : "pmm 10/3/2005 17:11",
+		"fromNewString:" : "pmm 11/19/2005 14:51",
 		"fromIParameterString:" : "pmm 10/12/2005 06:27",
-		"fromICalString:" : "pmm 10/9/2005 10:24",
-		"fromVCardString:" : "pmm 11/4/2005 23:40"
+		"fromVCardString:" : "pmm 11/19/2005 14:57",
+		"fromICalString:" : "pmm 11/19/2005 14:58",
+		"fromOldString:" : "pmm 11/19/2005 15:22",
+		"iCalType" : "pmm 10/3/2005 17:11"
 	}
 }
