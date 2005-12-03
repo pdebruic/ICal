@@ -1,16 +1,20 @@
 {
 	"instance" : {
-		"asICalString" : "pmm 10/9/2005 10:24",
+		"asOldICalString" : "pmm 12/3/2005 12:47",
+		"asVCardString" : "pmm 12/3/2005 12:28",
 		"subStringsFull:" : "pmm 10/29/2005 23:18",
+		"asICalString" : "pmm 12/3/2005 12:27",
+		"splitAtCommas" : "pmm 10/30/2005 08:23",
+		"asNewICalString" : "pmm 12/3/2005 12:47",
 		"asICalParameterString" : "pmm 10/12/2005 06:30",
-		"splitAtCommas" : "pmm 10/30/2005 08:23"
+		"replaceStrings:" : "pmm 12/3/2005 12:44"
 	},
 	"class" : {
-		"fromNewString:" : "pmm 11/19/2005 14:51",
+		"fromNewString:" : "pmm 12/3/2005 12:47",
 		"fromIParameterString:" : "pmm 10/12/2005 06:27",
 		"fromVCardString:" : "pmm 11/19/2005 14:57",
 		"fromICalString:" : "pmm 11/19/2005 14:58",
-		"fromOldString:" : "pmm 11/19/2005 15:22",
+		"fromOldString:" : "pmm 12/3/2005 12:46",
 		"iCalType" : "pmm 10/3/2005 17:11"
 	}
 }

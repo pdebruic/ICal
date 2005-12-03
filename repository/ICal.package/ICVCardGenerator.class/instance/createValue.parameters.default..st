@@ -1,5 +1,5 @@
-private
-createValue: aString parameters: aDictionary default: aType 
+utilities
+createValue: aString parameters: aDictionary default: aType
 	^((aDictionary includesKey: 'ENCODING') and: 
 			[ #('B' 'BASE64') includes: (aDictionary at: 'ENCODING') ]) 
 			ifFalse: [

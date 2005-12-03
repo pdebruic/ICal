@@ -12,6 +12,7 @@
 		"fullname",
 		"name",
 		"nickname",
+		"notes",
 		"organization",
 		"phoneNumbers",
 		"photo",

@@ -1,6 +1,5 @@
 processing-properties
 rdate: aString parameters: aDictionary
 	| dates |
-	dates := (self splitAtCommas: aString) collect: [ :each |
-		self createValue: each parameters: aDictionary default: DateAndTime ].
+	dates := self createMulitValue: aString parameters: aDictionary type: DateAndTime.
 	self tempComponent recurrenceDates: dates

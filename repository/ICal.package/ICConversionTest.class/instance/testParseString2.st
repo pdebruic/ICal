@@ -10,4 +10,4 @@ testParseString2
 'Bar Street 99
 Footown 12345
 Fooland'.
-			self assert: value asICalString = string ]
+			self assert: value asICalString = 'Bar Street 99=0D=0AFootown 12345=0D=0AFooland' ]

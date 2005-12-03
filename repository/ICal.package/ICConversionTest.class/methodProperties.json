@@ -13,7 +13,7 @@
 		"testParseScaledDecimal" : "pmm 11/9/2005 07:17",
 		"testFloatPrecision" : "pmm 10/4/2005 21:42",
 		"testParseDuration" : "pmm 11/11/2005 09:39",
-		"testParseString3" : "pmm 11/19/2005 15:41",
+		"testParseString3" : "pmm 12/3/2005 12:51",
 		"testParseDate" : "pmm 10/4/2005 18:27",
 		"testSelector" : "pmm 10/29/2005 00:59",
 		"testTimeUtc" : "pmm 10/10/2005 17:13",
@@ -27,7 +27,7 @@
 		"testDateAndTime" : "pmm 10/2/2005 22:22",
 		"testParseUrl" : "pmm 10/6/2005 18:13",
 		"testDateUtc" : "pmm 10/10/2005 17:12",
-		"testParseString2" : "pmm 11/19/2005 15:03"
+		"testParseString2" : "pmm 12/3/2005 12:50"
 	},
 	"class" : { }
 }

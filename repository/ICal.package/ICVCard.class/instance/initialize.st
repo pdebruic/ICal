@@ -9,4 +9,5 @@ initialize
 	self icqids: OrderedCollection new.
 	self msnids: OrderedCollection new.
 	self yahooids:OrderedCollection new.
-	self categories: OrderedCollection new
+	self categories: OrderedCollection new.
+	self notes: OrderedCollection new

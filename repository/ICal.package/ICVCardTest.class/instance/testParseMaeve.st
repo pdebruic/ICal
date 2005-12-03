@@ -34,10 +34,11 @@ testParseMaeve
 	
 	self assert: card yahooids isEmpty.
 	
-	self assert: card url asString = 'http://www.zenediting.com'.
+	self assert: card url asString = 'http://www.myspace.com/maeveprice'.
 	
 	self assert: card categories size = 3.
-	self assert: card categories = #('Friends' 'Columbia College Chicago' 'Family') asOrderedCollection.
+	#('Friends' 'Columbia College Chicago' 'Family') do: [ :each |
+		self assert: (card categories anySatisfy: [ :cat | cat summary = each  ]) ].
 	
 	self shouldnt: [ self assert: card notes size = 1 ] raise: Error.
 	self assert: card notes anyOne =

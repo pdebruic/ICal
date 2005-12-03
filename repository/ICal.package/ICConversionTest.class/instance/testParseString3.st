@@ -12,4 +12,4 @@ testParseString3
 '123 Winding Way
 Any Town, CA 12345
 USA'.
-			self assert: value asICalString = string ]
+			self assert: value asICalString =  '123 Winding Way=0D=0AAny Town\\, CA 12345=0D=0AUSA' ]

@@ -45,9 +45,6 @@ testParseSurendar
 	self assert: organization unitNames size = 1.
 	self assert: organization unitNames anyOne = 'Computer Science and Engg'.
 	
-	self assert: card categories size = 1.
-	self assert: card categories anyOne summary = '24HDC'.
-	
 	self shouldnt: [ self assert: card notes size = 1 ] raise: Error.
 	self assert: card notes anyOne =
 'SMS message
