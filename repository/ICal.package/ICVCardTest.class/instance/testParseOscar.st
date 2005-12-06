@@ -8,7 +8,6 @@ testParseOscar
 	self assert: card fullname = 'Oscar2 Nierstrasz'.
 	self assert: card version = 3.0.
 	self assert: card title = 'Professor'.
-	self assert: card url asString = 'http://www.iam.unibe.ch/~oscar/'.
 	
 	name := card name.
 	self assert: name notNil.

@@ -7,7 +7,6 @@ testParseSurendar
 	
 	self assert: card fullname = 'Surendar Chandra'.
 	self assert: card title = 'Asst. Professor'.
-	self assert: card url asString = 'http://www.cse.nd.edu/~surendar/'.
 	self assert: card version = 3.0.
 	name := card name.
 	self assert: name notNil.

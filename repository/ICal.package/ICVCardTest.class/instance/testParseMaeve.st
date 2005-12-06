@@ -34,19 +34,8 @@ testParseMaeve
 	
 	self assert: card yahooids isEmpty.
 	
-	self assert: card url asString = 'http://www.myspace.com/maeveprice'.
-	
 	self assert: card categories size = 3.
 	#('Friends' 'Columbia College Chicago' 'Family') do: [ :each |
 		self assert: (card categories anySatisfy: [ :cat | cat summary = each  ]) ].
 	
-	self shouldnt: [ self assert: card notes size = 1 ] raise: Error.
-	self assert: card notes anyOne =
-'SMS message
-12/22/2003 18:12
-wassup
-
-SMS message
-12/23/2003 13:12
-Hello'
-	
+	self assert: card notes isEmtpy	
