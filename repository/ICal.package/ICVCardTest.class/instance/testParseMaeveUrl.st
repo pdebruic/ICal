@@ -5,4 +5,4 @@ testParseMaeveUrl
 	self assert: cards size = 1.
 	card := cards anyOne.
 	
-	self assert: card url asString = 'http://www.myspace.com/maeveprice'.	
+	self assert: card url asVCardString = 'http://http\:0/www.myspace.com/maeveprice'.	

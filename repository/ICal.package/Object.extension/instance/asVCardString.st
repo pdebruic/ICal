@@ -1,0 +1,3 @@
+*ICal
+asVCardString
+	^self asICalString

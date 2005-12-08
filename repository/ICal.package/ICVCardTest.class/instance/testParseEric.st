@@ -7,7 +7,7 @@ testParseEric
 	
 	self assert: card fullname = 'Eric Wahlforss'.
 	self assert: card title = 'Entrepreneur / Musician'.
-	self assert: card url asString = 'http://eric.wahlforss.com/'.
+	self assert: card url asVCardString = 'http://eric.wahlforss.com/'.
 	self assert: card version = 3.0.
 	name := card name.
 	self assert: name notNil.
