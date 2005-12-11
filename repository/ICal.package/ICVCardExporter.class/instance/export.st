@@ -3,5 +3,7 @@ export
 	self dataStream reset.
 	self lineStream reset.
 	self cards do: [ :each |
-		self export: each ].
+		ICCardVersion
+			use: each version
+			during: [ self export: each ] ].
 	self save
