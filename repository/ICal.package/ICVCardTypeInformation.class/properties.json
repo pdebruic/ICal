@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ICTypeInformation",
+	"category" : "ICal-VCard-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICVCardTypeInformation",
+	"type" : "normal"
+}

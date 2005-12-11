@@ -6,4 +6,5 @@ SystemOrganization addCategory: #'ICal-Tests'!
 SystemOrganization addCategory: #'ICal-VCard-Model'!
 SystemOrganization addCategory: #'ICal-VCard-Tests'!
 SystemOrganization addCategory: #'ICal-VCard-Parser'!
+SystemOrganization addCategory: #'ICal-VCard-IO'!
 SystemOrganization addCategory: #'ICal-IO'!

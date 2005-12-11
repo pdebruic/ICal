@@ -1,6 +1,7 @@
 {
 	"instance" : {
-		"asICalString" : "pmm 10/30/2005 21:08"
+		"asICalString" : "pmm 10/30/2005 21:08",
+		"exportICalParametersOn:" : "pmm 12/11/2005 11:39"
 	},
 	"class" : {
 		"fromICalString:" : "pmm 10/30/2005 21:08",

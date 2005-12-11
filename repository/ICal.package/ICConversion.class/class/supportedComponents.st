@@ -1,6 +1,7 @@
 accessing
 supportedComponents
 	^(OrderedCollection new)
+		add: ICCalendar;
 		add: ICEvent;
 		add: ICTodo;
 		add: ICAlarm;

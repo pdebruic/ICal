@@ -1,3 +1,3 @@
 adding
 addNote: aString
-	^self notes addNote: aString
+	^self notes add: aString

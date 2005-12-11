@@ -1,12 +1,14 @@
 {
 	"instance" : {
+		"asICalDateString" : "pmm 10/2/2005 14:20",
+		"asVCardString" : "pmm 12/10/2005 11:00",
 		"asICalString" : "pmm 10/2/2005 14:15",
-		"isDateOrNil" : "pmm 10/7/2005 14:18",
 		"asICalUtcString" : "pmm 10/10/2005 17:11",
-		"asICalDateString" : "pmm 10/2/2005 14:20"
+		"isDateOrNil" : "pmm 10/7/2005 14:18"
 	},
 	"class" : {
+		"iCalType" : "pmm 10/3/2005 17:08",
 		"fromICalString:" : "pmm 10/4/2005 19:18",
-		"iCalType" : "pmm 10/3/2005 17:08"
+		"fromVCardString:" : "pmm 12/10/2005 10:56"
 	}
 }

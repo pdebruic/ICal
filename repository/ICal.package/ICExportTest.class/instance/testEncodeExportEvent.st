@@ -4,11 +4,11 @@ testEncodeExportEvent
 	calendar addEvent: event.
 	iCalExporter := ICEncodingCalendarExporter iso88591Calendar: calendar.
 	export := iCalExporter export.
-	str := 'BEGIN;ENCODING=ISO-8859-1:VCALENDAR' , String crlf 
+	str := 'BEGIN:VCALENDAR' , String crlf 
 				, 'PRODID;ENCODING=ISO-8859-1:' , calendar productId , String crlf 
 				, 'VERSION:2.0' , String crlf 
 				, 'METHOD;ENCODING=ISO-8859-1:PUBLISH' , String crlf
-				, 'BEGIN;ENCODING=ISO-8859-1:VEVENT' , String crlf 				
+				, 'BEGIN:VEVENT' , String crlf 				
 				, 'UID;ENCODING=ISO-8859-1:' , event uid , String crlf 
 				, 'CREATED:20050501T110231Z' , String crlf 
 				, 'STATUS;ENCODING=ISO-8859-1:TENTATIVE' , String crlf 
@@ -22,8 +22,8 @@ testEncodeExportEvent
 				, 'DTSTART:20050425T104500' , String crlf 
 				, 'DTEND:20050425T120900' , String crlf 				
 				, 'TRANSP;ENCODING=ISO-8859-1:OPAQUE' , String crlf 
-				, 'END;ENCODING=ISO-8859-1:VEVENT' , String crlf 
-				, 'END;ENCODING=ISO-8859-1:VCALENDAR' , String crlf.
+				, 'END:VEVENT' , String crlf 
+				, 'END:VCALENDAR' , String crlf.
 	export dataStream contents 
 		keysAndValuesDo: [:index :value |
 			self assert: value = (str at: index) ].

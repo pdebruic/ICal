@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"calendar",
 		"dataStream",
 		"lineStream"
 	],

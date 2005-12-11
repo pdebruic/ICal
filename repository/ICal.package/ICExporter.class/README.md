@@ -1,1 +1,1 @@
-I can export a calendar and save it in an iCalendar file.
+I'm the abstract superclass of calendar and card exporters

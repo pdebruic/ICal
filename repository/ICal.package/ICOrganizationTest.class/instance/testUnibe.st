@@ -1,6 +1,8 @@
-as yet unclassified
+testing
 testUnibe
-	| organization |
-	organization := ICOrganization fromICalString: 'University of Bern'.
+	| organization string |
+	string := 'University of Bern'.
+	organization := ICOrganization fromICalString: string.
 	self assert: organization name = 'University of Bern'.
 	self assert: organization unitNames isEmpty.
+	self assert: organization asVCardString = string

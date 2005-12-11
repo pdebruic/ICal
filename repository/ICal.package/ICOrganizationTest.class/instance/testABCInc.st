@@ -1,8 +1,10 @@
-as yet unclassified
+testing
 testABCInc
-	| organization |
-	organization := ICOrganization fromICalString: 'ABC\, Inc.;North American Division;Marketing'.
+	| organization string |
+	string := 'ABC\, Inc.;North American Division;Marketing'.
+	organization := ICOrganization fromICalString: string.
 	self assert: organization name = 'ABC, Inc.'.
 	self assert: organization unitNames size = 2.
 	self assert: organization unitNames first = 'North American Division'.
-	self assert: organization unitNames second = 'Marketing'
+	self assert: organization unitNames second = 'Marketing'.
+	self assert: organization asVCardString = string
