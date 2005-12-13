@@ -1,4 +1,4 @@
-testing
+testing-parsing
 testParseAvi
 	| cards card address name phoneNumber emailAddress imid |
 	cards := ICCardHandParser parseVCardString: self aviCardString.

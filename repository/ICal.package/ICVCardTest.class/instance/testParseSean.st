@@ -1,4 +1,4 @@
-testing
+testing-parsing
 testParseSean
 	| cards card address name phoneNumber emailAddress organization |
 	cards := ICCardHandParser parseVCardString: self seanCardString.

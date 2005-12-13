@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "ICCalendarExporter",
-	"category" : "ICal-IO",
+	"super" : "TestCase",
+	"category" : "ICal-VCard-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"encoding"
+		"vCardExporter"
 	],
-	"name" : "ICEncodingCalendarExporter",
+	"name" : "ICVCardExportLineTest",
 	"type" : "normal"
 }

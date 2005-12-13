@@ -1,6 +1,6 @@
 accessing-types
-methodType
+charsetType
 	^ICTypeInformation
-		name: 'METHOD' 
+		name: 'CHARSET' 
 		type: String iCalType 
 		multivalued: false

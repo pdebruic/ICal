@@ -1,4 +1,4 @@
-testing
+testing-parsing
 testName
 	| name |
 	name := ICName fromICalString: 'Public;John;Quinlan;Mr.;Esq'.

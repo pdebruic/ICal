@@ -1,4 +1,4 @@
-testing
+testing-parsing
 testParseSurendarUrl
 	| cards card |
 	cards := ICCardHandParser parseVCardString: self surendarCardString.

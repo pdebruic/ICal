@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "ICComponent",
 	"category" : "ICal-VCard-Model",
 	"classinstvars" : [ ],

@@ -1,4 +1,4 @@
-testing
+testing-parsing
 testParseMaeve
 	| cards card name imid |
 	cards := ICCardHandParser parseVCardString: self maeveCardString.

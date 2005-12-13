@@ -1,4 +1,4 @@
-accessing
+accessing-exporting
 aviCardStringExport
 ^
 'BEGIN:VCARD' , String crlf ,

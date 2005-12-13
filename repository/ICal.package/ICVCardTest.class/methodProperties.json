@@ -8,6 +8,8 @@
 		"testParseSean" : "pmm 11/4/2005 23:07",
 		"testParseGoofy" : "pmm 11/4/2005 23:07",
 		"donaldCardString" : "pmm 11/14/2005 18:28",
+		"testExportGoofy" : "pmm 12/13/2005 22:22",
+		"goofyCardStringExport" : "pmm 12/13/2005 22:36",
 		"testParseEric" : "pmm 12/8/2005 14:35",
 		"ericCardString" : "pmm 11/14/2005 00:27",
 		"aviCardStringExport" : "pmm 12/11/2005 13:55",
@@ -20,8 +22,8 @@
 		"maeveCardString" : "pmm 12/2/2005 20:18",
 		"oscarCardString" : "pmm 10/29/2005 21:53",
 		"aviCardString" : "avi 11/12/2005 13:15",
-		"testParseOscar" : "pmm 12/6/2005 18:48",
 		"testParseMaeve" : "pmm 12/6/2005 18:51",
+		"testParseOscar" : "pmm 12/6/2005 18:48",
 		"wikipediaCardString" : "pmm 11/4/2005 23:04",
 		"testParseWikipedia" : "pmm 12/2/2005 22:59"
 	},

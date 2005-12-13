@@ -1,4 +1,4 @@
-testing
+testing-parsing
 testParseMaeveUrl
 	| cards card |
 	cards := ICCardHandParser parseVCardString: self maeveCardString.

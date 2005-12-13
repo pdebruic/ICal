@@ -1,4 +1,4 @@
-testing
+testing-parsing
 testParseSurendar
 	| cards card name imid organization |
 	cards := ICCardHandParser parseVCardString: self surendarCardString.

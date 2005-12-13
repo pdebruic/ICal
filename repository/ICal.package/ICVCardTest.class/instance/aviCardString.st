@@ -1,4 +1,4 @@
-accessing
+accessing-parsing
 aviCardString
 ^
 'BEGIN:VCARD' , String crlf ,

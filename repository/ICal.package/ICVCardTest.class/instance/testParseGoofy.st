@@ -1,4 +1,4 @@
-testing
+testing-parsing
 testParseGoofy
 	| cards card address name phoneNumber |
 	cards := ICCardHandParser parseVCardString: self goofyCardString.

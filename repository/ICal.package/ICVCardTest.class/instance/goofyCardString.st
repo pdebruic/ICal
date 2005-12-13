@@ -1,4 +1,4 @@
-accessing
+accessing-parsing
 goofyCardString
 ^'BEGIN:VCARD' , String crlf ,
 'VERSION:2.1' , String crlf ,

@@ -1,4 +1,4 @@
-testing
+testing-parsing
 testParseOscarUrl
 	| cards card |
 	cards := ICCardHandParser parseVCardString: self oscarCardString.

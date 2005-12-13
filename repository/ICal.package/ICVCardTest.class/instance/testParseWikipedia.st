@@ -1,4 +1,4 @@
-testing
+testing-parsing
 testParseWikipedia
 	| cards card address name phoneNumber emailAddress |
 	cards := ICCardHandParser parseVCardString: self wikipediaCardString.

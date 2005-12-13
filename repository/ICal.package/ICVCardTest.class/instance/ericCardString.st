@@ -1,4 +1,4 @@
-accessing
+accessing-parsing
 ericCardString
 ^
 'BEGIN:VCARD' , String crlf ,

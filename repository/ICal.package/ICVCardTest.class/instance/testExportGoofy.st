@@ -1,12 +1,12 @@
 testing-exporting
-testExportAvi
+testExportGoofy
 	| cards exporter str |
-	cards := ICCardHandParser parseVCardString: self aviCardString.
+	cards := ICCardHandParser parseVCardString: self goofyCardString.
 	cards anyOne photo: nil.
 	
 	exporter := ICVCardExporter cards: cards.
 	exporter export.
-	str := self aviCardStringExport.
+	str := self goofyCardStringExport.
 
 	exporter dataStream contents 
 		keysAndValuesDo: [:index :value |
