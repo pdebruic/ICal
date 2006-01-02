@@ -5,6 +5,7 @@ exportOn: anExporter
 	anExporter exportFullname: self fullname.	
 	anExporter exportNickname: self nickname.
 	anExporter exportPhoto: self photo.
+	anExporter exportBirthday: self birthday.
 	anExporter exportAddresses: self addresses.
 	anExporter exportTelephones: self phoneNumbers.
 	anExporter exportEmails: self emailAddresses.

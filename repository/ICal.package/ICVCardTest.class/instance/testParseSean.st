@@ -8,6 +8,7 @@ testParseSean
 	self assert: card fullname = 'Sean Glazier'.
 	self assert: card version = 2.1.
 	self assert: card title = 'Lead Software Engineer'.
+	self assert: card birthday = (Date year: 2005 month: 10 day: 01).
 	name := card name.
 	self assert: name notNil.
 	self assert: name familyName = 'Glazier'.

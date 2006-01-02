@@ -1,3 +1,3 @@
 accessing
 contentType
-	^'text/directory'
+	^self contentType30

@@ -8,6 +8,7 @@
 	"instvars" : [
 		"addresses",
 		"categories",
+		"birthday",
 		"emailAddresses",
 		"fullname",
 		"name",

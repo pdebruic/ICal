@@ -7,4 +7,5 @@ goofyCardString
 'ADR;TYPE=HOME;CHARSET=ISO-8859-1:;;Neufeldstrasse 11;Bern;;3012;Schweiz' , String crlf ,
 'TEL;TYPE=VOICE,HOME;CHARSET=ISO-8859-1:+41 31 302 08 56' , String crlf ,
 'TEL;TYPE=CELL,HOME;CHARSET=ISO-8859-1:+41 78 845 24 12' , String crlf ,
+'BDAY:1980-10-30' , String crlf ,
 'END:VCARD' , String crlf
