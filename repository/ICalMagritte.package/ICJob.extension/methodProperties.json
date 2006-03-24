@@ -1,0 +1,21 @@
+{
+	"instance" : {
+		"textualPriority:" : "pmm 3/24/2006 22:14",
+		"textualPriority" : "pmm 3/24/2006 22:13"
+	},
+	"class" : {
+		"textualPriorityFor:" : "pmm 3/24/2006 22:11",
+		"descriptionLocation" : "pmm 3/24/2006 22:06",
+		"descriptionPriority" : "pmm 3/24/2006 22:16",
+		"descriptionStart" : "pmm 3/24/2006 22:04",
+		"descriptionDuration" : "pmm 3/24/2006 22:05",
+		"textualPriorityMedium" : "pmm 3/24/2006 22:08",
+		"textualPriorityDictionary" : "pmm 3/24/2006 22:16",
+		"textualPriorityLow" : "pmm 3/24/2006 22:07",
+		"textualPriorityUndefined" : "pmm 3/24/2006 22:07",
+		"textualPriorities" : "pmm 3/24/2006 22:16",
+		"textualPriorityHigh" : "pmm 3/24/2006 22:08",
+		"integerPriorityFor:" : "pmm 3/24/2006 22:11",
+		"descriptionTextualDescription" : "pmm 3/24/2006 22:02"
+	}
+}

@@ -1,0 +1,3 @@
+*ICalMagritte
+textualPriorityLow
+	^'low'
