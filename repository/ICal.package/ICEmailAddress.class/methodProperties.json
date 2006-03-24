@@ -13,9 +13,10 @@
 		"internet:" : "pmm 10/30/2005 20:02"
 	},
 	"class" : {
-		"fromICalString:parameters:" : "pmm 10/30/2005 19:30",
+		"defaultTypes" : "pmm 10/30/2005 19:29",
 		"typeInternet" : "pmm 10/30/2005 19:28",
 		"typeX400" : "pmm 10/30/2005 19:28",
-		"defaultTypes" : "pmm 10/30/2005 19:29"
+		"possibleTypes" : "pmm 3/24/2006 15:03",
+		"fromICalString:parameters:" : "pmm 10/30/2005 19:30"
 	}
 }

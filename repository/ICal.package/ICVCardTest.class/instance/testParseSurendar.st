@@ -18,6 +18,7 @@ testParseSurendar
 	
 	self assert: card aimids size = 1.
 	imid := card aimids anyOne.
+	self assert: (imid isKindOf: ICAIMId).
 	self assert: imid isPreferred.
 	self deny: imid isWork.
 	self assert: imid isHome.
@@ -27,6 +28,7 @@ testParseSurendar
 	
 	self assert: card msnids size = 1.
 	imid := card msnids anyOne.
+	self assert: (imid isKindOf: ICMSNId).
 	self assert: imid isPreferred.
 	self deny: imid isWork.
 	self assert: imid isHome.
@@ -34,6 +36,7 @@ testParseSurendar
 	
 	self assert: card yahooids size = 1.
 	imid := card yahooids anyOne.
+	self assert: (imid isKindOf: ICYahooId).
 	self assert: imid isPreferred.
 	self assert: imid isWork.
 	self deny: imid isHome.

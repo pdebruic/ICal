@@ -2,5 +2,5 @@ accessing-types
 icqType
 	^ICVCardTypeInformation
 		name: 'X-ICQ' 
-		type: ICInstantMessageId iCalType 
+		type: ICICQId iCalType 
 		multivalued: false

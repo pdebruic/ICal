@@ -27,6 +27,7 @@ testParseMaeve
 	
 	self assert: card msnids size = 1.
 	imid := card msnids anyOne.
+	self assert: (imid isKindOf: ICMSNId).
 	self assert: imid isPreferred.
 	self deny: imid isWork.
 	self assert: imid isHome.
@@ -38,4 +39,4 @@ testParseMaeve
 	#('Friends' 'Columbia College Chicago' 'Family') do: [ :each |
 		self assert: (card categories anySatisfy: [ :cat | cat summary = each  ]) ].
 	
-	self assert: card notes isEmtpy	
+	self assert: card notes isEmpty	

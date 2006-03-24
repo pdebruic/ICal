@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ICInstantMessageId",
+	"category" : "ICal-VCard-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICMSNId",
+	"type" : "normal"
+}

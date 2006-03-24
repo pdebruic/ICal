@@ -17,15 +17,17 @@ testParseEric
 	self assert: name honorificPrefixes isEmptyOrNil.
 	self assert: name honorificSuffixes isEmptyOrNil.
 	
-	self assert: card aimids size = 1.
+	self assert: card aimids size = 1.	
 	imid := card aimids anyOne.
+	self assert: (imid isKindOf: ICAIMId).
 	self assert: imid isPreferred.
 	self deny: imid isWork.
 	self assert: imid isHome.
 	self assert: imid id = 'ericwahlforss'.
 	
-	self assert: card icqids size = 1.
+	self assert: card icqids size = 1.	
 	imid := card icqids anyOne.
+	self assert: (imid isKindOf: ICICQId).
 	self assert: imid isPreferred.
 	self assert: imid isWork.
 	self deny: imid isHome.
@@ -33,6 +35,7 @@ testParseEric
 	
 	self assert: card msnids size = 1.
 	imid := card msnids anyOne.
+	self assert: (imid isKindOf: ICMSNId).
 	self deny: imid isPreferred.
 	self deny: imid isWork.
 	self assert: imid isHome.

@@ -2,5 +2,5 @@ accessing-types
 yahooType
 	^ICVCardTypeInformation
 		name: 'X-YAHOO' 
-		type: ICInstantMessageId iCalType 
+		type: ICYahooId iCalType 
 		multivalued: false

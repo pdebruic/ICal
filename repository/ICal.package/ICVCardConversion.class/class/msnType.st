@@ -2,5 +2,5 @@ accessing-types
 msnType
 	^ICVCardTypeInformation
 		name: 'X-MSN' 
-		type: ICInstantMessageId iCalType 
+		type: ICMSNId iCalType 
 		multivalued: false

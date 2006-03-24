@@ -2,5 +2,5 @@ accessing-types
 aimType
 	^ICVCardTypeInformation
 		name: 'X-AIM' 
-		type: ICInstantMessageId iCalType 
+		type: ICAIMId iCalType 
 		multivalued: false

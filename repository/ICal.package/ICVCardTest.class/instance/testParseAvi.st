@@ -72,6 +72,7 @@ testParseAvi
 	
 	self assert: card aimids size = 1.
 	imid := card aimids anyOne.
+	self assert: (imid isKindOf: ICAIMId).
 	self assert: imid isPreferred.
 	self deny: imid isWork.
 	self deny: imid isHome.
@@ -81,6 +82,7 @@ testParseAvi
 	
 	self assert: card msnids size = 1.
 	imid := card msnids anyOne.
+	self assert: (imid isKindOf: ICMSNId).
 	self assert: imid isPreferred.
 	self deny: imid isWork.
 	self deny: imid isHome.
