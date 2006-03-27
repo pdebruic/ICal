@@ -1,0 +1,3 @@
+*ICalMagritte
+label
+	^'Yahoo! Id'

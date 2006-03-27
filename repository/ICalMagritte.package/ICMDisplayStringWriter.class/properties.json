@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MAStringWriter",
+	"category" : "ICalMagritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICMDisplayStringWriter",
+	"type" : "normal"
+}

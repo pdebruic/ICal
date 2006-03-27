@@ -1,7 +1,9 @@
 *ICalMagritte
 toManyStringDescriptionSelector: aSymbol label: aString priority: anInteger
-	^(MAToManyRelationDescription selector: aSymbol label: aString priority: anInteger)
+	^MAMemoDescription new
+		accessor: (ICMCollectionAccessor selector: aSymbol reference: MAStringDescription new);
+		label: aString;
+		priority: anInteger;
 		propertyAt: #editable put: true;
-		"reference: MAStringDescription new;"
-		classes: (Array with: String);
+		lineCount: 3;
 		yourself

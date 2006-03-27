@@ -1,0 +1,3 @@
+*ICalMagritte
+label
+	^'ICQ Id'

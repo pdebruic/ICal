@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MASelectorAccessor",
+	"category" : "ICalMagritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"reference"
+	],
+	"name" : "ICMCollectionAccessor",
+	"type" : "normal"
+}

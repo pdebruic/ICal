@@ -1,0 +1,11 @@
+{
+	"instance" : {
+		"read:" : "pmm 3/27/2006 11:02",
+		"write:to:" : "pmm 3/27/2006 11:07",
+		"reference" : "pmm 3/27/2006 11:03",
+		"reference:" : "pmm 3/27/2006 11:03"
+	},
+	"class" : {
+		"selector:reference:" : "pmm 3/27/2006 11:05"
+	}
+}
