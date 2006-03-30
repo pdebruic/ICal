@@ -1,3 +1,5 @@
 visiting
 write: anObject description: aDescription
-	^anObject displayString
+	^anObject isNil
+		ifFalse: [ anObject displayString ]
+		ifTrue: [ '' ]

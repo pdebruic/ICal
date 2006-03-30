@@ -1,0 +1,13 @@
+{
+	"instance" : {
+		"value:" : "pmm 3/30/2006 22:47",
+		"valueOf:at:" : "pmm 3/30/2006 22:53",
+		"endOf:" : "pmm 3/30/2006 22:46",
+		"durationOf:" : "pmm 3/30/2006 22:46",
+		"descriptionOf:at:" : "pmm 3/30/2006 22:53"
+	},
+	"class" : {
+		"defaultLabel" : "pmm 3/30/2006 22:50",
+		"isAbstract" : "pmm 3/30/2006 22:29"
+	}
+}

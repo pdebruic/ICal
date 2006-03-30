@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MACondition",
+	"category" : "ICalMagritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICMEventCondtion",
+	"type" : "normal"
+}
