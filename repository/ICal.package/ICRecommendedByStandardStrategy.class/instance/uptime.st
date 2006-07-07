@@ -1,3 +1,3 @@
 accessing
 uptime
-	^(Time millisecondClockValue hex copyAfter: $r) asLowercase
+	^Time millisecondClockValue printStringHex asLowercase
