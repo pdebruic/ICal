@@ -5,10 +5,10 @@
 	},
 	"class" : {
 		"textualPriorityFor:" : "pmm 3/24/2006 22:11",
-		"descriptionLocation" : "pmm 3/24/2006 22:06",
-		"descriptionPriority" : "pmm 3/24/2006 22:16",
-		"descriptionStart" : "pmm 3/24/2006 22:04",
-		"descriptionDuration" : "pmm 3/24/2006 22:05",
+		"descriptionLocation" : "pmm 8/13/2006 12:59",
+		"descriptionPriority" : "pmm 8/13/2006 12:59",
+		"descriptionStart" : "pmm 8/13/2006 12:59",
+		"descriptionDuration" : "pmm 8/13/2006 12:59",
 		"textualPriorityMedium" : "pmm 3/24/2006 22:08",
 		"textualPriorityDictionary" : "pmm 3/24/2006 22:16",
 		"textualPriorityLow" : "pmm 3/24/2006 22:07",
@@ -16,6 +16,6 @@
 		"textualPriorities" : "pmm 3/24/2006 22:16",
 		"textualPriorityHigh" : "pmm 3/24/2006 22:08",
 		"integerPriorityFor:" : "pmm 3/24/2006 22:11",
-		"descriptionTextualDescription" : "pmm 3/24/2006 22:02"
+		"descriptionTextualDescription" : "pmm 8/13/2006 12:59"
 	}
 }

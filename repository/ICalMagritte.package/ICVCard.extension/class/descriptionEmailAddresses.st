@@ -1,6 +1,6 @@
 *ICalMagritte
 descriptionEmailAddresses
 	^(MAToManyRelationDescription selector: #emailAddresses label: 'EMail Addresses' priority: 500)
-		propertyAt: #editable put: true;
+		beEditable;
 		classes: (Array with: ICEmailAddress);
 		yourself

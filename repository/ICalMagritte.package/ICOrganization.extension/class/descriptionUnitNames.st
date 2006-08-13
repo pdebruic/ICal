@@ -5,5 +5,5 @@ descriptionUnitNames
 		label: 'Unit Names';
 		priority: 200;
 		lineCount: 3;
-		propertyAt: #editable put: true;
+		beEditable;
 		yourself

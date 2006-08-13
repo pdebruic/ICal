@@ -4,6 +4,6 @@ toManyStringDescriptionSelector: aSymbol label: aString priority: anInteger
 		accessor: (ICMCollectionAccessor selector: aSymbol reference: MAStringDescription new);
 		label: aString;
 		priority: anInteger;
-		propertyAt: #editable put: true;
+		beEditable;
 		lineCount: 3;
 		yourself

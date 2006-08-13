@@ -1,11 +1,11 @@
 {
 	"instance" : { },
 	"class" : {
-		"descriptionGivenName" : "pmm 3/24/2006 17:25",
+		"descriptionGivenName" : "pmm 8/13/2006 12:59",
 		"descriptionHonorificPrefixes" : "pmm 3/24/2006 14:54",
 		"descriptionHonorificSuffixes" : "pmm 3/24/2006 15:10",
-		"descriptionFamilyName" : "pmm 3/24/2006 17:25",
+		"descriptionFamilyName" : "pmm 8/13/2006 12:59",
 		"descriptionAdditionalNames" : "pmm 3/24/2006 14:55",
-		"toManyStringDescriptionSelector:label:priority:" : "pmm 3/27/2006 11:05"
+		"toManyStringDescriptionSelector:label:priority:" : "pmm 8/13/2006 12:59"
 	}
 }

@@ -1,6 +1,6 @@
 *ICalMagritte
 descriptionIcqIds
 	^(MAToManyRelationDescription selector: #icqids label: 'ICQ IDs' priority: 700)
-		propertyAt: #editable put: true;
+		beEditable;
 		classes: (Array with: ICICQId);
 		yourself
