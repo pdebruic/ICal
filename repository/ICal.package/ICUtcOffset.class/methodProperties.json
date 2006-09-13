@@ -1,0 +1,21 @@
+{
+	"instance" : {
+		"seconds:" : "pmm 9/13/2006 21:45",
+		"minutes:" : "pmm 9/13/2006 21:45",
+		"seconds" : "pmm 9/13/2006 21:45",
+		"=" : "pmm 9/13/2006 23:01",
+		"positive:" : "pmm 9/13/2006 21:55",
+		"minutes" : "pmm 9/13/2006 21:45",
+		"printOn:" : "pmm 9/13/2006 23:21",
+		"hours" : "pmm 9/13/2006 21:45",
+		"totalSeconds" : "pmm 9/13/2006 21:56",
+		"hash" : "pmm 9/13/2006 23:06",
+		"asICalString" : "pmm 9/13/2006 22:02",
+		"hours:" : "pmm 9/13/2006 21:45",
+		"positive" : "pmm 9/13/2006 21:55"
+	},
+	"class" : {
+		"fromICalString:" : "pmm 9/13/2006 23:24",
+		"iCalType" : "pmm 9/13/2006 13:06"
+	}
+}

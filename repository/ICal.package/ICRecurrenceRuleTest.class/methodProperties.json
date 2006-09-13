@@ -1,9 +1,9 @@
 {
 	"instance" : {
-		"testHours" : "pmm 10/29/2005 00:54",
-		"testWeekdays" : "pmm 10/4/2005 20:02",
+		"testHours" : "pmm 9/13/2006 23:30",
+		"testWeekdays" : "pmm 9/13/2006 23:36",
 		"testSimple" : "pmm 10/2/2005 15:10",
-		"testParsing" : "pmm 10/29/2005 00:55",
+		"testParsing" : "pmm 9/13/2006 23:39",
 		"testRepetition" : "pmm 10/2/2005 15:14"
 	},
 	"class" : { }
