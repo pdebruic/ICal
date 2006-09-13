@@ -1,0 +1,3 @@
+*ICalMagritte
+descriptionComments
+	^ICCalendarEntry descriptionComments
