@@ -1,4 +1,3 @@
 exporting-values
-exportRecurrenceRules: aCollection
-	aCollection do: [ :each |
-		self exportRecurrenceRule: each ]
+exportRecurrenceRules: anObject
+	self exportProperty: anObject type: ICConversion recurrenceRuleType

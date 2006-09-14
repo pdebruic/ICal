@@ -9,11 +9,8 @@
 		"lastModified",
 		"url",
 		"id",
-		"names",
 		"standardTimes",
-		"daylightSavingTimes",
-		"offsetFrom",
-		"offsetTo"
+		"daylightSavingTimes"
 	],
 	"name" : "ICTimezone",
 	"type" : "normal"

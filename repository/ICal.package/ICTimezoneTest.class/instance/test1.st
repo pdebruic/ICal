@@ -26,6 +26,7 @@ test1
 	
 	self assert: timezone daylightSavingTimes size = 1.
 	daylightSavingTime := timezone daylightSavingTimes first.
+	self assert: daylightSavingTime start = (DateAndTime year: 1997 month: 10 day: 26 hour: 2 minute: 0).
 	self assert: daylightSavingTime recurrenceDates size = 1.
 	recurrenceDate := daylightSavingTime recurrenceDates first.
 	self assert: recurrenceDate = (DateAndTime year: 1997 month: 04 day: 06 hour: 2 minute: 0).
