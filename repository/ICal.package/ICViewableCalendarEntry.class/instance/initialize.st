@@ -6,4 +6,6 @@ initialize
 	self recurrenceDates: OrderedCollection new.
 	self exclusionDates: OrderedCollection new.
 	self attachments: OrderedCollection new.
+	self recurrenceRules: OrderedCollection new.
+	self exclusionRules: OrderedCollection new.
 	self sequenceNumber: 0

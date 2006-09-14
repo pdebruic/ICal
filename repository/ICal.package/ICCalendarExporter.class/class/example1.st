@@ -5,7 +5,7 @@ example1
 	calendar := ICCalendar new.
 	event :=( ICEvent summary: 'demo event')
 		start: Date today;
-		recurrenceRule: ICRecurrenceRule weekly; 
+		addRecurrenceRule: ICRecurrenceRule weekly; 
 		yourself.
 	calendar addEvent: event.
 	

@@ -1,4 +1,4 @@
 testing
 isRecurrent
-	^self hasRecurrenceRule
+	^self hasRecurrenceRules
 		or: [ self recurrenceDates notEmpty ]

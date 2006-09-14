@@ -11,10 +11,10 @@
 		"classification",
 		"created",
 		"exclusionDates",
-		"exclusionRule",
+		"exclusionRules",
 		"status",
 		"recurrenceDates",
-		"recurrenceRule",
+		"recurrenceRules",
 		"lastModified",
 		"sequenceNumber",
 		"summary"

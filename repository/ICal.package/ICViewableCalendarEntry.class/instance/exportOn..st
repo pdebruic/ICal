@@ -6,10 +6,10 @@ exportOn: anExporter
 	anExporter exportClassification: self classification.
 	anExporter exportCreated: self created.
 	anExporter exportExclusionDates: self exclusionDates.
-	anExporter exportExclusionRule: self exclusionRule.
+	anExporter exportExclusionRules: self exclusionRules.
 	anExporter exportStatus: self status.
 	anExporter exportRecurrenceDates: self recurrenceDates.
-	anExporter exportRecurrenceRule: self recurrenceRule.
+	anExporter exportRecurrenceRules: self recurrenceRules.
 	anExporter exportLastModified: self lastModified.
 	anExporter exportSequenceNumber: self sequenceNumber.
 	anExporter exportSummary: self summary

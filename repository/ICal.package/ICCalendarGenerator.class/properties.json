@@ -8,7 +8,8 @@
 	"instvars" : [
 		"calendar",
 		"tempComponent",
-		"tempAlarm"
+		"tempAlarm",
+		"tempTime"
 	],
 	"name" : "ICCalendarGenerator",
 	"type" : "normal"

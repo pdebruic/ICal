@@ -10,6 +10,7 @@
 		"exportGeo:" : "pmm 11/6/2005 00:29",
 		"exportProductId:" : "pmm 11/6/2005 00:29",
 		"exportDue:" : "pmm 11/6/2005 00:29",
+		"exportRecurrenceRules:" : "pmm 9/14/2006 10:16",
 		"exportLastModified:" : "pmm 11/6/2005 00:29",
 		"exportUrl:" : "pmm 11/6/2005 00:29",
 		"export" : "pmm 12/11/2005 12:21",
@@ -27,6 +28,7 @@
 		"exportAction:" : "pmm 11/11/2005 20:28",
 		"exportTrigger:" : "pmm 11/11/2005 20:24",
 		"exportRepetition:" : "pmm 11/11/2005 20:25",
+		"exportExclusionRules:" : "pmm 9/14/2006 10:19",
 		"calendar:" : "pmm 12/11/2005 12:19",
 		"exportPriority:" : "pmm 11/6/2005 00:29",
 		"exportStatus:" : "pmm 11/6/2005 00:29",
@@ -40,7 +42,7 @@
 		"exportCompleted:" : "pmm 11/6/2005 00:29"
 	},
 	"class" : {
-		"example1" : "pmm 10/9/2005 13:43",
+		"example1" : "pmm 9/14/2006 10:14",
 		"calendar:" : "dr 5/16/2005 13:27"
 	}
 }
