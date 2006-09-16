@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Daemon",
+	"category" : "ICal-SummerTalk",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "IcalDaemon",
+	"type" : "normal"
+}

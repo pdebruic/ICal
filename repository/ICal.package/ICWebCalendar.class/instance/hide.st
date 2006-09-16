@@ -1,0 +1,3 @@
+rendering
+hide
+	display:=false

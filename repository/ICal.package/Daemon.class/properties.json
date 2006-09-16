@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "YM 9/3/2006 16:00",
+	"super" : "Object",
+	"category" : "ICal-SummerTalk",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"crontab",
+		"addBlock",
+		"removeBlock",
+		"taskBlock",
+		"on",
+		"startUpBlock"
+	],
+	"name" : "Daemon",
+	"type" : "normal"
+}

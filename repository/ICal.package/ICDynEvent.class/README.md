@@ -1,0 +1,1 @@
+To handle time flow in the iCalendar, for each event occuring in the next 12 hours we have an ICDynEvent. this event knows if he is active (aka occuring) or waiting. This should be used be the different components (Signaling system, webCalendar, ...) to be up2date in real time.

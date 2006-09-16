@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SUComponent",
+	"category" : "ICal-SummerTalk-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"app",
+		"webCalendars"
+	],
+	"name" : "ICWebCalendarList",
+	"type" : "normal"
+}

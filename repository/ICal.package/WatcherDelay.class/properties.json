@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ICal-SummerTalk",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"watcher",
+		"job",
+		"time"
+	],
+	"name" : "WatcherDelay",
+	"type" : "normal"
+}

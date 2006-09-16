@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAStyleLibrary",
+	"category" : "ICal-SummerTalk-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICWebStyleLibrary",
+	"type" : "normal"
+}

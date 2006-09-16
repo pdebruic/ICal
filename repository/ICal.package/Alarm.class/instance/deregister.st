@@ -1,0 +1,3 @@
+API
+deregister
+	self unschedule

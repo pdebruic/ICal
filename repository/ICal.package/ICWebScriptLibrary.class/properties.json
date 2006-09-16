@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAScriptLibrary",
+	"category" : "ICal-SummerTalk-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICWebScriptLibrary",
+	"type" : "normal"
+}

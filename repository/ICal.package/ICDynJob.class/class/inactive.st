@@ -1,0 +1,4 @@
+enumerating
+inactive
+
+	^#INACTIVE

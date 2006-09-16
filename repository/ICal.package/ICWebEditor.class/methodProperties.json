@@ -1,0 +1,42 @@
+{
+	"instance" : {
+		"status" : "YM 8/30/2006 18:37",
+		"status:" : "YM 8/30/2006 18:37",
+		"summary:" : "YM 8/25/2006 00:05",
+		"event" : "YM 8/24/2006 23:15",
+		"renderStartTimeOn:" : "YM 9/14/2006 21:33",
+		"start:" : "YM 8/30/2006 18:38",
+		"location:" : "YM 8/30/2006 18:38",
+		"renderEditorOn:" : "YM 9/15/2006 00:27",
+		"renderLabel:control:model:on:" : "YM 9/12/2006 16:56",
+		"renderStatusOn:" : "YM 9/12/2006 19:26",
+		"renderCalendarOn:" : "YM 9/15/2006 00:30",
+		"renderSaveButtonOn:" : "YM 9/2/2006 17:13",
+		"initialize2" : "YM 9/15/2006 00:31",
+		"end" : "YM 9/14/2006 21:20",
+		"children" : "YM 9/15/2006 16:18",
+		"location" : "YM 8/30/2006 18:38",
+		"renderPriorityOn:" : "YM 9/12/2006 19:26",
+		"event:" : "YM 8/24/2006 23:15",
+		"renderStartDateOn:" : "YM 9/15/2006 15:04",
+		"renderEndDateOn:" : "YM 9/14/2006 21:35",
+		"renderTimeOn:" : "YM 9/15/2006 00:27",
+		"rendererClass" : "YM 9/5/2006 16:07",
+		"save" : "YM 9/15/2006 16:21",
+		"end:" : "YM 9/14/2006 21:20",
+		"target" : "YM 8/26/2006 20:50",
+		"renderCancelButtonOn:" : "YM 9/12/2006 19:28",
+		"summary" : "YM 8/25/2006 00:05",
+		"renderEndTimeOn:" : "YM 9/14/2006 21:33",
+		"target:" : "YM 8/26/2006 20:50",
+		"renderButtonOn:callback:text:fid:" : "YM 9/15/2006 14:10",
+		"renderLocationOn:" : "YM 9/12/2006 19:23",
+		"renderSummaryOn:" : "YM 9/12/2006 21:52",
+		"start" : "YM 8/30/2006 18:38",
+		"renderContentOn:" : "YM 9/1/2006 17:03"
+	},
+	"class" : {
+		"newEventOn:" : "YM 8/30/2006 17:24",
+		"newEvent:target:" : "YM 8/30/2006 16:49"
+	}
+}

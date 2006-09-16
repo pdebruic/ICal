@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"deregister" : "YM 8/7/2006 11:21",
+		"alarmBlock:" : "YM 8/1/2006 16:54",
+		"signalWaitingProcess" : "YM 8/7/2006 11:47",
+		"alarmBlock" : "YM 8/1/2006 16:54",
+		"wait" : "YM 8/7/2006 11:59",
+		"clearMicrosecondTimer" : "YM 8/7/2006 11:30",
+		"register" : "YM 8/7/2006 11:21"
+	},
+	"class" : { }
+}
