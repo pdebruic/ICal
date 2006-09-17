@@ -1,7 +1,7 @@
 running
 setUp
 	| categories |
-	calendar := ICCalendar summary: ' Test Calendar '.
+	calendar := ICCalendar name: ' Test Calendar '.
 	categories := OrderedCollection new.
 	category1 := ICCategory summary: 'tennis club'.
 	category1 textualDescription: 'this category is for tennis club events'.

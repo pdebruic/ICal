@@ -1,3 +1,8 @@
 printing
 printOn: aStream
-	aStream nextPutAll: (summary ifNil:['an ICCalendar'])
+	super printOn: aStream.
+	self name isNil ifFalse: [
+		aStream
+			nextPut: $(;
+			nextPutAll: self name;
+			nextPut: $) ]

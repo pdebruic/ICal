@@ -1,7 +1,7 @@
 running
 setUp
 	| category2 |
-	calendar := ICCalendar summary: 'Veriveris Calendar'.
+	calendar := ICCalendar name: 'Veriveris Calendar'.
 	event1 := ICEvent summary: 'first date'.
 	event1 location: 'swimmingpool'.
 	event1 uid: 'app1'.

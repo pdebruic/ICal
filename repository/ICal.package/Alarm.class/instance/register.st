@@ -1,3 +1,0 @@
-API
-register
-	self wait

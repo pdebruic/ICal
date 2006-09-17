@@ -1,4 +1,0 @@
-delaying
-wait
-
-	self schedule

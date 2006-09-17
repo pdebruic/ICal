@@ -1,13 +1,15 @@
 testing
 testExportEvent
 	| export str |
+	calendar name: 'veriveri''s Calendar'.
 	calendar addEvent: event.
 	export := iCalExporter export.
 	str := 'BEGIN:VCALENDAR' , String crlf 
 				, 'PRODID:' , calendar productId , String crlf 
 				, 'VERSION:2.0' , String crlf 
+				, 'X-WR-CALNAME:veriveri''s Calendar' , String crlf
 				, 'METHOD:PUBLISH' , String crlf
-				, 'BEGIN:VEVENT' , String crlf 				
+				, 'BEGIN:VEVENT' , String crlf 
 				, 'UID:' , event uid , String crlf 
 				, 'CREATED:20050501T110231Z' , String crlf 
 				, 'STATUS:TENTATIVE' , String crlf 

@@ -1,6 +1,6 @@
 running
 setUp
-	calendar := ICCalendar summary: 'test'.
+	calendar := ICCalendar name: 'test'.
 	appointment := ICEvent summary: 'aTitle'.
 	appointment location: 'Bern'.
 	appointment textualDescription: 'description'.

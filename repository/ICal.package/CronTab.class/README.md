@@ -1,1 +1,0 @@
-I hold objects, and have a Daemon that does stuff according to the needs

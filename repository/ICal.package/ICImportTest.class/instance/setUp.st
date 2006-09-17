@@ -1,7 +1,7 @@
 running
 setUp
 	| importString |
-	calendar := ICCalendar summary: 'test'.
+	calendar := ICCalendar name: 'test'.
 	event := (ICEvent summary: 'aTitle')
 				location: 'Bern';
 				textualDescription: 'a long long long text, very long... really!';
@@ -43,6 +43,7 @@ setUp
 	importString := 'BEGIN:VCALENDAR' , String crlf ,
 'PRODID:-//SMALLWIKI2-Calendar v1.0//-' , String crlf ,
 'VERSION:2.0' , String crlf ,
+'X-WR-CALNAME:veriveri''s Calendar' , String crlf ,
 'METHOD:PUBLISH' , String crlf ,
 'BEGIN:VEVENT' , String crlf ,
 'DTSTART:20050614T110000Z' , String crlf ,

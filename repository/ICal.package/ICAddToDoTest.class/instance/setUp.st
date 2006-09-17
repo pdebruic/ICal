@@ -1,3 +1,3 @@
 running
 setUp
-	calendar := ICCalendar summary: 'the calendar'
+	calendar := ICCalendar name: 'the calendar'

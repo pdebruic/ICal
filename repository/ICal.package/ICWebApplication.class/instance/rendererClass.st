@@ -1,3 +1,0 @@
-accessing-class
-rendererClass
-	^ WARenderCanvas

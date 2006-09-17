@@ -10,6 +10,7 @@ testExportAlarm2
 	str := 'BEGIN:VCALENDAR' , String crlf 
 				, 'PRODID:' , calendar productId , String crlf 
 				, 'VERSION:2.0' , String crlf 
+				, 'X-WR-CALNAME:test' , String crlf 
 				, 'METHOD:PUBLISH' , String crlf
 				, 'BEGIN:VTODO' , String crlf 				
 				, 'UID:' , alarmTodo uid , String crlf 

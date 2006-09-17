@@ -1,3 +1,0 @@
-rendering
-hide
-	display:=false

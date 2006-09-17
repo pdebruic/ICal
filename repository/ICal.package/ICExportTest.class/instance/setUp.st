@@ -1,6 +1,6 @@
 running
 setUp
-	calendar := ICCalendar summary: 'test'.
+	calendar := ICCalendar name: 'test'.
 	event := (ICEvent summary: 'aTitle')
 				location: 'Bern';
 				uid: 'a short but globally unique id';
