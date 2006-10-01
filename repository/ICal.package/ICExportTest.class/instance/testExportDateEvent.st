@@ -3,11 +3,7 @@ testExportDateEvent
 	| export str |
 	calendar addEvent: dateEvent.
 	export := iCalExporter export.
-	str := 'BEGIN:VCALENDAR' , String crlf 
-				, 'PRODID:' , calendar productId , String crlf 
-				, 'VERSION:2.0' , String crlf 
-				, 'X-WR-CALNAME:test' , String crlf 
-				, 'METHOD:PUBLISH' , String crlf
+	str := self standardCalendarHeader
 				, 'BEGIN:VEVENT' , String crlf 				
 				, 'UID:' , dateEvent uid , String crlf 
 				, 'CATEGORIES:category1,category2' , String crlf
@@ -17,7 +13,7 @@ testExportDateEvent
 				, 'PRIORITY:5' , String crlf 				
 				, 'DTSTART;VALUE=DATE:20050425' , String crlf 
 				, 'END:VEVENT' , String crlf 
-				, 'END:VCALENDAR' , String crlf.
+				, self standardCalendarFooter.
 	export dataStream contents 
 		keysAndValuesDo: [:index :value | self assert: value = (str at: index)].
 	self assert: export dataStream contents = str

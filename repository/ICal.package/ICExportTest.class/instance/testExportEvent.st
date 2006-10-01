@@ -23,7 +23,7 @@ testExportEvent
 				, 'DTEND:20050425T120900' , String crlf 				
 				, 'TRANSP:OPAQUE' , String crlf 
 				, 'END:VEVENT' , String crlf 
-				, 'END:VCALENDAR' , String crlf.
+				, self standardCalendarFooter.
 	export dataStream contents 
 		keysAndValuesDo: [:index :value |
 			self assert: value = (str at: index) ].

@@ -7,11 +7,7 @@ testExportAlarm2
 	alarmTodo uid: '(cons car cdr)'.
 	calendar addEvent: alarmTodo.
 	export := iCalExporter export.
-	str := 'BEGIN:VCALENDAR' , String crlf 
-				, 'PRODID:' , calendar productId , String crlf 
-				, 'VERSION:2.0' , String crlf 
-				, 'X-WR-CALNAME:test' , String crlf 
-				, 'METHOD:PUBLISH' , String crlf
+	str := self standardCalendarHeader
 				, 'BEGIN:VTODO' , String crlf 				
 				, 'UID:' , alarmTodo uid , String crlf 
 				, 'CREATED:' , created asICalUtcString , String crlf 
@@ -25,7 +21,7 @@ testExportAlarm2
 				, 'REPEAT:2' , String crlf 
 				, 'END:VALARM' , String crlf 
 				, 'END:VTODO' , String crlf 
-				, 'END:VCALENDAR' , String crlf.
+				, self standardCalendarFooter.
 	export dataStream contents 
 		keysAndValuesDo: [:index :value |
 			self assert: value = (str at: index) ].

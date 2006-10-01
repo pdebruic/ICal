@@ -7,11 +7,7 @@ testExportAlarm1
 	alarmEvent uid: 'xxx'.
 	calendar addEvent: alarmEvent.
 	export := iCalExporter export.
-	str := 'BEGIN:VCALENDAR' , String crlf 
-				, 'PRODID:' , calendar productId , String crlf 
-				, 'VERSION:2.0' , String crlf 
-				, 'X-WR-CALNAME:test' , String crlf 
-				, 'METHOD:PUBLISH' , String crlf
+	str := self standardCalendarHeader
 				, 'BEGIN:VEVENT' , String crlf 				
 				, 'UID:' , alarmEvent uid , String crlf 
 				, 'CREATED:' , created asICalUtcString , String crlf 
@@ -26,7 +22,7 @@ testExportAlarm1
 				, 'ATTACH:ftp://host.com/pub/sounds/bell-01.aud' , String crlf 
 				, 'END:VALARM' , String crlf 
 				, 'END:VEVENT' , String crlf 
-				, 'END:VCALENDAR' , String crlf.
+				, self standardCalendarFooter.
 	export dataStream contents 
 		keysAndValuesDo: [:index :value |
 			self assert: value = (str at: index) ].

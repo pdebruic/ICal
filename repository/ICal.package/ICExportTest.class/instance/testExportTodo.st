@@ -3,11 +3,7 @@ testExportTodo
 	| export str |
 	calendar addTodo: todo.
 	export := iCalExporter export.
-	str := 'BEGIN:VCALENDAR' , String crlf 
-				, 'PRODID:' , calendar productId , String crlf 
-				, 'VERSION:2.0' , String crlf 
-				, 'X-WR-CALNAME:test' , String crlf 
-				, 'METHOD:PUBLISH' , String crlf
+	str := self standardCalendarHeader
 				, 'BEGIN:VTODO' , String crlf 
 				, 'UID:' , todo uid , String crlf 
 				, 'CREATED:20050501T110231Z' , String crlf 
@@ -20,7 +16,7 @@ testExportTodo
 				, 'COMPLETED:20050501T110231Z' , String crlf 
 				, 'DUE:20050425T120900' , String crlf 
 				, 'END:VTODO' , String crlf 
-				, 'END:VCALENDAR' , String crlf.
+				, self standardCalendarFooter.
 	export dataStream contents 
 		keysAndValuesDo: [:index :value | self assert: value = (str at: index)].
 	self assert: export dataStream contents = str
