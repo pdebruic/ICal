@@ -1,7 +1,11 @@
 private
-printRepetitonOn: aStream	
-	aStream
-		nextPutAll: (self repetition isInteger
-			ifTrue: [ 'COUNT=' ]
-			ifFalse: [ 'UNTIL=' ]);
-		nextPutAll: self repetition asICalString
+printRepetitonOn: aStream
+	self repetition isInteger
+		ifTrue: [
+			aStream
+				nextPutAll: 'COUNT=';
+				nextPutAll: self repetition asICalString ]
+		ifFalse: [
+			aStream
+			nextPutAll: 'UNTIL=';
+				nextPutAll: self repetition asICalUtcString ]

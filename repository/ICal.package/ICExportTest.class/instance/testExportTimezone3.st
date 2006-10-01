@@ -1,6 +1,5 @@
 testing
 testExportTimezone3
-	"placeholder for real tests to come so that I don't forget to write them"
 	| export str |
 	calendar addTimezone: self timezone3.
 	export := iCalExporter export.
@@ -17,7 +16,7 @@ testExportTimezone3
 'END:STANDARD', String crlf, 
 'BEGIN:DAYLIGHT', String crlf, 
 'DTSTART:19870405T020000', String crlf, 
-'RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=4;UNTIL=19980404T070000Z', String crlf, 
+'RRULE:FREQ=YEARLY;UNTIL=19980404T070000Z;BYDAY=1SU;BYMONTH=4', String crlf, 
 'TZOFFSETFROM:-0500', String crlf, 
 'TZOFFSETTO:-0400', String crlf, 
 'TZNAME:EDT', String crlf, 
