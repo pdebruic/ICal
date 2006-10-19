@@ -1,7 +1,7 @@
 testing
 testImport
 	| events eventAtDate date tempAlarm |
-	date := Date 
+	date := self dateClass 
 				year: 2005
 				month: 6
 				day: 14.
@@ -26,29 +26,29 @@ testImport
 	"self assert: eventAtDate categories anyOne 
 				= (calendar categoryWithSummary: 'business')."
 	self 
-		assert: eventAtDate start = (DateAndTime date: date
-						time: (Time 
+		assert: eventAtDate start = (self dateAndTimeClass date: date
+						time: (self timeClass 
 								hour: 11
 								minute: 0
 								second: 0)).
 	self 
-		assert: eventAtDate end = (DateAndTime date: date
-						time: (Time 
+		assert: eventAtDate end = (self dateAndTimeClass date: date
+						time: (self timeClass 
 								hour: 13
 								minute: 0
 								second: 0)).
 	self assert: eventAtDate alarms size = 2.
 	tempAlarm := eventAtDate alarms first.
-	self assert: tempAlarm trigger value = (DateAndTime year: 1997 month: 3 day: 17 hour: 13 minute: 30).
+	self assert: tempAlarm trigger value = (self dateAndTimeClass year: 1997 month: 3 day: 17 hour: 13 minute: 30 second: 00).
 	self assert: tempAlarm repetitions = 4.
-	self assert: tempAlarm delay = 15 minutes.
+	self assert: tempAlarm delay = (self durationClass minutes: 15).
 	self assert: tempAlarm isAudio.
 	self assert: tempAlarm attachments size = 1.
 	self assert: tempAlarm attachments first asICalString = (Url fromICalString: 'ftp://host.com/pub/sounds/bell-01.aud') asICalString.
 	tempAlarm := eventAtDate alarms second.
-	self assert: tempAlarm trigger value = 30 negated minutes.
+	self assert: tempAlarm trigger value = (self durationClass minutes: 30 negated).
 	self assert: tempAlarm trigger isRelatedToStart.
-	self assert: tempAlarm delay = 15 minutes.
+	self assert: tempAlarm delay = (self durationClass minutes: 15).
 	self assert: tempAlarm isDisplay.
 								
 	eventAtDate := events detect: [:each | each summary = 'todo1'].
@@ -58,14 +58,14 @@ testImport
 	"self assert: eventAtDate categories anyOne 
 				= (calendar categoryWithSummary: 'business')."
 	self 
-		assert: eventAtDate due = (DateAndTime date: date
-						time: (Time 
+		assert: eventAtDate due = (self dateAndTimeClass date: date
+						time: (self timeClass 
 								hour: 15
 								minute: 0
 								second: 0)).
 	self 
-		assert: eventAtDate completed = (DateAndTime date: date
-						time: (Time 
+		assert: eventAtDate completed = (self dateAndTimeClass date: date
+						time: (self timeClass 
 								hour: 11
 								minute: 9
 								second: 15))

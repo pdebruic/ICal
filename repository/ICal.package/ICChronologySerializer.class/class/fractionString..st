@@ -1,9 +1,8 @@
-*ICal
-fractionString
+time
+fractionString: nanoseconds
 	| string lastIndex |
-	string := self nanoSecond asString.
+	string := nanoseconds asString.
 	lastIndex := string size.
 	[ (string at: lastIndex) = $0 ] whileTrue: [
 		lastIndex := lastIndex - 1].
 	^string first: lastIndex
-	

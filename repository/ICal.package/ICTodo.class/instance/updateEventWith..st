@@ -7,7 +7,7 @@ updateEventWith: anEventOrCommand
 	anEventOrCommand isCompleted ifTrue: [
 		self beCompleted.
 		anEventOrCommand completed isNil ifTrue: [
-			self completed: DateAndTime now.
+			self completed: self dateAndTimeClass now.
 		] ifFalse: [
 			self completed: anEventOrCommand completed.
 		].

@@ -1,4 +1,4 @@
 updating
 modified
-	self lastModified: DateAndTime now.
+	self lastModified: self dateAndTimeClass now.
 	self sequenceNumber: self sequenceNumber + 1

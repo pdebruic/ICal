@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
+	"super" : "ICTest",
 	"category" : "ICal-VCard-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],

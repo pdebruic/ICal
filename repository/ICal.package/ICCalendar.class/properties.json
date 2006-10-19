@@ -7,7 +7,6 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"categories",
-		"charset",
 		"events",
 		"freeBusy",
 		"journals",

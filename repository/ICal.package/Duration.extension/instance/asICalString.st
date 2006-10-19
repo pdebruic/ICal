@@ -1,3 +1,3 @@
 *ICal
 asICalString
-	^self asICalDurationString
+	^ICChronologySerializer asICalStringDuration: self

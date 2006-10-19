@@ -1,20 +1,22 @@
 testing
 testSave
 	| savedEvent event |
-	event := (ICEvent new)
+	event := ICEvent new
 				location: 'bern';
-				start: (DateAndTime 
+				start: (self dateAndTimeClass 
 							year: 2005
 							month: 4
 							day: 18
 							hour: 21
-							minute: 1);
-				end: (DateAndTime 
+							minute: 1
+							second: 0);
+				end: (self dateAndTimeClass  
 							year: 2005
 							month: 4
 							day: 18
 							hour: 22
-							minute: 1);
+							minute: 1
+							second: 0);
 				addCategory: (ICCategory summary: 'first');
 				summary: 'sleep';
 				beMediumPriority;

@@ -5,15 +5,15 @@ testBasicInformation
 		self assert:  each class == ICCategory ].
 	self assert: appointment location = 'Bern'.
 	self assert: appointment textualDescription = 'description'.
-	self assert: appointment start class = DateAndTime.
+	self assert: appointment start class = self dateAndTimeClass .
 	self 
-		assert: appointment start > (Date 
+		assert: appointment start > (self dateAndTimeClass  
 						year: 2005
 						month: 4
 						day: 18).
-	self assert: appointment end class = DateAndTime.
+	self assert: appointment end class = self dateAndTimeClass.
 	self 
-		assert: appointment end > (Date 
+		assert: appointment end > (self dateAndTimeClass  
 						year: 2005
 						month: 4
 						day: 18)

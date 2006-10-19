@@ -1,19 +1,20 @@
 running
 setUp
-	calendar := ICCalendar name: 'test'.
 	appointment := ICEvent summary: 'aTitle'.
 	appointment location: 'Bern'.
 	appointment textualDescription: 'description'.
 	appointment addCategory: (ICCategory summary: 'first').
-	appointment start: (DateAndTime 
+	appointment start: (self dateAndTimeClass  
 				year: 2005
 				month: 4
 				day: 18
 				hour: 21
-				minute: 1).
-	appointment end: (DateAndTime 
+				minute: 1
+				second: 0).
+	appointment end: (self dateAndTimeClass  
 				year: 2005
 				month: 4
 				day: 18
 				hour: 23
-				minute: 59).
+				minute: 59
+				second: 0).

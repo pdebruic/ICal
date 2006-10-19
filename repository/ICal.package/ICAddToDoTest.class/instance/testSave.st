@@ -1,7 +1,7 @@
 testing
 testSave
 	| savedToDo deadLine todo |
-	deadLine := DateAndTime now + 1 day.
+	deadLine := self dateAndTimeClass now + (self durationClass days: 1 hours: 0 minutes: 0 seconds: 0).
 	todo := (ICTodo new)
 				addCategory: (ICCategory summary: 'second');
 				summary: 'writing a letter';

@@ -6,17 +6,19 @@ testRemoveAppointment
 	event
 		location: 'room one';
 		addCategory: (ICCategory summary: 'second');
-		start: (DateAndTime 
+		start: (self dateAndTimeClass 
 					year: 2005
 					month: 5
 					day: 18
 					hour: 17
-					minute: 0);
-		end: (DateAndTime 
+					minute: 0
+					second: 0);
+		end: (self dateAndTimeClass 
 					year: 2005
 					month: 5
 					day: 18
 					hour: 20
-					minute: 0);
+					minute: 0
+					second: 0);
 		beLowPriority.
 	self removeTesting: event

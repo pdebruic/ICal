@@ -2,27 +2,28 @@ private
 createTodo
 	^(ICTodo summary: 'aTitle')
 				textualDescription: 'a long long long text, very long... really!';
-				due: (DateAndTime 
+				due: (self dateAndTimeClass
 							year: 2005
 							month: 4
 							day: 25
 							hour: 12
-							minute: 9);
-				lastModified: (DateAndTime 
+							minute: 9
+							second: 00);
+				lastModified: (self dateAndTimeClass 
 							year: 2005
 							month: 5
 							day: 1
 							hour: 11
 							minute: 2
 							second: 31);
-				created: (DateAndTime 
+				created: (self dateAndTimeClass 
 							year: 2005
 							month: 5
 							day: 1
 							hour: 11
 							minute: 2
 							second: 31);
-				completed: (DateAndTime 
+				completed: (self dateAndTimeClass 
 							year: 2005
 							month: 5
 							day: 1
