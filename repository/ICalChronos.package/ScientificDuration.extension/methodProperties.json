@@ -1,0 +1,11 @@
+{
+	"instance" : {
+		"asICalString" : "pmm 10/17/2006 18:41",
+		"isNegative" : "pmm 10/16/2006 18:37",
+		"isPositive" : "pmm 10/16/2006 18:35"
+	},
+	"class" : {
+		"fromICalString:" : "pmm 10/17/2006 18:39",
+		"iCalType" : "pmm 10/16/2006 16:55"
+	}
+}

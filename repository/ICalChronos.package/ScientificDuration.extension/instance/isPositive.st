@@ -1,0 +1,3 @@
+*ICalChronos
+isPositive
+	^self positive

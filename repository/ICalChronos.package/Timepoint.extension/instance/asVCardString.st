@@ -1,0 +1,7 @@
+*ICalChronos
+asVCardString
+	^String streamContents: [ :stream |
+		stream 
+			nextPutAll: self asDate asVCardString;
+			nextPut: $T;
+			nextPutAll: self timeOfDay asVCardString ]
