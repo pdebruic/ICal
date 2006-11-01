@@ -1,0 +1,43 @@
+{
+	"instance" : {
+		"monthdays" : "jbjohns 10/30/2006 05:25",
+		"hasPositions" : "jbjohns 10/30/2006 05:54",
+		"yeardays" : "jbjohns 10/30/2006 05:42",
+		"weeknumbers" : "jbjohns 10/30/2006 05:41",
+		"initialize" : "jbjohns 10/30/2006 05:51",
+		"intersect:with:" : "jbjohns 10/29/2006 15:58",
+		"weekdays" : "jbjohns 10/30/2006 05:40",
+		"minutes" : "jbjohns 10/30/2006 05:22",
+		"seconds:" : "jbjohns 10/30/2006 05:37",
+		"hours:" : "jbjohns 10/30/2006 05:20",
+		"weekdays:" : "jbjohns 10/30/2006 05:40",
+		"weekStartday" : "jbjohns 10/30/2006 05:38",
+		"weekStartday:" : "jbjohns 10/30/2006 05:39",
+		"dates:after:" : "jbjohns 10/31/2006 06:37",
+		"eventsStartingAt:untilFalse:" : "jbjohns 10/31/2006 18:22",
+		"byDay:for:" : "jbjohns 10/29/2006 15:58",
+		"monthnumbers:" : "jbjohns 10/30/2006 05:28",
+		"positions:" : "jbjohns 10/30/2006 05:36",
+		"monthnumbers" : "jbjohns 10/30/2006 05:28",
+		"byDayFor:" : "jbjohns 10/30/2006 06:08",
+		"hours" : "jbjohns 10/30/2006 05:19",
+		"byMonthDayFor:" : "jbjohns 10/29/2006 15:58",
+		"byDay:for:at:" : "jbjohns 10/29/2006 15:58",
+		"monthdays:" : "jbjohns 10/30/2006 05:26",
+		"seconds" : "jbjohns 10/30/2006 05:37",
+		"yeardays:" : "jbjohns 10/30/2006 05:43",
+		"interval:" : "jbjohns 10/30/2006 05:22",
+		"positions" : "jbjohns 10/30/2006 05:35",
+		"minutes:" : "jbjohns 10/30/2006 05:23",
+		"weeknumbers:" : "jbjohns 10/30/2006 05:42"
+	},
+	"class" : {
+		"monthly" : "jbjohns 10/29/2006 17:00",
+		"hourly" : "jbjohns 10/29/2006 16:59",
+		"yearly" : "jbjohns 10/29/2006 17:01",
+		"secondly" : "jbjohns 10/29/2006 17:00",
+		"weekly" : "jbjohns 10/29/2006 17:00",
+		"minutely" : "jbjohns 10/29/2006 17:00",
+		"daily" : "jbjohns 10/29/2006 16:59"
+	}
+}

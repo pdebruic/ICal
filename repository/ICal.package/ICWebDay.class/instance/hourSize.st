@@ -1,3 +1,0 @@
-accessing
-hourSize
-^30

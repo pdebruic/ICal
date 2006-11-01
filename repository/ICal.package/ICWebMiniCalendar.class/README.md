@@ -1,1 +1,0 @@
-this a quick hack for an ajax calendar, based on the WAMiniCalendar

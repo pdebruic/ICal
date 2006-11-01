@@ -1,3 +1,0 @@
-accessing
-week
-	^date asWeek

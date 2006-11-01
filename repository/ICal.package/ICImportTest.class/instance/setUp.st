@@ -1,4 +1,4 @@
-running
+private
 setUp
 	| importString |
 	calendar := ICCalendar name: 'test'.
@@ -6,30 +6,34 @@ setUp
 				location: 'Bern';
 				textualDescription: 'a long long long text, very long... really!';
 				uid: 'http://localhost:8080/seaside/smallwiki/Calendar/app1';
-				start: (DateAndTime 
+				start: (self dateAndTimeClass
 							year: 2005
 							month: 4
 							day: 25
 							hour: 10
-							minute: 45);
-				end: (DateAndTime 
+							minute: 45
+							second: 00);
+				end: (self dateAndTimeClass
 							year: 2005
 							month: 4
 							day: 25
 							hour: 12
-							minute: 9);
-				lastModified: (DateAndTime 
+							minute: 9
+							second: 00);
+				lastModified: (self dateAndTimeClass
 							year: 2005
 							month: 4
 							day: 25
 							hour: 10
-							minute: 45);
-				created: (DateAndTime 
+							minute: 45
+							second: 00);
+				created: (self dateAndTimeClass 
 							year: 2005
 							month: 4
 							day: 25
 							hour: 12
-							minute: 9);
+							minute: 9
+							second: 00);
 				beHighPriority;
 				beTentative;
 				yourself.

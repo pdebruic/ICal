@@ -5,10 +5,10 @@ timezone4
 	
 	timezone := ICTimezone new.
 	timezone id: 'US--Fictitious-Eastern'.
-	timezone lastModified: (DateAndTime year: 1987 month: 01 day:  01).
+	timezone lastModified: (self dateAndTimeClass year: 1987 month: 01 day: 01 hour: 0 minute: 0 second: 0  offset: (self durationClass seconds: 0)).
 	
 	standard := ICStandardTime new.
-	standard start: (DateAndTime year: 1967 month: 10 day: 29 hour: 02 minute: 00).
+	standard start: (self dateAndTimeClass year: 1967 month: 10 day: 29 hour: 02 minute: 00 second: 00).
 	standard addRecurrenceRule: (ICRecurrenceRule yearly
 		addWeekday: 'SU' occurrence: -1;
 		addMonthnumber: 10;
@@ -19,11 +19,11 @@ timezone4
 	timezone addStandardTime: standard.
 	
 	daylight := ICDaylightSavingTime new.
-	daylight start: (DateAndTime year: 1987 month: 04 day: 05 hour: 02 minute: 00).
+	daylight start: (self dateAndTimeClass year: 1987 month: 04 day: 05 hour: 02 minute: 00 second: 00).
 	daylight addRecurrenceRule: (ICRecurrenceRule yearly
 		addWeekday: 'SU' occurrence: 1;
 		addMonthnumber: 4;
-		until: (DateAndTime year: 1998 month: 04 day: 04 hour: 07 minute: 00);
+		until: (self dateAndTimeClass year: 1998 month: 04 day: 04 hour: 07 minute: 00 second: 00 offset: (self durationClass seconds: 0));
 		yourself).
 	daylight offsetFrom: (ICUtcOffset new positive: false; hours: 5; yourself).
 	daylight offsetTo: (ICUtcOffset new positive: false; hours: 4; yourself).
@@ -31,7 +31,7 @@ timezone4
 	timezone addDaylightSavingTime: daylight.
 	
 	daylight := ICDaylightSavingTime new.
-	daylight start: (DateAndTime year: 1999 month: 04 day: 24 hour: 02 minute: 00).
+	daylight start: (self dateAndTimeClass year: 1999 month: 04 day: 24 hour: 02 minute: 00 second: 00).
 	daylight addRecurrenceRule: (ICRecurrenceRule yearly
 		addWeekday: 'SU' occurrence: -1;
 		addMonthnumber: 4;

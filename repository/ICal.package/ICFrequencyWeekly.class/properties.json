@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ICFrequency",
+	"category" : "ICal-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICFrequencyWeekly",
+	"type" : "normal"
+}

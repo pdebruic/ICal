@@ -1,14 +1,14 @@
 {
 	"instance" : {
-		"asVCardString" : "pmm 1/2/2006 11:59",
-		"asICalString" : "pmm 10/2/2005 14:25",
-		"asICalUtcString" : "pmm 10/10/2005 16:20",
-		"fractionString" : "pmm 1/2/2006 11:57",
-		"asICalTimeString" : "avi 11/12/2005 00:19"
+		"asICalString" : "pmm 10/17/2006 18:40",
+		"asVCardString" : "pmm 10/17/2006 18:40",
+		"asICalUtcString" : "pmm 10/16/2006 23:01",
+		"asVCardUtcString" : "pmm 10/16/2006 23:20"
 	},
 	"class" : {
+		"hour:minute:second:nanosecond:" : "pmm 10/16/2006 22:48",
 		"iCalType" : "pmm 10/3/2005 17:07",
-		"fromICalString:" : "pmm 10/4/2005 19:17",
-		"fromVCardString:" : "pmm 1/2/2006 11:33"
+		"fromICalString:" : "pmm 10/17/2006 18:39",
+		"fromVCardString:" : "pmm 10/17/2006 18:39"
 	}
 }

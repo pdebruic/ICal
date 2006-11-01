@@ -1,11 +1,11 @@
 testing
 testDate
 	| date |
-	date := Date newDay: 12 month: 04 year: 1985.
+	date := self dateClass year: 1985 month: 04 day: 12.
 	self assert: date asVCardString = '1985-04-12'.
 
-	date := Date newDay: 05 month: 08 year: 1996.
+	date :=  self dateClass year: 1996 month: 08 day: 05.
 	self assert: date asVCardString = '1996-08-05'.
 
-	date := Date newDay: 11 month: 11 year: 1996.
+	date :=  self dateClass year: 1996 month: 11 day: 11.
 	self assert: date asVCardString = '1996-11-11'.

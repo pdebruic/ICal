@@ -1,7 +1,7 @@
 initialize-release
 initialize
 	super initialize.
-	self created: DateAndTime now.
+	self created: self dateAndTimeClass now.
 	self categories: OrderedCollection new.
 	self recurrenceDates: OrderedCollection new.
 	self exclusionDates: OrderedCollection new.
