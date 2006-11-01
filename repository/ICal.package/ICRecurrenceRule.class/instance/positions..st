@@ -1,3 +1,3 @@
 accessing
 positions: aCollection 
-	positions := aCollection
+	frequency positions: aCollection

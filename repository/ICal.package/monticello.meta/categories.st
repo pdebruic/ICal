@@ -8,3 +8,7 @@ SystemOrganization addCategory: #'ICal-VCard-Tests'!
 SystemOrganization addCategory: #'ICal-VCard-Parser'!
 SystemOrganization addCategory: #'ICal-VCard-IO'!
 SystemOrganization addCategory: #'ICal-IO'!
+SystemOrganization addCategory: #'ICal-SummerTalk'!
+SystemOrganization addCategory: #'ICal-SummerTalk-Dyn'!
+SystemOrganization addCategory: #'ICal-SummerTalk-Tests'!
+SystemOrganization addCategory: #'ICal-SummerTalk-Web'!

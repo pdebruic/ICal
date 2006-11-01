@@ -7,7 +7,7 @@ testParseGoofy
 	
 	self assert: card fullname = 'Markus Tschannen'.
 	self assert: card version = 2.1.
-	self assert: card birthday = (self dateClass year: 1980 month: 10 day: 30).
+	self assert: card birthday = (Date year: 1980 month: 10 day: 30).
 	name := card name.
 	self assert: name notNil.
 	self assert: name familyName = 'Tschannen'.

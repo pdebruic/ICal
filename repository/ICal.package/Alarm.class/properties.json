@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Delay",
+	"category" : "ICal-SummerTalk",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"alarmBlock"
+	],
+	"name" : "Alarm",
+	"type" : "normal"
+}

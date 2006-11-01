@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "ICal-SummerTalk-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"watcher",
+		"event1",
+		"event2"
+	],
+	"name" : "WatcherTest",
+	"type" : "normal"
+}

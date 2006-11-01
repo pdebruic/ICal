@@ -5,11 +5,11 @@ timezone2
 	
 	timezone := ICTimezone new.
 	timezone id: 'US-Eastern'.
-	timezone lastModified: (self dateAndTimeClass year: 1987 month: 01 day: 01 hour: 0 minute: 0 second: 0  offset: (self durationClass seconds: 0)).
+	timezone lastModified: (DateAndTime year: 1987 month: 01 day:  01).
 	timezone url: (Url absoluteFromText: 'http://zones.stds_r_us.net/tz/US-Eastern').
 	
 	standard := ICStandardTime new.
-	standard start: (self dateAndTimeClass year: 1967 month: 10 day: 29 hour: 02 minute: 00 second: 00).
+	standard start: (DateAndTime year: 1967 month: 10 day: 29 hour: 02 minute: 00).
 	standard addRecurrenceRule: (ICRecurrenceRule yearly
 		addWeekday: 'SU' occurrence: -1;
 		addMonthnumber: 10;
@@ -20,7 +20,7 @@ timezone2
 	timezone addStandardTime: standard.
 	
 	daylight := ICDaylightSavingTime new.
-	daylight start: (self dateAndTimeClass year: 1987 month: 04 day: 05 hour: 02 minute: 00 second: 00).
+	daylight start: (DateAndTime year: 1987 month: 04 day: 05 hour: 02 minute: 00).
 	daylight addRecurrenceRule: (ICRecurrenceRule yearly
 		addWeekday: 'SU' occurrence: 1;
 		addMonthnumber: 4;

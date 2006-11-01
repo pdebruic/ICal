@@ -5,33 +5,30 @@ testAddEvent
 	newEvent := ICEvent summary: 'lunch'.
 	newEvent
 		beMediumPriority;
-		start: (self dateAndTimeClass  
+		start: (DateAndTime 
 					year: 2005
 					month: 10
 					day: 22
 					hour: 18
-					minute: 30
-					second: 0);
-		end: (self dateAndTimeClass  
+					minute: 30);
+		end: (DateAndTime 
 					year: 2005
 					month: 10
 					day: 22
 					hour: 22
-					minute: 1
-					second: 0);
+					minute: 1);
 		addCategory: (ICCategory summary: 'first').
 	"place: 'universitiy mensa';"
 	newTodo := ICTodo summary: 'writing letters'.
 	newTodo
 		beLowPriority;
 		addCategory: (ICCategory summary: 'second');
-		due: (self dateAndTimeClass  
+		due: (DateAndTime 
 					year: 2005
 					month: 6
 					day: 30
 					hour: 22
-					minute: 0
-					second: 0);
+					minute: 0);
 		textualDescription: 'bla bla'.
 	todoNumber := calendar todos size.
 	totalEvents := calendar events size.

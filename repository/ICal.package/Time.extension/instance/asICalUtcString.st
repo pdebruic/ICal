@@ -1,3 +1,3 @@
 *ICal
 asICalUtcString
-	^self asICalString , 'Z'
+	^self asICalTimeString , 'Z'

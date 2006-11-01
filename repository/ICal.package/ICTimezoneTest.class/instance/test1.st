@@ -3,14 +3,14 @@ test1
 	| timezone standardTime recurrenceDate name comment daylightSavingTime |
 	timezone := self parse: #sample1.
 	self assert: timezone id = 'US-Eastern'.
-	self assert: timezone lastModified = (self dateClass year: 1987 month: 01 day: 01 ).
+	self assert: timezone lastModified = (Date newDay: 01 month: 01 year: 1987).
 	
 	self assert: timezone standardTimes size = 1.
 	standardTime := timezone standardTimes first.
-	self assert: standardTime start = (self dateAndTimeClass year: 1997 month: 10 day: 26 hour: 2 minute: 0 second: 00).
+	self assert: standardTime start = (DateAndTime year: 1997 month: 10 day: 26 hour: 2 minute: 0).
 	self assert: standardTime recurrenceDates size = 1.
 	recurrenceDate := standardTime recurrenceDates first.
-	self assert: recurrenceDate = (self dateAndTimeClass year: 1997 month: 10 day: 26 hour: 2 minute: 0 second: 00).
+	self assert: recurrenceDate = (DateAndTime year: 1997 month: 10 day: 26 hour: 2 minute: 0).
 	self assert: standardTime offsetFrom = (ICUtcOffset new positive: false; hours: 4; minutes: 0; seconds: 0; yourself).
 	self assert: standardTime offsetTo = (ICUtcOffset new positive: false; hours: 5; minutes: 0; seconds: 0; yourself).
 	self assert: standardTime names size = 2.
@@ -26,10 +26,10 @@ test1
 	
 	self assert: timezone daylightSavingTimes size = 1.
 	daylightSavingTime := timezone daylightSavingTimes first.
-	self assert: daylightSavingTime start = (self dateAndTimeClass year: 1997 month: 10 day: 26 hour: 2 minute: 0 second: 00).
+	self assert: daylightSavingTime start = (DateAndTime year: 1997 month: 10 day: 26 hour: 2 minute: 0).
 	self assert: daylightSavingTime recurrenceDates size = 1.
 	recurrenceDate := daylightSavingTime recurrenceDates first.
-	self assert: recurrenceDate = (self dateAndTimeClass year: 1997 month: 04 day: 06 hour: 2 minute: 0 second: 00).
+	self assert: recurrenceDate = (DateAndTime year: 1997 month: 04 day: 06 hour: 2 minute: 0).
 	self assert: daylightSavingTime offsetFrom = (ICUtcOffset new positive: false; hours: 5; minutes: 0; seconds: 0; yourself).
 	self assert: daylightSavingTime offsetTo = (ICUtcOffset new positive: false; hours: 4; minutes: 0; seconds: 0; yourself).
 	self assert: daylightSavingTime names size = 1.

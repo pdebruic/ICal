@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "ICTest",
+	"super" : "TestCase",
 	"category" : "ICal-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"appointment",
-		"serie"
+		"serie",
+		"calendar"
 	],
 	"name" : "ICAppointmentTest",
 	"type" : "normal"

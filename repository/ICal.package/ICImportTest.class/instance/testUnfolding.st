@@ -37,7 +37,7 @@ testUnfolding
 'END:VCALENDAR' , String crlf.
 	calendar := ICCalendarHandParser parseCalendarString: importString.
 	event := calendar events first.
-	self assert: event start = (self dateClass year: 2005 month: 6 day: 14).
+	self assert: event start = (Date year: 2005 month: 6 day: 14).
 	self assert: event summary = 'test'.
 	self assert: event location = 'Bern'.
 	self assert: event isOpaque.

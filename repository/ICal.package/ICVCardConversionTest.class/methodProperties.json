@@ -1,12 +1,12 @@
 {
 	"instance" : {
-		"testParseTime" : "pmm 10/16/2006 23:42",
-		"testParseDate" : "pmm 10/16/2006 23:50",
-		"testDateAndTime" : "pmm 10/17/2006 21:36",
+		"testParseTime" : "pmm 1/2/2006 12:09",
+		"testParseDate" : "pmm 1/2/2006 12:09",
+		"testDateAndTime" : "pmm 1/2/2006 12:13",
 		"testName" : "pmm 12/11/2005 10:57",
-		"testParseDateAndTime" : "pmm 10/16/2006 23:47",
-		"testTime" : "pmm 10/17/2006 00:11",
-		"testDate" : "pmm 10/17/2006 00:10",
+		"testParseDateAndTime" : "pmm 1/2/2006 12:15",
+		"testTime" : "pmm 1/2/2006 12:09",
+		"testDate" : "pmm 1/2/2006 12:09",
 		"testAddress" : "pmm 12/11/2005 11:27"
 	},
 	"class" : { }

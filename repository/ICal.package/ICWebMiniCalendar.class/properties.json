@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "SUComponent",
+	"category" : "ICal-SummerTalk-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"month",
+		"date",
+		"canSelectBlock",
+		"selectBlock",
+		"content",
+		"shouldDisplay",
+		"id1",
+		"id2",
+		"id3",
+		"id4"
+	],
+	"name" : "ICWebMiniCalendar",
+	"type" : "normal"
+}

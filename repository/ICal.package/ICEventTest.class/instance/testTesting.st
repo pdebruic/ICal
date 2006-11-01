@@ -6,9 +6,9 @@ testTesting
 
   self deny: (todo isRecurrent).
 
-  self assert: (appointment1 isValidForDate: (self dateAndTimeClass 
+  self assert: (appointment1 isValidForDate: (Date 
 							year: 2005
 							month: 5
 							day: 18)).
 							
-   self assert: (todo startsInHour: self dateAndTimeClass now + (self durationClass days: 4 hours: 0 minutes: 0 seconds: 0)).
+   self assert: (todo startsInHour: DateAndTime now + 4 days).

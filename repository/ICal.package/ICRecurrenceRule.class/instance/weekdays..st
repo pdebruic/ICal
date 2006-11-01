@@ -1,3 +1,3 @@
 accessing
 weekdays: aString 
-	weekdays := aString
+	frequency weekdays: aString

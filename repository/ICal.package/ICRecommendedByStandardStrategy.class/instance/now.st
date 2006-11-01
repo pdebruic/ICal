@@ -1,3 +1,3 @@
 accessing
 now
-	^self dateAndTimeClass now asICalString
+	^DateAndTime now asICalString

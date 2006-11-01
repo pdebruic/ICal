@@ -1,3 +1,3 @@
 exporting
 export
-	self subclassResponsibility
+	self subclassResponsability 

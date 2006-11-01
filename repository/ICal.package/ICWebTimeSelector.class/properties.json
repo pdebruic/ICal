@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "ICal-SummerTalk-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"second",
+		"hour",
+		"minute",
+		"startHour",
+		"endHour"
+	],
+	"name" : "ICWebTimeSelector",
+	"type" : "normal"
+}

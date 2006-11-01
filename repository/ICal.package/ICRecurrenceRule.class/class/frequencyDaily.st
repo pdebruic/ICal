@@ -1,3 +1,3 @@
 accessing
 frequencyDaily
-	^'DAILY'
+	^ ICFrequencyDaily new

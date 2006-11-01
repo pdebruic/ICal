@@ -5,36 +5,32 @@ setUp
 				location: 'Bern';
 				uid: 'a short but globally unique id';
 				textualDescription: 'a long long long text, very long... really!';
-				start: (self dateAndTimeClass 
+				start: (DateAndTime 
 							year: 2005
 							month: 4
 							day: 25
 							hour: 10
-							minute: 45
-							second: 0);
-				end: (self dateAndTimeClass 
+							minute: 45);
+				end: (DateAndTime 
 							year: 2005
 							month: 4
 							day: 25
 							hour: 12
-							minute: 9
-							second: 0);
-				lastModified: (self dateAndTimeClass 
+							minute: 9);
+				lastModified: (DateAndTime 
 							year: 2005
 							month: 5
 							day: 1
 							hour: 11
 							minute: 2
-							second: 31
-							offset: (self durationClass seconds: 0));
-				created: (self dateAndTimeClass 
+							second: 31);
+				created: (DateAndTime 
 							year: 2005
 							month: 5
 							day: 1
 							hour: 11
 							minute: 2
-							second: 31
-							offset: (self durationClass seconds: 0));
+							second: 31);
 				beHighPriority;
 				beTentative;
 				beOpaque;
@@ -42,90 +38,78 @@ setUp
 	todo := (ICTodo summary: 'aTitle')
 				textualDescription: 'a long long long text, very long... really!';
 				uid: 'a very special value';
-				due: (self dateAndTimeClass 
+				due: (DateAndTime 
 							year: 2005
 							month: 4
 							day: 25
 							hour: 12
-							minute: 9
-							second: 0);
-				lastModified: (self dateAndTimeClass 
+							minute: 9);
+				lastModified: (DateAndTime 
 							year: 2005
 							month: 5
 							day: 1
 							hour: 11
 							minute: 2
-							second: 31
-							offset: (self durationClass seconds: 0));
-				created: (self dateAndTimeClass 
+							second: 31);
+				created: (DateAndTime 
 							year: 2005
 							month: 5
 							day: 1
 							hour: 11
 							minute: 2
-							second: 31
-							offset: (self durationClass seconds: 0));
-				completed: (self dateAndTimeClass 
+							second: 31);
+				completed: (DateAndTime 
 							year: 2005
 							month: 5
 							day: 1
 							hour: 11
 							minute: 2
-							second: 31
-							offset: (self durationClass seconds: 0));
+							second: 31);
 				beHighPriority;
 				beCompleted;
 				yourself.	
 	dateEvent := (ICEvent summary: 'aTitle')
 				uid: 'an event with a start date and not date and time';
-				start: (self dateClass
+				start: (Date
 							year: 2005
 							month: 4
 							day: 25);
-				created: (self dateAndTimeClass 
+				created: (DateAndTime 
 							year: 2005
 							month: 5
 							day: 1
 							hour: 11
 							minute: 2
-							second: 31
-							offset: (self durationClass seconds: 0));
+							second: 31);
 				addCategory: 'category1';
 				addCategory: (ICCategory fromICalString: 'category2');
 				yourself.
 	journal := (ICJournal summary: 'aTitle')
 				uid: 'jornal1';
-				created: (self dateAndTimeClass 
+				created: (DateAndTime 
 							year: 2005
 							month: 5
 							day: 1
 							hour: 11
 							minute: 2
-							second: 31
-							offset: (self durationClass seconds: 0));
+							second: 31);
 				addTextualDescription: 'description1';
 				addTextualDescription: 'description2';
 				yourself.
 	alarm1 := ICAlarm new
 		trigger: (ICTrigger new
-			value: (self dateAndTimeClass
-				year: 1997 
-				month: 3
-				day: 17
-				hour: 13
-				minute: 30
-				second: 0);
+			value: (DateAndTime year: 1997 month: 3 day: 17 hour: 13 minute: 30);
 			yourself);
 		repetitions: 4;
-		delay: (self durationClass minutes: 15);
+		delay: 15 minutes;
 		beAudio;
 		addAttachment: (Url fromICalString: 'ftp://host.com/pub/sounds/bell-01.aud');
 		yourself.
 	alarm2 := ICAlarm  new
 		trigger: (ICTrigger new
-			value: (self durationClass minutes: 30 negated);
+			value: 30 negated minutes;
 			yourself);
-		delay: (self durationClass days: 0 hours: 0 minutes: 15 seconds: 0);
+		delay: 15 minutes;
 		repetitions: 2;
 		beDisplay;
 		yourself.		

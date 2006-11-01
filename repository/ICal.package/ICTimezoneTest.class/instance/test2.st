@@ -3,15 +3,15 @@ test2
 	| timezone standardTime recurrenceRule name daylightSavingTime |
 	timezone := self parse: #sample2.
 	self assert: timezone id = 'US-Eastern'.
-	self assert: timezone lastModified = (self dateClass year: 1987 month: 01 day: 01).
+	self assert: timezone lastModified = (Date newDay: 01 month: 01 year: 1987).
 	self assert: timezone url asString = 'http://zones.stds_r_us.net/tz/US-Eastern'.
 	
 	self assert: timezone standardTimes size = 1.
 	standardTime := timezone standardTimes first.
-	self assert: standardTime start = (self dateAndTimeClass year: 1967 month: 10 day: 29 hour: 2 minute: 0 second: 00).
+	self assert: standardTime start = (DateAndTime year: 1967 month: 10 day: 29 hour: 2 minute: 0).
 	self assert: standardTime recurrenceRules size = 1.
 	recurrenceRule := standardTime recurrenceRules first.
-	self assert: recurrenceRule frequency = 'YEARLY'.
+	self assert: recurrenceRule frequency asICalString = 'YEARLY'.
 	self assert: recurrenceRule weekdays = (Set with: 'SU' -> -1).
 	self assert: recurrenceRule monthnumbers = (Set with: 10).
 	self assert: standardTime offsetFrom = (ICUtcOffset new positive: false; hours: 4; minutes: 0; seconds: 0; yourself).
@@ -22,10 +22,10 @@ test2
 	
 	self assert: timezone daylightSavingTimes size = 1.
 	daylightSavingTime := timezone daylightSavingTimes first.
-	self assert: daylightSavingTime start = (self dateAndTimeClass year: 1987 month: 04 day: 05 hour: 2 minute: 0 second: 00).
+	self assert: daylightSavingTime start = (DateAndTime year: 1987 month: 04 day: 05 hour: 2 minute: 0).
 	self assert: daylightSavingTime recurrenceRules size = 1.
 	recurrenceRule := daylightSavingTime recurrenceRules first.
-	self assert: recurrenceRule frequency = 'YEARLY'.
+	self assert: recurrenceRule frequency asICalString = 'YEARLY'.
 	self assert: recurrenceRule weekdays = (Set with: 'SU' -> 1).
 	self assert: recurrenceRule monthnumbers = (Set with: 4).
 	self assert: daylightSavingTime offsetFrom = (ICUtcOffset new positive: false; hours: 5; minutes: 0; seconds: 0; yourself).

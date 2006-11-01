@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "",
+	"super" : "SUComponent",
+	"category" : "ICal-SummerTalk-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"event",
+		"summary",
+		"target",
+		"start",
+		"status",
+		"location",
+		"priority",
+		"calendar",
+		"miniCalendar",
+		"miniCalendar2",
+		"end"
+	],
+	"name" : "ICWebEditor",
+	"type" : "normal"
+}

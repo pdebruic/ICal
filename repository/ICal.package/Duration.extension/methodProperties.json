@@ -1,12 +1,18 @@
 {
 	"instance" : {
-		"asICalString" : "pmm 10/17/2006 18:40",
+		"justWeeks" : "pmm 10/2/2005 22:15",
+		"weeks" : "pmm 10/2/2005 20:16",
 		"isNegative" : "pmm 10/2/2005 21:07",
-		"isPositive" : "pmm 10/2/2005 21:06",
-		"weeks" : "pmm 10/2/2005 20:16"
+		"asICalString" : "pmm 10/2/2005 21:13",
+		"asICalDurationString" : "pmm 11/11/2005 09:38",
+		"daysWithoutWeeks" : "pmm 10/2/2005 22:14",
+		"hasTime" : "pmm 10/2/2005 21:05",
+		"isPositive" : "pmm 10/2/2005 21:06"
 	},
 	"class" : {
-		"fromICalString:" : "pmm 10/17/2006 18:39",
+		"negatedDays:hours:minutes:seconds:" : "pmm 10/4/2005 21:30",
+		"negatedDays:hours:minutes:seconds:nanoSeconds:" : "pmm 10/4/2005 21:26",
+		"fromICalString:" : "pmm 10/4/2005 21:34",
 		"iCalType" : "pmm 10/3/2005 17:04"
 	}
 }

@@ -3,13 +3,13 @@ supportedClasses
 	^OrderedCollection new
 		add: Boolean;
 		add: ByteArray;
+		add: Date;
+		add: DateAndTime;
+		add: Duration;
 		add: Float;
 		add: ICRecurrenceRule;
 		add: Integer;
-		add: String;		
-		add: Url;
-		add: self timeClass;
-		add: self dateClass;
-		add: self dateAndTimeClass;
-		add: self durationClass;	
-		yourself.
+		add: String;
+		add: Time;
+		add: Url;		
+		yourself

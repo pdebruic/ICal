@@ -1,3 +1,3 @@
 accessing
 seconds
-	^seconds
+	^ frequency seconds

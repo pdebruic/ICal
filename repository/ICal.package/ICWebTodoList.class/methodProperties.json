@@ -1,0 +1,17 @@
+{
+	"instance" : {
+		"todos:" : "YM 8/12/2006 18:31",
+		"app:" : "YM 9/14/2006 23:01",
+		"renderContentOn:" : "YM 8/27/2006 18:11",
+		"todos" : "YM 8/12/2006 18:31",
+		"app" : "YM 9/14/2006 23:01",
+		"date:" : "YM 8/12/2006 18:31",
+		"renderTodosOn:" : "YM 9/14/2006 23:19",
+		"date" : "YM 8/12/2006 18:31",
+		"initialize2" : "YM 8/12/2006 18:39",
+		"rendererClass" : "YM 9/5/2006 16:06"
+	},
+	"class" : {
+		"newDate:app:" : "YM 9/14/2006 23:04"
+	}
+}

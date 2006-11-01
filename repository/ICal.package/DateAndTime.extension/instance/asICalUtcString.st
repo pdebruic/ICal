@@ -1,3 +1,3 @@
 *ICal
 asICalUtcString
-	^self asUTC asICalString , 'Z'
+	^self asICalDateAndTimeString , 'Z'

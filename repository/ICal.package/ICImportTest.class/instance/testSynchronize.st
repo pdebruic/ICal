@@ -1,7 +1,7 @@
 testing
 testSynchronize
 	| events tempEvent date |
-	date := self dateClass 
+	date := Date 
 				year: 2005
 				month: 6
 				day: 14.
@@ -27,14 +27,14 @@ testSynchronize
 	"self assert: tempEvent categories anyOne 
 				= (calendar categoryWithSummary: 'business')."
 	self 
-		assert: tempEvent start = (self dateAndTimeClass date: date
-						time: (self timeClass 
+		assert: tempEvent start = (DateAndTime date: date
+						time: (Time 
 								hour: 11
 								minute: 0
 								second: 0)).
 	self 
-		assert: tempEvent end = (self dateAndTimeClass date: date
-						time: (self timeClass 
+		assert: tempEvent end = (DateAndTime date: date
+						time: (Time 
 								hour: 13
 								minute: 0
 								second: 0)).
@@ -46,14 +46,14 @@ testSynchronize
 	"self assert: tempEvent categories anyOne 
 				= (calendar categoryWithSummary: 'business')."
 	self 
-		assert: tempEvent due = (self dateAndTimeClass date: date
-						time: (self timeClass 
+		assert: tempEvent due = (DateAndTime date: date
+						time: (Time 
 								hour: 15
 								minute: 0
 								second: 0)).
 	self 
-		assert: tempEvent completed = (self dateAndTimeClass date: date
-						time: (self timeClass 
+		assert: tempEvent completed = (DateAndTime date: date
+						time: (Time 
 								hour: 11
 								minute: 9
 								second: 15))
