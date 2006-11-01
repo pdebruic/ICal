@@ -1,5 +1,5 @@
 accessing
-occurences
+occurrences
 	| dates |
 	
 	self hasRecurrenceRules ifFalse: [ ^ self ].

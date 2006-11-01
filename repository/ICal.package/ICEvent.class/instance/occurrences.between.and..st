@@ -1,5 +1,5 @@
 accessing
-occurences: aNumber between: aStartTimeSpan and: anEndTimeSpan
+occurrences: aNumber between: aStartTimeSpan and: anEndTimeSpan
 	| dates startTS |
 	
 	self hasRecurrenceRules ifFalse: [ ^ self ].

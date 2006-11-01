@@ -1,5 +1,5 @@
 accessing
-occurences: aNumber after: aTimeSpan
+occurrences: aNumber after: aTimeSpan
 	| dates startTS |
 	
 	self hasRecurrenceRules ifFalse: [ ^ self ].		"What to do here?  Check if we are after?"

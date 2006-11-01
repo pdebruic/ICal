@@ -15,7 +15,7 @@ testOccurencesBetween
 			addWeekday: 'FR' occurrence:1; until: (Date year: 2007 month: 12 day: 28); yourself);
 		yourself.
 		
-	self assert: ((event occurencesBetween: sept and: nov) = (OrderedCollection new
+	self assert: ((event occurrencesBetween: sept and: nov) = (OrderedCollection new
 		add: (Date year: 2006 month: 10 day: 6); yourself)).
 		
 	event := (ICEvent summary: 'Test event')
@@ -26,7 +26,7 @@ testOccurencesBetween
 			addWeekday: 'FR' occurrence:1; count: 4; yourself);
 		yourself.
 		
-	self assert: ((event occurencesBetween: sept and: apr) = (OrderedCollection new
+	self assert: ((event occurrencesBetween: sept and: apr) = (OrderedCollection new
 		add: (Date year: 2006 month: 11 day: 3); 	add: (Date year: 2006 month: 12 day: 1);
 		add: (Date year: 2007 month: 1 day: 5); add: (Date year: 2007 month: 2 day: 2);
 		yourself)).
@@ -39,5 +39,5 @@ testOccurencesBetween
 			addWeekday: 'FR' occurrence:1; interval: 2; yourself);
 		yourself.
 		
-	self assert: ((event occurencesBetween: sept and: dec) = (OrderedCollection new
+	self assert: ((event occurrencesBetween: sept and: dec) = (OrderedCollection new
 		add: (Date year: 2006 month: 10 day: 6); 	add: (Date year: 2006 month: 12 day: 1); yourself)).

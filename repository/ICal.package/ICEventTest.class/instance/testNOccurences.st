@@ -10,7 +10,7 @@ testNOccurences
 			addWeekday: 'FR' occurrence:1; until: (Date year: 2006 month: 12 day: 28); yourself);
 		yourself.
 		
-	self assert: ((event occurences: 2) = (OrderedCollection new add: (Date year: 2006 month: 10 day: 6);
+	self assert: ((event occurrences: 2) = (OrderedCollection new add: (Date year: 2006 month: 10 day: 6);
 		add: (Date year: 2006 month: 11 day: 3); yourself)).
 		
 	event := (ICEvent summary: 'Test event')
@@ -21,7 +21,7 @@ testNOccurences
 			addWeekday: 'FR' occurrence:1; count: 4; yourself);
 		yourself.
 		
-	self assert: ((event occurences: 6) = (OrderedCollection new add: (Date year: 2006 month: 10 day: 6);
+	self assert: ((event occurrences: 6) = (OrderedCollection new add: (Date year: 2006 month: 10 day: 6);
 		add: (Date year: 2006 month: 11 day: 3); add: (Date year: 2006 month: 12 day: 1); 
 		add: (Date year: 2007 month: 1 day: 5); yourself)).
 	
@@ -33,5 +33,5 @@ testNOccurences
 			addWeekday: 'FR' occurrence:1; interval: 2; yourself);
 		yourself.
 		
-	self assert: ((event occurences: 2) = (OrderedCollection new add: (Date year: 2006 month: 10 day: 6);
+	self assert: ((event occurrences: 2) = (OrderedCollection new add: (Date year: 2006 month: 10 day: 6);
 		add: (Date year: 2006 month: 12 day: 1); yourself)).
