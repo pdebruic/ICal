@@ -10,22 +10,22 @@ testMonthlyEventsAfter
 	may := Month month: 5 year: 2006.
 	sep := Month month: 9 year: 2006.
 	janSet := OrderedCollection new
-		add: (Date fromString: '01.07.2006');
-		add: (Date fromString: '02.11.2006');
-		add: (Date fromString: '03.11.2006');
-		add: (Date fromString: '04.08.2006');
+		add: (self dateClass year: 2006 month: 01 day: 07);
+		add: (self dateClass year: 2006 month: 02 day: 11);
+		add: (self dateClass year: 2006 month: 03 day: 11);
+		add: (self dateClass year: 2006 month: 04 day: 08);
 		yourself.
 	maySet := OrderedCollection new
-		add: (Date fromString: '05.13.2006');
-		add: (Date fromString: '06.10.2006');
-		add: (Date fromString: '07.08.2006');
-		add: (Date fromString: '08.12.2006');
+		add: (self dateClass year: 2006 month: 05 day: 13);
+		add: (self dateClass year: 2006 month: 06 day: 10);
+		add: (self dateClass year: 2006 month: 07 day: 08);
+		add: (self dateClass year: 2006 month: 08 day: 12);
 		yourself.
 	sepSet := OrderedCollection new
-		add: (Date fromString: '09.09.2006');
-		add: (Date fromString: '10.07.2006');
-		add: (Date fromString: '11.11.2006');
-		add: (Date fromString: '12.09.2006');
+		add: (self dateClass year: 2006 month: 09 day: 09);
+		add: (self dateClass year: 2006 month: 10 day: 07);
+		add: (self dateClass year: 2006 month: 11 day: 11);
+		add: (self dateClass year: 2006 month: 12 day: 09);
 		yourself.
 		
 	self assert: (rule events: 4 after: jan) = janSet.

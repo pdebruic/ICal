@@ -6,19 +6,19 @@ testMonthlyEventsBetween
 
 	jan := Month month: 1 year: 2006.
 	feb := Month month: 2 year: 2006.
-	aug := Date year: 2006 month: 8 day: 6.
-	sep := Date year: 2006 month: 9 day: 3.
+	aug := self dateClass year: 2006 month: 8 day: 6.
+	sep := self dateClass year: 2006 month: 9 day: 3.
 	janFebSet := OrderedCollection new
-		add: (Date fromString: '01.07.2006');
-		add: (Date fromString: '01.14.2006');
-		add: (Date fromString: '01.21.2006');
-		add: (Date fromString: '01.28.2006');
+		add: (self dateClass year: 2006 month: 01 day: 07);
+		add: (self dateClass year: 2006 month: 01 day: 14);
+		add: (self dateClass year: 2006 month: 01 day: 21);
+		add: (self dateClass year: 2006 month: 01 day: 28);
 		yourself.
 	augSepSet := OrderedCollection new
-		add: (Date fromString: '08.12.2006');
-		add: (Date fromString: '08.19.2006');
-		add: (Date fromString: '08.26.2006');
-		add: (Date fromString: '09.02.2006');
+		add: (self dateClass year: 2006 month: 08 day: 12);
+		add: (self dateClass year: 2006 month: 08 day: 19);
+		add: (self dateClass year: 2006 month: 08 day: 26);
+		add: (self dateClass year: 2006 month: 09 day: 02);
 		yourself.
 		
 	self assert: (rule eventsBetween: jan and: feb) = janFebSet.

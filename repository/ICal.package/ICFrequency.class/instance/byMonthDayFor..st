@@ -6,7 +6,7 @@ byMonthDayFor: aMonth
 	
 	monthdays do: [:day|
 		day < 0 	ifTrue: [ day := aMonth daysInMonth - (day abs - 1) ].
-		days add: (Date year: aMonth year month: aMonth month day: day).
+		days add: (self dateClass year: aMonth year month: aMonth month day: day).
 	].
 
 	^ days.
