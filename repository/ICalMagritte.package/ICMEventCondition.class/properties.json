@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ICMEventCondtion",
+	"name" : "ICMEventCondition",
 	"type" : "normal"
 }

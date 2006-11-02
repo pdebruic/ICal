@@ -1,5 +1,5 @@
 *ICalMagritte
 descriptionContainer
 	^super descriptionContainer
-		addCondition: ICMEventCondtion new labelled: ICMEventCondtion defaultLabel;
+		addCondition: ICMEventCondition new labelled: ICMEventCondition defaultLabel;
 		yourself
