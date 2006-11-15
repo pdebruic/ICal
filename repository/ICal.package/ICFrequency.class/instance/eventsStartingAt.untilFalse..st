@@ -1,13 +1,18 @@
 private
-eventsStartingAt: aStartTimeSpan untilFalse: aBooleanBlock
-	| month dates |
+eventsStartingAt: aStartDateAndTime untilFalse: aBooleanBlock
+	| dates current freqGenerator datesAtOrAboveFreq |
 	
-	month := aStartTimeSpan asMonth.
-	dates := self dates: (self eventsFor: month) after: aStartTimeSpan.
+	datesAtOrAboveFreq := OrderedCollection new.
 	
-	[ aBooleanBlock value: dates ] whileTrue: [
-			month := (month asDate addMonths: interval) asMonth.
-			dates addAll: (self eventsFor: month).
+	freqGenerator := self nextFrequencyFrom: aStartDateAndTime with: datesAtOrAboveFreq ifNone: [ ^ OrderedCollection new ].
+	current := freqGenerator value.
+	dates := self dates: (self eventSetFor: current with: datesAtOrAboveFreq) atOrAfter: aStartDateAndTime.
+	datesAtOrAboveFreq reset.
+	
+	[ aBooleanBlock value: dates value: current ] whileTrue: [
+			current := freqGenerator value.
+			dates addAll: (self eventSetFor: current with: datesAtOrAboveFreq).
+			datesAtOrAboveFreq reset.
 	].
 
 	^ dates.

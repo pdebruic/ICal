@@ -1,3 +1,3 @@
 accessing
 weeknumbers: aCollection
-	weeknumbers := aCollection
+	self error: 'WEEKNO only valid for YEARLY'

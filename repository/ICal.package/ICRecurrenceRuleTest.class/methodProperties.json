@@ -1,12 +1,12 @@
 {
 	"instance" : {
-		"testMonthlyEventsAfter" : "pmm 11/1/2006 19:38",
+		"testMonthlyEventsAfter" : "jbjohns 11/14/2006 19:57",
 		"testHours" : "pmm 9/13/2006 23:30",
 		"testWeekdays" : "pmm 9/13/2006 23:36",
 		"testSimple" : "pmm 10/2/2005 15:10",
 		"testParsing" : "pmm 9/13/2006 23:39",
-		"testMonthlyEventsBetween" : "pmm 11/1/2006 19:51",
-		"testMonthlyEventsBetweenCount" : "pmm 11/1/2006 19:56",
+		"testMonthlyEventsBetween" : "jbjohns 11/14/2006 20:00",
+		"testMonthlyEventsBetweenCount" : "jbjohns 11/15/2006 06:40",
 		"testRepetition" : "pmm 10/16/2006 23:49"
 	},
 	"class" : { }

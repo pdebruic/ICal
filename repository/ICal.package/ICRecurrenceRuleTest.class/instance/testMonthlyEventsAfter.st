@@ -4,28 +4,29 @@ testMonthlyEventsAfter
 	
 	rule := ICRecurrenceRule monthly addWeekday: 'SA';
 		addMonthday: 7; addMonthday: 8; addMonthday: 9; addMonthday: 10; addMonthday: 11;
-		addMonthday: 12; addMonthday: 13; yourself.
+		addMonthday: 12; addMonthday: 13;
+		dtstart: (DateAndTime year: 2006 month: 1 day: 1 hour: 8 minute: 0 second: 0); yourself.
 	
 	jan := Month month: 1 year: 2006.
 	may := Month month: 5 year: 2006.
 	sep := Month month: 9 year: 2006.
 	janSet := OrderedCollection new
-		add: (self dateClass year: 2006 month: 01 day: 07);
-		add: (self dateClass year: 2006 month: 02 day: 11);
-		add: (self dateClass year: 2006 month: 03 day: 11);
-		add: (self dateClass year: 2006 month: 04 day: 08);
+		add: (DateAndTime year: 2006 month: 1 day: 7 hour: 8 minute: 0 second: 0);
+		add: (DateAndTime year: 2006 month: 2 day: 11 hour: 8 minute: 0 second: 0);
+		add: (DateAndTime year: 2006 month: 3 day: 11 hour: 8 minute: 0 second: 0);
+		add: (DateAndTime year: 2006 month: 4 day: 8 hour: 8 minute: 0 second: 0);
 		yourself.
 	maySet := OrderedCollection new
-		add: (self dateClass year: 2006 month: 05 day: 13);
-		add: (self dateClass year: 2006 month: 06 day: 10);
-		add: (self dateClass year: 2006 month: 07 day: 08);
-		add: (self dateClass year: 2006 month: 08 day: 12);
+		add: (DateAndTime year: 2006 month: 5 day: 13 hour: 8 minute: 0 second: 0);
+		add: (DateAndTime year: 2006 month: 6 day: 10 hour: 8 minute: 0 second: 0);
+		add: (DateAndTime year: 2006 month: 7 day: 8 hour: 8 minute: 0 second: 0);
+		add: (DateAndTime year: 2006 month: 8 day: 12 hour: 8 minute: 0 second: 0);
 		yourself.
 	sepSet := OrderedCollection new
-		add: (self dateClass year: 2006 month: 09 day: 09);
-		add: (self dateClass year: 2006 month: 10 day: 07);
-		add: (self dateClass year: 2006 month: 11 day: 11);
-		add: (self dateClass year: 2006 month: 12 day: 09);
+		add: (DateAndTime year: 2006 month: 9 day: 9 hour: 8 minute: 0 second: 0);
+		add: (DateAndTime year: 2006 month: 10 day: 07 hour: 8 minute: 0 second: 0);
+		add: (DateAndTime year: 2006 month: 11 day: 11 hour: 8 minute: 0 second: 0);
+		add: (DateAndTime year: 2006 month: 12 day: 9 hour: 8 minute: 0 second: 0);
 		yourself.
 		
 	self assert: (rule events: 4 after: jan) = janSet.

@@ -1,5 +1,5 @@
 private
-byDayFor: aMonth
+byDayFor: aDateAndTime
 	| days |
 	
 	days := OrderedCollection new.
@@ -8,11 +8,11 @@ byDayFor: aMonth
 		e class name = #Association
 			ifTrue: [ 
 				day := ICRecurrenceRule possibleWeekdays indexOf: e key.
-				day := self byDay: day for: aMonth at: e value.
+				day := self byDay: day for: aDateAndTime at: e value.
 				day ifNotNil: [ days add: day ].
 			]
 			ifFalse: [
-				days addAll: (self byDay: (ICRecurrenceRule possibleWeekdays indexOf: e) for: aMonth).
+				days addAll: (self byDay: (ICRecurrenceRule possibleWeekdays indexOf: e) for: aDateAndTime).
 			].
 	].
 	"Todo: Needs a sort here I think"

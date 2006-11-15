@@ -1,10 +1,10 @@
 private
-byDay: aDayIndex for: aMonth at: anOccurance
+byDay: aDayIndex for: aDateAndTime at: anOccurance
 	| day |
 	
-	day := self firstOfDay: aDayIndex inMonth: aMonth.
-	anOccurance < 0 ifTrue: [^ (self byDay: aDayIndex for: aMonth) reverse at: anOccurance abs ].
+	day := self firstOfDay: aDayIndex inMonthOf: aDateAndTime.
+	anOccurance < 0 ifTrue: [^ (self byDay: aDayIndex for: aDateAndTime) reverse at: anOccurance abs ].
 	day := anOccurance - 1 * 7 + day.
 	
-	day > aMonth daysInMonth ifTrue: [ ^ nil ].
-	^ self dateClass year: aMonth year month: aMonth month day: day.
+	day > aDateAndTime daysInMonth ifTrue: [ ^ nil ].
+	^ Date year: aDateAndTime year month: aDateAndTime month day: day.

@@ -1,4 +1,4 @@
-accessing
+occurrences
 occurrences
 	| dates |
 	
@@ -15,4 +15,4 @@ occurrences
 	].
 
 	self recurrenceRules size > 1 ifTrue: [ dates := dates sortBy: [:l :r| l < r ] ].
-	^ dates.
+	^ dates collect: [ :e | self occurrenceFromDate: e ].

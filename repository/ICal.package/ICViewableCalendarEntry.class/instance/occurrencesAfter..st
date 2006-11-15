@@ -1,16 +1,16 @@
-accessing
-occurrencesAfter: aTimeSpan
+occurrences
+occurrencesAfter: aDateAndTime
 	| dates startTS |
 	
 	self hasRecurrenceRules ifFalse: [ ^ self ].		"What to do here?  Check if we are after?"
 	
 	dates := OrderedCollection new.
-	startTS := aTimeSpan > self start ifTrue: [ aTimeSpan ] ifFalse: [ self start ].
+	startTS := aDateAndTime > self start ifTrue: [ aDateAndTime ] ifFalse: [ self start ].
 	
 	self recurrenceRules do: [:rule|
 		dates addAll: (self
 			occurencesSelectNoRep: [ self error: 'infinite occurences set' ]
-			orCount: [ rule frequency dates: (rule events: rule repetition after: self start) after: aTimeSpan ]
+			orCount: [ rule frequency dates: (rule events: rule repetition after: self start) atOrAfter: aDateAndTime ]
 			orUntil: [ rule eventsBetween: startTS and: rule repetition ]
 			on: rule).
 	].
@@ -21,4 +21,4 @@ occurrencesAfter: aTimeSpan
 			dates := dates sortBy: [:l :r| l < r ]
 		].
 
-	^ dates.
+	^ dates collect: [ :e | self occurrenceFromDate: e ].

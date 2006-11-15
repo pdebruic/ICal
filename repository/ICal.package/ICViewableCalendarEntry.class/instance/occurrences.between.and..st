@@ -1,23 +1,23 @@
-accessing
-occurrences: aNumber between: aStartTimeSpan and: anEndTimeSpan
+occurrences
+occurrences: aNumber between: aStartDateAndTime and: anEndDateAndTime
 	| dates startTS |
 	
 	self hasRecurrenceRules ifFalse: [ ^ self ].
 
 	dates := OrderedCollection new.
-	startTS := aStartTimeSpan > self start ifTrue: [ aStartTimeSpan ] ifFalse: [ self start ].
+	startTS := aStartDateAndTime > self start ifTrue: [ aStartDateAndTime ] ifFalse: [ self start ].
 	
 	self recurrenceRules do: [:rule|
 		dates addAll: (self
-			occurencesSelectNoRep: [ rule events: aNumber between: startTS and: anEndTimeSpan ]
+			occurencesSelectNoRep: [ rule events: aNumber between: startTS and: anEndDateAndTime ]
 			orCount: [ | count |
 				count := aNumber < rule repetition ifTrue: [ aNumber ] ifFalse: [ rule repetition ].
-				rule frequency dates: (rule events: count between: self start and: anEndTimeSpan)
-					after: aStartTimeSpan
+				rule frequency dates: (rule events: count between: self start and: anEndDateAndTime)
+					atOrAfter: aStartDateAndTime
 			]
 			orUntil: [ | endTS |
-				endTS := anEndTimeSpan < rule repetition 
-					ifTrue: [ anEndTimeSpan ] ifFalse: [ rule repetition ].
+				endTS := anEndDateAndTime < rule repetition 
+					ifTrue: [ anEndDateAndTime ] ifFalse: [ rule repetition ].
 				rule events: aNumber between: startTS and: endTS
 			]
 			on: rule).
@@ -29,4 +29,4 @@ occurrences: aNumber between: aStartTimeSpan and: anEndTimeSpan
 		dates size > aNumber ifTrue: [ dates := dates copyFrom: 1 to: aNumber ].
 	].
 		
-	^  dates.
+	^  dates collect: [ :e | self occurrenceFromDate: e ].

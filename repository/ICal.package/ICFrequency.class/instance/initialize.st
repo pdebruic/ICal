@@ -9,6 +9,6 @@ initialize
 	self weekdays: Set new.
 	self monthdays: Set new.	
 	self yeardays: Set new.
-	self weeknumbers: Set new.
+	weeknumbers := Set new.         "This is a little ugly.  Should probably change the rest to not use self"
 	self monthnumbers: Set new.
 	self positions: Set new.

@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "ICObject",
+	"super" : "Object",
 	"category" : "ICal-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -16,7 +16,8 @@
 		"weeknumbers",
 		"monthnumbers",
 		"positions",
-		"weekStartday"
+		"weekStartday",
+		"dtstart"
 	],
 	"name" : "ICFrequency",
 	"type" : "normal"

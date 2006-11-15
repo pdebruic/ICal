@@ -1,4 +1,4 @@
-accessing
+occurrences
 occurrences: aNumber
 	| dates |
 	
@@ -21,4 +21,4 @@ occurrences: aNumber
 		dates := dates sortBy: [:l :r| l < r ].
 		dates size > aNumber ifTrue: [ dates := dates copyFrom: 1 to: aNumber ].
 	].
-	^ dates.
+	^ dates collect: [ :e | self occurrenceFromDate: e ].

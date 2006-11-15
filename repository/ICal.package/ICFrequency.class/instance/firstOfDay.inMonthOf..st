@@ -1,8 +1,8 @@
 private
-firstOfDay: aDayIndex inMonth: aMonth
+firstOfDay: aDayIndex inMonthOf: aDateAndTime
 	| first |
 	
-	first := aMonth asDate weekdayIndex.
+	first := aDateAndTime asMonth asDate weekdayIndex.
 	
 	^ aDayIndex < first
 		ifTrue: [ 8 - (first - aDayIndex) ]

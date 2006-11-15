@@ -1,8 +1,8 @@
 {
 	"instance" : {
 		"asICalString" : "jbjohns 10/29/2006 16:20",
-		"firstOfDay:inMonth:" : "jbjohns 10/29/2006 16:09",
-		"eventsFor:" : "jbjohns 10/29/2006 16:09"
+		"nextFrequencyFrom:with:ifNone:" : "jbjohns 11/15/2006 06:34",
+		"eventsFor:with:" : "jbjohns 11/15/2006 05:12"
 	},
 	"class" : { }
 }
