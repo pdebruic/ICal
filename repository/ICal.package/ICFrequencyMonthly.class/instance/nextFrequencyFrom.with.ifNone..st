@@ -3,10 +3,10 @@ nextFrequencyFrom: aDateAndTime with: aCollection ifNone: aFailBlock
 	| lastYear |
 	
 	lastYear := 0.
-	monthnumbers isEmpty
+	^ monthnumbers isEmpty
 		ifTrue: [ | next |
 			next := aDateAndTime asMonth.
-			^ [ | current |
+			[ | current |
 				current := next.
 				(yeardays isEmpty or: [ lastYear = current year ])
 					ifFalse: [ lastYear := current year. aCollection addAll: (self byYearDayFor: current) ].
@@ -24,7 +24,7 @@ nextFrequencyFrom: aDateAndTime with: aCollection ifNone: aFailBlock
 			nextYear := aDateAndTime year.
 			nextMonthIndex := months findFirst: [:m| m >= month ].
 			nextMonthIndex = 0 ifTrue: [ nextYear := nextYear + 1. nextMonthIndex := 1 ].
-			^ [ | current |
+			[ | current |
 				current := Month month: (months at: nextMonthIndex) year: nextYear.
 				nextMonthIndex := nextMonthIndex + 1.
 				nextMonthIndex > months size ifTrue: [ nextYear := nextYear + 1. nextMonthIndex := 1 ].

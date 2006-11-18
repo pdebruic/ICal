@@ -7,4 +7,4 @@ byDay: aDayIndex for: aDateAndTime at: anOccurance
 	day := anOccurance - 1 * 7 + day.
 	
 	day > aDateAndTime daysInMonth ifTrue: [ ^ nil ].
-	^ Date year: aDateAndTime year month: aDateAndTime month day: day.
+	^ self dateClass year: aDateAndTime year month: aDateAndTime month day: day.

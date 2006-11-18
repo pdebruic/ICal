@@ -3,8 +3,8 @@ occurrenceFromDate: aDate
 	| event |
 	
 	event := self class newFrom: self.
-	event start: (DateAndTime date: aDate time: self start asTime).
-	event end: (DateAndTime date: aDate time: self end asTime).
+	event start: (self dateAndTimeClass date: aDate time: self start asTime).
+	event end: (self dateAndTimeClass date: aDate time: self end asTime).
 	
 	^ event.
 	

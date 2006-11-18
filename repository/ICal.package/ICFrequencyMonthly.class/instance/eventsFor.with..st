@@ -12,7 +12,7 @@ eventsFor: aDateAndTime with: aCollection
 		self hoursOrDefault do: [ :hour|
 			self minutesOrDefault do: [ :minute |
 				self secondsOrDefault do: [ :second|
-					events add: (DateAndTime date: date time: (Time hour: hour minute: minute second: second)).
+					events add: (self dateAndTimeClass date: date time: (self timeClass hour: hour minute: minute second: second)).
 				].
 			].
 		].

@@ -1,13 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "ICObject",
+	"super" : "Object",
 	"category" : "ICal-Abstract",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"unknownProperties"
-	],
-	"name" : "ICComponent",
+	"instvars" : [ ],
+	"name" : "ICObject",
 	"type" : "normal"
 }

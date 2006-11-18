@@ -3,11 +3,11 @@ testOccurences
 	| event |
 	
 	event := (ICEvent summary: 'Test event')
-		start: (TimeStamp year: 2006 month: 10 day: 1 hour: 19 minute: 0);
-		end: (Time hour: 21 minute: 0 second: 0);
+		start: (self dateAndTimeClass year: 2006 month: 10 day: 1 hour: 19 minute: 0 second: 0);
+		end: (self timeClass hour: 21 minute: 0 second: 0);
 		location: 'Test loc';
 		addRecurrenceRule: (ICRecurrenceRule monthly
-			addWeekday: 'FR' occurrence:1; until: (Date year: 2006 month: 12 day: 28); yourself);
+			addWeekday: 'FR' occurrence:1; until: (self dateClass year: 2006 month: 12 day: 28); yourself);
 		yourself.
 		
 	self assert: (self compare: event occurrences with: (OrderedCollection new
@@ -16,8 +16,8 @@ testOccurences
 		add: (self occurrenceFromYear: 2006 month: 12 day: 1 on: event); yourself)).
 		
 	event := (ICEvent summary: 'Test event')
-		start: (TimeStamp year: 2006 month: 10 day: 18 hour: 19 minute: 0);
-		end: (Time hour: 21 minute: 0 second: 0);
+		start: (self dateAndTimeClass year: 2006 month: 10 day: 18 hour: 19 minute: 0);
+		end: (self timeClass hour: 21 minute: 0 second: 0);
 		location: 'Test loc';
 		addRecurrenceRule: (ICRecurrenceRule monthly
 			addWeekday: 'FR' occurrence:1; count: 4; yourself);
@@ -30,8 +30,8 @@ testOccurences
 		add: (self occurrenceFromYear: 2007 month: 2 day: 2 on: event); yourself)).
 	
 	event := (ICEvent summary: 'Test event')
-		start: (TimeStamp year: 2006 month: 10 day: 1 hour: 19 minute: 0);
-		end: (Time hour: 21 minute: 0 second: 0);
+		start: (self dateAndTimeClass year: 2006 month: 10 day: 1 hour: 19 minute: 0);
+		end: (self timeClass hour: 21 minute: 0 second: 0);
 		location: 'Test loc';
 		addRecurrenceRule: (ICRecurrenceRule monthly
 			addWeekday: 'FR' occurrence:1; interval: 2; count: 2; yourself);
