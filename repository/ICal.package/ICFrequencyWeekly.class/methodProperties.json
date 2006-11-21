@@ -1,6 +1,7 @@
 {
 	"instance" : {
-		"asICalString" : "jbjohns 10/29/2006 16:30"
+		"asICalString" : "jbjohns 10/29/2006 16:30",
+		"eventsFor:with:" : "jbjohns 11/21/2006 07:00"
 	},
 	"class" : { }
 }

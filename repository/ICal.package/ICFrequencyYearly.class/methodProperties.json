@@ -1,8 +1,11 @@
 {
 	"instance" : {
+		"byWeeknoFor:" : "jbjohns 11/18/2006 14:19",
+		"allDaysOf:inYear:" : "jbjohns 11/18/2006 14:35",
 		"asICalString" : "jbjohns 10/29/2006 16:30",
-		"byDay:for:" : "jbjohns 11/3/2006 18:21",
-		"byDay:for:at:" : "jbjohns 11/3/2006 18:20",
+		"byDay:for:at:" : "jbjohns 11/18/2006 14:35",
+		"eventsFor:with:" : "jbjohns 11/18/2006 14:56",
+		"nextFrequencyFrom:with:ifNone:" : "jbjohns 11/17/2006 17:03",
 		"weeknumbers:" : "jbjohns 11/3/2006 18:00"
 	},
 	"class" : { }
