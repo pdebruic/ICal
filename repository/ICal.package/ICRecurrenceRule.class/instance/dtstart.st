@@ -1,3 +1,0 @@
-accessing
-dtstart
-	^ frequency dtstart

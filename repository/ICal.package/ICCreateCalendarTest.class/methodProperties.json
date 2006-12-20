@@ -1,15 +1,14 @@
 {
 	"instance" : {
-		"testCreatingSeveralCalendars" : "pmm 9/17/2006 21:19",
-		"testToDoList" : "pmm 9/17/2006 21:41",
-		"testRemove" : "dr 6/19/2005 11:41",
-		"calendarTestWithName:" : "pmm 9/17/2006 21:40",
-		"testUser" : "pmm 10/16/2006 17:50",
-		"testCategoryList" : "pmm 9/17/2006 21:40",
+		"addCalendarWithName:" : "pmm 9/17/2006 21:19",
 		"calendarTestWithSummary:" : "pmm 10/7/2005 17:28",
 		"testCalendar" : "pmm 9/17/2006 21:22",
-		"addCalendarWithName:" : "pmm 9/17/2006 21:19",
-		"setUp" : "pmm 9/17/2006 21:39"
+		"testCategoryList" : "pmm 9/17/2006 21:40",
+		"setUp" : "pmm 9/17/2006 21:39",
+		"testCreatingSeveralCalendars" : "pmm 9/17/2006 21:19",
+		"testToDoList" : "pmm 9/17/2006 21:41",
+		"testUser" : "pmm 10/16/2006 17:50",
+		"calendarTestWithName:" : "pmm 9/17/2006 21:40"
 	},
 	"class" : { }
 }

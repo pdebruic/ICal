@@ -1,3 +1,3 @@
 accessing
 yeardays: aCollection 
-	frequency yeardays: aCollection
+	yeardays := aCollection

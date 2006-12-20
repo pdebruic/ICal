@@ -1,3 +1,3 @@
 accessing
 frequencySecondly
-	^ ICFrequencySecondly new
+	^'SECONDLY'

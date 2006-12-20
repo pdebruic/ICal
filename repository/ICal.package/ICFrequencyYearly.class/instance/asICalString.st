@@ -1,3 +1,0 @@
-converting
-asICalString
-	^ 'YEARLY'

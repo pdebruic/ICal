@@ -1,13 +1,9 @@
 {
 	"instance" : {
-		"testYearlyEventsAfter" : "jbjohns 11/19/2006 12:06",
-		"testMonthlyEventsAfter" : "pmm 11/18/2006 19:02",
 		"testHours" : "pmm 9/13/2006 23:30",
 		"testWeekdays" : "pmm 9/13/2006 23:36",
 		"testSimple" : "pmm 10/2/2005 15:10",
 		"testParsing" : "pmm 9/13/2006 23:39",
-		"testMonthlyEventsBetween" : "pmm 11/18/2006 19:05",
-		"testMonthlyEventsBetweenCount" : "pmm 11/18/2006 19:10",
 		"testRepetition" : "pmm 10/16/2006 23:49"
 	},
 	"class" : { }

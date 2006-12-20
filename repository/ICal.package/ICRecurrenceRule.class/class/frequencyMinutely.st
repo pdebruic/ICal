@@ -1,3 +1,3 @@
 accessing
 frequencyMinutely
-	^ ICFrequencyMinutely new
+	^'MINUTELY'
