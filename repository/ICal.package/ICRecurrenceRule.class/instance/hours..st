@@ -1,3 +1,3 @@
 accessing
 hours: aCollection 
-	hours := aCollection
+	frequency hours: aCollection

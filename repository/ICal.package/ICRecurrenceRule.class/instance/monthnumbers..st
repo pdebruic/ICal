@@ -1,3 +1,3 @@
 accessing
 monthnumbers: aCollection 
-	monthnumbers := aCollection
+	frequency monthnumbers: aCollection

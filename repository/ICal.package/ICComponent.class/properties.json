@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "ICObject",
 	"category" : "ICal-Abstract",
 	"classinstvars" : [ ],
 	"pools" : [ ],

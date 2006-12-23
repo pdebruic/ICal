@@ -1,3 +1,3 @@
 accessing
 monthdays: aCollection 
-	monthdays := aCollection
+	frequency monthdays: aCollection

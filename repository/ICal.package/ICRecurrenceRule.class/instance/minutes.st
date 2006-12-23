@@ -1,3 +1,3 @@
 accessing
 minutes
-	^minutes
+	^ frequency minutes

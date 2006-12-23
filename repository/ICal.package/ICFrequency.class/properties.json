@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "",
+	"super" : "ICObject",
+	"category" : "ICal-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"interval",
+		"seconds",
+		"minutes",
+		"hours",
+		"weekdays",
+		"monthdays",
+		"yeardays",
+		"weeknumbers",
+		"monthnumbers",
+		"positions",
+		"weekStartday",
+		"dtstart"
+	],
+	"name" : "ICFrequency",
+	"type" : "normal"
+}

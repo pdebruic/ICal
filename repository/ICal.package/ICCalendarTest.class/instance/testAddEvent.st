@@ -19,8 +19,8 @@ testAddEvent
 					hour: 22
 					minute: 1
 					second: 0);
-		addCategory: (ICCategory summary: 'first');
-		location: 'universitiy mensa'.
+		addCategory: (ICCategory summary: 'first').
+	"place: 'universitiy mensa';"
 	newTodo := ICTodo summary: 'writing letters'.
 	newTodo
 		beLowPriority;

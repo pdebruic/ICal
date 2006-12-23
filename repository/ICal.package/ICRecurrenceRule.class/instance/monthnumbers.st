@@ -1,3 +1,3 @@
 accessing
 monthnumbers
-	^monthnumbers
+	^ frequency monthnumbers

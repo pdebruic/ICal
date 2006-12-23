@@ -24,6 +24,8 @@ testSynchronize
 	self assert: tempEvent location = 'Bern'.
 	self assert: tempEvent isConfirmed.
 	self assert: tempEvent textualDescription = 'blabla'.
+	"self assert: tempEvent categories anyOne 
+				= (calendar categoryWithSummary: 'business')."
 	self 
 		assert: tempEvent start = (self dateAndTimeClass date: date
 						time: (self timeClass 
@@ -41,6 +43,8 @@ testSynchronize
 	self assert: tempEvent isHighPriority.
 	self assert: tempEvent isCompleted.
 	self assert: tempEvent textualDescription = 'testest'.
+	"self assert: tempEvent categories anyOne 
+				= (calendar categoryWithSummary: 'business')."
 	self 
 		assert: tempEvent due = (self dateAndTimeClass date: date
 						time: (self timeClass 

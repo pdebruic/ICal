@@ -1,3 +1,3 @@
 accessing
 weekdays
-	^weekdays
+	^ frequency weekdays

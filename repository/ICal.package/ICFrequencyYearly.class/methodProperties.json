@@ -1,0 +1,20 @@
+{
+	"instance" : {
+		"weekStartYearDatesFor:" : "jbjohns 12/22/2006 05:16",
+		"yearsStartingAt:" : "jbjohns 12/14/2006 08:20",
+		"byDay:for:" : "jbjohns 12/21/2006 21:10",
+		"validWeekStartMonthDaysForMonth:" : "jbjohns 12/21/2006 17:15",
+		"byYearDayFor:" : "jbjohns 12/21/2006 17:18",
+		"hasDates" : "jbjohns 12/17/2006 12:50",
+		"allDaysOf:inYearOf:" : "jbjohns 12/22/2006 05:13",
+		"defaultDaysForMonth:" : "jbjohns 12/21/2006 21:31",
+		"weeknumbers:" : "jbjohns 11/3/2006 18:00",
+		"hasDateOccurences" : "jbjohns 12/19/2006 05:17",
+		"byMonthDayFor:" : "jbjohns 12/21/2006 17:08",
+		"byDay:for:at:" : "jbjohns 12/21/2006 17:05",
+		"validWeekStartYearDaysForMonth:" : "jbjohns 12/21/2006 17:25",
+		"asICalString" : "jbjohns 10/29/2006 16:30",
+		"defaultMonths" : "jbjohns 12/21/2006 06:42"
+	},
+	"class" : { }
+}
