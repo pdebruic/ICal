@@ -1,4 +1,4 @@
-accessing-parsing
+fixtures-parsing
 donaldCardString
 ^'begin:vcard
 fn:Donald Major

@@ -1,3 +1,3 @@
 accessing
 yeardays
-	^ frequency yeardays
+	^yeardays

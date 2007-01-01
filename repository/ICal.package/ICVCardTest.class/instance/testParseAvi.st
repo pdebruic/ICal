@@ -89,4 +89,6 @@ testParseAvi
 	self assert: imid id = 'avi666@hotmail.com'.
 	
 	self assert: card yahooids isEmpty.
+	self assert: (card timeZone isKindOf: ICUtcOffset).
+	self assert: (card timeZone totalSeconds = (5 * 60 * 60) negated)
 	

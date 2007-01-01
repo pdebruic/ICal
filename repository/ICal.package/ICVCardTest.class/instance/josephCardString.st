@@ -1,4 +1,4 @@
-accessing-parsing
+fixtures-parsing
 josephCardString
 ^
 'begin:vcard' , String crlf ,

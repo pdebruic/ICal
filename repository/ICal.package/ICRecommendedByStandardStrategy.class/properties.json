@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"uuidstragety"
+		"uuidstragety",
+		"hostName"
 	],
 	"name" : "ICRecommendedByStandardStrategy",
 	"type" : "normal"

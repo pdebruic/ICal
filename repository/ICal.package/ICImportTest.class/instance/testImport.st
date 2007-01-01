@@ -23,8 +23,6 @@ testImport
 	self assert: eventAtDate location = 'Bern'.
 	self assert: eventAtDate isConfirmed.
 	self assert: eventAtDate textualDescription = 'blabla'.
-	"self assert: eventAtDate categories anyOne 
-				= (calendar categoryWithSummary: 'business')."
 	self 
 		assert: eventAtDate start = (self dateAndTimeClass date: date
 						time: (self timeClass 
@@ -55,8 +53,6 @@ testImport
 	self assert: eventAtDate isHighPriority.
 	self assert: eventAtDate isCompleted.
 	self assert: eventAtDate textualDescription = 'testest'.
-	"self assert: eventAtDate categories anyOne 
-				= (calendar categoryWithSummary: 'business')."
 	self 
 		assert: eventAtDate due = (self dateAndTimeClass date: date
 						time: (self timeClass 

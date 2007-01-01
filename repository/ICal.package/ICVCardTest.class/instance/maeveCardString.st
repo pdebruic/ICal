@@ -1,4 +1,4 @@
-accessing-parsing
+fixtures-parsing
 maeveCardString
 ^
 'BEGIN:VCARD' , String crlf ,
