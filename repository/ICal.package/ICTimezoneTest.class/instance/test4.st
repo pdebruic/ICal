@@ -28,7 +28,7 @@ test4
 	self assert: recurrenceRule frequency = 'YEARLY'.
 	self assert: recurrenceRule weekdays = (Set with: 'SU' -> 1).
 	self assert: recurrenceRule monthnumbers = (Set with: 4).
-	self assert: recurrenceRule repetition = (self dateAndTimeClass year: 1998 month: 04 day: 04 hour: 7 minute: 0 second: 00).
+	self assert: recurrenceRule repetition = (self dateAndTimeClass year: 1998 month: 04 day: 04 hour: 7 minute: 0 second: 00) asUTCWithOffsetAdded.
 	self assert: daylightSavingTime offsetFrom = (ICUtcOffset new positive: false; hours: 5; minutes: 0; seconds: 0; yourself).
 	self assert: daylightSavingTime offsetTo = (ICUtcOffset new positive: false; hours: 4; minutes: 0; seconds: 0; yourself).
 	self assert: daylightSavingTime names size = 1.

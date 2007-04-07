@@ -29,13 +29,13 @@ testSynchronize
 						time: (self timeClass 
 								hour: 11
 								minute: 0
-								second: 0)).
+								second: 0)) asUTCWithOffsetAdded.
 	self 
 		assert: tempEvent end = (self dateAndTimeClass date: date
 						time: (self timeClass 
 								hour: 13
 								minute: 0
-								second: 0)).
+								second: 0)) asUTCWithOffsetAdded.
 	
 	tempEvent := events detect: [:each | each summary = 'todo1'].
 	self assert: tempEvent isHighPriority.
@@ -46,10 +46,10 @@ testSynchronize
 						time: (self timeClass 
 								hour: 15
 								minute: 0
-								second: 0)).
+								second: 0)) asUTCWithOffsetAdded.
 	self 
 		assert: tempEvent completed = (self dateAndTimeClass date: date
 						time: (self timeClass 
 								hour: 11
 								minute: 9
-								second: 15))
+								second: 15)) asUTCWithOffsetAdded
