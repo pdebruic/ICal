@@ -1,6 +1,7 @@
 {
 	"instance" : {
 		"asICalString" : "pmm 10/17/2006 18:56",
+		"asUTCWithOffsetAdded" : "pmm 4/7/2007 09:56",
 		"asVCardString" : "pmm 10/17/2006 21:36",
 		"asICalUtcString" : "pmm 10/17/2006 19:01"
 	},
