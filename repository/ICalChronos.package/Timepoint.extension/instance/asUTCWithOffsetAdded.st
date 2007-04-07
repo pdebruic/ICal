@@ -1,3 +1,3 @@
 *ICalChronos
 asUTCWithOffsetAdded
-	^self asUTC + self offset
+	^self << self class universalTZ

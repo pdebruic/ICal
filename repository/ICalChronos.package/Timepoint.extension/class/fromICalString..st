@@ -1,3 +1,3 @@
 *ICalChronos
 fromICalString: aString
-	^ICChronologyParser fromICalDateAndTimeString: aString class: self
+	^self fromICalString: aString parameters: Dictionary new
