@@ -23,21 +23,23 @@ testImport
 	self assert: eventAtDate location = 'Bern'.
 	self assert: eventAtDate isConfirmed.
 	self assert: eventAtDate textualDescription = 'blabla'.
+	"self assert: eventAtDate categories anyOne 
+				= (calendar categoryWithSummary: 'business')."
 	self 
 		assert: eventAtDate start = (self dateAndTimeClass date: date
 						time: (self timeClass 
 								hour: 11
 								minute: 0
-								second: 0)) asUTCWithOffsetAdded.
+								second: 0)).
 	self 
 		assert: eventAtDate end = (self dateAndTimeClass date: date
 						time: (self timeClass 
 								hour: 13
 								minute: 0
-								second: 0)) asUTCWithOffsetAdded.
+								second: 0)).
 	self assert: eventAtDate alarms size = 2.
 	tempAlarm := eventAtDate alarms first.
-	self assert: tempAlarm trigger value = (self dateAndTimeClass year: 1997 month: 3 day: 17 hour: 13 minute: 30 second: 00) asUTCWithOffsetAdded.
+	self assert: tempAlarm trigger value = (self dateAndTimeClass year: 1997 month: 3 day: 17 hour: 13 minute: 30 second: 00).
 	self assert: tempAlarm repetitions = 4.
 	self assert: tempAlarm delay = (self durationClass minutes: 15).
 	self assert: tempAlarm isAudio.
@@ -53,15 +55,17 @@ testImport
 	self assert: eventAtDate isHighPriority.
 	self assert: eventAtDate isCompleted.
 	self assert: eventAtDate textualDescription = 'testest'.
+	"self assert: eventAtDate categories anyOne 
+				= (calendar categoryWithSummary: 'business')."
 	self 
 		assert: eventAtDate due = (self dateAndTimeClass date: date
 						time: (self timeClass 
 								hour: 15
 								minute: 0
-								second: 0)) asUTCWithOffsetAdded.
+								second: 0)).
 	self 
 		assert: eventAtDate completed = (self dateAndTimeClass date: date
 						time: (self timeClass 
 								hour: 11
 								minute: 9
-								second: 15)) asUTCWithOffsetAdded
+								second: 15))

@@ -1,3 +1,3 @@
 accessing
-categories: aCollection 
-	categories := aCollection
+categories: aString 
+	categories := aString

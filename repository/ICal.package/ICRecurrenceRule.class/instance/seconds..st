@@ -1,3 +1,3 @@
 accessing
 seconds: aCollection 
-	seconds := aCollection
+	frequency seconds: aCollection

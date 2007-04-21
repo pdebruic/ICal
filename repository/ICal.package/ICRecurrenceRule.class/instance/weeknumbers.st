@@ -1,3 +1,3 @@
 accessing
 weeknumbers
-	^weeknumbers
+	^ frequency weeknumbers

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ICTest",
+	"category" : "ICal-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICFrequencyPeriodTest",
+	"type" : "normal"
+}

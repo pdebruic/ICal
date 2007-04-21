@@ -1,4 +1,4 @@
-fixtures-exporting
+accessing-exporting
 aviCardStringExport
 ^
 'BEGIN:VCARD' , String crlf ,
@@ -9,7 +9,6 @@ aviCardStringExport
 'TEL;TYPE=home;TYPE=pref:(778) xxx-xxxx' , String crlf ,
 'EMAIL;TYPE=pref;TYPE=internet;TYPE=work:avi@smallthought.com' , String crlf ,
 'EMAIL;TYPE=internet;TYPE=home:avi.bryant@gmail.com' , String crlf ,
-'TZ:-05:00' , String crlf ,
 'X-AIM;TYPE=pref:avbry' , String crlf ,
 'X-MSN;TYPE=pref:avi666@hotmail.com' , String crlf ,
 'END:VCARD' , String crlf

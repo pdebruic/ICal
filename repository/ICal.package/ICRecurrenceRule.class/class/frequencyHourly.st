@@ -1,3 +1,3 @@
 accessing
 frequencyHourly
-	^'HOURLY'
+	^ ICFrequencyHourly new

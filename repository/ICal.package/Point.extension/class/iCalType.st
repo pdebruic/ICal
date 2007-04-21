@@ -1,3 +1,0 @@
-*ICal
-iCalType
-	^Float iCalType

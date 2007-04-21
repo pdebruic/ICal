@@ -8,16 +8,6 @@
 	"instvars" : [
 		"frequency",
 		"interval",
-		"seconds",
-		"minutes",
-		"hours",
-		"weekdays",
-		"monthdays",
-		"yeardays",
-		"weeknumbers",
-		"monthnumbers",
-		"positions",
-		"weekStartday",
 		"repetition"
 	],
 	"name" : "ICRecurrenceRule",

@@ -1,0 +1,1 @@
+NOTE:  This class isn't going to be able to use the default eventsStartingAt:.  The problem is intervals.  If the user specifies any interval besides one (e.g. 7) then we will always be out of sync since no state is kept on where we have been and I can't know what week was used in the last month.

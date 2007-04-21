@@ -1,3 +1,3 @@
 accessing
 hours
-	^hours
+	^ frequency hours

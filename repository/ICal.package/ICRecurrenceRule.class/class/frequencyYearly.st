@@ -1,3 +1,3 @@
 accessing
 frequencyYearly
-	^'YEARLY'
+	^ ICFrequencyYearly new

@@ -1,3 +1,3 @@
 accessing
 frequencyMonthly
-	^'MONTHLY'
+	^ ICFrequencyMonthly new

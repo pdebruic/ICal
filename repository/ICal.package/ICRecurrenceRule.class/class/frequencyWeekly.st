@@ -1,3 +1,3 @@
 accessing
 frequencyWeekly
-	^'WEEKLY'
+	^ ICFrequencyWeekly new

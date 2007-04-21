@@ -1,4 +1,4 @@
-fixtures-parsing
+accessing-parsing
 seanCardString
 ^
 'BEGIN:VCARD' , String crlf ,

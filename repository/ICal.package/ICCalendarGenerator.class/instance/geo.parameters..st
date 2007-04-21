@@ -1,5 +1,5 @@
 processing-properties
 geo: aString parameters: aDictionary
-	| value |
-	value := Point fromICalString: aString.
-	self currentCard geo: value
+	| coords |
+	coords := self createMulitValue: aString parameters: aDictionary class: Float.
+	self tempComponent geo: coords first @ coords second

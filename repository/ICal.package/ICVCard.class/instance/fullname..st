@@ -1,3 +1,3 @@
 accessing
-fullname: aString 
-	fullname := aString
+fullname: anObject
+	fullname := anObject

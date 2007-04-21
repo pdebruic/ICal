@@ -11,6 +11,5 @@ supportedClasses
 		add: self timeClass;
 		add: self dateClass;
 		add: self dateAndTimeClass;
-		add: self durationClass;
-		add: ICUtcOffset;
+		add: self durationClass;	
 		yourself.

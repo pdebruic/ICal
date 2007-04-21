@@ -1,3 +1,3 @@
 accessing
 weekStartday: aString 
-	weekStartday := aString
+	frequency weekStartday: aString

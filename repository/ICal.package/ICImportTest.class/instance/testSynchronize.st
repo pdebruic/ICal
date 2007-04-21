@@ -24,32 +24,36 @@ testSynchronize
 	self assert: tempEvent location = 'Bern'.
 	self assert: tempEvent isConfirmed.
 	self assert: tempEvent textualDescription = 'blabla'.
+	"self assert: tempEvent categories anyOne 
+				= (calendar categoryWithSummary: 'business')."
 	self 
 		assert: tempEvent start = (self dateAndTimeClass date: date
 						time: (self timeClass 
 								hour: 11
 								minute: 0
-								second: 0)) asUTCWithOffsetAdded.
+								second: 0)).
 	self 
 		assert: tempEvent end = (self dateAndTimeClass date: date
 						time: (self timeClass 
 								hour: 13
 								minute: 0
-								second: 0)) asUTCWithOffsetAdded.
+								second: 0)).
 	
 	tempEvent := events detect: [:each | each summary = 'todo1'].
 	self assert: tempEvent isHighPriority.
 	self assert: tempEvent isCompleted.
 	self assert: tempEvent textualDescription = 'testest'.
+	"self assert: tempEvent categories anyOne 
+				= (calendar categoryWithSummary: 'business')."
 	self 
 		assert: tempEvent due = (self dateAndTimeClass date: date
 						time: (self timeClass 
 								hour: 15
 								minute: 0
-								second: 0)) asUTCWithOffsetAdded.
+								second: 0)).
 	self 
 		assert: tempEvent completed = (self dateAndTimeClass date: date
 						time: (self timeClass 
 								hour: 11
 								minute: 9
-								second: 15)) asUTCWithOffsetAdded
+								second: 15))

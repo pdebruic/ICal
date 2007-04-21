@@ -1,4 +1,4 @@
-fixtures-parsing
+accessing-parsing
 aviCardString
 ^
 'BEGIN:VCARD' , String crlf ,
@@ -8,7 +8,6 @@ aviCardString
 'EMAIL;type=INTERNET;type=WORK;type=pref:avi@smallthought.com' , String crlf ,
 'EMAIL;type=INTERNET;type=HOME:avi.bryant@gmail.com' , String crlf ,
 'TEL;type=HOME;type=pref:(778) xxx-xxxx' , String crlf ,
-'TZ:-05:00' , String crlf ,
 'item1.ADR;type=HOME;type=pref:;;xxx E. xx Ave;Vancouver;BC;V5V 1E3;Canada' , String crlf ,
 'item1.X-ABADR:ca' , String crlf ,
 'item2.X-AIM;type=pref:avbry' , String crlf ,

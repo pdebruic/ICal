@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "jbjohns 12/21/2006 20:56",
+	"super" : "ICFrequency",
+	"category" : "ICal-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICFrequencyYearly",
+	"type" : "normal"
+}

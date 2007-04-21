@@ -1,9 +1,6 @@
 {
 	"instance" : {
-		"asICalString" : "pmm 1/1/2007 10:55"
+		"asArray" : "pmm 10/9/2005 11:42"
 	},
-	"class" : {
-		"fromICalString:" : "pmm 1/1/2007 10:54",
-		"iCalType" : "pmm 1/1/2007 10:58"
-	}
+	"class" : { }
 }
