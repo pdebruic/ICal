@@ -1,5 +1,10 @@
 occurrences
 eventsBetween: aStartDateAndTime and: anEndDateAndTime
+	|validDate|
+
+	validDate := self toValidDate: aStartDateAndTime.
 	
-	anEndDateAndTime < aStartDateAndTime ifTrue: [ ^ OrderedCollection new ].	
-	^ self frequency eventsStartingAt: aStartDateAndTime takeWhile: [:date| date <= anEndDateAndTime ]
+	^ true caseOf: {
+		[ self hasRepetition not ]				-> [ frequency eventsBetween: validDate and: anEndDateAndTime ].
+		[ repetition class isKindOf: #Number ]	-> [ frequency events: repetition between: frequency dtstart and: anEndDateAndTime ].
+	} otherwise: [ frequency eventsBetween: validDate and: (repetition min: anEndDateAndTime) ]

@@ -1,24 +1,14 @@
 occurrences
 occurrencesAfter: aDateAndTime
-	| dates startTS |
-	
-	self hasRecurrenceRules ifFalse: [ ^ self ].		"What to do here?  Check if we are after?"
-	
-	dates := OrderedCollection new.
-	startTS := aDateAndTime > self start ifTrue: [ aDateAndTime ] ifFalse: [ self start ].
-	
-	self recurrenceRules do: [:rule|
-		dates addAll: (self
-			occurencesSelectNoRep: [ self error: 'infinite occurences set' ]
-			orCount: [ rule frequency dates: (rule events: rule repetition after: self start) atOrAfter: aDateAndTime ]
-			orUntil: [ rule eventsBetween: startTS and: rule repetition ]
-			on: rule).
-	].
+	|dates infinite|
 
-	self recurrenceRules size > 1
-		ifTrue: [
-			dates size = 0 ifTrue: [ ^dates ].
-			dates := dates sortBy: [:l :r| l < r ]
-		].
+	self hasRecurrenceRules ifFalse: [ ^ self ].
 
-	^ dates collect: [ :e | self occurrenceFromDate: e ].
+	infinite := recurrenceRules anySatisfy: [:rule| rule hasRepetition not ].
+	dates := recurrenceRules first eventsAfter: aDateAndTime.
+	
+	recurrenceRules allButFirst do: [:rule| dates := dates merge: (rule eventsAfter: aDateAndTime) ].
+
+	^ (infinite
+		ifTrue: [ dates ]
+		ifFalse: [ dates asOrderedCollection ]) collect: [:e| self occurrenceFromDate: e ]

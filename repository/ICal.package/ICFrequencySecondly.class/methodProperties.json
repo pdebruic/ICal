@@ -1,7 +1,12 @@
 {
 	"instance" : {
+		"byMinutesOrDefault:" : "jbj 4/25/2007 05:21",
 		"asICalString" : "jbjohns 10/29/2006 16:30",
-		"periodsFrom:" : "jbj 4/19/2007 19:46"
+		"findValidDate:" : "jbj 4/28/2007 18:15",
+		"byHoursOrDefault:" : "jbj 4/25/2007 05:22",
+		"byDaysOrDefault:" : "jbj 4/25/2007 05:22",
+		"periodsFrom:" : "jbj 4/25/2007 06:12",
+		"bySecondsOrDefault:" : "jbj 4/24/2007 06:15"
 	},
 	"class" : { }
 }

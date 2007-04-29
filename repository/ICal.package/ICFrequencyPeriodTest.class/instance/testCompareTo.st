@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testCompareTo
 	|periodA periodB periodC|
 
@@ -6,5 +6,5 @@ testCompareTo
 	periodB := (ICFrequencyPeriod new start: (TimeStamp fromString: '1-3-2007 8:00:00') end: (TimeStamp fromString: '1-4-2007 8:00:00')).
 	periodC := (ICFrequencyPeriod new start: (TimeStamp fromString: '1-1-2007 8:00:00') end: (TimeStamp fromString: '1-28-2007 8:00:00')).
 
-	self assert: (periodA compareTo: periodB) = periodB.
-	self assert: (periodA compareTo: periodC) = periodA.
+	self should: (periodA compareTo: periodB) = periodB.
+	self should: (periodA compareTo: periodC) = periodA.

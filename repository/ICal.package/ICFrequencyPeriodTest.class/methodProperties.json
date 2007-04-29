@@ -1,8 +1,7 @@
 {
 	"instance" : {
-		"testGreaterThan" : "jbjohns 3/30/2007 09:24",
-		"testCompareTo" : "jbjohns 3/30/2007 09:29",
-		"testLessThan" : "jbjohns 3/30/2007 09:23"
+		"testEndsBefore" : "jbj 4/25/2007 20:32",
+		"testCompareTo" : "jbj 4/25/2007 20:31"
 	},
 	"class" : { }
 }

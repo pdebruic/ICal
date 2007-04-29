@@ -21,7 +21,7 @@ makePeriodsFromDelta: aDeltaBlock add: anAddBlock next: aNextBlock list: startin
 					startingAt: aDateAndTime
 					list: tail ]
 				ifFalse: [
-					LazyElement
+					LazyList
 						cons: (ICFrequencyPeriod new start: dt end: (anAddBlock value: 1 value: dt))
 						with: (LazyValue delay: [ self
 							makePeriodsFromDelta: aDeltaBlock

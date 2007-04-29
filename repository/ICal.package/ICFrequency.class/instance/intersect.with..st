@@ -17,7 +17,7 @@ intersect: aCollection with: bCollection
 			[ a end > b end ] -> [ aCol := aCollection ].
 		} otherwise: [].
 		
-		LazyElement
+		LazyList
 			cons: (a compareTo: b)
 			with: (LazyValue delay: [ self intersect: aCol with: bCol ])
 	]

@@ -2,9 +2,10 @@
 	"instance" : {
 		"byWeekNosOrDefault:" : "jbj 4/19/2007 09:18",
 		"asICalString" : "jbjohns 10/29/2006 16:30",
+		"findValidDate:" : "jbj 4/28/2007 18:05",
 		"weeknumbers:" : "jbjohns 11/3/2006 18:00",
 		"byMonthsOrDefault:" : "jbj 4/19/2007 09:16",
-		"periodsFrom:" : "jbj 4/16/2007 06:13",
+		"periodsFrom:" : "jbj 4/25/2007 06:12",
 		"byWeekNos:withPeriods:" : "jbj 4/19/2007 08:58"
 	},
 	"class" : { }

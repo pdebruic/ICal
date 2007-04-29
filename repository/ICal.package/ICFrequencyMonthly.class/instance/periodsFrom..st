@@ -1,6 +1,6 @@
 private - generators
 periodsFrom: aDateAndTime
 
-	^ LazyElement
+	^ LazyList
 		cons: (ICFrequencyPeriod new start: aDateAndTime end: (self addMonths: 1 to: aDateAndTime))
 		with: (LazyValue delay: [ self periodsFrom: (self addMonths: interval to: aDateAndTime) ])
