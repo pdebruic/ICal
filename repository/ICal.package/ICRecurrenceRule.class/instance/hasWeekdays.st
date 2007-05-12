@@ -1,3 +1,3 @@
 testing
 hasWeekdays
-	^self weekdays notEmpty
+	^self weekdays notEmpty or: [ self daysAndOccurrences notEmpty ]

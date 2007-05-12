@@ -6,7 +6,7 @@ byDaysAndOccurrences: daysAndOccurrencesCollection withPeriods: periods
 		start: [:start| DateAndTime year: start year month: start month day: 1 hour: start hour minute: start minute second: start second ]
 		delta: [:assoc :dt| |actual actualAssoc|
 			actualAssoc := assoc value < 0
-				ifTrue: [ assoc value + 1 -> (self deltaToLastDay: assoc key in: dt) ]
+				ifTrue: [ assoc value + 1 -> (self deltaToLastDay: assoc key inMonthOf: dt) ]
 				ifFalse: [ assoc value - 1 -> (self deltaToFirstDay: assoc key in: dt) ].
 			actual := actualAssoc key * 7 + actualAssoc value.
 			(actual between: 0 and: dt daysInMonth - 1)

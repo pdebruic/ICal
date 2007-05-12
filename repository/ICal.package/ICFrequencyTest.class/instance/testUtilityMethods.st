@@ -10,4 +10,4 @@ testUtilityMethods
 	self should: (#('SA' 'FR' 'TH' 'WE' 'TU' 'MO' 'SU') collect: [:d| secondly dayIndexOf: d ]) = #(7 6 5 4 3 2 1).
 
 	self should: (months collect: [:m| secondly deltaToFirstDay: 'FR' in: m ]) = #(5 2 6 1 0).
-	self should: (months collect: [:m| secondly deltaToLastDay: 'FR' in: m ]) = #(26 23 27 29 28).
+	self should: (months collect: [:m| secondly deltaToLastDay: 'FR' inMonthOf: m ]) = #(26 23 27 29 28).

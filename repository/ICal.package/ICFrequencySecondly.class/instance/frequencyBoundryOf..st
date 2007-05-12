@@ -1,0 +1,4 @@
+private
+frequencyBoundryOf: dt
+
+	^ dt

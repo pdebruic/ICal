@@ -5,6 +5,9 @@ printWeekdaysOn: aStream
 		do: [ :each | aStream nextPutAll: each ]
 		separatedBy: [ aStream nextPut: $, ].
 
+	(self weekdays notEmpty and: [ self daysAndOccurrences notEmpty ])
+		ifTrue: [ aStream nextPut: $, ].
+
 	self daysAndOccurrences
 		do: [ :each |
 			aStream

@@ -1,7 +1,8 @@
 {
 	"instance" : {
+		"addInterval:to:" : "jbj 5/10/2007 06:00",
 		"asICalString" : "jbjohns 10/29/2006 16:20",
-		"periodsFrom:" : "jbj 4/25/2007 06:11",
+		"frequencyBoundryOf:" : "jbj 5/10/2007 07:08",
 		"findValidDate:" : "jbj 4/28/2007 18:15"
 	},
 	"class" : { }

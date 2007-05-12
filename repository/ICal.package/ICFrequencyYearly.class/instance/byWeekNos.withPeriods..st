@@ -3,9 +3,7 @@ byWeekNos: weekNosCollection withPeriods: periods
 
 	^ self
 		byRuleWithList: weekNosCollection asArray
-		start: [:start| DateAndTime year: start year month: 1
-			day: 1 + (self deltaToFirstDay: weekStartday in: start)
-			hour: start hour minute: start minute second: start second ]
+		start: [:start| self firstCalendarWeekOf: start ]
 		delta: [:wkno :dt| |actual|
 			actual := 7 * (wkno < 0
 				ifTrue: [ wkno + 1 + ((dt daysInYear - (1 + (self deltaToFirstDay: weekStartday in: dt))) // 7) floor ]

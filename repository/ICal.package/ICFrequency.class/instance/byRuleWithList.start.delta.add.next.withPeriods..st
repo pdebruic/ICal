@@ -13,5 +13,5 @@ byRuleWithList: aCollection start: aStartBlock delta: aDeltaBlock add: anAddBloc
 
 		self
 			intersect: { period }
-			with: (mask asSet asSortedCollection asOrderedCollection)
+			with: mask asOrderedCollection					"TODO: Is sorting needed here?  Or is it enough that makePeriods is sorted and unique?"
 	]

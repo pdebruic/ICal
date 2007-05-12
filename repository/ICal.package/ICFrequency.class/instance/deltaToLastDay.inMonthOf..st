@@ -1,5 +1,5 @@
 private
-deltaToLastDay: aDayString in: aDateAndTime
+deltaToLastDay: aDayString inMonthOf: aDateAndTime
 	|monthLength endDay day|
 
 	monthLength := aDateAndTime daysInMonth.

@@ -1,10 +1,22 @@
 {
 	"instance" : {
-		"testHours" : "pmm 9/13/2006 23:30",
-		"testWeekdays" : "pmm 9/13/2006 23:36",
-		"testSimple" : "pmm 10/2/2005 15:10",
+		"testDaily" : "jbj 5/12/2007 22:23",
+		"makeDates:withTime:" : "jbj 5/7/2007 06:00",
+		"testMinutely" : "jbj 5/12/2007 22:25",
+		"testRule:startingAt:withDates:" : "jbj 5/7/2007 06:14",
+		"testWeekly" : "jbj 5/12/2007 22:29",
+		"testMontly" : "jbj 5/12/2007 21:48",
+		"testRule:startingAt:take:withDates:" : "jbj 5/7/2007 06:14",
+		"testRule:startingAt:take:withDateAndTimes:" : "jbj 5/12/2007 22:13",
 		"testParsing" : "pmm 9/13/2006 23:39",
-		"testRepetition" : "pmm 10/16/2006 23:49"
+		"testRule:startingAt:withDateAndTimes:" : "jbj 5/12/2007 22:12",
+		"testSetPos" : "jbj 5/12/2007 22:01",
+		"testRepetition" : "pmm 10/16/2006 23:49",
+		"testHours" : "pmm 9/13/2006 23:30",
+		"testHourly" : "jbj 5/12/2007 22:10",
+		"testYearly" : "jbj 5/12/2007 21:52",
+		"testWeekdays" : "pmm 9/13/2006 23:36",
+		"testSimple" : "pmm 10/2/2005 15:10"
 	},
 	"class" : { }
 }

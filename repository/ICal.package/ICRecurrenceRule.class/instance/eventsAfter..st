@@ -5,6 +5,6 @@ eventsAfter: aDateAndTime
 	validDate := self toValidDate: aDateAndTime.
 	
 	^ true caseOf: {
-		[ self hasRepetition not ]				-> [ frequency eventsStartingAt: validDate ].
-		[ repetition class isKindOf: #Number ]	-> [ frequency events: repetition startingAt: frequency dtstart ].
+		[ self hasRepetition not ]		-> [ frequency eventsStartingAt: validDate ].
+		[ repetition isKindOf: Number ]	-> [ frequency events: repetition startingAt: frequency dtstart ].
 	} otherwise: [ frequency eventsBetween: validDate and: repetition ]
