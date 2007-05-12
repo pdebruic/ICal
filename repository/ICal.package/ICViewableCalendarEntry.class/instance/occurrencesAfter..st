@@ -7,7 +7,7 @@ occurrencesAfter: aDateAndTime
 	infinite := recurrenceRules anySatisfy: [:rule| rule hasRepetition not ].
 	dates := recurrenceRules first eventsAfter: aDateAndTime.
 	
-	recurrenceRules allButFirst do: [:rule| dates := dates merge: (rule eventsAfter: aDateAndTime) ].
+	recurrenceRules allButFirst do: [:rule| dates := dates mergeUnique: (rule eventsAfter: aDateAndTime) ].
 
 	^ (infinite
 		ifTrue: [ dates ]

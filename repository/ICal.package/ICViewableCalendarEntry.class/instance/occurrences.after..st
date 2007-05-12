@@ -6,6 +6,6 @@ occurrences: aNumber after: aDateAndTime
 
 	dates := recurrenceRules first eventsAfter: aDateAndTime.
 	
-	recurrenceRules allButFirst do: [:rule| dates := dates merge: (rule eventsAfter: aDateAndTime) ].
+	recurrenceRules allButFirst do: [:rule| dates := dates mergeUnique: (rule eventsAfter: aDateAndTime) ].
 
 	^ (dates take: aNumber) asOrderedCollection collect: [:e| self occurrenceFromDate: e ]
