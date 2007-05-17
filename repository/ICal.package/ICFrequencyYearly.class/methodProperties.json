@@ -5,8 +5,9 @@
 		"byWeekNos:withPeriods:" : "jbj 5/12/2007 21:08",
 		"firstCalendarWeekOf:" : "jbj 5/12/2007 21:07",
 		"frequencyBoundryOf:" : "jbj 5/10/2007 07:08",
-		"weeknumbers:" : "jbjohns 11/3/2006 18:00",
 		"findValidDate:" : "jbj 4/28/2007 18:05",
+		"weeknumbers:" : "jbjohns 11/3/2006 18:00",
+		"significantValueOf:" : "jbj 5/14/2007 09:15",
 		"asICalString" : "jbjohns 10/29/2006 16:30",
 		"byDaysAndOccurrences:withPeriods:" : "jbj 5/9/2007 06:39",
 		"byWeekNosOrDefault:" : "jbj 4/19/2007 09:18"

@@ -1,4 +1,4 @@
-running
+testing
 testCompareTo
 	|periodA periodB periodC|
 
