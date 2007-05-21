@@ -2,10 +2,6 @@ occurrences
 occurrences: aNumber
 	|dates|
 
-	self hasRecurrenceRules ifFalse: [ ^ self ].
-
-	dates := recurrenceRules first events.
+	dates := self occurrencesFromBlock: [:rule| rule events ] ifNone: [ ^ self ].
 	
-	recurrenceRules allButFirst do: [:rule| dates := dates mergeUnique: rule events ].
-
 	^ (dates take: aNumber) asOrderedCollection collect: [:e| self occurrenceFromDate: e ]

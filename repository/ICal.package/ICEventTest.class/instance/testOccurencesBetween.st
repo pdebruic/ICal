@@ -1,49 +1,38 @@
 testing
 testOccurencesBetween
-	| event sept dec apr nov |
+	|sept dec apr nov|
 	
 	sept := self dateClass year: 2006 month: 9 day: 1.
 	nov := self dateClass year: 2006 month: 11 day: 1.
 	dec := self dateClass year: 2006 month: 12 day: 2.
 	apr := self dateClass year: 2007 month: 4 day: 1.
-	
-	event := (ICEvent summary: 'Test event')
-		start: (self dateAndTimeClass year: 2006 month: 10 day: 1 hour: 19 minute: 0 second: 0);
-		end: (self timeClass hour: 21 minute: 0 second: 0);
-		location: 'Test loc';
-		addRecurrenceRule: (ICRecurrenceRule monthly
-			addWeekday: 'FR' occurrence:1; until: (self dateClass year: 2007 month: 12 day: 28); yourself);
-		yourself.
-		
-	self assert: (self compare: (event occurrencesBetween: sept and: nov)
-		with: (OrderedCollection new
-		add: (self occurrenceFromYear: 2006 month: 10 day: 6 on: event); yourself)).
-		
-	event := (ICEvent summary: 'Test event')
-		start: (self dateAndTimeClass year: 2006 month: 10 day: 18 hour: 19 minute: 0 second: 0);
-		end: (self timeClass hour: 21 minute: 0 second: 0);
-		location: 'Test loc';
-		addRecurrenceRule: (ICRecurrenceRule monthly
-			addWeekday: 'FR' occurrence:1; count: 4; yourself);
-		yourself.
-		
-	self assert: (self compare: (event occurrencesBetween: sept and: apr)
-		with: (OrderedCollection new
-		add: (self occurrenceFromYear: 2006 month: 11 day: 3 on: event);
-		add: (self occurrenceFromYear: 2006 month: 12 day: 1 on: event);
-		add: (self occurrenceFromYear: 2007 month: 1 day: 5 on: event);
-		add: (self occurrenceFromYear: 2007 month: 2 day: 2 on: event);
-		yourself)).
-	
-	event := (ICEvent summary: 'Test event')
-		start: (self dateAndTimeClass year: 2006 month: 10 day: 1 hour: 19 minute: 0);
-		end: (self timeClass hour: 21 minute: 0 second: 0);
-		location: 'Test loc';
-		addRecurrenceRule: (ICRecurrenceRule monthly
-			addWeekday: 'FR' occurrence:1; interval: 2; yourself);
-		yourself.
-		
-	self assert: (self compare: (event occurrencesBetween: sept and: dec)
-		with: (OrderedCollection new
-		add: (self occurrenceFromYear: 2006 month: 10 day: 6 on: event);
-		add: (self occurrenceFromYear: 2006 month: 12 day: 1 on: event); yourself)).
+
+	self testEvent: (self makeEvent: 'Test event'
+			startingAt: '2006-10-1T19:00:00'
+			endingAt: '2006-10-1T21:00:00'
+			locatedAt: 'Test location'
+			rules: #('FREQ=MONTHLY;BYDAY=1FR;UNTIL=20071228T000000Z'))
+		between: sept and: nov
+		withDates: {2006 -> {10 -> #(6) } }
+		andTime: (Time hour: 19 minute: 0 second: 0).
+
+	self testEvent: (self makeEvent: 'Test event'
+			startingAt: '2006-10-18T19:00:00'
+			endingAt: '2006-10-18T21:00:00'
+			locatedAt: 'Test location'
+			rules: #('FREQ=MONTHLY;BYDAY=1FR;COUNT=4'))
+		between: sept and: apr
+		withDates:
+			{2006 -> {11 -> #(3). 12 -> #(1) }.
+			2007 -> {1 -> #(5). 2 -> #(2) } }
+		andTime: (Time hour: 19 minute: 0 second: 0).
+
+	self testEvent: (self makeEvent: 'Test event'
+			startingAt: '2006-10-1T19:00:00'
+			endingAt: '2006-10-1T21:00:00'
+			locatedAt: 'Test location'
+			rules: #('FREQ=MONTHLY;BYDAY=1FR;INTERVAL=2'))
+		between: sept and: dec
+		withDates:
+			{2006 -> {10 -> #(6). 12 -> #(1) } }
+		andTime: (Time hour: 19 minute: 0 second: 0).
