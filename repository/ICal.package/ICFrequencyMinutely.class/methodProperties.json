@@ -3,10 +3,9 @@
 		"significantValueOf:" : "jbj 5/14/2007 09:14",
 		"byMinutesOrDefault:" : "jbj 4/25/2007 05:24",
 		"asICalString" : "jbjohns 10/29/2006 16:29",
-		"addInterval:to:" : "jbj 5/10/2007 06:03",
-		"findValidDate:" : "jbj 4/28/2007 18:15",
 		"byHoursOrDefault:" : "jbj 4/25/2007 05:24",
 		"byDaysOrDefault:" : "jbj 4/25/2007 05:24",
+		"durationOf:" : "jbj 5/23/2007 06:10",
 		"frequencyBoundryOf:" : "jbj 5/10/2007 07:07"
 	},
 	"class" : { }

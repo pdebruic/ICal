@@ -2,10 +2,10 @@ testing
 testOccurencesBetween
 	|sept dec apr nov|
 	
-	sept := self dateClass year: 2006 month: 9 day: 1.
-	nov := self dateClass year: 2006 month: 11 day: 1.
-	dec := self dateClass year: 2006 month: 12 day: 2.
-	apr := self dateClass year: 2007 month: 4 day: 1.
+	sept := (self dateClass year: 2006 month: 9 day: 1) asDateAndTime.
+	nov := (self dateClass year: 2006 month: 11 day: 1) asDateAndTime.
+	dec := (self dateClass year: 2006 month: 12 day: 2) asDateAndTime.
+	apr := (self dateClass year: 2007 month: 4 day: 1) asDateAndTime.
 
 	self testEvent: (self makeEvent: 'Test event'
 			startingAt: '2006-10-1T19:00:00'

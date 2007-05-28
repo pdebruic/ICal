@@ -1,5 +1,7 @@
 validating
 findValidDate: dt
+	|monthsToAdd|
+	
+	monthsToAdd := dt month - dtstart month + (dt year - dtstart year * 12).
 
-	#todo. "Fix this to actually return a valid date."
-	^ dtstart
+	^ self addMonths: monthsToAdd - (monthsToAdd \\ interval) to: dtstart

@@ -4,7 +4,8 @@ eventsBetween: aStartDateAndTime and: anEndDateAndTime
 
 	validDate := self toValidDate: aStartDateAndTime.
 	
-	^ true caseOf: {
+	^ (true caseOf: {
 		[ self hasRepetition not ]		-> [ frequency eventsBetween: validDate and: anEndDateAndTime ].
 		[ repetition isKindOf: Number ]	-> [ frequency events: repetition between: frequency dtstart and: anEndDateAndTime ].
-	} otherwise: [ frequency eventsBetween: validDate and: (repetition min: anEndDateAndTime) ]
+	} otherwise: [ frequency eventsBetween: validDate and: (repetition min: anEndDateAndTime) ])
+		dropWhile: [:dt| dt < aStartDateAndTime ]

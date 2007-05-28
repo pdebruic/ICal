@@ -4,4 +4,4 @@ frequency: anICFrequencyOrString
 		ifTrue: [ frequency := anICFrequencyOrString. ]
 		ifFalse: [ ICFrequency perform: anICFrequencyOrString asLowercase asSymbol ].
 		
-	"TODO:  Needs to copy the old one if there was one"
+	#todo "Needs to copy the old one if there was one"

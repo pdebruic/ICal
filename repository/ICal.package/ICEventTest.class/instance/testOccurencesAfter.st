@@ -2,7 +2,7 @@ testing
 testOccurencesAfter
 	|oct|
 	
-	oct := self dateClass year: 2006 month: 10 day: 18.
+	oct := (self dateClass year: 2006 month: 10 day: 18) asDateAndTime.
 
 	self testEvent: (self makeEvent: 'Test event'
 			startingAt: '2006-10-18T19:00:00'
@@ -34,5 +34,5 @@ testOccurencesAfter
 			rules: #('FREQ=MONTHLY;BYDAY=1FR;COUNT=2;INTERVAL=2'))
 		after: oct
 		withDates:
-			{2006 -> {10 -> #(6). 12 -> #(1) } }
+			{2006 -> {12 -> #(1) } }
 		andTime: (Time hour: 19 minute: 0 second: 0).

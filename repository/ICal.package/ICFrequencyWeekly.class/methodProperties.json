@@ -1,13 +1,12 @@
 {
 	"instance" : {
+		"frequencyBoundryOf:" : "jbj 5/11/2007 06:18",
 		"significantValueOf:" : "jbj 5/14/2007 09:15",
 		"startDayForWeekOf:" : "jbj 5/11/2007 06:15",
 		"asICalString" : "jbjohns 10/29/2006 16:30",
-		"addInterval:to:" : "jbj 5/10/2007 05:58",
-		"findValidDate:" : "jbj 4/28/2007 18:14",
 		"byDaysOrDefault:" : "jbj 4/24/2007 06:20",
 		"defaultDay" : "jbj 4/24/2007 05:59",
-		"frequencyBoundryOf:" : "jbj 5/11/2007 06:18"
+		"durationOf:" : "jbj 5/23/2007 06:11"
 	},
 	"class" : { }
 }

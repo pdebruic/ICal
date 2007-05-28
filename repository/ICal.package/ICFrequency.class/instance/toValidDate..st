@@ -2,7 +2,7 @@ validating
 toValidDate: aDateAndTime
 
 	^ interval = 1
-		ifTrue: [ aDateAndTime ]
+		ifTrue: [ dtstart max: aDateAndTime ]
 		ifFalse: [ self findValidDate: aDateAndTime ]
 
 	"NOTE: At first it may look like returning the given date on interval 1 wont work, since aDateAndTime

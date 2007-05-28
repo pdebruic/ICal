@@ -4,7 +4,8 @@ eventsAfter: aDateAndTime
 
 	validDate := self toValidDate: aDateAndTime.
 	
-	^ true caseOf: {
+	^ (true caseOf: {
 		[ self hasRepetition not ]		-> [ frequency eventsStartingAt: validDate ].
 		[ repetition isKindOf: Number ]	-> [ frequency events: repetition startingAt: frequency dtstart ].
-	} otherwise: [ frequency eventsBetween: validDate and: repetition ]
+	} otherwise: [ frequency eventsBetween: validDate and: repetition ])
+		dropWhile: [:dt| dt < aDateAndTime ]

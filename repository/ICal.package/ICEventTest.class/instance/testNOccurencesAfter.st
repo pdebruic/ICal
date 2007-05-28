@@ -2,7 +2,7 @@ testing
 testNOccurencesAfter
 	| oct |
 	
-	oct := self dateClass year: 2006 month: 10 day: 7.		"BUG: This isn't currently honored if until or count is used'"
+	oct := (self dateClass year: 2006 month: 10 day: 7) asDateAndTime.
 	
 	self test: 2
 		event: (self makeEvent: 'Test event'

@@ -2,8 +2,8 @@ testing
 testNOccurencesBetween
 	| sept apr |
 	
-	sept := self dateClass year: 2006 month: 9 day: 1.
-	apr := self dateClass year: 2007 month: 4 day: 1.
+	sept := (self dateClass year: 2006 month: 9 day: 1) asDateAndTime.
+	apr := (self dateClass year: 2007 month: 4 day: 1) asDateAndTime.
 
 	self test: 1
 		event: (self makeEvent: 'Test event'
