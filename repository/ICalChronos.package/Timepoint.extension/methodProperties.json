@@ -6,6 +6,7 @@
 		"asICalUtcString" : "pmm 10/17/2006 19:01"
 	},
 	"class" : {
+		"fromICalString:parameters:timezone:" : "pmm 5/29/2007 23:05",
 		"fromVCardString:" : "pmm 10/17/2006 21:40",
 		"date:time:" : "pmm 10/19/2006 17:47",
 		"fromICalString:" : "pmm 4/7/2007 20:48",
