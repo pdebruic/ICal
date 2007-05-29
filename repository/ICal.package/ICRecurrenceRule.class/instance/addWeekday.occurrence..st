@@ -1,3 +1,3 @@
 adding
 addWeekday: aString occurrence: anInteger
-	^ self daysAndOccurrences add: aString -> anInteger
+	^self weekdays add: aString -> anInteger

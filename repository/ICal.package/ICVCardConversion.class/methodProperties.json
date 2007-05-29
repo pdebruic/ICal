@@ -1,23 +1,24 @@
 {
 	"instance" : { },
 	"class" : {
+		"birthdayType" : "pmm 1/2/2006 12:52",
+		"yahooType" : "pmm 3/24/2006 17:42",
+		"addressType" : "pmm 12/11/2005 10:22",
+		"noteType" : "pmm 12/11/2005 12:12",
+		"emailType" : "pmm 12/11/2005 10:25",
+		"categoriesType" : "pmm 12/11/2005 10:24",
+		"telephoneType" : "pmm 12/11/2005 11:40",
+		"aimType" : "pmm 3/24/2006 17:42",
 		"nicknameType" : "pmm 12/11/2005 10:33",
 		"icqType" : "pmm 3/24/2006 17:42",
-		"noteType" : "pmm 12/11/2005 12:12",
+		"fullnameType" : "pmm 12/11/2005 10:34",
 		"urlType" : "pmm 12/11/2005 11:41",
-		"emailType" : "pmm 12/11/2005 10:25",
-		"versionType" : "pmm 12/11/2005 11:42",
-		"aimType" : "pmm 3/24/2006 17:42",
-		"categoriesType" : "pmm 12/11/2005 10:24",
 		"msnType" : "pmm 3/24/2006 17:42",
+		"organizationType" : "pmm 12/11/2005 13:30",
 		"titleType" : "pmm 12/11/2005 11:41",
 		"photoType" : "pmm 12/11/2005 11:40",
-		"nameType" : "pmm 12/11/2005 13:47",
-		"organizationType" : "pmm 12/11/2005 13:30",
-		"telephoneType" : "pmm 12/11/2005 11:40",
-		"addressType" : "pmm 12/11/2005 10:22",
-		"yahooType" : "pmm 3/24/2006 17:42",
-		"fullnameType" : "pmm 12/11/2005 10:34",
-		"birthdayType" : "pmm 1/2/2006 12:52"
+		"timeZoneType" : "pmm 1/1/2007 10:33",
+		"versionType" : "pmm 12/11/2005 11:42",
+		"nameType" : "pmm 12/11/2005 13:47"
 	}
 }

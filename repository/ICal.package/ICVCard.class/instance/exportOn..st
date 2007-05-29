@@ -10,6 +10,9 @@ exportOn: anExporter
 	anExporter exportTelephones: self phoneNumbers.
 	anExporter exportEmails: self emailAddresses.
 	anExporter exportTitle: self title.
+	
+	anExporter exportTimeZone: self timeZone.
+	anExporter exportGeo: self geo.
 	anExporter exportOrganization: self organization.
 	anExporter exportCategories: self categories.
 	anExporter exportNotes: self notes.

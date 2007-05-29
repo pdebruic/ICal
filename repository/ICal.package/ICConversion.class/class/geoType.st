@@ -3,4 +3,4 @@ geoType
 	^ICTypeInformation
 		name: 'GEO'
 		type: Float iCalType 
-		multivalued: true
+		multivalued: false

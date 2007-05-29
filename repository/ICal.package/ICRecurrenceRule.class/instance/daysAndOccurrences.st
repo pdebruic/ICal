@@ -1,4 +1,0 @@
-accessing
-daysAndOccurrences
-
-	^ frequency daysAndOccurrences

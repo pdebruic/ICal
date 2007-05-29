@@ -67,4 +67,7 @@ testParseGoofy
 	self deny: phoneNumber isVoice.
 	self deny: phoneNumber isVoiceMessage.
 	
-	self assert: card emailAddresses isEmpty
+	self assert: card emailAddresses isEmpty.
+	self assert: (card timeZone isKindOf: String).
+	self assert: (card timeZone = '-05:00; EST; Raleigh/North America').
+	self assert: card geo = (37.386013@-122.082932)

@@ -1,3 +1,3 @@
 accessing
-nickname: anObject
-	nickname := anObject
+nickname: aString 
+	nickname := aString

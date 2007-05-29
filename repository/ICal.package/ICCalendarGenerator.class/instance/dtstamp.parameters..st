@@ -1,5 +1,5 @@
 processing-properties
 dtstamp: aString parameters: aDictionary
 	| value |
-	value := self createValue: aString parameters: aDictionary default: DateAndTime iCalType.
+	value := self createDateAndTime: aString parameters: aDictionary.
 	self tempComponent stamp: value

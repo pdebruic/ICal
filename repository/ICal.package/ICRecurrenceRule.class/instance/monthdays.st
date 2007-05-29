@@ -1,3 +1,3 @@
 accessing
 monthdays
-	^ frequency monthdays
+	^monthdays

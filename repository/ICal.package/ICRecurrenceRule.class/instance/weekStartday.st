@@ -1,3 +1,3 @@
 accessing
 weekStartday
-	^ weekStartday
+	^weekStartday

@@ -1,3 +1,3 @@
 accessing
 weeknumbers: aCollection 
-	frequency weeknumbers: aCollection
+	weeknumbers := aCollection

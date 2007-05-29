@@ -1,4 +1,4 @@
-accessing-parsing
+fixtures-parsing
 oscarCardString
 ^'BEGIN:VCARD' , String crlf ,
 'VERSION:3.0' , String crlf ,
