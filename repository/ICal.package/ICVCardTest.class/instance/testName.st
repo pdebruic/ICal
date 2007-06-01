@@ -1,7 +1,7 @@
 testing-parsing
 testName
 	| name |
-	name := ICName fromICalString: 'Public;John;Quinlan;Mr.;Esq'.
+	name := ICName fromICalString: 'Public;John;Quinlan;Mr.;Esq' parameters: Dictionary new.
 	self assert: name familyName = 	'Public'.
 	self assert: name givenName = 	'John'.
 	self assert: name additionalNames size = 1.
@@ -11,7 +11,7 @@ testName
 	self assert: name honorificSuffixes size = 1.
 	self assert: name honorificSuffixes first = 'Esq'.
 
-	name := ICName fromICalString: 'Stevenson;John;Philip,Paul;Dr.;Jr.,M.D.,A.C.P.'.
+	name := ICName fromICalString: 'Stevenson;John;Philip,Paul;Dr.;Jr.,M.D.,A.C.P.' parameters: Dictionary new.
 	self assert: name familyName = 	'Stevenson'.
 	self assert: name givenName = 	'John'.
 		

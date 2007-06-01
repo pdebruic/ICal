@@ -18,8 +18,8 @@
 		"honorificPrefixes:" : "pmm 10/30/2005 08:07"
 	},
 	"class" : {
-		"unsplit:" : "pmm 10/30/2005 08:38",
-		"fromICalString:" : "pmm 11/12/2005 12:11",
-		"iCalType" : "pmm 12/11/2005 10:43"
+		"unsplit:parameters:" : "pmm 6/1/2007 22:45",
+		"iCalType" : "pmm 12/11/2005 10:43",
+		"fromICalString:parameters:" : "pmm 6/1/2007 22:46"
 	}
 }

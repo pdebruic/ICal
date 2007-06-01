@@ -10,11 +10,10 @@
 		"replaceStrings:" : "pmm 12/3/2005 12:44"
 	},
 	"class" : {
-		"fromNewString:" : "pmm 12/3/2005 12:47",
-		"fromIParameterString:" : "pmm 10/12/2005 06:27",
-		"fromVCardString:" : "pmm 11/19/2005 14:57",
-		"fromICalString:" : "pmm 11/19/2005 14:58",
-		"fromOldString:" : "pmm 12/3/2005 12:46",
+		"unescapeBackslashes:" : "pmm 6/1/2007 22:27",
+		"decodeQuotedPrintable:" : "pmm 6/1/2007 22:42",
+		"fromVCardString:parameters:" : "pmm 6/1/2007 22:31",
+		"fromICalString:parameters:" : "pmm 6/1/2007 23:13",
 		"iCalType" : "pmm 10/3/2005 17:11"
 	}
 }

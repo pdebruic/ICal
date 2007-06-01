@@ -91,7 +91,7 @@ setUp
 							second: 31
 							offset: (self durationClass seconds: 0));
 				addCategory: 'category1';
-				addCategory: (ICCategory fromICalString: 'category2');
+				addCategory: (ICCategory fromICalString: 'category2' parameters: Dictionary new);
 				yourself.
 	journal := (ICJournal summary: 'aTitle')
 				uid: 'jornal1';

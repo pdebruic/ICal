@@ -2,7 +2,7 @@ testing
 testName
 	| name string |
 	string := 'Public;John;Quinlan;Mr.;Esq.'.
-	name := ICName fromICalString: string.
+	name := ICName fromICalString: string parameters: Dictionary new.
 	self assert: name familyName = 'Public'.
 	self assert: name givenName = 'John'.
 	self assert: name additionalNames asArray = #('Quinlan').
@@ -11,7 +11,7 @@ testName
 	self assert: name asVCardString = string.
 
 	string := 'Stevenson;John;Philip,Paul;Dr.;Jr.,M.D.,A.C.P.'.
-	name := ICName fromICalString: string.
+	name := ICName fromICalString: string parameters: Dictionary new..
 	self assert: name familyName = 'Stevenson'.
 	self assert: name givenName = 'John'.
 	self assert: name additionalNames asArray = #('Philip' 'Paul').

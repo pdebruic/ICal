@@ -30,8 +30,7 @@ testParseWikipedia
 	self assert: address locality isEmptyOrNil.
 	
 	self assert: address street = 'Bar Street 99'.
-	self assert: address extended = 'Footown 12345
-Fooland'.
+	self assert: address extended = ('Footown 12345', String lf, 'Fooland').
 	self assert: address region isEmptyOrNil.
 	self assert: address postalcode isEmptyOrNil.
 	self assert: address country isEmptyOrNil.

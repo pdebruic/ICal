@@ -5,9 +5,9 @@ testParseStringOldEncoding
 		use: 1.0
 		during: [
 			string := 'Bar Street 99=0AFootown 12345=0AFooland'.
-			value := String fromICalString: string.
+			value := String fromICalString: string parameters: (Dictionary new add: 'ENCODING' -> 'QUOTED-PRINTABLE'; yourself).
 			self assert: value =
-'Bar Street 99
-Footown 12345
-Fooland'.
-			self assert: value asICalString = 'Bar Street 99=0D=0AFootown 12345=0D=0AFooland' ]
+('Bar Street 99', String lf, 
+'Footown 12345', String lf, 
+'Fooland').
+			self assert: value asICalString = 'Bar Street 99=0AFootown 12345=0AFooland' ]

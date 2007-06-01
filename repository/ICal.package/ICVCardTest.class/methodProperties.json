@@ -4,6 +4,7 @@
 		"josephCardString" : "pmm 11/4/2005 23:24",
 		"surendarCardString" : "pmm 11/14/2005 00:22",
 		"testParseMaeveUrl" : "pmm 12/8/2005 14:37",
+		"philippeCardString" : "pmm 6/1/2007 22:13",
 		"testParseAvi" : "pmm 12/31/2006 23:55",
 		"testParseSurendarUrl" : "pmm 12/8/2005 14:36",
 		"testParseSean" : "pmm 10/16/2006 17:49",
@@ -15,10 +16,11 @@
 		"ericCardString" : "pmm 11/14/2005 00:27",
 		"aviCardStringExport" : "pmm 1/1/2007 10:38",
 		"testParseOscarUrl" : "pmm 12/8/2005 14:36",
+		"testParsePhilippe" : "pmm 6/1/2007 23:00",
 		"goofyCardString" : "pmm 1/1/2007 10:43",
 		"testParseSurendar" : "pmm 3/24/2006 15:37",
 		"seanCardString" : "pmm 10/31/2005 22:19",
-		"testName" : "pmm 10/30/2005 08:30",
+		"testName" : "pmm 6/1/2007 22:49",
 		"testExportAvi" : "pmm 12/11/2005 13:38",
 		"maeveCardString" : "pmm 12/2/2005 20:18",
 		"oscarCardString" : "pmm 10/29/2005 21:53",
@@ -26,8 +28,8 @@
 		"testIsOrganization" : "pmm 12/31/2006 22:55",
 		"testParseMaeve" : "pmm 3/24/2006 15:39",
 		"testParseOscar" : "pmm 12/6/2005 18:48",
-		"wikipediaCardString" : "pmm 11/4/2005 23:04",
-		"testParseWikipedia" : "pmm 12/2/2005 22:59"
+		"wikipediaCardString" : "pmm 6/1/2007 23:09",
+		"testParseWikipedia" : "pmm 6/1/2007 23:02"
 	},
 	"class" : { }
 }

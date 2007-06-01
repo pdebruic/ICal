@@ -6,7 +6,7 @@
 		"testICalDate" : "pmm 10/9/2005 12:12",
 		"testExportFourLines" : "pmm 12/19/2006 22:25",
 		"testExportEvent" : "pmm 10/1/2006 14:39",
-		"setUp" : "pmm 10/17/2006 21:26",
+		"setUp" : "pmm 6/1/2007 22:50",
 		"timezoneRecurrenceDate" : "pmm 12/19/2006 22:14",
 		"testExportExactlyThreeLines" : "pmm 12/19/2006 22:27",
 		"testExportTimezoneWithEndDate" : "pmm 12/19/2006 22:20",
