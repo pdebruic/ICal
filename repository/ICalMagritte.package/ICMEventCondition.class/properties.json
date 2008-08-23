@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "MACondition",
+	"super" : "Object",
 	"category" : "ICalMagritte",
 	"classinstvars" : [ ],
 	"pools" : [ ],
