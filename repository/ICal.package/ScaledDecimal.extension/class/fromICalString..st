@@ -1,7 +1,7 @@
 *ICal
 fromICalString: aString
 	| beforeComma afterComma number beforeCommaScale beforeCommaNumber afterCommaNumber |
-	beforeComma := aString upTo: $. .
+	beforeComma := aString copyUpTo: $. .
 	afterComma := aString copyAfter: $. .
 	beforeCommaScale := 10 raisedTo: afterComma size.
 	beforeCommaNumber := beforeComma asNumber * beforeCommaScale

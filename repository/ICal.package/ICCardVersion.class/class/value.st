@@ -1,3 +1,3 @@
 as yet unclassified
 value
-	^ self raiseSignal
+	^ self signal

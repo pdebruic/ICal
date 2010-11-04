@@ -5,5 +5,5 @@ name: aString
 			name := aString]
 		ifTrue: [
 			name := aString copyAfter: $. .
-			self group: (aString upTo: $.) ]
+			self group: (aString copyUpTo: $.) ]
 	
