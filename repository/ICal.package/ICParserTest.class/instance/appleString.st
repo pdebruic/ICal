@@ -60,4 +60,4 @@ appleString
 'DURATION:P1D', String crlf,
 'END:VEVENT', String crlf,
 'END:VCALENDAR', String crlf,
-'', String crlf
+''
