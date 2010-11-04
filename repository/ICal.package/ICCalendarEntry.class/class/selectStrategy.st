@@ -1,3 +1,3 @@
 class initialization
 selectStrategy
-	^ICSqueakUUIDStrategy
+	^ICSqueakUUIDStrategy new

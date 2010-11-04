@@ -4,8 +4,8 @@ splitAtCommas
 	indices := OrderedCollection new.
 	self withIndexDo: [ :each :index |
 		(each = $,
-			and: [ index > 1 ]
-			and: [ (self at: index - 1) ~= $\ ])
+			and: [ index > 1
+			and: [ (self at: index - 1) ~= $\ ] ])
 			ifTrue: [ indices add: index ] ].
 	start := 1.
 	parts := OrderedCollection new: indices size + 1.

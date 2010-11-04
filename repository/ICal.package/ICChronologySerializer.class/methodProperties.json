@@ -1,11 +1,11 @@
 {
 	"instance" : { },
 	"class" : {
-		"hasTime:" : "pmm 10/16/2006 18:40",
+		"hasTime:" : "pmm 11/4/2010 20:03",
 		"asICalStringTime:" : "pmm 10/16/2006 23:01",
 		"asICalStringDuration:" : "pmm 10/16/2006 18:41",
 		"fractionString:" : "pmm 10/16/2006 23:18",
-		"justWeeks:" : "pmm 10/16/2006 18:39",
+		"justWeeks:" : "pmm 11/4/2010 20:02",
 		"daysWithoutWeeks:" : "pmm 10/16/2006 18:39"
 	}
 }
