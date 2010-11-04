@@ -12,7 +12,7 @@
 		"testParseDateAndTime" : "pmm 10/16/2006 23:31",
 		"testParseTimeUtc" : "pmm 10/16/2006 22:29",
 		"testTime" : "pmm 10/16/2006 22:29",
-		"testParseScaledDecimal" : "pmm 11/9/2005 07:17",
+		"testParseScaledDecimal" : "pmm 11/4/2010 20:30",
 		"testFloatPrecision" : "pmm 10/4/2005 21:42",
 		"testParseDuration" : "pmm 10/16/2006 18:45",
 		"testParseStringOldEncodingAndSpaces" : "pmm 6/1/2007 23:11",
