@@ -1,0 +1,4 @@
+as yet unclassified
+newDatesFrom: neededByValues considering: existingDates
+
+	^ neededByValues collect: [ :each | self newDateFrom: existingDates first withInterestingCharacteristic: each ]

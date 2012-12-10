@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ICAbstractRecurringScheduleEndDate",
+	"category" : "ICal-Model-Schedule",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICInfiniteScheduleEndDate",
+	"type" : "normal"
+}

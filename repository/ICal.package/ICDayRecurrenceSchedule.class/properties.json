@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ICRecurrenceSchedule",
+	"category" : "ICal-Model-Schedule",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICDayRecurrenceSchedule",
+	"type" : "normal"
+}

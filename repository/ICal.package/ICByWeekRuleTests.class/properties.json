@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ICByRuleTests",
+	"category" : "ICal-Model-Schedule-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICByWeekRuleTests",
+	"type" : "normal"
+}

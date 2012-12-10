@@ -1,0 +1,29 @@
+{
+	"instance" : {
+		"datesBetween:and:" : "PaulDeBruicker 12/10/2012 11:21",
+		"event" : "PaulDeBruicker 12/8/2012 17:29",
+		"initialize" : "PaulDeBruicker 12/9/2012 18:54",
+		"createRecurrenceSchedules" : "PaulDeBruicker 12/10/2012 11:12",
+		"exclusionDatesBetween:and:" : "PaulDeBruicker 12/8/2012 18:14",
+		"recurrenceSchedules" : "PaulDeBruicker 12/8/2012 17:29",
+		"exclusionSchedules" : "PaulDeBruicker 12/8/2012 17:26",
+		"dates" : "PaulDeBruicker 12/9/2012 21:07",
+		"end" : "PaulDeBruicker 12/9/2012 21:10",
+		"exclusionSchedules:" : "PaulDeBruicker 12/8/2012 17:29",
+		"recurrenceSchedules:" : "PaulDeBruicker 12/8/2012 17:29",
+		"recurrenceDatesBetween:and:" : "PaulDeBruicker 12/8/2012 18:14",
+		"event:" : "PaulDeBruicker 12/8/2012 17:29",
+		"createExclusionSchedules" : "PaulDeBruicker 12/9/2012 21:22",
+		"useCache" : "PaulDeBruicker 12/9/2012 22:02",
+		"isInfinite" : "PaulDeBruicker 12/9/2012 21:09",
+		"setEnd" : "PaulDeBruicker 12/9/2012 21:11",
+		"cache" : "PaulDeBruicker 12/9/2012 22:02",
+		"occursOn:" : "PaulDeBruicker 12/8/2012 16:54",
+		"createFromEvent:" : "PaulDeBruicker 12/9/2012 21:21",
+		"start" : "PaulDeBruicker 12/9/2012 21:10",
+		"hasExclusionSchedules" : "PaulDeBruicker 12/8/2012 17:25"
+	},
+	"class" : {
+		"fromEvent:" : "PaulDeBruicker 12/8/2012 13:11"
+	}
+}

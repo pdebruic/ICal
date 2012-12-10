@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"duration" : "PaulDeBruicker 12/8/2012 16:51",
+		"durationType" : "PaulDeBruicker 12/7/2012 18:05",
+		"defaultEnd" : "PaulDeBruicker 12/10/2012 09:35",
+		"initialize" : "PaulDeBruicker 12/7/2012 18:05",
+		"lastDay" : "PaulDeBruicker 12/7/2012 18:05",
+		"shouldStopFor:before:" : "PaulDeBruicker 12/10/2012 14:43",
+		"lastDay:" : "PaulDeBruicker 12/7/2012 18:05"
+	},
+	"class" : { }
+}

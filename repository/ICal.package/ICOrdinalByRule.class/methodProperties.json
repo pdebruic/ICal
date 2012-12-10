@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"modifyConsideringOrdinalDayOfWeek:" : "PaulDeBruicker 12/10/2012 16:47",
+		"weekStart:" : "PaulDeBruicker 12/9/2012 01:00",
+		"weeksOfYearFor:" : "PaulDeBruicker 12/9/2012 00:43",
+		"ordinalIsPossible" : "PaulDeBruicker 12/10/2012 16:45",
+		"shrinkWithOrdinals:" : "PaulDeBruicker 12/10/2012 16:50",
+		"modify:for:" : "PaulDeBruicker 12/10/2012 16:19",
+		"startOfFirstWeekAccordingToRFC2445For:" : "PaulDeBruicker 12/9/2012 00:43",
+		"dayLetterCodes" : "PaulDeBruicker 12/8/2012 23:47",
+		"dayLetterCodeFor:" : "PaulDeBruicker 12/8/2012 23:48",
+		"weekStart" : "PaulDeBruicker 12/9/2012 01:01"
+	},
+	"class" : { }
+}

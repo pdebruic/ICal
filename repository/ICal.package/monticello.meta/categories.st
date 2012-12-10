@@ -8,3 +8,5 @@ SystemOrganization addCategory: #'ICal-VCard-Tests'!
 SystemOrganization addCategory: #'ICal-VCard-Parser'!
 SystemOrganization addCategory: #'ICal-VCard-IO'!
 SystemOrganization addCategory: #'ICal-IO'!
+SystemOrganization addCategory: #'ICal-Model-Schedule'!
+SystemOrganization addCategory: #'ICal-Model-Schedule-Tests'!

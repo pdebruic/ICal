@@ -1,8 +1,10 @@
 {
 	"instance" : {
+		"itsYear" : "PaulDeBruicker 12/8/2012 23:22",
+		"asVCardString" : "pmm 1/2/2006 12:03",
+		"weekOfYear" : "PaulDeBruicker 12/8/2012 21:28",
 		"asICalString" : "pmm 10/17/2006 19:00",
 		"asUTCWithOffsetAdded" : "pmm 4/7/2007 09:57",
-		"asVCardString" : "pmm 1/2/2006 12:03",
 		"asICalUtcString" : "pmm 10/17/2006 19:41"
 	},
 	"class" : {

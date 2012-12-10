@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ICOrdinalByRule",
+	"category" : "ICal-Model-Schedule",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICByWeekRule",
+	"type" : "normal"
+}
