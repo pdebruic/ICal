@@ -1,9 +1,11 @@
 {
 	"instance" : {
+		"itsYear" : "PaulDeBruicker 12/10/2012 22:36",
+		"asVCardString" : "pmm 10/17/2006 21:36",
 		"asICalString" : "pmm 10/17/2006 18:56",
 		"asUTCWithOffsetAdded" : "pmm 4/7/2007 18:36",
-		"asVCardString" : "pmm 10/17/2006 21:36",
-		"asICalUtcString" : "pmm 10/17/2006 19:01"
+		"asICalUtcString" : "pmm 10/17/2006 19:01",
+		"asMonth" : "PaulDeBruicker 12/10/2012 22:20"
 	},
 	"class" : {
 		"fromICalString:parameters:timezone:" : "pmm 5/29/2007 23:05",
