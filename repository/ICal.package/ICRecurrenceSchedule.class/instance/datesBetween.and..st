@@ -1,6 +1,8 @@
 enumerating
 datesBetween: aStart and: anEnd
-	| dateAndTimes |
-	dateAndTimes := self basicDatesBetween: aStart and: anEnd.
-	self byRules do: [ :each | each modify: dateAndTimes for: self ].
-	^ dateAndTimes
+	datesInProcess := self basicDatesBetween: aStart and: anEnd.
+	self byRules
+		do: [ :each | 
+			datesInProcess := each applyRulesTo: datesInProcess.
+			self lastRuleDuration: each duration ].
+	^ datesInProcess

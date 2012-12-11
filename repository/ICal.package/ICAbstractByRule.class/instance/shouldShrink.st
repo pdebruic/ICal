@@ -1,3 +1,3 @@
 testing
 shouldShrink
-	^ recurringSchedule intervalDuration <= self duration
+	^ recurringSchedule lastRuleDuration <= self duration

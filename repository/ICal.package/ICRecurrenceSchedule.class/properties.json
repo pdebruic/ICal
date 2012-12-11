@@ -11,7 +11,9 @@
 		"endDate",
 		"event",
 		"cache",
-		"dateCache"
+		"dateCache",
+		"datesInProcess",
+		"lastRuleDuration"
 	],
 	"name" : "ICRecurrenceSchedule",
 	"type" : "normal"

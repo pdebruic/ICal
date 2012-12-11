@@ -1,8 +1,9 @@
 {
 	"instance" : {
 		"setWeekStartFor:" : "PaulDeBruicker 12/10/2012 17:13",
-		"weekStart:" : "PaulDeBruicker 12/8/2012 21:46",
+		"hasWeekStartday" : "PaulDeBruicker 12/10/2012 22:58",
 		"isWeekly" : "PaulDeBruicker 12/10/2012 16:44",
+		"weekStart:" : "PaulDeBruicker 12/8/2012 21:46",
 		"intervalDuration" : "PaulDeBruicker 12/10/2012 11:07",
 		"weekStart" : "PaulDeBruicker 12/8/2012 21:46"
 	},
