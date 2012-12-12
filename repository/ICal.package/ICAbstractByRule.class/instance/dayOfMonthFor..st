@@ -1,3 +1,3 @@
-growing
+dateAndTimeFractions
 dayOfMonthFor: aDateAndTime
 	^ aDateAndTime dayOfMonth

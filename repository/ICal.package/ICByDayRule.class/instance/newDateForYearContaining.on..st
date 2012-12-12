@@ -1,4 +1,4 @@
-growing
+years
 newDateForYearContaining:  aDateAndTime on: aDayOfYear
 	^ self dateAndTimeClass
 		year: (self yearFor: aDateAndTime)

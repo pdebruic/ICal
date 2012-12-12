@@ -1,6 +1,6 @@
 rfc2445-tests
 testevery3HoursOnADay
-	| schedule dates timespan end nextDate duration |
+	| schedule dates timespan end nextDate duration generatedDates |
 	event addRecurrenceRule: self every3HoursOnADay.
 	schedule := ICSchedule fromEvent: event.
 	dates := OrderedCollection new.
@@ -11,4 +11,25 @@ testevery3HoursOnADay
 		whileTrue: [ 
 			dates add: nextDate.
 			nextDate := nextDate + duration ].
-	schedule dates doWithIndex: [ :eachDate :index | self assert: eachDate equals: (dates at: index) ]
+	generatedDates := schedule dates.
+	generatedDates doWithIndex: [ :eachDate :index | self assert: eachDate equals: (dates at: index) ].
+	self
+		assert: generatedDates first
+		equals:
+			(self dateAndTimeClass
+				year: 1997
+				month: 9
+				day: 2
+				hour: 9
+				minute: 0
+				second: 0).
+	self
+		assert: generatedDates last
+		equals:
+			(self dateAndTimeClass
+				year: 1997
+				month: 9
+				day: 2
+				hour: 15
+				minute: 0
+				second: 0)

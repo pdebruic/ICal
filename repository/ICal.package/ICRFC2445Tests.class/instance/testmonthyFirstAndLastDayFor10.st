@@ -6,6 +6,26 @@ testmonthyFirstAndLastDayFor10
 	dates := OrderedCollection new.
 	count := 10.
 	generatedDates := schedule dates.
-	self assert: generatedDates size equals: count *2.
+	self assert: generatedDates size equals: count.
 	generatedDates
-		do: [ :eachDate | self assert: (eachDate dayOfMonth = 1 or: [ eachDate dayOfMonth = eachDate daysInMonth ]) ]
+		do: [ :eachDate | self assert: (eachDate dayOfMonth = 1 or: [ eachDate dayOfMonth = eachDate daysInMonth ]) ].
+	self
+		assert: generatedDates first
+		equals:
+			(self dateAndTimeClass
+				year: 1997
+				month: 9
+				day: 30
+				hour: 9
+				minute: 0
+				second: 0).
+	self
+		assert: generatedDates last
+		equals:
+			(self dateAndTimeClass
+				year: 1998
+				month: 2
+				day: 1
+				hour: 9
+				minute: 0
+				second: 0)

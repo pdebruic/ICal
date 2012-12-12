@@ -1,3 +1,3 @@
-as yet unclassified
+length
 duration
 	^ InfiniteDuration positive

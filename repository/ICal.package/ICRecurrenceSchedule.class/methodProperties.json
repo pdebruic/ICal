@@ -29,6 +29,7 @@
 		"durationClass" : "PaulDeBruicker 12/10/2012 11:02",
 		"hasHadByWeekRuleApplied" : "PaulDeBruicker 12/10/2012 20:20",
 		"isMonthly" : "PaulDeBruicker 12/10/2012 16:43",
+		"ensureDatesEndCorrectly" : "PaulDeBruicker 12/11/2012 21:43",
 		"cache:" : "PaulDeBruicker 12/9/2012 22:02",
 		"hasHadByMonthDayRuleApplied" : "PaulDeBruicker 12/10/2012 20:18",
 		"lastRuleDuration:" : "PaulDeBruicker 12/11/2012 14:24",
@@ -46,7 +47,7 @@
 		"createFromRule:for:" : "PaulDeBruicker 12/10/2012 17:12",
 		"everyDayAtSameTimes" : "PaulDeBruicker 12/10/2012 11:03",
 		"setWeekStartFor:" : "PaulDeBruicker 12/8/2012 20:46",
-		"datesBetween:and:" : "PaulDeBruicker 12/11/2012 14:54",
+		"datesBetween:and:" : "PaulDeBruicker 12/12/2012 10:46",
 		"checkByRulesToSeeIfAnyAre:" : "PaulDeBruicker 12/10/2012 20:19",
 		"between:and:do:" : "PaulDeBruicker 12/10/2012 11:10"
 	},

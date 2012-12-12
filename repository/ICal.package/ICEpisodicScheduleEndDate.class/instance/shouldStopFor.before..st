@@ -1,4 +1,4 @@
-accessing
+testing
 shouldStopFor: anElement before: anEndDate
 	shouldStop
 		ifFalse: [ 

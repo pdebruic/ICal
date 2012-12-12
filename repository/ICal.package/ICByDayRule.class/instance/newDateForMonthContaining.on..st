@@ -1,4 +1,4 @@
-growing
+months
 newDateForMonthContaining: aDateAndTime on: aDayOfMonth
 	^ self dateAndTimeClass
 		year: (self yearFor: aDateAndTime)

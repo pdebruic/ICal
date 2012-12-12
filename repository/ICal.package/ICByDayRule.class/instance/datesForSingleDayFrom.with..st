@@ -1,6 +1,7 @@
 growing
 datesForSingleDayFrom: existingDates with: byValue
-	| nextDay startDate |
-	startDate:=existingDates first.
-	nextDay := self nextOccuranceOf: byValue starting: startDate plus: startDate dayOfMonth .
-	^ Array with: (self newDateForMonthContaining:startDate on: nextDay)
+	| nextDay |
+	^ existingDates
+		collect: [ :eachExistingDate | 
+			nextDay := self nextOccuranceOf: byValue starting: eachExistingDate plus: eachExistingDate dayOfMonth.
+			self newDateForMonthContaining: eachExistingDate on: nextDay ]

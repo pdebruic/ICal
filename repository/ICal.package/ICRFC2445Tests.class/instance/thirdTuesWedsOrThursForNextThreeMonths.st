@@ -4,7 +4,7 @@ thirdTuesWedsOrThursForNextThreeMonths
 		start:
 			(self dateAndTimeClass
 				year: 1997
-				month: 8
+				month: 9
 				day: 4
 				hour: 9
 				minute: 0

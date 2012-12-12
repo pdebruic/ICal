@@ -11,4 +11,24 @@ testevery20MinsBetween9AMAnd440PM
 		do: [ :eachDate | 
 			self assert: eachDate minute \\ 20 equals: 0.
 			self assert: eachDate hour > 8.
-			self assert: eachDate hour < 17 ]
+			self assert: eachDate hour < 17 ].
+	self
+		assert: generatedDates first
+		equals:
+			(self dateAndTimeClass
+				year: 1997
+				month: 9
+				day: 2
+				hour: 9
+				minute: 0
+				second: 0).
+	self
+		assert: generatedDates last
+		equals:
+			(self dateAndTimeClass
+				year: 1997
+				month: 9
+				day: 3
+				hour: 16
+				minute: 40
+				second: 0)

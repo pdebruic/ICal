@@ -2,10 +2,10 @@ growing
 generateDatesForEvery: byValue inTheYearStarting: existingDates
 	| lastDay nextDay dates startDate |
 	startDate := existingDates first.
-	lastDay := startDate daysInYear.
 	dates := OrderedCollection new.
 	byValue isString
 		ifTrue: [ 
+			lastDay := startDate daysInYear.
 			nextDay := self nextOccuranceOf: byValue starting: startDate plus: startDate dayOfYear.
 			[ nextDay <= lastDay ]
 				whileTrue: [ 
