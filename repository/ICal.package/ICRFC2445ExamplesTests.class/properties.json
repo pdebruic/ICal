@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ICRFC2445Tests",
+	"name" : "ICRFC2445ExamplesTests",
 	"type" : "normal"
 }
