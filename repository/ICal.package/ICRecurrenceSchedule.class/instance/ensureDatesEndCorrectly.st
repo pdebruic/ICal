@@ -1,3 +1,6 @@
 enumerating
 ensureDatesEndCorrectly
-	^ self endDate trimEndOf: datesInProcess
+	
+	^ datesInProcess isEmpty
+		ifTrue: [ datesInProcess ]
+		ifFalse: [self endDate trimEndOf: datesInProcess ]

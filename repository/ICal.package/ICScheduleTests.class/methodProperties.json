@@ -1,6 +1,9 @@
 {
 	"instance" : {
-		"setUp" : "PaulDeBruicker 12/11/2012 17:21"
+		"testDatesBetweenAndGivesDatesBetweenStartAndEndOnly" : "PaulDeBruicker 12/17/2012 09:44",
+		"dailyRrule" : "PaulDeBruicker 12/17/2012 09:41",
+		"testGetScheduleFromEvent" : "PaulDeBruicker 12/11/2012 17:24",
+		"testBetweenAndDoGivesErrorForInfiniteSchedule" : "PaulDeBruicker 12/11/2012 17:36"
 	},
 	"class" : { }
 }

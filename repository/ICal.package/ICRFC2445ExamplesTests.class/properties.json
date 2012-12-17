@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "ICScheduleTests",
+	"super" : "ICScheduleEnumerationTests",
 	"category" : "ICal-Model-Schedule-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],

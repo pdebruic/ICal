@@ -1,7 +1,0 @@
-{
-	"instance" : {
-		"testGetScheduleFromEvent" : "PaulDeBruicker 12/11/2012 17:24",
-		"testBetweenAndDoGivesErrorForInfiniteSchedule" : "PaulDeBruicker 12/11/2012 17:36"
-	},
-	"class" : { }
-}

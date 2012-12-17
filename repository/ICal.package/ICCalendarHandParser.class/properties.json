@@ -10,7 +10,8 @@
 		"generator",
 		"name",
 		"parameters",
-		"value"
+		"value",
+		"lineEndings"
 	],
 	"name" : "ICCalendarHandParser",
 	"type" : "normal"

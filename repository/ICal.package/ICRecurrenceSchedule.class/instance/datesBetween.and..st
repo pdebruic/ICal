@@ -5,5 +5,5 @@ datesBetween: aStart and: anEnd
 		do: [ :each | 
 			datesInProcess := each applyRulesTo: datesInProcess.
 			self lastRuleDuration: each duration ].
-	datesInProcess removeAllSuchThat: [ :each | each < aStart ].
+	datesInProcess removeAllSuchThat: [ :each | (each between: aStart and: anEnd) not ].
 	^ self ensureDatesEndCorrectly

@@ -1,14 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "ICTest",
+	"super" : "ICScheduleEnumerationTests",
 	"category" : "ICal-Model-Schedule-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"event",
-		"date"
-	],
+	"instvars" : [ ],
 	"name" : "ICScheduleTests",
 	"type" : "normal"
 }
