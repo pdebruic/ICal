@@ -11,7 +11,9 @@
 		"delay",
 		"repetitions",
 		"textualDescription",
-		"trigger"
+		"trigger",
+		"attendees",
+		"summary"
 	],
 	"name" : "ICAlarm",
 	"type" : "normal"

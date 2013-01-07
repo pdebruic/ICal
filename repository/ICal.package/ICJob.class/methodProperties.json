@@ -1,10 +1,11 @@
 {
 	"instance" : {
+		"start" : "pmm 10/7/2005 16:43",
 		"startsInHour:" : "pmm 9/16/2005 16:29",
 		"textualDescription" : "pmm 10/6/2005 23:14",
 		"addTextualDescription:" : "pmm 10/14/2005 12:50",
-		"isMediumPriority" : "pmm 10/7/2005 17:01",
 		"initialize" : "pmm 10/13/2005 11:48",
+		"isMediumPriority" : "pmm 10/7/2005 17:01",
 		"duration" : "pmm 10/9/2005 12:17",
 		"resources:" : "pmm 10/3/2005 18:48",
 		"start:" : "pmm 10/7/2005 16:43",
@@ -13,6 +14,7 @@
 		"addAlarm:" : "pmm 10/13/2005 11:48",
 		"beHighPriority" : "pmm 10/7/2005 10:56",
 		"priority" : "dr 4/19/2005 13:57",
+		"addAttendees:" : "PaulDeBruicker 1/7/2013 15:53",
 		"<=" : "pmm 10/7/2005 13:19",
 		"end" : "pmm 10/19/2006 18:14",
 		"beMediumPriority" : "pmm 10/7/2005 10:54",
@@ -21,6 +23,7 @@
 		"isHighPriority" : "pmm 10/7/2005 17:02",
 		"priority:" : "pmm 10/7/2005 10:54",
 		"hours" : "pmm 10/7/2005 13:48",
+		"attendees" : "PaulDeBruicker 1/7/2013 15:54",
 		"updateEventWith:" : "pmm 10/7/2005 19:16",
 		"alarms:" : "pmm 10/13/2005 11:47",
 		"alarms" : "pmm 10/13/2005 11:47",
@@ -30,8 +33,8 @@
 		"resources" : "pmm 10/3/2005 18:48",
 		"geo:" : "pmm 10/3/2005 17:57",
 		"geo" : "pmm 10/3/2005 17:44",
-		"duration:" : "pmm 10/9/2005 12:17",
-		"start" : "pmm 10/7/2005 16:43"
+		"addAttendee:" : "PaulDeBruicker 1/7/2013 15:55",
+		"duration:" : "pmm 10/9/2005 12:17"
 	},
 	"class" : {
 		"lowPriority" : "pmm 10/3/2005 17:58",

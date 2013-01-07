@@ -13,7 +13,8 @@
 		"priority",
 		"resources",
 		"start",
-		"textualDescription"
+		"textualDescription",
+		"attendees"
 	],
 	"name" : "ICJob",
 	"type" : "normal"
