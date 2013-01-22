@@ -1,4 +1,4 @@
 accessing
 initialize
 	super initialize.
-	lastDay := StafferDateAndTime now atStartOfDay
+	lastDay := self dateAndTimeClass now atStartOfDay
