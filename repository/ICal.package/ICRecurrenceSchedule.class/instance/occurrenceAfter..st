@@ -1,3 +1,3 @@
 enumerating
 occurrenceAfter: aDateAndTime
-	^ self defaultInterval +aDateAndTime 
+	^ aDateAndTime + self defaultInterval 

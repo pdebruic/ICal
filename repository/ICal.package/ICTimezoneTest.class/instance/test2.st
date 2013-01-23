@@ -3,7 +3,7 @@ test2
 	| timezone standardTime recurrenceRule name daylightSavingTime |
 	timezone := self parse: #sample2.
 	self assert: timezone id = 'US-Eastern'.
-	self assert: timezone lastModified = (self dateClass year: 1987 month: 01 day: 01).
+	self assert: timezone lastModified = (self dateAndTimeClass year: 1987 month: 01 day: 01 hour: 0 minute: 0 second: 0 offset: Duration zero).
 	self assert: timezone url asString = 'http://zones.stds_r_us.net/tz/US-Eastern'.
 	
 	self assert: timezone standardTimes size = 1.

@@ -11,4 +11,4 @@ testTesting
 							month: 5
 							day: 18)).
 							
-   self assert: (todo startsInHour: self dateAndTimeClass now + (self durationClass days: 4 hours: 0 minutes: 0 seconds: 0)).
+   self assert: (todo startsInHour: todo due - (self durationClass days: 0 hours: 0 minutes: 0 seconds: 1)).
