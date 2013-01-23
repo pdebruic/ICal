@@ -3,30 +3,23 @@ testDayOfWeek
 	"date is a Saturday"
 
 	byRule
-		weekStart: 'MO';
-		weekly: true.
+		weekStart: 'MO'.
 	self assert: (byRule dayOfWeekFor: date) equals: 6.
 	byRule
-		weekStart: 'TU';
-		weekly: true.
+		weekStart: 'TU'.
 	self assert: (byRule dayOfWeekFor: date) equals: 5.
 	byRule
-		weekStart: 'WE';
-		weekly: true.
+		weekStart: 'WE'.
 	self assert: (byRule dayOfWeekFor: date) equals: 4.
 	byRule
-		weekStart: 'TH';
-		weekly: true.
+		weekStart: 'TH'.
 	self assert: (byRule dayOfWeekFor: date) equals: 3.
 	byRule
-		weekStart: 'FR';
-		weekly: true.
+		weekStart: 'FR'.
 	self assert: (byRule dayOfWeekFor: date) equals: 2.
 	byRule
-		weekStart: 'SA';
-		weekly: true.
+		weekStart: 'SA'.
 	self assert: (byRule dayOfWeekFor: date) equals: 1.
 	byRule
-		weekStart: 'SU';
-		weekly: true.
+		weekStart: 'SU'.
 	self assert: (byRule dayOfWeekFor: date) equals: 7
