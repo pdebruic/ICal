@@ -1,5 +1,6 @@
 testing
 testParseStringOldEncodingAndSpaces
+	"This test FAILS because the LF character is non-correctly substituted."
 	| string value |
 	ICCalendarVersion
 		use: 1.0

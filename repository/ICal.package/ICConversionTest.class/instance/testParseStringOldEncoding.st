@@ -1,5 +1,6 @@
 testing
 testParseStringOldEncoding
+	"This test FAILS because the LF character is non-correctly substituted."
 	| string value |
 	ICCalendarVersion
 		use: 1.0
@@ -10,4 +11,4 @@ testParseStringOldEncoding
 ('Bar Street 99', String lf, 
 'Footown 12345', String lf, 
 'Fooland').
-			self assert: value asICalString = 'Bar Street 99=0AFootown 12345=0AFooland' ]
+			self assert: value asICalString equals: 'Bar Street 99=0AFootown 12345=0AFooland' ]
