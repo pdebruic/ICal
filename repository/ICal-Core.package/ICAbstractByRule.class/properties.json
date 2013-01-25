@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "PaulDeBruicker 12/8/2012 12:28",
+	"super" : "ICComponent",
+	"category" : "ICal-Core-Model-Schedule",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"byValues",
+		"recurringSchedule"
+	],
+	"name" : "ICAbstractByRule",
+	"type" : "normal"
+}

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "ICal-Core-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"summary",
+		"textualDescription",
+		"color"
+	],
+	"name" : "ICCategory",
+	"type" : "normal"
+}

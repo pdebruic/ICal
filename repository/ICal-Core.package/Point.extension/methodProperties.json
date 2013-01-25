@@ -1,0 +1,9 @@
+{
+	"instance" : {
+		"asICalString" : "pmm 1/1/2007 10:55"
+	},
+	"class" : {
+		"fromICalString:" : "pmm 1/1/2007 10:54",
+		"iCalType" : "pmm 1/1/2007 10:58"
+	}
+}

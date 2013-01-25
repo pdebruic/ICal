@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "ICComponent",
+	"category" : "ICal-Core-Abstract",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"recurrenceRules",
+		"recurrenceDates",
+		"start",
+		"names",
+		"comments",
+		"offsetFrom",
+		"offsetTo"
+	],
+	"name" : "ICTime",
+	"type" : "normal"
+}

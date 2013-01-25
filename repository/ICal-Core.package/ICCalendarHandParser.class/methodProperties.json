@@ -1,0 +1,35 @@
+{
+	"instance" : {
+		"parseName" : "pmm 10/18/2005 06:21",
+		"stream:" : "pmm 10/15/2005 15:45",
+		"unfoldEquals:" : "pmm 11/19/2005 15:35",
+		"value:" : "pmm 10/15/2005 15:45",
+		"whitespaces" : "pmm 10/15/2005 12:18",
+		"parseParameters" : "pmm 10/15/2005 15:57",
+		"stream" : "pmm 10/15/2005 15:45",
+		"generator" : "pmm 10/15/2005 16:05",
+		"name" : "pmm 10/15/2005 15:45",
+		"contentline" : "pmm 10/15/2005 15:59",
+		"unfold:" : "pmm 11/19/2005 15:33",
+		"parseValue" : "PaulDeBruicker 12/17/2012 13:14",
+		"parseParameter" : "pmm 11/1/2005 07:40",
+		"name:" : "pmm 10/15/2005 15:45",
+		"parseLine" : "pmm 10/15/2005 16:39",
+		"parameters" : "pmm 10/15/2005 15:45",
+		"lineEndings" : "PaulDeBruicker 12/17/2012 10:30",
+		"generator:" : "pmm 10/15/2005 16:05",
+		"addParameter:value:" : "pmm 11/1/2005 07:42",
+		"product" : "pmm 10/15/2005 16:03",
+		"unfoldEquals" : "pmm 11/19/2005 15:36",
+		"parameters:" : "pmm 10/15/2005 15:45",
+		"value" : "pmm 10/15/2005 15:46",
+		"parse" : "pmm 10/15/2005 16:31"
+	},
+	"class" : {
+		"on:" : "pmm 10/15/2005 16:02",
+		"parseCalendarString:" : "pmm 11/12/2005 12:17",
+		"parseCalendarFile:" : "pmm 11/12/2005 12:38",
+		"parseCalendarStream:" : "pmm 11/12/2005 12:18",
+		"parseCalendarFileAtUrl:" : "PaulDeBruicker 12/20/2012 07:48"
+	}
+}

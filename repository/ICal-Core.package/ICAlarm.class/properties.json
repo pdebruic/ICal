@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "ICComponent",
+	"category" : "ICal-Core-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"action",
+		"attachments",
+		"delay",
+		"repetitions",
+		"textualDescription",
+		"trigger",
+		"attendees",
+		"summary"
+	],
+	"name" : "ICAlarm",
+	"type" : "normal"
+}

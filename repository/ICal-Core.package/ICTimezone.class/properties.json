@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "ICComponent",
+	"category" : "ICal-Core-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"lastModified",
+		"url",
+		"id",
+		"standardTimes",
+		"daylightSavingTimes"
+	],
+	"name" : "ICTimezone",
+	"type" : "normal"
+}

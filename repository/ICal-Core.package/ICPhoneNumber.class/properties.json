@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ICTypedObject",
+	"category" : "ICal-Core-VCard-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"number"
+	],
+	"name" : "ICPhoneNumber",
+	"type" : "normal"
+}

@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ICViewableCalendarEntry",
+	"category" : "ICal-Core-Abstract",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"alarms",
+		"duration",
+		"geo",
+		"location",
+		"priority",
+		"resources",
+		"start",
+		"textualDescription",
+		"attendees"
+	],
+	"name" : "ICJob",
+	"type" : "normal"
+}

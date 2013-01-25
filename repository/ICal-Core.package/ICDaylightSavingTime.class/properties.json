@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ICTime",
+	"category" : "ICal-Core-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICDaylightSavingTime",
+	"type" : "normal"
+}

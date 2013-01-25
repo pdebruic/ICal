@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ICTypeInformation",
+	"category" : "ICal-Core-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"needsUtc"
+	],
+	"name" : "ICTimeTypeInformation",
+	"type" : "normal"
+}

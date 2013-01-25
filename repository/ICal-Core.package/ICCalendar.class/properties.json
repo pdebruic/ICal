@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "",
+	"super" : "ICComponent",
+	"category" : "ICal-Core-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"categories",
+		"events",
+		"freeBusy",
+		"journals",
+		"method",
+		"productId",
+		"textualDescription",
+		"timezones",
+		"todos",
+		"users",
+		"version",
+		"name"
+	],
+	"name" : "ICCalendar",
+	"type" : "normal"
+}
