@@ -1,0 +1,31 @@
+{
+	"instance" : {
+		"standardCalendarFooter" : "pmm 10/1/2006 14:32",
+		"standardCalendarHeader" : "pmm 10/1/2006 14:32",
+		"testExportLine" : "pmm 12/19/2006 22:03",
+		"testICalDate" : "pmm 10/9/2005 12:12",
+		"testExportFourLines" : "pmm 12/19/2006 22:25",
+		"testExportEvent" : "pmm 10/1/2006 14:39",
+		"setUp" : "pmm 6/1/2007 22:50",
+		"timezoneRecurrenceDate" : "pmm 12/19/2006 22:14",
+		"testExportExactlyThreeLines" : "pmm 12/19/2006 22:27",
+		"testExportTimezoneWithEndDate" : "pmm 12/19/2006 22:20",
+		"testExportUmlautLineBreak" : "pmm 11/4/2010 20:10",
+		"testExportTodo" : "pmm 10/1/2006 14:36",
+		"timezoneFictitiousEasternThreeRules" : "pmm 12/19/2006 22:18",
+		"testExportUmlautLineNoBreak" : "pmm 11/4/2010 20:10",
+		"testExportAlarmWithDisplayAction" : "pmm 12/19/2006 22:21",
+		"testExportAlarmWithAudioAction" : "pmm 12/19/2006 22:21",
+		"timezoneFictitiousEastern" : "pmm 12/19/2006 22:19",
+		"testExportExactlyTowLines" : "pmm 12/19/2006 22:26",
+		"timezoneWithEndDate" : "pmm 12/19/2006 22:20",
+		"testExportTimezoneRecurrenceDate" : "pmm 12/19/2006 22:14",
+		"testExportTimezoneFictitiousEastern" : "pmm 12/19/2006 22:19",
+		"testExportDateEvent" : "pmm 10/1/2006 14:35",
+		"testExportTimezoneFictitiousEasternThreeRules" : "pmm 12/19/2006 22:18",
+		"testExportJournal" : "pmm 10/1/2006 14:35",
+		"testICalDateAndTime" : "pmm 10/9/2005 12:10",
+		"testExportThreeLines" : "pmm 12/19/2006 22:25"
+	},
+	"class" : { }
+}

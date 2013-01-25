@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ICScheduleEnumerationTests",
+	"category" : "ICal-Tests-Core-Model-Schedule",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ICScheduleTests",
+	"type" : "normal"
+}
