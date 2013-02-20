@@ -12,10 +12,7 @@ testCategories
 	c1 := ICCategory summary: 'school'.
 	c2 := ICCategory summary: 'home'.
 	c3 := ICCategory summary: 'friends'.
-	collection := OrderedCollection 
-				with: c1
-				with: c2
-				with: c3.
+	collection := OrderedCollection with: c1 with: c2 with: c3.
 	calendar categories: collection.
 	self assert: calendar categories size = 3.
 	self assert: (calendar categories at: 2) == c2.

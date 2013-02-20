@@ -7,8 +7,7 @@ testFloatPrecision
 	Testing with 12 decimal digits seems to pass, on Pharo-1.4 with similar era VM."
 
 	| string float |
-
 	string := '123456.123456'.
 	float := Float fromICalString: string.
 	self assert: float asICalString equals: string.
-	self assert: float equals: 123456.123456.
+	self assert: float equals: 123456.123456

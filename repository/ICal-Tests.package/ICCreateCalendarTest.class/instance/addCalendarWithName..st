@@ -1,3 +1,3 @@
 private
-addCalendarWithName: aString 
+addCalendarWithName: aString
 	calendars add: (ICCalendar name: aString)

@@ -3,7 +3,7 @@ testmonthyThirdToLastDayForever
 	| schedule generatedDates months end scheduleDuration |
 	event addRecurrenceRule: self monthyThirdToLastDayForever.
 	schedule := ICSchedule fromEvent: event.
-		end := self dateAndTimeClass
+	end := self dateAndTimeClass
 		year: 1998
 		month: 3
 		day: 1

@@ -1,5 +1,3 @@
 testing
 isAbstract
-
-	^self name = #ICTest
-			
+	^ self name = #ICTest

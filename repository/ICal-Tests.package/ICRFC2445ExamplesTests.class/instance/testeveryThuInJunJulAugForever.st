@@ -3,13 +3,13 @@ testeveryThuInJunJulAugForever
 	| schedule generatedDates years end scheduleDuration |
 	event addRecurrenceRule: self everyThuInJunJulAugForever.
 	schedule := ICSchedule fromEvent: event.
-	end:=	(self dateAndTimeClass
-				year: 1999
-				month: 12
-				day: 31
-				hour: 9
-				minute: 0
-				second: 0).
+	end := self dateAndTimeClass
+		year: 1999
+		month: 12
+		day: 31
+		hour: 9
+		minute: 0
+		second: 0.
 	generatedDates := schedule datesBetween: event start and: end.
 	self assert: generatedDates size equals: 39.
 	generatedDates

@@ -1,3 +1,3 @@
 private
 standardCalendarFooter
-	^'END:VCALENDAR' , String crlf.
+	^ 'END:VCALENDAR' , String crlf

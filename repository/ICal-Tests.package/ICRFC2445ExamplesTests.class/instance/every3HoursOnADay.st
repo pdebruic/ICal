@@ -7,6 +7,13 @@ every3HoursOnADay
 		FREQ=HOURLY;INTERVAL=3;UNTIL=19970902T170000Z
 	The UNTIL value must be adjusted by the timezone offset.
 	"
+
 	| untilValue |
-	untilValue := (DateAndTime year: 1997 month: 9 day: 2 hour: 17 minute: 0 second: 0) asUTC.
-	^ ICRecurrenceRule fromICalString: 'FREQ=HOURLY;INTERVAL=3;UNTIL=', untilValue asICalUtcString
+	untilValue := (DateAndTime
+		year: 1997
+		month: 9
+		day: 2
+		hour: 17
+		minute: 0
+		second: 0) asUTC.
+	^ ICRecurrenceRule fromICalString: 'FREQ=HOURLY;INTERVAL=3;UNTIL=' , untilValue asICalUtcString

@@ -5,7 +5,6 @@ testmwfEveryOtherWeek
 	schedule := ICSchedule fromEvent: event.
 	dates := OrderedCollection new.
 	generatedDates := schedule dates.
-
 	self assert: generatedDates size equals: 25.
 	self
 		assert: generatedDates first

@@ -4,7 +4,6 @@ testParseSurendar
 	cards := ICCardHandParser parseVCardString: self surendarCardString.
 	self assert: cards size = 1.
 	card := cards anyOne.
-	
 	self assert: card fullname = 'Surendar Chandra'.
 	self assert: card title = 'Asst. Professor'.
 	self assert: card version = 3.0.
@@ -15,7 +14,6 @@ testParseSurendar
 	self assert: name additionalNames isEmptyOrNil.
 	self assert: name honorificPrefixes isEmptyOrNil.
 	self assert: name honorificSuffixes isEmptyOrNil.
-	
 	self assert: card aimids size = 1.
 	imid := card aimids anyOne.
 	self assert: (imid isKindOf: ICAIMId).
@@ -23,9 +21,7 @@ testParseSurendar
 	self deny: imid isWork.
 	self assert: imid isHome.
 	self assert: imid id = 'surendar'.
-	
 	self assert: card icqids isEmpty.
-	
 	self assert: card msnids size = 1.
 	imid := card msnids anyOne.
 	self assert: (imid isKindOf: ICMSNId).
@@ -33,7 +29,6 @@ testParseSurendar
 	self deny: imid isWork.
 	self assert: imid isHome.
 	self assert: imid id = 'surendar'.
-	
 	self assert: card yahooids size = 1.
 	imid := card yahooids anyOne.
 	self assert: (imid isKindOf: ICYahooId).
@@ -41,19 +36,19 @@ testParseSurendar
 	self assert: imid isWork.
 	self deny: imid isHome.
 	self assert: imid id = 'surendarcsdukeedu'.
-	
 	organization := card organization.
 	self assert: organization name = 'Univ. of Notre Dame'.
 	self assert: organization unitNames size = 1.
 	self assert: organization unitNames anyOne = 'Computer Science and Engg'.
-	
 	self shouldnt: [ self assert: card notes size = 1 ] raise: Error.
-	self assert: card notes anyOne =
-'SMS message
+	self
+		assert:
+			card notes anyOne
+				=
+					'SMS message
 12/22/2003 18:12
 wassup
 
 SMS message
 12/23/2003 13:12
 Hello'
-	

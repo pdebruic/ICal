@@ -1,12 +1,12 @@
 {
 	"instance" : {
-		"dateAndTimeClass" : "pmm 10/19/2006 17:54",
+		"dateAndTimeClass" : "PaulDeBruicker 2/20/2013 16:29",
 		"timespanClass" : "PaulDeBruicker 12/10/2012 11:26",
-		"dateClass" : "pmm 10/19/2006 17:55",
-		"timeClass" : "pmm 10/19/2006 17:55",
-		"durationClass" : "pmm 10/19/2006 17:54"
+		"dateClass" : "PaulDeBruicker 2/20/2013 16:29",
+		"timeClass" : "PaulDeBruicker 2/20/2013 16:29",
+		"durationClass" : "PaulDeBruicker 2/20/2013 16:29"
 	},
 	"class" : {
-		"isAbstract" : "pmm 12/18/2006 15:35"
+		"isAbstract" : "PaulDeBruicker 2/20/2013 16:29"
 	}
 }
