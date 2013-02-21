@@ -1,3 +1,3 @@
 *ICalChronos
 iCalType
-	^Time iCalType
+	^ 'TIME'
