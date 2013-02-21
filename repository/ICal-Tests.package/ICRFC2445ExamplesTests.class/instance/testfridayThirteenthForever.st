@@ -3,7 +3,7 @@ testfridayThirteenthForever
 	| schedule generatedDates years end scheduleDuration |
 	event addRecurrenceRule: self fridayThirteenthForever.
 	schedule := ICSchedule fromEvent: event.
-	end := self dateAndTimeClass
+		end := self dateAndTimeClass
 		year: 2000
 		month: 11
 		day: 1

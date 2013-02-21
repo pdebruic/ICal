@@ -7,7 +7,7 @@ testDatesBetweenAndGivesDatesBetweenStartAndEndOnly
 	end := start.
 	dates := event datesBetween: start and: end.
 	self assert: dates size equals: 0.
-	end := start + (Duration days: 100).
+	end := start + (self durationClass days: 100).
 	dates := event datesBetween: start and: end.
 	self assert: dates min > start.
 	self assert: dates max < end.

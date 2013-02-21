@@ -8,4 +8,4 @@ parse: aSymbol
 		yourself.
 	importer import.
 	self assert: calendar timezones size = 1.
-	^ calendar timezones first
+	^calendar timezones first

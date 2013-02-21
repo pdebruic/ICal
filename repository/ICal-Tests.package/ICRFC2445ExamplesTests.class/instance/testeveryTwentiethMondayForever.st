@@ -3,7 +3,7 @@ testeveryTwentiethMondayForever
 	| schedule generatedDates years end scheduleDuration |
 	event addRecurrenceRule: self everyTwentiethMondayForever.
 	schedule := ICSchedule fromEvent: event.
-	end := self dateAndTimeClass
+		end := self dateAndTimeClass
 		year: 1999
 		month: 6
 		day: 1

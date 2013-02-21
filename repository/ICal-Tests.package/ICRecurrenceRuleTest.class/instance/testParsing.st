@@ -14,4 +14,5 @@ testParsing
 									stream nextPutAll: 'FREQ=MONTHLY;BYDAY='.
 									permutation do: [ :each | stream nextPutAll: each ] separatedBy: [ stream nextPut: $, ].
 									stream nextPutAll: ';BYSETPOS=-1' ]) ] ].
+	
 	self assert: (options includes: rule asICalString)

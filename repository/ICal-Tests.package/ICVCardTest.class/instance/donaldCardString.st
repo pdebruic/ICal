@@ -1,6 +1,6 @@
 fixtures-parsing
 donaldCardString
-	^ 'begin:vcard
+^'begin:vcard
 fn:Donald Major
 n:Major;Donald
 org:SAS Institute Inc.;ERV

@@ -1,3 +1,3 @@
 testing
 testCalendar
-	self calendarTestWithName: 'veriveri''s Calendar'
+	self calendarTestWithName: 'veriveri''s Calendar'.

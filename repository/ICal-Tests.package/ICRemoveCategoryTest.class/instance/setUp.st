@@ -5,4 +5,4 @@ setUp
 	category
 		color: 'SpringGreen';
 		textualDescription: 'for irishdace events like trainings or dancing shows'.
-	calendar addCategory: category
+	calendar addCategory: category.

@@ -1,3 +1,3 @@
 private
 dateAndTimeClass
-	^ ICConversion dateAndTimeClass
+	^ICConversion dateAndTimeClass

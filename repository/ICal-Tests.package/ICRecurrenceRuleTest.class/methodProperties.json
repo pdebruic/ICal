@@ -1,10 +1,10 @@
 {
 	"instance" : {
-		"testHours" : "PaulDeBruicker 2/20/2013 16:29",
-		"testWeekdays" : "PaulDeBruicker 2/20/2013 16:29",
+		"testHours" : "pmm 9/13/2006 23:30",
+		"testWeekdays" : "pmm 9/13/2006 23:36",
 		"testSimple" : "pmm 10/2/2005 15:10",
-		"testParsing" : "PaulDeBruicker 2/20/2013 16:29",
-		"testRepetition" : "PaulDeBruicker 2/20/2013 16:29"
+		"testParsing" : "PaulDeBruicker 12/8/2012 13:03",
+		"testRepetition" : "pmm 10/16/2006 23:49"
 	},
 	"class" : { }
 }

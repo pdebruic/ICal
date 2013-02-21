@@ -7,7 +7,8 @@ testeveryOtherWeekForever
 	scheduleDuration := self durationClass seconds: 86400 * 7 * weeks.
 	end := event start + scheduleDuration.
 	generatedDates := schedule datesBetween: event start and: end.
-	self assert: generatedDates size equals: (weeks + 1) / 2.
+	self assert: generatedDates size equals: (weeks +1 / 2)   .
+
 	self
 		assert: generatedDates first
 		equals:

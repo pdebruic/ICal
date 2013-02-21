@@ -4,12 +4,11 @@ testIDs
 	self assert: appointment1 uid = 'app1'.
 	self assert: appointment2 uid = 'app2'.
 	self assert: todo uid = 'todo1'.
-	calendar
-		addEvent:
-			(ICTodo new
-				summary: 'cleaning';
-				uid: 'todo2';
-				yourself).
+	calendar addEvent: (
+		ICTodo new
+			summary: 'cleaning';
+			uid: 'todo2';
+			yourself).
 	aTodo := ICTodo summary: 'shopping'.
 	aTodo uid: 'todo3'.
 	calendar addEvent: aTodo.

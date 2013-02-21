@@ -7,15 +7,8 @@ everyDayInJanuaryFor3Years1
 		FREQ=DAILY;UNTIL=20000131T090000Z;BYMONTH=1
 	The UNTIL value must be adjusted by the timezone offset.
 	"
-
 	| untilValue |
-	untilValue := (DateAndTime
-		year: 2000
-		month: 1
-		day: 31
-		hour: 9
-		minute: 0
-		second: 0) asUTC.
+	untilValue := (DateAndTime year: 2000 month: 1 day: 31 hour: 9 minute: 0 second: 0) asUTC.
 	event
 		start:
 			(self dateAndTimeClass
@@ -25,4 +18,4 @@ everyDayInJanuaryFor3Years1
 				hour: 9
 				minute: 0
 				second: 0).
-	^ ICRecurrenceRule fromICalString: 'FREQ=DAILY;UNTIL=' , '' , untilValue asICalUtcString , ';BYMONTH=1'
+	^ ICRecurrenceRule fromICalString: 'FREQ=DAILY;UNTIL=', '', untilValue asICalUtcString, ';BYMONTH=1'

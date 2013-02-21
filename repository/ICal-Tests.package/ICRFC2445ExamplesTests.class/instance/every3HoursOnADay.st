@@ -9,11 +9,11 @@ every3HoursOnADay
 	"
 
 	| untilValue |
-	untilValue := (DateAndTime
+	untilValue := DateAndTime
 		year: 1997
 		month: 9
 		day: 2
 		hour: 17
 		minute: 0
-		second: 0) asUTC.
-	^ ICRecurrenceRule fromICalString: 'FREQ=HOURLY;INTERVAL=3;UNTIL=' , untilValue asICalUtcString
+		second: 0.
+	^ ICRecurrenceRule fromICalString: 'FREQ=HOURLY;INTERVAL=3;UNTIL=' , untilValue asICalString
