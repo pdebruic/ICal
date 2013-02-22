@@ -4,7 +4,7 @@ test4
 	timezone := self parse: #sample4.
 	
 	self assert: timezone id = 'US--Fictitious-Eastern'.
-	self assert: timezone lastModified = (self dateAndTimeClass year: 1987 month: 01 day: 01 hour: 0 minute: 0 second: 0 offset: Duration zero).
+	self assert: timezone lastModified = (self dateAndTimeClass year: 1987 month: 01 day: 01 hour: 0 minute: 0 second: 0 offset: self durationClass zero).
 	
 	self assert: timezone standardTimes size = 1.
 	standardTime := timezone standardTimes first.

@@ -1,7 +1,7 @@
 as yet unclassified
 setUp
 	super setUp.
-	date := DateAndTime
+	date := self dateAndTimeClass
 		year: 2012
 		month: 12
 		day: 8

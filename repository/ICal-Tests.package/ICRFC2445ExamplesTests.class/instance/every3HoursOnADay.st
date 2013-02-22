@@ -9,7 +9,7 @@ every3HoursOnADay
 	"
 
 	| untilValue |
-	untilValue := DateAndTime
+	untilValue := self dateAndTimeClass
 		year: 1997
 		month: 9
 		day: 2

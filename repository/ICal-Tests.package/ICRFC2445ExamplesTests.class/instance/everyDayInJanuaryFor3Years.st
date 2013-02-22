@@ -8,7 +8,7 @@ everyDayInJanuaryFor3Years
 	The UNTIL value must be adjusted by the timezone offset.
 	"
 	| untilValue |
-	untilValue := (DateAndTime year: 2000 month: 1 day: 31 hour: 9 minute: 0 second: 0) asUTC.
+	untilValue := (self dateAndTimeClass year: 2000 month: 1 day: 31 hour: 9 minute: 0 second: 0) asUTC.
 	event
 		start:
 			(self dateAndTimeClass
