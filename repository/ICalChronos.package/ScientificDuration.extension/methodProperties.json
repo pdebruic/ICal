@@ -5,6 +5,7 @@
 		"isPositive" : "pmm 10/16/2006 18:35"
 	},
 	"class" : {
+		"seconds:nanoSeconds:" : "PaulDeBruicker 02/21/2013 15:43",
 		"fromICalString:" : "pmm 10/17/2006 18:39",
 		"iCalType" : "pmm 10/16/2006 16:55"
 	}
