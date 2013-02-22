@@ -1,6 +1,5 @@
 *ICalChronos
 asMonth
-	| dayOfMonth |
 	^ Timeperiod
 		from:
 			(Timepoint

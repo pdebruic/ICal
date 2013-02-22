@@ -1,3 +1,3 @@
-*icalchronos
-starting: aTime duration: aDuration
-	^self startingAt: aTime duration: aDuration
+*iCalChronos
+starting: aStart duration: aDuration
+	^ self from: aStart duration: aDuration

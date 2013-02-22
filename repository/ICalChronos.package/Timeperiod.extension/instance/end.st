@@ -1,3 +1,3 @@
-*icalchronos
+*ICalChronos
 end
 	^ self limit
