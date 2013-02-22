@@ -7,6 +7,6 @@ testParseString
 	
 	string := '":\\\,\;\n'.
 	value := String fromICalString: string parameters: Dictionary new.
-	self assert: value = '":\,;
+	self assert: value equals: '":\,;
 '.
 	self assert: string = value asICalString

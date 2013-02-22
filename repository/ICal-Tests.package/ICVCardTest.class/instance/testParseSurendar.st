@@ -48,7 +48,7 @@ testParseSurendar
 	self assert: organization unitNames anyOne = 'Computer Science and Engg'.
 	
 	self shouldnt: [ self assert: card notes size = 1 ] raise: Error.
-	self assert: card notes anyOne =
+	self assert: card notes anyOne equals:
 'SMS message
 12/22/2003 18:12
 wassup

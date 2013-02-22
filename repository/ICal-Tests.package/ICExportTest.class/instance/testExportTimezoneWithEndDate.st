@@ -25,5 +25,5 @@ testExportTimezoneWithEndDate
 'END:VTIMEZONE', String crlf, 
 self standardCalendarFooter.
 	export dataStream contents 
-		keysAndValuesDo: [:index :value | self assert: value = (str at: index)].
-	self assert: export dataStream contents = str
+		keysAndValuesDo: [:index :value | self assert: value equals: (str at: index)].
+	self assert: export dataStream contents equals: str
