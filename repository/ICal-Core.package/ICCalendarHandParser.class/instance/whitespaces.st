@@ -1,7 +1,7 @@
 parsing
 whitespaces
-	^Array
+	^ Array
 		with: Character space
 		with: Character tab
 		with: (Character value: 9)
-		with: (Character value: 32).
+		with: (Character value: 32)

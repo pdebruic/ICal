@@ -5,6 +5,6 @@ startOfFirstWeekAccordingToRFC2445For: aDate
 	midWeekDay := self dayLetterCodes atWrap: weekStartIndex + 3.
 	year := aDate itsYear.
 	year
-		datesDo: [ :each | 
+		daysDo: [ :each | 
 			midWeekDay = (self dayLetterCodeFor: each)
-				ifTrue: [ ^ each start - 3 days ] ]
+				ifTrue: [ ^ each start - (self durationClass days:3) ] ]

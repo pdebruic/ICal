@@ -2,7 +2,7 @@ utilities
 unfold: aString
 	"remove any sequence of CR LF WSP"
 
-	| pattern whiteSpaces |
+	| whiteSpaces |
 	whiteSpaces := self unfoldEquals
 		ifTrue: [ self unfoldEqualsWhiteSpaces ]
 		ifFalse: [ self unfoldWhiteSpaces ].

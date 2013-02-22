@@ -7,5 +7,5 @@ weekStartForWeekNumber: aWeekNumber ofYearFor: aDate
 		whileTrue: [ 
 			weekNum = aWeekNumber
 				ifTrue: [ ^ dt ].
-			dt := dt + 7 days.
+			dt := dt + (self durationClass days: 7).
 			weekNum := weekNum + 1 ]

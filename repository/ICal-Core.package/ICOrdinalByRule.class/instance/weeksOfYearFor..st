@@ -5,6 +5,6 @@ weeksOfYearFor: aDate
 	dt := self startOfFirstWeekAccordingToRFC2445For: aDate.
 	[ dt year <= aDate year ]
 		whileTrue: [ 
-			wks add: (Timespan starting: dt duration: 7 days).
-			dt := dt + 7 days ].
+			wks add: (self timespanClass starting: dt duration: (self durationClass days: 7)).
+			dt := dt + (self durationClass days: 7) ].
 	^ wks

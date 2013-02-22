@@ -1,7 +1,4 @@
 parsing
-parseParameters	
+parseParameters
 	self parameters: Dictionary new.
-	[ self stream peek = $: ]
-		whileFalse: [ 
-			self parseParameter ].
-	
+	[ self stream atEnd or: [ self stream peek = $: ] ] whileFalse: [ self parseParameter ]

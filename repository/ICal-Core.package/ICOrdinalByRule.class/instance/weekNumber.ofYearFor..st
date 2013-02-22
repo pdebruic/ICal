@@ -6,6 +6,6 @@ weekNumber: aWeekNumber ofYearFor: aDate
 	[ dt year <= aDate year ]
 		whileTrue: [ 
 			weekNum = aWeekNumber
-				ifTrue: [ ^Timespan starting: dt duration: 7 days ].
-			dt := dt + 7 days.
+				ifTrue: [ ^ Timespan starting: dt duration: (self durationClass days: 7) ].
+			dt := dt + (self durationClass days: 7).
 			weekNum := weekNum + 1 ]
