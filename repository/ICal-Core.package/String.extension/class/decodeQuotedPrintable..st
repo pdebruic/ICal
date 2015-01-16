@@ -8,5 +8,5 @@ decodeQuotedPrintable: aString
 			| next |
 			next := readStream next.
 			writeStream nextPut: (next = $=
-				ifTrue: [ Character value: (Integer readFrom: (readStream next: 2) readStream base: 16) ]
+				ifTrue: [ Character value: (Integer readFrom: (readStream next: 2) readStream  base: 16) ]
 				ifFalse: [ next ]) ] ]

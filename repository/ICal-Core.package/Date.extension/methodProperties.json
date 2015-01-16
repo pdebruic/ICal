@@ -1,13 +1,15 @@
 {
 	"instance" : {
-		"asICalString" : "pmm 10/17/2006 21:57",
-		"isDateOrNil" : "pmm 10/7/2005 14:18",
 		"asVCardString" : "pmm 12/10/2005 11:00",
-		"asICalUtcString" : "pmm 10/17/2006 21:57"
+		"asICalString" : "pmm 10/17/2006 21:57",
+		"asICalUtcString" : "pmm 10/17/2006 21:57",
+		"=" : "PaulDeBruicker 1/15/2015 21:52",
+		"<" : "PaulDeBruicker 1/15/2015 21:12",
+		"isDateOrNil" : "pmm 10/7/2005 14:18"
 	},
 	"class" : {
 		"iCalType" : "pmm 10/3/2005 17:08",
 		"fromICalString:" : "pmm 10/17/2006 18:39",
-		"fromVCardString:" : "pmm 12/10/2005 10:56"
+		"fromVCardString:" : "PaulDeBruicker 1/15/2015 20:56"
 	}
 }

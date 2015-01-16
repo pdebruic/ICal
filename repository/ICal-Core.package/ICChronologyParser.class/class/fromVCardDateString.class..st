@@ -1,6 +1,6 @@
 date
 fromVCardDateString: aString class: aClass
-	^(aString includesSubString: '-')
+	^(aString includesSubstring: '-')
 		ifFalse: [ self fromICalDateString: aString class: aClass ]
 		ifTrue:  [
 			| yearMonthDay |

@@ -1,10 +1,9 @@
 {
 	"instance" : {
-		"defaultAction" : "PaulDeBruicker 2/21/2013 12:18"
+		"default" : "PaulDeBruicker 1/15/2015 21:44"
 	},
 	"class" : {
-		"value" : "pmm 11/4/2010 20:09",
 		"defaultValue" : "pmm 11/4/2005 22:59",
-		"use:during:" : "PaulDeBruicker 2/21/2013 13:48"
+		"use:during:" : "PaulDeBruicker 1/15/2015 21:43"
 	}
 }

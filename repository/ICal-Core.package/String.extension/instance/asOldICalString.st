@@ -4,4 +4,5 @@ asOldICalString
 		with: ',' -> '\,'
 		with: ';' -> '\;'
 		with: '\' -> '\\'
-		with: (String with: Character cr) -> '=0D=0A')
+		with: (String cr) -> '=0D'
+		with: (String lf) -> '=0A')

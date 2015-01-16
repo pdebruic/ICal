@@ -1,3 +1,3 @@
 as yet unclassified
-defaultAction
+default
 	^ self class defaultValue

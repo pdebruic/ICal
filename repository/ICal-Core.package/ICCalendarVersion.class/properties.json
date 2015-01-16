@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Notification",
+	"super" : "DynamicVariable",
 	"category" : "ICal-Core-Parser",
 	"classinstvars" : [ ],
 	"pools" : [ ],
