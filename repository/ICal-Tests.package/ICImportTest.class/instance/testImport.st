@@ -17,7 +17,7 @@ testImport
 	self assert: (calendar components includes: event).
 	self assert: (calendar components includes: todo).
 	events := calendar componentForDate: date.
-	self assert: events size = 3.
+	self assert: events size = 6.
 	eventAtDate := events detect: [:each | each summary = 'test1'].
 	self assert: eventAtDate isHighPriority.
 	self assert: eventAtDate location = 'Bern'.
@@ -56,12 +56,12 @@ testImport
 	self 
 		assert: eventAtDate due = (self dateAndTimeClass date: date
 						time: (self timeClass 
-								hour: 15
-								minute: 0
-								second: 0)) asUTCWithOffsetAdded.
+								hour: 12
+								minute: 9
+								second: 0)) .
 	self 
 		assert: eventAtDate completed = (self dateAndTimeClass date: date
 						time: (self timeClass 
 								hour: 11
-								minute: 9
-								second: 15)) asUTCWithOffsetAdded
+								minute: 2
+								second: 31))

@@ -17,6 +17,7 @@ testSynchronize
 	self assert: (calendar includesComponentWithUid: event uid).
 	self assert: (calendar includesComponentWithUid: todo uid).
 	self deny: (calendar includesTodoWithUid: otherTodo uid).
+	
 	events := calendar componentForDate: date.
 	self assert: events size = 3.
 	tempEvent := events detect: [:each | each summary = 'test1'].

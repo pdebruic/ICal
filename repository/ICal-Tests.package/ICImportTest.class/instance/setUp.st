@@ -15,7 +15,7 @@ setUp
 							second: 00);
 				end: (self dateAndTimeClass
 							year: 2005
-							month: 4
+							month: 6
 							day: 25
 							hour: 12
 							minute: 9

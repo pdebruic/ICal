@@ -1,11 +1,11 @@
 private
 createTodo
-	^(ICTodo summary: 'aTitle')
-				textualDescription: 'a long long long text, very long... really!';
+	^(ICTodo summary: 'todo1')
+				textualDescription: 'testest';
 				due: (self dateAndTimeClass
 							year: 2005
-							month: 4
-							day: 25
+							month: 6
+							day: 14
 							hour: 12
 							minute: 9
 							second: 00);
@@ -25,8 +25,8 @@ createTodo
 							second: 31);
 				completed: (self dateAndTimeClass 
 							year: 2005
-							month: 5
-							day: 1
+							month:6
+							day: 14
 							hour: 11
 							minute: 2
 							second: 31);

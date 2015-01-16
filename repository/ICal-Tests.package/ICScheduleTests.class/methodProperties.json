@@ -3,7 +3,7 @@
 		"testDatesBetweenAndGivesDatesBetweenStartAndEndOnly" : "PaulDeBruicker 2/20/2013 22:00",
 		"dailyRrule" : "PaulDeBruicker 12/17/2012 09:41",
 		"testGetScheduleFromEvent" : "PaulDeBruicker 12/11/2012 17:24",
-		"testBetweenAndDoGivesErrorForInfiniteSchedule" : "PaulDeBruicker 12/11/2012 17:36"
+		"testBetweenAndDoGivesErrorForInfiniteSchedule" : "PaulDeBruicker 1/16/2015 09:04"
 	},
 	"class" : { }
 }
