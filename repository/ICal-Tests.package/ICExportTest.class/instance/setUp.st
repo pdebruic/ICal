@@ -119,7 +119,7 @@ setUp
 		repetitions: 4;
 		delay: (self durationClass minutes: 15);
 		beAudio;
-		addAttachment: (Url fromICalString: 'ftp://host.com/pub/sounds/bell-01.aud');
+		addAttachment: (ICConversion urlClass fromICalString: 'ftp://host.com/pub/sounds/bell-01.aud');
 		yourself.
 	alarm2 := ICAlarm  new
 		trigger: (ICTrigger new

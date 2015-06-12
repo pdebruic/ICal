@@ -42,7 +42,7 @@ testImport
 	self assert: tempAlarm delay = (self durationClass minutes: 15).
 	self assert: tempAlarm isAudio.
 	self assert: tempAlarm attachments size = 1.
-	self assert: tempAlarm attachments first asICalString = (Url fromICalString: 'ftp://host.com/pub/sounds/bell-01.aud') asICalString.
+	self assert: tempAlarm attachments first asICalString = (ICConversion urlClass fromICalString: 'ftp://host.com/pub/sounds/bell-01.aud') asICalString.
 	tempAlarm := eventAtDate alarms second.
 	self assert: tempAlarm trigger value = (self durationClass minutes: 30 negated).
 	self assert: tempAlarm trigger isRelatedToStart.
