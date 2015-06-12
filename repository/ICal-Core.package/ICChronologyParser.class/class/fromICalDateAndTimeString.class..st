@@ -12,7 +12,7 @@ fromICalDateAndTimeString: aString class: aClass
 				hour: hourMinuteSecond first
 				minute: hourMinuteSecond second
 				second: hourMinuteSecond third
-				offset: Duration zero ]
+				offset: ICConversion durationClass  zero ]
 		ifFalse: [
 			aClass
 				year: yearMonthDay first

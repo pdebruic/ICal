@@ -2,5 +2,5 @@ accessing-types
 triggerType
 	^ICTypeInformation
 		name: 'TRIGGER' 
-		type: Duration iCalType 
+		type: ICConversion durationClass  iCalType 
 		multivalued: false
