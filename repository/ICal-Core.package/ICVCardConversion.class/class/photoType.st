@@ -2,5 +2,5 @@ accessing-types
 photoType
 	^ICVCardTypeInformation
 		name: 'PHOTO' 
-		type: Url iCalType 
+		type: self urlClass iCalType 
 		multivalued: false

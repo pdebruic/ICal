@@ -2,5 +2,5 @@ accessing-types
 tzurlType
 	^ICTypeInformation
 		name: 'TZURL' 
-		type: Url iCalType 
+		type: self urlClass iCalType 
 		multivalued: false

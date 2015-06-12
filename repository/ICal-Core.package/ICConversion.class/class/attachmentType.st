@@ -2,5 +2,5 @@ accessing-types
 attachmentType
 	^ICTypeInformation
 		name: 'ATTACH' 
-		type: Url iCalType 
+		type: self urlClass iCalType 
 		multivalued: false

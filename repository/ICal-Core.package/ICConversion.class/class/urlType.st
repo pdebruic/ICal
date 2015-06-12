@@ -2,5 +2,5 @@ accessing-types
 urlType
 	^ICTypeInformation
 		name: 'URL' 
-		type: Url iCalType 
+		type: self urlClass iCalType 
 		multivalued: false

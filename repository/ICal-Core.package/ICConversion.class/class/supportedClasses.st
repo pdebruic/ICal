@@ -7,7 +7,7 @@ supportedClasses
 		add: ICRecurrenceRule;
 		add: Integer;
 		add: String;		
-		add: Url;
+		add: self urlClass;
 		add: self timeClass;
 		add: self dateClass;
 		add: self dateAndTimeClass;
