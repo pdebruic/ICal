@@ -1,0 +1,3 @@
+*ICal-URL
+urlClass
+	^Url

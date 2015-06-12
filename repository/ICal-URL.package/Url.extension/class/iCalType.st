@@ -1,0 +1,3 @@
+*ICal-URL
+iCalType
+	^'URI'
