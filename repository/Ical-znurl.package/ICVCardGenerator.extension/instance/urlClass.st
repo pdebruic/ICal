@@ -1,0 +1,3 @@
+*ICal-ZnURL
+urlClass
+	^ZnUrl
