@@ -1,0 +1,3 @@
+times
+alarmTimes
+	^ alarmTimes ifNil: [ #() ]

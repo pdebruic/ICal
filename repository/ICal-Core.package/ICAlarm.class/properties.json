@@ -13,7 +13,9 @@
 		"textualDescription",
 		"trigger",
 		"attendees",
-		"summary"
+		"summary",
+		"alarmTimes",
+		"alarmTimesNotified"
 	],
 	"name" : "ICAlarm",
 	"type" : "normal"

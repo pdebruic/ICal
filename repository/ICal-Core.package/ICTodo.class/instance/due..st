@@ -1,4 +1,4 @@
 accessing
 due: aDateAndTime
-	
-	due := aDateAndTime
+	due := aDateAndTime.
+	self resetAlarmTimes

@@ -1,0 +1,3 @@
+testing
+validateGenericAlarm
+	^ self repetitionIsValid

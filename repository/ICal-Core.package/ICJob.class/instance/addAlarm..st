@@ -1,3 +1,4 @@
 accessing
 addAlarm: anAlarm
-	^self alarms add: anAlarm
+	anAlarm setAlarmTimesFor: self.
+	^ self alarms add: anAlarm
