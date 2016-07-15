@@ -1,4 +1,5 @@
 accessing
 addAlarm: anAlarm
-	anAlarm setAlarmTimesFor: self.
+	self hasDueDate
+		ifTrue: [ anAlarm setAlarmTimesFor: self ].
 	^ self alarms add: anAlarm

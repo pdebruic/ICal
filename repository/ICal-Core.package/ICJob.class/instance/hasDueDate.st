@@ -1,0 +1,3 @@
+testing
+hasDueDate
+	^due notNil

@@ -2,6 +2,6 @@ alarms
 alarmTimesFor: anICAlarm
 	^ anICAlarm
 		alarmTimesFor:
-			(anICAlarm isRelatedToStart
+			(anICAlarm trigger isRelatedToStart
 				ifTrue: [ self start ]
 				ifFalse: [ self end ])

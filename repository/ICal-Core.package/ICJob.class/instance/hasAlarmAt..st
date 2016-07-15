@@ -1,3 +1,3 @@
 alarms
-hasAlarmAt: aStafferDateAndTime
-	^ self hasAlarms and: [ self alarms anySatisfy: [ :ea | ea dueAt: aStafferDateAndTime  ] ]
+hasAlarmAt: aDateAndTime
+	^ self hasAlarms and: [ self alarms anySatisfy: [ :ea | ea dueAt: aDateAndTime for: self ] ]

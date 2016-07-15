@@ -1,3 +1,3 @@
 *ICal-Core
 asVCardString
-	^ self print24
+	^ String streamContents: [:aStream |self  print24: true showSeconds: true on: aStream ]

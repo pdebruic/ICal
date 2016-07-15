@@ -1,3 +1,3 @@
 testing
 isValidForDate: aDate
-	^self due asDate = aDate.
+	^self due asDate = aDate .
