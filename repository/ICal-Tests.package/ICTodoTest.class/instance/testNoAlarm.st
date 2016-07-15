@@ -6,7 +6,7 @@ testNoAlarm
 	self assert: (todo startsInHour: self timeClass now) not.
 	self assert: (todo startsInHour: self timeClass epoch).
 	self assert: (todo isValidForDate: self timeClass now) not.
-	self assert: (todo isValidForDate: self timeClass epoch).
+	self assert: (todo isValidForDate: self timeClass epoch asDate).
 	self assert: todo isCompleted not.
 	self assert: todo isInProcess not.
 	self assert: todo isNeedsAction not.
