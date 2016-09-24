@@ -1,3 +1,3 @@
 testing
 hasDueDate
-	^false
+	^due notNil
