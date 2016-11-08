@@ -9,4 +9,4 @@ addParameter: paramName value: paramValue
 				values := self parameters at: paramName ifAbsentPut: [ OrderedCollection new ].
 				(paramValue includes: $,)
 					ifFalse: [ values add: paramValue ]
-					ifTrue: [ values addAll: (paramValue subStrings: #($,)) ] ]
+					ifTrue: [ values addAll: (paramValue substrings: #($,)) ] ]
