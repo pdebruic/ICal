@@ -1,3 +1,3 @@
 accessing-types
 typeHome
-	^'home'
+	^#'home'

@@ -1,3 +1,3 @@
 accessing
 processId
-	^OSProcess thisOSProcess pid printStringHex asLowercase
+	^(Smalltalk at: #OSProcess) thisOSProcess pid printStringHex asLowercase

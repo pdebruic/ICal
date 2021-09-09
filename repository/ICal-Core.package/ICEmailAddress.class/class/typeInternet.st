@@ -1,3 +1,3 @@
 accessing-types
 typeInternet
-	^'internet'
+	^#'internet'

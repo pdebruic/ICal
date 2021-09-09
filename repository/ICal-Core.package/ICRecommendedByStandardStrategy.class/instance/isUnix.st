@@ -1,3 +1,3 @@
 testing
 isUnix
-	^OSProcess thisOSProcess isKindOf: UnixProcess
+	^(Smalltalk at:#OSProcess) thisOSProcess isKindOf: UnixProcess

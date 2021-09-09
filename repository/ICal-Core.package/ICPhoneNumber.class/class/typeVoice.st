@@ -1,3 +1,3 @@
 accessing-types
 typeVoice
-	^'voice'
+	^#'voice'

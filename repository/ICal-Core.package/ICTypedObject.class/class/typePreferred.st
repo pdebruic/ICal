@@ -1,3 +1,3 @@
 accessing-types
 typePreferred
-	^'pref'
+	^#'pref'
