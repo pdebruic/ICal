@@ -1,1 +1,2 @@
-(name 'BaselineOfICal-PaulDeBruicker.1' message 'initial attempt' id '2b06e1e1-6286-0d00-8b63-90d409a362d5' date '20 August 2021' time '5:39:11.776429 pm' author 'PaulDeBruicker' ancestors () stepChildren ())
+(name 'BaselineOfICal-PaulDeBruicker.1629595557' message 'fix loading on Pharo' id '227bb2e1-bc88-0d00-b097-f9b4074f5244' date '19 September 2021' time '8:51:59.038408 am' author 'PaulDeBruicker' ancestors ((name 'BaselineOfICal-CompatibleUserName.1629595556' message 'updated baseline
+' id 'd6e96da2-cf7f-55b3-bf4c-da3775330465' date '21 August 2021' time '6:25:56 pm' author 'CompatibleUserName' ancestors () stepChildren ())) stepChildren ())
